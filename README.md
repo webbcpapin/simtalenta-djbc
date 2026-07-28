@@ -11,6 +11,7 @@ Simulator belajar Manajemen Talenta DJBC untuk bidang Dukungan Manajemen.
 - pembahasan jawaban benar dan seluruh opsi pengecoh
 - tautan rujukan materi Drive dan regulasi resmi
 - progres tersimpan lokal pada perangkat
+- versi statis untuk GitHub Pages tanpa autentikasi OpenAI
 
 ## Pengembangan
 
@@ -21,4 +22,7 @@ npm install
 npm run dev
 npm run lint
 npm test
+npm run build:pages
 ```
+
+GitHub Pages dibangun ke folder `docs/` dan disajikan dari cabang `main`.
