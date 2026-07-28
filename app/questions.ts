@@ -1,3 +1,5 @@
+import { hardOptions } from "./hard-options.ts";
+
 export type Topic =
   | "Manajemen Kinerja"
   | "Disiplin & Kepegawaian"
@@ -113,7 +115,7 @@ export const sources = {
   },
 } as const;
 
-export const questions: Question[] = [
+const baseQuestions: Question[] = [
   {
     id: 1,
     topic: "Manajemen Kinerja",
@@ -1615,3 +1617,9 @@ export const questions: Question[] = [
     reference: "Ketentuan umum — Harga Perkiraan Sendiri",
   },
 ];
+
+export const questions: Question[] = baseQuestions.map((question) => ({
+  ...question,
+  difficulty: question.difficulty === "Dasar" ? "Analitik" : "Menjebak",
+  options: hardOptions[question.id] ?? question.options,
+}));

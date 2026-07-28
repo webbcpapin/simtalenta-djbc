@@ -9,6 +9,7 @@ type Session = {
   mode: Mode;
   title: string;
   questionIds: number[];
+  optionOrders: Record<number, number[]>;
   topic?: Topic;
 };
 type ProgressItem = {
@@ -23,6 +24,7 @@ type QuizResult = {
   unanswered: number;
   answers: Record<number, number>;
   questionIds: number[];
+  optionOrders: Record<number, number[]>;
 };
 
 const topicMeta: Record<Topic, { short: string; icon: string }> = {
@@ -47,6 +49,15 @@ function shuffle<T>(input: T[]) {
     [next[i], next[j]] = [next[j], next[i]];
   }
   return next;
+}
+
+function reorderQuestion(question: Question, order?: number[]): Question {
+  if (!order || order.length !== 4) return question;
+  return {
+    ...question,
+    options: order.map((index) => question.options[index]),
+    answer: order.indexOf(question.answer),
+  };
 }
 
 function formatTime(seconds: number) {
@@ -99,7 +110,10 @@ export default function Home() {
     if (!session) return [];
     return session.questionIds
       .map((id) => questions.find((question) => question.id === id))
-      .filter((question): question is Question => Boolean(question));
+      .filter((question): question is Question => Boolean(question))
+      .map((question) =>
+        reorderQuestion(question, session.optionOrders[question.id]),
+      );
   }, [session]);
 
   const currentQuestion = activeQuestions[currentIndex];
@@ -145,6 +159,7 @@ export default function Home() {
       ).length,
       answers: { ...answers },
       questionIds: [...session.questionIds],
+      optionOrders: { ...session.optionOrders },
     };
     updateProgress(activeQuestions, answers);
     localStorage.setItem(LAST_RESULT_KEY, JSON.stringify(quizResult));
@@ -232,6 +247,9 @@ export default function Home() {
       mode,
       title,
       questionIds: pool.map((question) => question.id),
+      optionOrders: Object.fromEntries(
+        pool.map((question) => [question.id, shuffle([0, 1, 2, 3])]),
+      ),
       topic,
     });
     setAnswers({});
@@ -571,7 +589,10 @@ export default function Home() {
   if (view === "results" && result && session) {
     const resultQuestions = result.questionIds
       .map((id) => questions.find((question) => question.id === id))
-      .filter((question): question is Question => Boolean(question));
+      .filter((question): question is Question => Boolean(question))
+      .map((question) =>
+        reorderQuestion(question, result.optionOrders[question.id]),
+      );
     const score = percentage(result.correct, result.total);
     const topicResults = topics
       .map((topic) => {

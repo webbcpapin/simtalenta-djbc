@@ -4,7 +4,7 @@ import { defineConfig } from "vite";
 
 export default defineConfig({
   base: "/simtalenta-djbc/",
-  root: path.resolve(__dirname, "pages"),
+  root: path.resolve(__dirname, "github-pages"),
   publicDir: path.resolve(__dirname, "public"),
   plugins: [react()],
   build: {

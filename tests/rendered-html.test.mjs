@@ -42,10 +42,11 @@ test("server-renders the SIMTALENTA landing page", async () => {
 });
 
 test("production source replaces all starter preview artifacts", async () => {
-  const [page, layout, questions, packageJson] = await Promise.all([
+  const [page, layout, questions, hardOptions, packageJson] = await Promise.all([
     readFile(new URL("../app/page.tsx", import.meta.url), "utf8"),
     readFile(new URL("../app/layout.tsx", import.meta.url), "utf8"),
     readFile(new URL("../app/questions.ts", import.meta.url), "utf8"),
+    readFile(new URL("../app/hard-options.ts", import.meta.url), "utf8"),
     readFile(new URL("../package.json", import.meta.url), "utf8"),
   ]);
 
@@ -53,8 +54,12 @@ test("production source replaces all starter preview artifacts", async () => {
   assert.match(page, /Mengapa benar/);
   assert.match(page, /Mengapa bukan/);
   assert.match(page, /localStorage/);
+  assert.match(page, /optionOrders/);
   assert.match(layout, /lang="id"/);
   assert.equal((questions.match(/^\s+id:\s+\d+,/gm) ?? []).length, 100);
+  assert.equal((hardOptions.match(/^\s+\d+:\s+\[$/gm) ?? []).length, 100);
+  assert.match(hardOptions, /hari kerja/);
+  assert.match(hardOptions, /PP Nomor 94 Tahun 2021/);
   assert.doesNotMatch(packageJson, /react-loading-skeleton/);
   await assert.rejects(access(new URL("../app/_sites-preview/", import.meta.url)));
 });
