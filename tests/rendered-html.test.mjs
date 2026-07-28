@@ -33,20 +33,32 @@ test("server-renders the SIMTALENTA landing page", async () => {
     html,
     /<title>SIMTALENTA DJBC · Simulator Dukungan Manajemen<\/title>/i,
   );
-  assert.match(html, /Mulai simulasi 100 soal/);
-  assert.match(html, /Belajar 20 soal adaptif/);
+  assert.match(html, /Simulasi 100 dari 1\.000 soal/);
+  assert.match(html, /Belajar dengan pembahasan langsung/);
+  assert.match(html, /Ringkasan Materi/);
   assert.match(html, /Latihan per Topik/);
   assert.match(html, /Manajemen Kinerja/);
   assert.match(html, /Keuangan &amp; Pengadaan/);
+  assert.match(html, /AI dalam Probis/);
   assert.doesNotMatch(html, /codex-preview|loading skeleton|react-loading-skeleton/i);
 });
 
 test("production source replaces all starter preview artifacts", async () => {
-  const [page, layout, questions, hardOptions, packageJson] = await Promise.all([
+  const [
+    page,
+    layout,
+    questions,
+    hardOptions,
+    supplemental,
+    summaries,
+    packageJson,
+  ] = await Promise.all([
     readFile(new URL("../app/page.tsx", import.meta.url), "utf8"),
     readFile(new URL("../app/layout.tsx", import.meta.url), "utf8"),
     readFile(new URL("../app/questions.ts", import.meta.url), "utf8"),
     readFile(new URL("../app/hard-options.ts", import.meta.url), "utf8"),
+    readFile(new URL("../app/supplemental-questions.ts", import.meta.url), "utf8"),
+    readFile(new URL("../app/summaries.ts", import.meta.url), "utf8"),
     readFile(new URL("../package.json", import.meta.url), "utf8"),
   ]);
 
@@ -55,11 +67,18 @@ test("production source replaces all starter preview artifacts", async () => {
   assert.match(page, /Mengapa bukan/);
   assert.match(page, /localStorage/);
   assert.match(page, /optionOrders/);
+  assert.match(page, /Ringkasan Hafalan/);
+  assert.match(page, /setRevealed/);
   assert.match(layout, /lang="id"/);
+  assert.match(questions, /length:\s*1000/);
   assert.equal((questions.match(/^\s+id:\s+\d+,/gm) ?? []).length, 100);
   assert.equal((hardOptions.match(/^\s+\d+:\s+\[$/gm) ?? []).length, 100);
+  assert.equal((supplemental.match(/^\s+q\(/gm) ?? []).length, 36);
+  assert.ok((summaries.match(/^\s+id:\s*"/gm) ?? []).length >= 25);
   assert.match(hardOptions, /hari kerja/);
   assert.match(hardOptions, /PP Nomor 94 Tahun 2021/);
+  assert.match(supplemental, /3 jam 45 menit/);
+  assert.match(summaries, /25–20–15/);
   assert.doesNotMatch(packageJson, /react-loading-skeleton/);
   await assert.rejects(access(new URL("../app/_sites-preview/", import.meta.url)));
 });

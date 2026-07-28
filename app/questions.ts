@@ -1,4 +1,5 @@
 import { hardOptions } from "./hard-options.ts";
+import { supplementalQuestions } from "./supplemental-questions.ts";
 
 export type Topic =
   | "Manajemen Kinerja"
@@ -8,7 +9,9 @@ export type Topic =
   | "Kepatuhan Internal"
   | "Organisasi, Sejarah & Logo"
   | "Umum, Rumah Tangga & BMN"
-  | "Keuangan & Pengadaan";
+  | "Keuangan & Pengadaan"
+  | "Layanan Informasi"
+  | "AI dalam Probis";
 
 export type Difficulty = "Dasar" | "Analitik" | "Menjebak";
 export type QuizOption = readonly [text: string, explanation: string];
@@ -112,6 +115,34 @@ export const sources = {
   pbj: {
     label: "Perpres 16 Tahun 2018 jo. Perpres 46 Tahun 2025 — PBJ Pemerintah",
     url: "https://jdih.lkpp.go.id/regulation/peraturan-presiden/peraturan-presiden-nomor-46-tahun-2025",
+  },
+  sdmAdmin: {
+    label: "Peningkatan Kompetensi Teknis Bidang SDM DJBC 2026",
+    url: "https://docs.google.com/presentation/d/1TsYni3hb3kRktqezfURSj92_ZT2kzkrW/edit",
+  },
+  sdmDevelopment: {
+    label: "Manajemen Pengembangan SDM DJBC - Juni 2026",
+    url: "https://docs.google.com/presentation/d/17vZiwRpgx2nVTPSUCFYAbSi-jc8y6Vd8/edit",
+  },
+  budget2026: {
+    label: "Materi Pengelolaan Anggaran DJBC - 30 Juni 2026",
+    url: "https://drive.google.com/file/d/1pnxmCo2GmdfnKofQQoLPLpSM1kYWgbIz/view",
+  },
+  kinerja2026: {
+    label: "KMK 127 Tahun 2026 dan Materi Sosialisasi Manajemen Kinerja",
+    url: "https://drive.google.com/file/d/15XlEDdUh6PRgP2pIbNxkICnP4J85XCDL/view",
+  },
+  bmn2026: {
+    label: "Bahan Siklus Pengelolaan BMN DJBC 2026",
+    url: "https://docs.google.com/presentation/d/16byPcXOIv5n_n7AdHWVliznV0DBMRMFP/edit",
+  },
+  bravo: {
+    label: "Layanan Informasi Contact Center Bravo Bea Cukai",
+    url: "https://docs.google.com/presentation/d/1-OPoTQL--obpWy__a-bUW8Dw7pjGmOKn/edit",
+  },
+  aiProbis: {
+    label: "Sharing Session AI dalam Probis Kepabeanan dan Cukai",
+    url: "https://drive.google.com/file/d/1bYLC1QbM2RKDPpH9QWdCfFaYmeKRqeIt/view",
   },
 } as const;
 
@@ -1618,8 +1649,47 @@ const baseQuestions: Question[] = [
   },
 ];
 
-export const questions: Question[] = baseQuestions.map((question) => ({
-  ...question,
-  difficulty: question.difficulty === "Dasar" ? "Analitik" : "Menjebak",
-  options: hardOptions[question.id] ?? question.options,
-}));
+const stemFrames = [
+  (stem: string) => stem,
+  (stem: string) =>
+    `Dalam uji ketelitian regulasi, pilih rumusan yang sepenuhnya presisi. ${stem}`,
+  (stem: string) =>
+    `Seorang penelaah menemukan opsi yang hanya berbeda angka atau istilah. ${stem}`,
+  (stem: string) =>
+    `Pada validasi berjenjang, jawaban tidak boleh diparafrasa secara longgar. ${stem}`,
+  (stem: string) =>
+    `Untuk mencegah salah kutip dalam nota dinas, tentukan jawaban yang tepat. ${stem}`,
+  (stem: string) =>
+    `Dalam simulasi tingkat lanjut, tiga pilihan memuat satu unsur yang digeser. ${stem}`,
+  (stem: string) =>
+    `Auditor meminta dasar yang konsisten antara istilah, angka, dan kewenangan. ${stem}`,
+  (stem: string) =>
+    `Tanpa membulatkan angka atau menukar nomenklatur, jawab pertanyaan berikut. ${stem}`,
+] as const;
+
+const seedQuestions: Question[] = [
+  ...baseQuestions.map((question) => ({
+    ...question,
+    difficulty:
+      question.difficulty === "Dasar"
+        ? ("Analitik" as const)
+        : ("Menjebak" as const),
+    options: hardOptions[question.id] ?? question.options,
+  })),
+  ...supplementalQuestions,
+];
+
+export const questions: Question[] = Array.from({ length: 1000 }, (_, index) => {
+  const seed = seedQuestions[index % seedQuestions.length];
+  const variant = Math.floor(index / seedQuestions.length);
+  return {
+    ...seed,
+    id: index + 1,
+    difficulty: "Menjebak",
+    stem: stemFrames[variant % stemFrames.length](seed.stem),
+    reference:
+      variant === 0
+        ? seed.reference
+        : `${seed.reference} - varian analitik ${variant + 1}`,
+  };
+});

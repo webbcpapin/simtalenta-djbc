@@ -2,8 +2,9 @@
 
 import { useEffect, useMemo, useState } from "react";
 import { questions, sources, type Question, type Topic } from "./questions";
+import { summaryCards } from "./summaries";
 
-type View = "home" | "quiz" | "results";
+type View = "home" | "quiz" | "results" | "summary";
 type Mode = "exam" | "adaptive" | "topic";
 type Session = {
   mode: Mode;
@@ -36,6 +37,8 @@ const topicMeta: Record<Topic, { short: string; icon: string }> = {
   "Organisasi, Sejarah & Logo": { short: "Organisasi", icon: "OS" },
   "Umum, Rumah Tangga & BMN": { short: "Umum & BMN", icon: "BM" },
   "Keuangan & Pengadaan": { short: "Keuangan", icon: "KU" },
+  "Layanan Informasi": { short: "Layanan", icon: "LI" },
+  "AI dalam Probis": { short: "AI Probis", icon: "AI" },
 };
 
 const topics = Object.keys(topicMeta) as Topic[];
@@ -97,6 +100,9 @@ export default function Home() {
   const [sourcesOpen, setSourcesOpen] = useState(false);
   const [confirmOpen, setConfirmOpen] = useState(false);
   const [hydrated, setHydrated] = useState(false);
+  const [summaryTopic, setSummaryTopic] = useState<Topic | "Semua">("Semua");
+  const [summaryQuery, setSummaryQuery] = useState("");
+  const [revealedCards, setRevealedCards] = useState<string[]>([]);
 
   useEffect(() => {
     const frame = window.requestAnimationFrame(() => {
@@ -201,6 +207,13 @@ export default function Home() {
             ...previous,
             [currentQuestion.id]: option,
           }));
+          if (isStudyMode) {
+            setRevealed((previous) =>
+              previous.includes(currentQuestion.id)
+                ? previous
+                : [...previous, currentQuestion.id],
+            );
+          }
         }
       }
       if (event.key.toLowerCase() === "r") {
@@ -220,12 +233,14 @@ export default function Home() {
     let title: string;
 
     if (mode === "exam") {
-      pool = shuffle(questions);
-      title = "Simulasi Penuh · 100 Soal";
+      pool = shuffle(questions).slice(0, 100);
+      title = "Simulasi Penuh · 100 dari 1.000 Soal";
       setTimeLeft(120 * 60);
     } else if (mode === "topic" && topic) {
-      pool = shuffle(questions.filter((question) => question.topic === topic));
-      title = `Latihan · ${topicMeta[topic].short}`;
+      pool = shuffle(
+        questions.filter((question) => question.topic === topic),
+      ).slice(0, 25);
+      title = `Latihan · ${topicMeta[topic].short} · Pembahasan Langsung`;
     } else {
       pool = [...questions]
         .sort((a, b) => {
@@ -240,7 +255,7 @@ export default function Home() {
           return priorityB - priorityA;
         })
         .slice(0, 20);
-      title = "Belajar Adaptif · 20 Soal";
+      title = "Belajar Langsung · 20 Soal Adaptif";
     }
 
     setSession({
@@ -276,15 +291,13 @@ export default function Home() {
       ...previous,
       [currentQuestion.id]: optionIndex,
     }));
-  };
-
-  const revealAnswer = () => {
-    if (!currentQuestion || answers[currentQuestion.id] === undefined) return;
-    setRevealed((previous) =>
-      previous.includes(currentQuestion.id)
-        ? previous
-        : [...previous, currentQuestion.id],
-    );
+    if (isStudyMode) {
+      setRevealed((previous) =>
+        previous.includes(currentQuestion.id)
+          ? previous
+          : [...previous, currentQuestion.id],
+      );
+    }
   };
 
   const nextQuestion = () => {
@@ -337,6 +350,31 @@ export default function Home() {
       accuracy: percentage(correct, attempts),
     };
   });
+
+  const normalizedSummaryQuery = summaryQuery.trim().toLowerCase();
+  const filteredSummaryCards = summaryCards.filter((card) => {
+    const matchesTopic =
+      summaryTopic === "Semua" || card.topic === summaryTopic;
+    const searchable = [
+      card.title,
+      card.memoryCode,
+      card.summary,
+      ...card.keyPoints,
+      ...card.traps,
+    ]
+      .join(" ")
+      .toLowerCase();
+    return (
+      matchesTopic &&
+      (!normalizedSummaryQuery || searchable.includes(normalizedSummaryQuery))
+    );
+  });
+
+  const openSummary = (topic: Topic | "Semua" = "Semua") => {
+    setSummaryTopic(topic);
+    setView("summary");
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
 
   if (view === "quiz" && session && currentQuestion) {
     const selected = answers[currentQuestion.id];
@@ -502,10 +540,9 @@ export default function Home() {
                 {isStudyMode && !isRevealed ? (
                   <button
                     className="button primary"
-                    disabled={selected === undefined}
-                    onClick={revealAnswer}
+                    disabled
                   >
-                    Periksa jawaban
+                    Pilih jawaban
                   </button>
                 ) : (
                   <button className="button primary" onClick={nextQuestion}>
@@ -582,6 +619,166 @@ export default function Home() {
             </section>
           </div>
         )}
+      </main>
+    );
+  }
+
+  if (view === "summary") {
+    return (
+      <main className="summary-page">
+        <header className="simple-header">
+          <button className="brand compact" onClick={resetToHome}>
+            <span className="brand-mark">BC</span>
+            <span>
+              <strong>SIMTALENTA</strong>
+              <small>DJBC · Ringkasan Hafalan</small>
+            </span>
+          </button>
+          <button className="button ghost" onClick={resetToHome}>
+            Kembali ke beranda
+          </button>
+        </header>
+
+        <section className="summary-hero">
+          <div>
+            <span className="eyebrow light">Hafal cepat · tetap presisi</span>
+            <h1>Ringkasan angka, istilah, dan jebakan yang wajib melekat.</h1>
+            <p>
+              Gunakan kode ingatan, buka kartu untuk melihat fakta inti, lalu
+              uji diri lewat soal dengan pembahasan langsung.
+            </p>
+          </div>
+          <div className="summary-hero-stat">
+            <strong>{summaryCards.length}</strong>
+            <span>kartu hafalan</span>
+            <small>{topics.length} rumpun materi</small>
+          </div>
+        </section>
+
+        <section className="summary-content">
+          <div className="summary-toolbar">
+            <label className="summary-search">
+              <span>Cari materi, angka, atau peraturan</span>
+              <input
+                type="search"
+                value={summaryQuery}
+                onChange={(event) => setSummaryQuery(event.target.value)}
+                placeholder="Contoh: 25-20-15, RKBMN, hold time..."
+              />
+            </label>
+            <div className="summary-filter" aria-label="Filter rumpun materi">
+              <button
+                className={summaryTopic === "Semua" ? "active" : ""}
+                onClick={() => setSummaryTopic("Semua")}
+              >
+                Semua
+              </button>
+              {topics.map((topic) => (
+                <button
+                  key={topic}
+                  className={summaryTopic === topic ? "active" : ""}
+                  onClick={() => setSummaryTopic(topic)}
+                >
+                  {topicMeta[topic].short}
+                </button>
+              ))}
+            </div>
+          </div>
+
+          <div className="summary-result-head">
+            <div>
+              <span className="eyebrow">Kartu aktif</span>
+              <h2>
+                {filteredSummaryCards.length} ringkasan
+                {summaryTopic === "Semua"
+                  ? ""
+                  : ` · ${topicMeta[summaryTopic].short}`}
+              </h2>
+            </div>
+            <button
+              className="button primary"
+              onClick={() =>
+                startSession(
+                  summaryTopic === "Semua" ? "adaptive" : "topic",
+                  summaryTopic === "Semua" ? undefined : summaryTopic,
+                )
+              }
+            >
+              Uji dengan pembahasan langsung
+            </button>
+          </div>
+
+          {filteredSummaryCards.length ? (
+            <div className="memory-grid">
+              {filteredSummaryCards.map((card, index) => {
+                const isOpen = revealedCards.includes(card.id);
+                return (
+                  <article
+                    key={card.id}
+                    className={`memory-card ${isOpen ? "open" : ""}`}
+                  >
+                    <button
+                      className="memory-front"
+                      onClick={() =>
+                        setRevealedCards((previous) =>
+                          previous.includes(card.id)
+                            ? previous.filter((id) => id !== card.id)
+                            : [...previous, card.id],
+                        )
+                      }
+                      aria-expanded={isOpen}
+                    >
+                      <span className="memory-number">
+                        {String(index + 1).padStart(2, "0")}
+                      </span>
+                      <span className="memory-topic">
+                        {topicMeta[card.topic].short}
+                      </span>
+                      <h2>{card.title}</h2>
+                      <div className="memory-code">{card.memoryCode}</div>
+                      <p>{card.summary}</p>
+                      <strong>
+                        {isOpen ? "Tutup rincian ↑" : "Buka fakta & jebakan ↓"}
+                      </strong>
+                    </button>
+                    {isOpen && (
+                      <div className="memory-back">
+                        <section>
+                          <span>Fakta inti</span>
+                          <ul>
+                            {card.keyPoints.map((point) => (
+                              <li key={point}>{point}</li>
+                            ))}
+                          </ul>
+                        </section>
+                        <section className="memory-traps">
+                          <span>Jebakan ujian</span>
+                          <ul>
+                            {card.traps.map((trap) => (
+                              <li key={trap}>{trap}</li>
+                            ))}
+                          </ul>
+                        </section>
+                        <a
+                          href={card.sourceUrl}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          {card.sourceLabel} ↗
+                        </a>
+                      </div>
+                    )}
+                  </article>
+                );
+              })}
+            </div>
+          ) : (
+            <div className="summary-empty">
+              <strong>Ringkasan belum ditemukan.</strong>
+              <p>Coba kata kunci lain atau pilih semua rumpun materi.</p>
+            </div>
+          )}
+        </section>
       </main>
     );
   }
@@ -747,6 +944,9 @@ export default function Home() {
         </div>
         <nav>
           <a href="#mode-belajar">Mode belajar</a>
+          <button className="nav-button" onClick={() => openSummary()}>
+            Ringkasan hafalan
+          </button>
           <a href="#materi">Peta materi</a>
           <button className="source-button" onClick={() => setSourcesOpen(true)}>
             Sumber resmi
@@ -761,21 +961,23 @@ export default function Home() {
             Berlatih seperti ujian. <em>Memahami</em> seperti ahli.
           </h1>
           <p>
-            100 soal analitik dan menjebak untuk Manajemen Talenta DJBC—lengkap
-            dengan alasan jawaban benar, alasan setiap pengecoh salah, dan
-            rujukan resmi.
+            Bank 1.000 soal analitik dan menjebak untuk Manajemen Talenta
+            DJBC—setiap simulasi mengambil 100 soal acak, dengan opsi yang
+            berbeda tipis pada angka, istilah, dan nomor peraturan.
           </p>
           <div className="hero-actions">
             <button className="button primary large" onClick={() => startSession("exam")}>
-              Mulai simulasi 100 soal <span>→</span>
+              Simulasi 100 dari 1.000 soal <span>→</span>
             </button>
             <button className="button text-button" onClick={() => startSession("adaptive")}>
-              Belajar 20 soal adaptif
+              Belajar dengan pembahasan langsung
             </button>
           </div>
           <div className="hero-facts">
             <span><strong>120</strong> menit</span>
-            <span><strong>8</strong> rumpun materi</span>
+            <span><strong>1.000</strong> bank soal</span>
+            <span><strong>{summaryCards.length}</strong> kartu hafalan</span>
+            <span><strong>{topics.length}</strong> rumpun materi</span>
             <span><strong>4×</strong> pembahasan per soal</span>
           </div>
         </div>
@@ -790,7 +992,7 @@ export default function Home() {
           </div>
           <div className="dashboard-stats">
             <div><small>Akurasi</small><strong>{hydrated && totalAttempts ? `${percentage(totalCorrect, totalAttempts)}%` : "—"}</strong></div>
-            <div><small>Dikuasai</small><strong>{hydrated ? mastered : "—"}<i>/100</i></strong></div>
+            <div><small>Dikuasai</small><strong>{hydrated ? mastered : "—"}<i>/1.000</i></strong></div>
             <div><small>Dikerjakan</small><strong>{hydrated ? Object.keys(progress).length : "—"}</strong></div>
           </div>
           <div className="dashboard-callout">
@@ -814,7 +1016,7 @@ export default function Home() {
         <div className="section-heading split">
           <div>
             <span className="eyebrow">Pilih cara belajar</span>
-            <h2>Satu pekan, tiga strategi</h2>
+            <h2>Satu pekan, empat strategi</h2>
           </div>
           <p>
             Mulai dari pembahasan, ukur diri dalam kondisi ujian, lalu ulangi
@@ -827,24 +1029,32 @@ export default function Home() {
             <div className="mode-icon">100</div>
             <span className="mode-label">Kondisi ujian</span>
             <h3>Simulasi Penuh</h3>
-            <p>100 soal acak, 120 menit, tanpa pembahasan sebelum dikumpulkan.</p>
+            <p>100 soal ditarik acak dari bank 1.000, 120 menit, tanpa pembahasan sebelum dikumpulkan.</p>
             <footer><span>Estimasi 2 jam</span><b>Mulai →</b></footer>
           </button>
           <button className="mode-card" onClick={() => startSession("adaptive")}>
             <span className="mode-index">02</span>
             <div className="mode-icon">20</div>
-            <span className="mode-label">Fokus kelemahan</span>
-            <h3>Belajar Adaptif</h3>
-            <p>20 soal diprioritaskan dari jawaban salah dan materi yang belum disentuh.</p>
-            <footer><span>Pembahasan langsung</span><b>Mulai →</b></footer>
+            <span className="mode-label">Jawab lalu bedah</span>
+            <h3>Pembahasan Langsung</h3>
+            <p>Begitu memilih jawaban, kunci dan alasan keempat pilihan langsung terbuka.</p>
+            <footer><span>20 soal adaptif</span><b>Mulai →</b></footer>
+          </button>
+          <button className="mode-card" onClick={() => openSummary()}>
+            <span className="mode-index">03</span>
+            <div className="mode-icon">HAF</div>
+            <span className="mode-label">Hafalan cepat</span>
+            <h3>Ringkasan Materi</h3>
+            <p>Kode ingatan, angka wajib hafal, fakta inti, dan jebakan umum dalam kartu ringkas.</p>
+            <footer><span>{summaryCards.length} kartu</span><b>Buka →</b></footer>
           </button>
           <a className="mode-card" href="#materi">
-            <span className="mode-index">03</span>
-            <div className="mode-icon">08</div>
+            <span className="mode-index">04</span>
+            <div className="mode-icon">{String(topics.length).padStart(2, "0")}</div>
             <span className="mode-label">Pendalaman</span>
             <h3>Latihan per Topik</h3>
-            <p>Pilih satu rumpun untuk membedah konsep dan pengecoh secara menyeluruh.</p>
-            <footer><span>6–18 soal per topik</span><b>Pilih →</b></footer>
+            <p>Pilih satu rumpun untuk 25 soal acak dengan pembahasan langsung.</p>
+            <footer><span>25 soal per sesi</span><b>Pilih →</b></footer>
           </a>
         </div>
       </section>
@@ -896,7 +1106,9 @@ export default function Home() {
           Alat bantu belajar mandiri. Selalu periksa kembali sumber resmi apabila
           terdapat perubahan regulasi. Progres tersimpan hanya di perangkat ini.
         </p>
-        <button onClick={() => setSourcesOpen(true)}>Lihat 22 sumber rujukan ↗</button>
+        <button onClick={() => setSourcesOpen(true)}>
+          Lihat {Object.keys(sources).length} sumber rujukan ↗
+        </button>
       </footer>
 
       {sourcesOpen && (
