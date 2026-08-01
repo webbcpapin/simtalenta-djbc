@@ -1167,10 +1167,17 @@ export default function Home() {
           <span className="brand-mark">BC</span>
           <span><strong>SIMTALENTA</strong><small>DJBC · Dukungan Manajemen</small></span>
         </div>
-        <p>
-          Alat bantu belajar mandiri. Selalu periksa kembali sumber resmi apabila
-          terdapat perubahan regulasi. Progres tersimpan hanya di perangkat ini.
-        </p>
+        <div className="footer-message">
+          <p>
+            Alat bantu belajar mandiri. Selalu periksa kembali sumber resmi apabila
+            terdapat perubahan regulasi. Progres tersimpan hanya di perangkat ini.
+          </p>
+          <strong>
+            Semoga setiap ikhtiar belajar diberi kemudahan, ilmu yang bermanfaat,
+            ketenangan, dan hasil terbaik. Aamiin.
+          </strong>
+          <small>© 2026 agung3956 · Seluruh hak cipta dilindungi.</small>
+        </div>
         <button onClick={() => setSourcesOpen(true)}>
           Lihat {Object.keys(sources).length} sumber rujukan ↗
         </button>

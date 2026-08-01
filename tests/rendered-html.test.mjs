@@ -39,6 +39,8 @@ test("server-renders the SIMTALENTA landing page", async () => {
   assert.match(html, /manifest\.webmanifest/);
   assert.match(html, /apple-touch-icon\.png/);
   assert.match(html, /Tanya materi/);
+  assert.match(html, /© 2026 agung3956/);
+  assert.match(html, /Semoga setiap ikhtiar belajar diberi kemudahan/);
   assert.match(html, /Ringkasan Materi/);
   assert.match(html, /Latihan per Topik/);
   assert.match(html, /Manajemen Kinerja/);

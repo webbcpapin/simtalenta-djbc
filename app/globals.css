@@ -892,12 +892,33 @@ button.brand {
   padding: 36px max(28px, calc((100vw - 1184px) / 2));
 }
 
-.site-footer > p {
+.footer-message {
+  margin: 0 auto;
+  max-width: 590px;
+}
+
+.footer-message > p {
   color: #718094;
   font-size: 10px;
   line-height: 1.65;
-  margin: 0 auto;
-  max-width: 560px;
+  margin: 0;
+}
+
+.footer-message > strong {
+  color: var(--navy-800);
+  display: block;
+  font-size: 10px;
+  line-height: 1.6;
+  margin-top: 7px;
+}
+
+.footer-message > small {
+  color: #8b97a5;
+  display: block;
+  font-size: 8px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  margin-top: 8px;
 }
 
 .site-footer > button {
