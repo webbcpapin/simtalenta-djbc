@@ -1,6 +1,10 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { headers } from "next/headers";
 import "./globals.css";
+
+export const viewport: Viewport = {
+  themeColor: "#081a2f",
+};
 
 export async function generateMetadata(): Promise<Metadata> {
   const requestHeaders = await headers();
@@ -16,9 +20,22 @@ export async function generateMetadata(): Promise<Metadata> {
   return {
     title,
     description,
+    applicationName: "SIMTALENTA DJBC",
+    manifest: "/manifest.webmanifest",
     icons: {
-      icon: "/favicon.svg",
-      shortcut: "/favicon.svg",
+      icon: [
+        { url: "/favicon-32.png", sizes: "32x32", type: "image/png" },
+        { url: "/icon-192.png", sizes: "192x192", type: "image/png" },
+      ],
+      shortcut: "/favicon-32.png",
+      apple: [
+        { url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" },
+      ],
+    },
+    appleWebApp: {
+      capable: true,
+      statusBarStyle: "black-translucent",
+      title: "SIMTALENTA",
     },
     openGraph: {
       title,

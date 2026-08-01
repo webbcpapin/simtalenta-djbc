@@ -36,6 +36,8 @@ test("server-renders the SIMTALENTA landing page", async () => {
   assert.match(html, /Simulasi penuh 100 soal/i);
   assert.match(html, /Mulai Sprint 3 Hari/);
   assert.match(html, /Kuasai yang paling menentukan dalam 3 hari/);
+  assert.match(html, /manifest\.webmanifest/);
+  assert.match(html, /apple-touch-icon\.png/);
   assert.match(html, /Ringkasan Materi/);
   assert.match(html, /Latihan per Topik/);
   assert.match(html, /Manajemen Kinerja/);
@@ -84,4 +86,24 @@ test("production source replaces all starter preview artifacts", async () => {
   assert.match(summaries, /25–20–15/);
   assert.doesNotMatch(packageJson, /react-loading-skeleton/);
   await assert.rejects(access(new URL("../app/_sites-preview/", import.meta.url)));
+});
+
+test("mobile install assets are complete", async () => {
+  const manifest = JSON.parse(
+    await readFile(new URL("../public/manifest.webmanifest", import.meta.url), "utf8"),
+  );
+
+  assert.equal(manifest.display, "standalone");
+  assert.equal(manifest.start_url, "./");
+  assert.deepEqual(
+    manifest.icons.map(({ sizes }) => sizes),
+    ["192x192", "512x512"],
+  );
+
+  await Promise.all([
+    access(new URL("../public/favicon-32.png", import.meta.url)),
+    access(new URL("../public/apple-touch-icon.png", import.meta.url)),
+    access(new URL("../public/icon-192.png", import.meta.url)),
+    access(new URL("../public/icon-512.png", import.meta.url)),
+  ]);
 });
