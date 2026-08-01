@@ -9,6 +9,8 @@ Simulator belajar Manajemen Talenta DJBC untuk bidang Dukungan Manajemen.
 - ringkasan hafalan dengan angka kunci, kode ingatan, dan jebakan ujian
 - mode pembahasan langsung setelah setiap jawaban
 - belajar adaptif 20 soal berdasarkan progres pengguna
+- Sprint 3 Hari dengan 30 soal berimbang dari seluruh 10 rumpun
+- rencana belajar harian dan rekomendasi topik prioritas dari progres lokal
 - latihan per topik
 - pembahasan jawaban benar dan seluruh opsi pengecoh
 - tautan rujukan materi Drive dan regulasi resmi

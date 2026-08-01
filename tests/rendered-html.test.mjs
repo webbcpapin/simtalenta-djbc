@@ -33,8 +33,9 @@ test("server-renders the SIMTALENTA landing page", async () => {
     html,
     /<title>SIMTALENTA DJBC · Simulator Dukungan Manajemen<\/title>/i,
   );
-  assert.match(html, /Simulasi 100 dari 1\.000 soal/);
-  assert.match(html, /Belajar dengan pembahasan langsung/);
+  assert.match(html, /Simulasi penuh 100 soal/i);
+  assert.match(html, /Mulai Sprint 3 Hari/);
+  assert.match(html, /Kuasai yang paling menentukan dalam 3 hari/);
   assert.match(html, /Ringkasan Materi/);
   assert.match(html, /Latihan per Topik/);
   assert.match(html, /Manajemen Kinerja/);
@@ -63,6 +64,8 @@ test("production source replaces all starter preview artifacts", async () => {
   ]);
 
   assert.match(page, /Simulasi Penuh/);
+  assert.match(page, /Sprint 3 Hari/);
+  assert.match(page, /topics\.flatMap/);
   assert.match(page, /Mengapa benar/);
   assert.match(page, /Mengapa bukan/);
   assert.match(page, /localStorage/);

@@ -5,7 +5,7 @@ import { questions, sources, type Question, type Topic } from "./questions";
 import { summaryCards } from "./summaries";
 
 type View = "home" | "quiz" | "results" | "summary";
-type Mode = "exam" | "adaptive" | "topic";
+type Mode = "exam" | "adaptive" | "sprint" | "topic";
 type Session = {
   mode: Mode;
   title: string;
@@ -232,29 +232,38 @@ export default function Home() {
     let pool: Question[];
     let title: string;
 
+    const prioritize = (candidates: Question[]) =>
+      candidates
+        .map((question) => {
+          const stat = progress[question.id];
+          const priority = !stat
+            ? 100 + Math.random()
+            : stat.wrong * 12 - stat.correct * 3 - stat.attempts + Math.random();
+          return { question, priority };
+        })
+        .sort((a, b) => b.priority - a.priority)
+        .map(({ question }) => question);
+
     if (mode === "exam") {
       pool = shuffle(questions).slice(0, 100);
       title = "Simulasi Penuh · 100 dari 1.000 Soal";
       setTimeLeft(120 * 60);
+    } else if (mode === "sprint") {
+      pool = shuffle(
+        topics.flatMap((sprintTopic) =>
+          prioritize(
+            questions.filter((question) => question.topic === sprintTopic),
+          ).slice(0, 3),
+        ),
+      );
+      title = "Sprint 3 Hari · 30 Soal · Seluruh Rumpun";
     } else if (mode === "topic" && topic) {
       pool = shuffle(
         questions.filter((question) => question.topic === topic),
       ).slice(0, 25);
       title = `Latihan · ${topicMeta[topic].short} · Pembahasan Langsung`;
     } else {
-      pool = [...questions]
-        .sort((a, b) => {
-          const statA = progress[a.id];
-          const statB = progress[b.id];
-          const priorityA = !statA
-            ? 10
-            : statA.wrong * 3 - statA.correct + Math.random();
-          const priorityB = !statB
-            ? 10
-            : statB.wrong * 3 - statB.correct + Math.random();
-          return priorityB - priorityA;
-        })
-        .slice(0, 20);
+      pool = prioritize(questions).slice(0, 20);
       title = "Belajar Langsung · 20 Soal Adaptif";
     }
 
@@ -350,6 +359,17 @@ export default function Home() {
       accuracy: percentage(correct, attempts),
     };
   });
+
+  const recommendedTopics = [...topicStats]
+    .sort((a, b) => {
+      if (!a.attempts && b.attempts) return -1;
+      if (a.attempts && !b.attempts) return 1;
+      if (a.attempts && b.attempts && a.accuracy !== b.accuracy) {
+        return a.accuracy - b.accuracy;
+      }
+      return b.count - a.count;
+    })
+    .slice(0, 3);
 
   const normalizedSummaryQuery = summaryQuery.trim().toLowerCase();
   const filteredSummaryCards = summaryCards.filter((card) => {
@@ -966,11 +986,11 @@ export default function Home() {
             berbeda tipis pada angka, istilah, dan nomor peraturan.
           </p>
           <div className="hero-actions">
-            <button className="button primary large" onClick={() => startSession("exam")}>
-              Simulasi 100 dari 1.000 soal <span>→</span>
+            <button className="button primary large" onClick={() => startSession("sprint")}>
+              Mulai Sprint 3 Hari · 30 soal <span>→</span>
             </button>
-            <button className="button text-button" onClick={() => startSession("adaptive")}>
-              Belajar dengan pembahasan langsung
+            <button className="button text-button" onClick={() => startSession("exam")}>
+              Simulasi penuh 100 soal
             </button>
           </div>
           <div className="hero-facts">
@@ -1006,9 +1026,42 @@ export default function Home() {
               <p>Jawaban salah dan soal yang belum pernah dikerjakan diprioritaskan.</p>
             </div>
           </div>
-          <button className="dashboard-link" onClick={() => startSession("adaptive")}>
-            Mulai rekomendasi latihan <span>→</span>
+          <button className="dashboard-link" onClick={() => startSession("sprint")}>
+            Mulai pemetaan seluruh materi <span>→</span>
           </button>
+        </div>
+      </section>
+
+      <section className="sprint-section" aria-labelledby="sprint-title">
+        <div className="section-heading split">
+          <div>
+            <span className="eyebrow">Rencana belajar kilat</span>
+            <h2 id="sprint-title">Kuasai yang paling menentukan dalam 3 hari.</h2>
+          </div>
+          <p>
+            Gunakan pembahasan sebagai materi utama. Jangan mengejar 1.000 soal;
+            kejar cakupan, pola jebakan, lalu ulangi kesalahan.
+          </p>
+        </div>
+        <div className="sprint-plan">
+          <article>
+            <span>Hari 1 · Peta kemampuan</span>
+            <strong>31 kartu + Sprint 30</strong>
+            <p>Baca seluruh kartu hafalan, lalu jawab tiga soal dari setiap rumpun dengan pembahasan langsung.</p>
+            <button onClick={() => openSummary()}>Buka ringkasan →</button>
+          </article>
+          <article>
+            <span>Hari 2 · Tutup kelemahan</span>
+            <strong>3 topik prioritas</strong>
+            <p>{recommendedTopics.map(({ topic }) => topicMeta[topic].short).join(" · ")}. Kerjakan latihan adaptif sampai dua putaran.</p>
+            <button onClick={() => startSession("adaptive")}>Latihan adaptif →</button>
+          </article>
+          <article>
+            <span>Hari 3 · Kondisi ujian</span>
+            <strong>Simulasi 100 + bedah salah</strong>
+            <p>Kerjakan tanpa melihat pembahasan, lalu ulangi hanya soal salah dan ragu. Hentikan belajar berat sebelum tidur.</p>
+            <button onClick={() => startSession("exam")}>Mulai simulasi →</button>
+          </article>
         </div>
       </section>
 
@@ -1016,7 +1069,7 @@ export default function Home() {
         <div className="section-heading split">
           <div>
             <span className="eyebrow">Pilih cara belajar</span>
-            <h2>Satu pekan, empat strategi</h2>
+            <h2>Tiga hari, lima strategi</h2>
           </div>
           <p>
             Mulai dari pembahasan, ukur diri dalam kondisi ujian, lalu ulangi
@@ -1024,8 +1077,16 @@ export default function Home() {
           </p>
         </div>
         <div className="mode-grid">
-          <button className="mode-card featured" onClick={() => startSession("exam")}>
+          <button className="mode-card featured sprint-card" onClick={() => startSession("sprint")}>
             <span className="mode-index">01</span>
+            <div className="mode-icon">30</div>
+            <span className="mode-label">Cakupan seluruh materi</span>
+            <h3>Sprint 3 Hari</h3>
+            <p>Tiga soal dari masing-masing 10 rumpun, diprioritaskan dari yang belum pernah dikerjakan dan pernah salah.</p>
+            <footer><span>±45 menit · pembahasan aktif</span><b>Mulai →</b></footer>
+          </button>
+          <button className="mode-card" onClick={() => startSession("exam")}>
+            <span className="mode-index">02</span>
             <div className="mode-icon">100</div>
             <span className="mode-label">Kondisi ujian</span>
             <h3>Simulasi Penuh</h3>
@@ -1033,7 +1094,7 @@ export default function Home() {
             <footer><span>Estimasi 2 jam</span><b>Mulai →</b></footer>
           </button>
           <button className="mode-card" onClick={() => startSession("adaptive")}>
-            <span className="mode-index">02</span>
+            <span className="mode-index">03</span>
             <div className="mode-icon">20</div>
             <span className="mode-label">Jawab lalu bedah</span>
             <h3>Pembahasan Langsung</h3>
@@ -1041,7 +1102,7 @@ export default function Home() {
             <footer><span>20 soal adaptif</span><b>Mulai →</b></footer>
           </button>
           <button className="mode-card" onClick={() => openSummary()}>
-            <span className="mode-index">03</span>
+            <span className="mode-index">04</span>
             <div className="mode-icon">HAF</div>
             <span className="mode-label">Hafalan cepat</span>
             <h3>Ringkasan Materi</h3>
@@ -1049,7 +1110,7 @@ export default function Home() {
             <footer><span>{summaryCards.length} kartu</span><b>Buka →</b></footer>
           </button>
           <a className="mode-card" href="#materi">
-            <span className="mode-index">04</span>
+            <span className="mode-index">05</span>
             <div className="mode-icon">{String(topics.length).padStart(2, "0")}</div>
             <span className="mode-label">Pendalaman</span>
             <h3>Latihan per Topik</h3>

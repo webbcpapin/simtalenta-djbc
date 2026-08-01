@@ -514,11 +514,68 @@ button.brand {
 }
 
 .mode-section,
+.sprint-section,
 .topics-section,
 .result-content {
   margin: 0 auto;
   max-width: 1240px;
   padding: 94px 28px;
+}
+
+.sprint-section {
+  background: #f7fafb;
+  padding-bottom: 0;
+}
+
+.sprint-plan {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.sprint-plan article {
+  background: white;
+  border: 1px solid var(--line);
+  border-top: 4px solid var(--teal);
+  min-height: 220px;
+  padding: 25px;
+}
+
+.sprint-plan article > span {
+  color: var(--teal-dark);
+  display: block;
+  font-size: 9px;
+  font-weight: 900;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+}
+
+.sprint-plan article > strong {
+  color: var(--navy-900);
+  display: block;
+  font-size: 19px;
+  margin-top: 12px;
+}
+
+.sprint-plan article > p {
+  color: var(--muted);
+  font-size: 11px;
+  line-height: 1.7;
+  margin: 12px 0 20px;
+}
+
+.sprint-plan article > button {
+  background: transparent;
+  border: 0;
+  color: var(--navy-700);
+  cursor: pointer;
+  font-size: 10px;
+  font-weight: 900;
+  padding: 0;
+}
+
+.sprint-plan article > button:hover {
+  color: var(--teal-dark);
 }
 
 .topics-section {
@@ -563,7 +620,11 @@ button.brand {
 .mode-grid {
   display: grid;
   gap: 16px;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.sprint-card {
+  grid-column: span 2;
 }
 
 .mode-card {
@@ -2086,6 +2147,10 @@ button.brand {
     grid-template-columns: 1fr 1fr;
   }
 
+  .sprint-plan {
+    grid-template-columns: 1fr;
+  }
+
   .mode-card:last-child {
     grid-column: auto;
     min-height: 326px;
@@ -2153,10 +2218,15 @@ button.brand {
   }
 
   .mode-grid,
+  .sprint-plan,
   .topic-grid,
   .topic-results,
   .memory-grid {
     grid-template-columns: 1fr;
+  }
+
+  .sprint-card {
+    grid-column: auto;
   }
 
   .mode-card:last-child {
