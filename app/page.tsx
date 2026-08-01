@@ -3,6 +3,7 @@
 import { useEffect, useMemo, useState } from "react";
 import { questions, sources, type Question, type Topic } from "./questions";
 import { summaryCards } from "./summaries";
+import { KnowledgeChat } from "./knowledge-chat";
 
 type View = "home" | "quiz" | "results" | "summary";
 type Mode = "exam" | "adaptive" | "sprint" | "topic";
@@ -639,6 +640,7 @@ export default function Home() {
             </section>
           </div>
         )}
+        <KnowledgeChat />
       </main>
     );
   }
@@ -799,6 +801,7 @@ export default function Home() {
             </div>
           )}
         </section>
+        <KnowledgeChat />
       </main>
     );
   }
@@ -948,6 +951,7 @@ export default function Home() {
             })}
           </div>
         </section>
+        <KnowledgeChat />
       </main>
     );
   }
@@ -1198,6 +1202,7 @@ export default function Home() {
           </section>
         </div>
       )}
+      <KnowledgeChat />
     </main>
   );
 }

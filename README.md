@@ -11,6 +11,7 @@ Simulator belajar Manajemen Talenta DJBC untuk bidang Dukungan Manajemen.
 - belajar adaptif 20 soal berdasarkan progres pengguna
 - Sprint 3 Hari dengan 30 soal berimbang dari seluruh 10 rumpun
 - rencana belajar harian dan rekomendasi topik prioritas dari progres lokal
+- chatbot knowledge base dengan pencarian pembahasan, ringkasan, serta tautan sumber Drive dan regulasi
 - latihan per topik
 - pembahasan jawaban benar dan seluruh opsi pengecoh
 - tautan rujukan materi Drive dan regulasi resmi

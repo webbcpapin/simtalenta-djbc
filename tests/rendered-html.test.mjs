@@ -38,6 +38,7 @@ test("server-renders the SIMTALENTA landing page", async () => {
   assert.match(html, /Kuasai yang paling menentukan dalam 3 hari/);
   assert.match(html, /manifest\.webmanifest/);
   assert.match(html, /apple-touch-icon\.png/);
+  assert.match(html, /Tanya materi/);
   assert.match(html, /Ringkasan Materi/);
   assert.match(html, /Latihan per Topik/);
   assert.match(html, /Manajemen Kinerja/);
@@ -54,6 +55,7 @@ test("production source replaces all starter preview artifacts", async () => {
     hardOptions,
     supplemental,
     summaries,
+    knowledgeChat,
     packageJson,
   ] = await Promise.all([
     readFile(new URL("../app/page.tsx", import.meta.url), "utf8"),
@@ -62,6 +64,7 @@ test("production source replaces all starter preview artifacts", async () => {
     readFile(new URL("../app/hard-options.ts", import.meta.url), "utf8"),
     readFile(new URL("../app/supplemental-questions.ts", import.meta.url), "utf8"),
     readFile(new URL("../app/summaries.ts", import.meta.url), "utf8"),
+    readFile(new URL("../app/knowledge-chat.tsx", import.meta.url), "utf8"),
     readFile(new URL("../package.json", import.meta.url), "utf8"),
   ]);
 
@@ -84,6 +87,9 @@ test("production source replaces all starter preview artifacts", async () => {
   assert.match(hardOptions, /PP Nomor 94 Tahun 2021/);
   assert.match(supplemental, /3 jam 45 menit/);
   assert.match(summaries, /25–20–15/);
+  assert.match(knowledgeChat, /1\.000 soal · 31 ringkasan/);
+  assert.match(knowledgeChat, /Saya belum menemukan dasar yang cukup kuat/);
+  assert.match(knowledgeChat, /Sumber jawaban/);
   assert.doesNotMatch(packageJson, /react-loading-skeleton/);
   await assert.rejects(access(new URL("../app/_sites-preview/", import.meta.url)));
 });
