@@ -97,8 +97,14 @@ test("production source replaces all starter preview artifacts", async () => {
   assert.match(page, /\.slice\(0, 1\)/);
   assert.match(page, /Pokok yang wajib dipahami/);
   assert.match(page, /Jebakan yang perlu dihindari/);
-  assert.match(page, /const isStudyMode = Boolean\(session\)/);
-  assert.doesNotMatch(page, /tanpa pembahasan sebelum dikumpulkan/);
+  assert.match(page, /const isStudyMode = session\?\.mode !== "exam"/);
+  assert.match(page, /pembahasan setelah dikumpulkan/);
+  assert.match(page, /ACTIVE_SESSION_KEY/);
+  assert.match(page, /remainingSeconds/);
+  assert.match(page, /Ulangi soal salah\/kosong/);
+  assert.match(page, /localStorage\.removeItem\(ACTIVE_SESSION_KEY\)/);
+  assert.match(page, /setSummaryTopic/);
+  assert.match(page, /recommendedResultTopics/);
   assert.match(page, /localStorage/);
   assert.match(page, /optionOrders/);
   assert.match(page, /Ringkasan Hafalan/);
@@ -106,10 +112,12 @@ test("production source replaces all starter preview artifacts", async () => {
   assert.match(layout, /lang="id"/);
   assert.match(questions, /uniqueQuestionCount = seedQuestions\.length/);
   assert.match(questions, /\.\.\.auditedRevisionQuestions/);
-  assert.match(questions, /\.\.\.extendedQuestions/);
+  assert.doesNotMatch(questions, /^\s+\.\.\.extendedQuestions,/m);
   assert.doesNotMatch(questions, /\.\.\.competencyQuestions/);
   assert.match(questions, /quarantinedQuestionCount = 1000/);
   assert.match(questions, /seedQuestions\.map/);
+  assert.match(questions, /regulationStatus/);
+  assert.match(questions, /balancedOptionTargets/);
   assert.match(questions, /notebookQuiz15/);
   assert.match(questions, /notebookQuiz30/);
   assert.doesNotMatch(questions, /const stemFrames/);
@@ -159,6 +167,8 @@ test("production source replaces all starter preview artifacts", async () => {
     exactQuestionKeys.add(key);
   }
   assert.doesNotMatch(packageJson, /react-loading-skeleton/);
+  const pagesConfig = await readFile(new URL("../vite.pages.config.ts", import.meta.url), "utf8");
+  assert.match(pagesConfig, /base:\s*["']\/simtalenta-djbc\/["']/);
   await assert.rejects(access(new URL("../app/_sites-preview/", import.meta.url)));
 });
 

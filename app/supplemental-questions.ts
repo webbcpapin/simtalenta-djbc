@@ -1,4 +1,4 @@
-import type { Question, QuizOption, Topic } from "./questions";
+import type { QuestionSeed, QuizOption, Topic } from "./questions";
 
 type SourceKey = Question["source"];
 type Distractor = readonly [text: string, whyWrong: string];
@@ -32,7 +32,7 @@ function q(
   };
 }
 
-export const supplementalQuestions: Question[] = [
+export const supplementalQuestions: QuestionSeed[] = [
   q(
     101,
     "Manajemen Kinerja",

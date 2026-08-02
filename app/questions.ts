@@ -1,8 +1,8 @@
 import { hardOptions } from "./hard-options.ts";
 import { kmk127FlashcardQuestions } from "./kmk127-flashcard-questions.ts";
 import { supplementalQuestions } from "./supplemental-questions.ts";
-import auditedRevisionData from "./generated-audited-revisions.json";
-import extendedQuestionData from "./generated-extended-questions.json";
+import auditedRevisionData from "./generated-audited-revisions.json" with { type: "json" };
+import extendedQuestionData from "./generated-extended-questions.json" with { type: "json" };
 
 export type Topic =
   | "Manajemen Kinerja"
@@ -20,7 +20,9 @@ export type Topic =
 export type Difficulty = "Dasar" | "Analitik" | "Menjebak";
 export type QuizOption = readonly [text: string, explanation: string];
 
-export type Question = {
+export type RegulationStatus = "current" | "superseded" | "revoked" | "unclear" | "needs_verification";
+
+export type QuestionSeed = {
   id: number;
   topic: Topic;
   difficulty: Difficulty;
@@ -174,7 +176,40 @@ export const sources = {
   },
 } as const;
 
-const baseQuestions: Question[] = [
+export type SourceKey = keyof typeof sources;
+export type SourceMetadata = (typeof sources)[SourceKey] & {
+  status: RegulationStatus;
+  issuer: string;
+  year: string;
+  lastVerified: string;
+};
+
+const sourceYear = (label: string) => label.match(/20\d{2}/)?.[0] ?? "Tidak tercantum";
+const sourceIssuer = (url: string) =>
+  url.includes("kemenkeu.go.id") ? "Kementerian Keuangan" :
+  url.includes("bkn.go.id") ? "BKN" :
+  url.includes("lkpp.go.id") ? "LKPP" :
+  url.includes("notebook.google.com") ? "NotebookLM berbasis materi pengguna" :
+  url.includes("google.com") ? "Materi internal pada Google Drive" : "Penerbit sumber";
+
+export const sourceCatalog = Object.fromEntries(
+  Object.entries(sources).map(([key, source]) => [key, {
+    ...source,
+    status: key === "extendedBank" ? "needs_verification" : "current",
+    issuer: sourceIssuer(source.url),
+    year: sourceYear(source.label),
+    lastVerified: "2026-08-03",
+  }]),
+) as Record<SourceKey, SourceMetadata>;
+
+export const historicalRegulations = [{
+  title: "PMK 60/PMK.01/2016 jo. PMK 161/PMK.01/2017 tentang Manajemen Talenta",
+  status: "superseded" as const,
+  replacedBy: "PMK 38 Tahun 2025",
+  lastVerified: "2026-08-03",
+}];
+
+const baseQuestions: QuestionSeed[] = [
   {
     id: 1,
     topic: "Manajemen Kinerja",
@@ -1687,10 +1722,28 @@ type GeneratedQuestionData = {
   reference: string;
 };
 
+export type Question = QuestionSeed & {
+  subtopic: string;
+  competency: string;
+  questionType: "Penerapan Ketentuan" | "Analisis Kasus" | "Situational Judgment";
+  cognitiveLevel: "C2 - Pemahaman" | "C3 - Penerapan" | "C4 - Analisis";
+  explanation: string;
+  optionExplanations: readonly string[];
+  sourceTitle: string;
+  sourceUrl: string;
+  sourcePage: string;
+  sourceDate: string;
+  lastVerified: string;
+  regulationStatus: RegulationStatus;
+  tags: readonly string[];
+  version: number;
+  active: boolean;
+};
+
 function mapGeneratedQuestions(
   data: GeneratedQuestionData[],
   idOffset: number,
-): Question[] {
+): QuestionSeed[] {
   return data.map((question, index) => ({
     id: idOffset + index,
     topic: question.topic as Topic,
@@ -1713,8 +1766,9 @@ const extendedQuestions = mapGeneratedQuestions(extendedQuestionData, 200_000);
 
 export const quarantinedQuestionCount = 1000;
 export const auditedRevisionCount = auditedRevisionQuestions.length;
+export const needsVerificationCount = extendedQuestions.length;
 
-const seedQuestions: Question[] = [
+const seedQuestions: QuestionSeed[] = [
   ...baseQuestions.map((question) => ({
     ...question,
     difficulty:
@@ -1726,12 +1780,58 @@ const seedQuestions: Question[] = [
   ...supplementalQuestions,
   ...kmk127FlashcardQuestions,
   ...auditedRevisionQuestions,
-  ...extendedQuestions,
 ];
 
 export const uniqueQuestionCount = seedQuestions.length;
 
-export const questions: Question[] = seedQuestions.map((seed, index) => ({
-  ...seed,
-  id: index + 1,
-}));
+function balancedOptionTargets(length: number) {
+  const targets = Array.from({ length }, (_, index) => index % 4);
+  let state = 0x3956;
+  for (let index = targets.length - 1; index > 0; index -= 1) {
+    state = (state * 1664525 + 1013904223) >>> 0;
+    const swapIndex = state % (index + 1);
+    [targets[index], targets[swapIndex]] = [targets[swapIndex], targets[index]];
+  }
+  return targets;
+}
+
+const optionTargets = balancedOptionTargets(seedQuestions.length);
+
+export const questions: Question[] = seedQuestions.map((seed, index) => {
+  const targetAnswer = optionTargets[index];
+  const order = [0, 1, 2, 3];
+  [order[targetAnswer], order[seed.answer]] = [order[seed.answer], order[targetAnswer]];
+  const options = order.map((optionIndex) => seed.options[optionIndex]);
+  const source = sourceCatalog[seed.source];
+  const questionType = /paling tepat dilakukan|tindakan.*tepat|langkah.*tepat/i.test(seed.stem)
+    ? "Situational Judgment" as const
+    : /\bI{1,3}\b|kasus|skenario/i.test(seed.stem)
+      ? "Analisis Kasus" as const
+      : "Penerapan Ketentuan" as const;
+  const cognitiveLevel = seed.difficulty === "Menjebak"
+    ? "C4 - Analisis" as const
+    : seed.difficulty === "Analitik"
+      ? "C3 - Penerapan" as const
+      : "C2 - Pemahaman" as const;
+  return {
+    ...seed,
+    id: index + 1,
+    options,
+    answer: targetAnswer,
+    subtopic: seed.reference,
+    competency: seed.topic,
+    questionType,
+    cognitiveLevel,
+    explanation: options[targetAnswer][1],
+    optionExplanations: options.map(([, explanation]) => explanation),
+    sourceTitle: source.label,
+    sourceUrl: source.url,
+    sourcePage: seed.reference,
+    sourceDate: source.year,
+    lastVerified: source.lastVerified,
+    regulationStatus: source.status,
+    tags: [seed.topic, seed.difficulty, questionType],
+    version: 2,
+    active: source.status === "current",
+  };
+});

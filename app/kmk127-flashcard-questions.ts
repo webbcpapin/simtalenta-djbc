@@ -1,4 +1,4 @@
-import type { Question, QuizOption } from "./questions";
+import type { QuestionSeed, QuizOption } from "./questions";
 
 type Flashcard = { stem: string; answer: string };
 
@@ -163,7 +163,7 @@ function distractorsFor(card: Flashcard) {
   return selected;
 }
 
-export const kmk127FlashcardQuestions: Question[] = flashcards.map((card, index) => {
+export const kmk127FlashcardQuestions: QuestionSeed[] = flashcards.map((card, index) => {
   const notebookSources = [
     "notebookFlashcards",
     "notebookQuiz15",

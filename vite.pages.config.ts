@@ -9,6 +9,7 @@ export default defineConfig({
   plugins: [react()],
   build: {
     outDir: path.resolve(__dirname, "docs"),
-    emptyOutDir: true,
+    // Laporan audit juga disimpan di docs/ dan harus bertahan saat aset Pages dibangun ulang.
+    emptyOutDir: false,
   },
 });

@@ -5,12 +5,16 @@ import {
   auditedRevisionCount,
   questions,
   quarantinedQuestionCount,
+  sourceCatalog,
+  historicalRegulations,
   sources,
   type Question,
   type Topic,
 } from "./questions";
 import { summaryCards, type SummaryCard } from "./summaries";
 import { KnowledgeChat } from "./knowledge-chat";
+import { ACTIVE_SESSION_KEY, LAST_RESULT_KEY, PROGRESS_KEY, quizConfig } from "./quiz-config";
+import { isRestorableSession, parseStoredJson, remainingSeconds, scoreQuestions } from "./quiz-core";
 
 type View = "home" | "quiz" | "results" | "summary";
 type Mode = "exam" | "adaptive" | "sprint" | "topic";
@@ -34,6 +38,19 @@ type QuizResult = {
   answers: Record<number, number>;
   questionIds: number[];
   optionOrders: Record<number, number[]>;
+  startedAt: number;
+  completedAt: number;
+  durationSeconds: number;
+};
+type SavedSession = {
+  schemaVersion: number;
+  session: Session;
+  currentIndex: number;
+  answers: Record<number, number>;
+  revealed: number[];
+  flagged: number[];
+  startedAt: number;
+  deadlineAt: number | null;
 };
 
 const topicMeta: Record<Topic, { short: string; icon: string }> = {
@@ -52,8 +69,6 @@ const topicMeta: Record<Topic, { short: string; icon: string }> = {
 
 const topics = Object.keys(topicMeta) as Topic[];
 const SPRINT_SIZE = topics.length * 3;
-const STORAGE_KEY = "simtalenta-djbc-progress-v1";
-const LAST_RESULT_KEY = "simtalenta-djbc-last-result-v1";
 const DISCUSSION_STOP_WORDS = new Set([
   "adalah", "atau", "bagi", "dalam", "dapat", "dengan", "dan", "dari",
   "ini", "itu", "karena", "kepada", "manakah", "menurut", "pada", "paling",
@@ -143,7 +158,7 @@ function formatTime(seconds: number) {
 function readProgress(): Progress {
   if (typeof window === "undefined") return {};
   try {
-    return JSON.parse(localStorage.getItem(STORAGE_KEY) || "{}") as Progress;
+    return JSON.parse(localStorage.getItem(PROGRESS_KEY) || "{}") as Progress;
   } catch {
     return {};
   }
@@ -162,7 +177,10 @@ export default function Home() {
   const [flagged, setFlagged] = useState<number[]>([]);
   const [progress, setProgress] = useState<Progress>({});
   const [result, setResult] = useState<QuizResult | null>(null);
-  const [timeLeft, setTimeLeft] = useState(120 * 60);
+  const [timeLeft, setTimeLeft] = useState(quizConfig.examDurationMinutes * 60);
+  const [sessionStartedAt, setSessionStartedAt] = useState(0);
+  const [deadlineAt, setDeadlineAt] = useState<number | null>(null);
+  const [practiceCount, setPracticeCount] = useState<number>(quizConfig.defaultPracticeCount);
   const [paletteOpen, setPaletteOpen] = useState(false);
   const [sourcesOpen, setSourcesOpen] = useState(false);
   const [confirmOpen, setConfirmOpen] = useState(false);
@@ -174,6 +192,21 @@ export default function Home() {
   useEffect(() => {
     const frame = window.requestAnimationFrame(() => {
       setProgress(readProgress());
+      const saved = parseStoredJson<SavedSession>(localStorage.getItem(ACTIVE_SESSION_KEY));
+      if (isRestorableSession(saved, quizConfig.schemaVersion, new Set(questions.map(({ id }) => id)))) {
+        const restored = saved as SavedSession;
+        setSession(restored.session);
+        setCurrentIndex(Math.min(restored.currentIndex, restored.session.questionIds.length - 1));
+        setAnswers(restored.answers);
+        setRevealed(restored.session.mode === "exam" ? [] : restored.revealed);
+        setFlagged(restored.flagged);
+        setSessionStartedAt(restored.startedAt);
+        setDeadlineAt(restored.deadlineAt);
+        if (restored.deadlineAt) setTimeLeft(remainingSeconds(restored.deadlineAt));
+        setView("quiz");
+      } else if (saved) {
+        localStorage.removeItem(ACTIVE_SESSION_KEY);
+      }
       setHydrated(true);
     });
     return () => window.cancelAnimationFrame(frame);
@@ -190,7 +223,7 @@ export default function Home() {
   }, [session]);
 
   const currentQuestion = activeQuestions[currentIndex];
-  const isStudyMode = Boolean(session);
+  const isStudyMode = session?.mode !== "exam";
   const isRevealed = currentQuestion
     ? revealed.includes(currentQuestion.id)
     : false;
@@ -215,27 +248,28 @@ export default function Home() {
         wrong: previous.wrong + (isCorrect ? 0 : 1),
       };
     });
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(next));
+    localStorage.setItem(PROGRESS_KEY, JSON.stringify(next));
     setProgress(next);
   };
 
   const finishQuiz = () => {
     if (!session) return;
-    const correct = activeQuestions.filter(
-      (question) => answers[question.id] === question.answer,
-    ).length;
+    const scored = scoreQuestions(activeQuestions, answers);
+    const completedAt = Date.now();
     const quizResult: QuizResult = {
-      correct,
-      total: activeQuestions.length,
-      unanswered: activeQuestions.filter(
-        (question) => answers[question.id] === undefined,
-      ).length,
+      correct: scored.correct,
+      total: scored.total,
+      unanswered: scored.unanswered,
       answers: { ...answers },
       questionIds: [...session.questionIds],
       optionOrders: { ...session.optionOrders },
+      startedAt: sessionStartedAt,
+      completedAt,
+      durationSeconds: Math.max(0, Math.round((completedAt - sessionStartedAt) / 1000)),
     };
     updateProgress(activeQuestions, answers);
     localStorage.setItem(LAST_RESULT_KEY, JSON.stringify(quizResult));
+    localStorage.removeItem(ACTIVE_SESSION_KEY);
     setResult(quizResult);
     setConfirmOpen(false);
     setView("results");
@@ -243,12 +277,27 @@ export default function Home() {
   };
 
   useEffect(() => {
-    if (view !== "quiz" || session?.mode !== "exam") return;
-    const timer = window.setInterval(() => {
-      setTimeLeft((remaining) => Math.max(remaining - 1, 0));
-    }, 1000);
+    if (view !== "quiz" || session?.mode !== "exam" || !deadlineAt) return;
+    const updateTimer = () => setTimeLeft(remainingSeconds(deadlineAt));
+    updateTimer();
+    const timer = window.setInterval(updateTimer, 1000);
     return () => window.clearInterval(timer);
-  }, [view, session?.mode]);
+  }, [view, session?.mode, deadlineAt]);
+
+  useEffect(() => {
+    if (!hydrated || view !== "quiz" || !session) return;
+    const saved: SavedSession = {
+      schemaVersion: quizConfig.schemaVersion,
+      session,
+      currentIndex,
+      answers,
+      revealed: session.mode === "exam" ? [] : revealed,
+      flagged,
+      startedAt: sessionStartedAt,
+      deadlineAt,
+    };
+    localStorage.setItem(ACTIVE_SESSION_KEY, JSON.stringify(saved));
+  }, [hydrated, view, session, currentIndex, answers, revealed, flagged, sessionStartedAt, deadlineAt]);
 
   useEffect(() => {
     if (
@@ -312,9 +361,8 @@ export default function Home() {
         .map(({ question }) => question);
 
     if (mode === "exam") {
-      pool = shuffle(distinctQuestions(questions)).slice(0, 100);
-      title = "Simulasi Penuh · 100 Soal Unik Acak";
-      setTimeLeft(120 * 60);
+      pool = shuffle(distinctQuestions(questions)).slice(0, quizConfig.examQuestionCount);
+      title = `Simulasi Penuh · ${quizConfig.examQuestionCount} Soal Unik Acak`;
     } else if (mode === "sprint") {
       pool = shuffle(
         topics.flatMap((sprintTopic) =>
@@ -329,13 +377,17 @@ export default function Home() {
     } else if (mode === "topic" && topic) {
       pool = shuffle(distinctQuestions(
         questions.filter((question) => question.topic === topic),
-      )).slice(0, 25);
+      )).slice(0, practiceCount);
       title = `Latihan · ${topicMeta[topic].short} · ${pool.length} Soal Unik`;
     } else {
-      pool = prioritize(distinctQuestions(questions)).slice(0, 20);
-      title = "Belajar Langsung · 20 Soal Adaptif";
+      pool = prioritize(distinctQuestions(questions)).slice(0, practiceCount);
+      title = `Belajar Langsung · ${practiceCount} Soal Adaptif`;
     }
 
+    const startedAt = Date.now();
+    const examDeadline = mode === "exam"
+      ? startedAt + quizConfig.examDurationMinutes * 60 * 1000
+      : null;
     setSession({
       mode,
       title,
@@ -350,17 +402,41 @@ export default function Home() {
     setFlagged([]);
     setCurrentIndex(0);
     setResult(null);
+    setSessionStartedAt(startedAt);
+    setDeadlineAt(examDeadline);
+    setTimeLeft(quizConfig.examDurationMinutes * 60);
     setPaletteOpen(false);
     setView("quiz");
     window.scrollTo({ top: 0 });
   };
 
   const resetToHome = () => {
+    localStorage.removeItem(ACTIVE_SESSION_KEY);
     setView("home");
     setSession(null);
     setResult(null);
     setConfirmOpen(false);
     window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
+  const repeatIncorrect = (questionIds: number[], startedAt: number) => {
+    const pool = shuffle(questions.filter((question) => questionIds.includes(question.id)));
+    if (!pool.length) return;
+    setSession({
+      mode: "adaptive",
+      title: `Ulangi ${pool.length} Soal Salah atau Kosong`,
+      questionIds: pool.map(({ id }) => id),
+      optionOrders: Object.fromEntries(pool.map(({ id }) => [id, shuffle([0, 1, 2, 3])])),
+    });
+    setAnswers({});
+    setRevealed([]);
+    setFlagged([]);
+    setCurrentIndex(0);
+    setResult(null);
+    setSessionStartedAt(startedAt);
+    setDeadlineAt(null);
+    setView("quiz");
+    window.scrollTo({ top: 0 });
   };
 
   const chooseOption = (optionIndex: number) => {
@@ -946,6 +1022,17 @@ export default function Home() {
     const reviewQuestions = resultQuestions.filter(
       (question) => result.answers[question.id] !== question.answer,
     );
+    const difficultyResults = ["Dasar", "Analitik", "Menjebak"].map((difficulty) => {
+      const subset = resultQuestions.filter((question) => question.difficulty === difficulty);
+      return {
+        difficulty,
+        total: subset.length,
+        correct: subset.filter((question) => result.answers[question.id] === question.answer).length,
+      };
+    }).filter(({ total }) => total > 0);
+    const recommendedResultTopics = [...topicResults]
+      .sort((left, right) => percentage(left.correct, left.total) - percentage(right.correct, right.total))
+      .slice(0, 3);
 
     return (
       <main className="result-page">
@@ -964,15 +1051,19 @@ export default function Home() {
           <div>
             <span className="eyebrow">Hasil · {session.title}</span>
             <h1>
-              {score >= 85
-                ? "Sangat siap. Pertahankan ketelitian."
-                : score >= 70
-                  ? "Fondasi kuat. Tajamkan area lemah."
-                  : "Teruskan latihan. Pembahasan akan membantu."}
+              {score >= 80
+                ? "Dikuasai dengan baik. Pertahankan ketelitian."
+                : score >= 60
+                  ? "Cukup dikuasai. Tajamkan area lemah."
+                  : "Perlu penguatan melalui pembahasan dan pengulangan."}
             </h1>
             <p>
               {result.correct} benar · {result.total - result.correct - result.unanswered} salah ·{" "}
-              {result.unanswered} tidak dijawab
+              {result.unanswered} tidak dijawab · durasi {formatTime(result.durationSeconds)}
+            </p>
+            <small>{quizConfig.label} Hasil ini bukan penetapan kelulusan resmi.</small>
+            <p>
+              Prioritas penguatan: {recommendedResultTopics.map(({ topic }) => topicMeta[topic].short).join(" · ") || "tidak ada—semua domain telah terjawab benar"}.
             </p>
             <div className="result-actions">
               <button
@@ -984,6 +1075,11 @@ export default function Home() {
               <button className="button secondary" onClick={() => startSession("adaptive")}>
                 Latihan adaptif
               </button>
+              {reviewQuestions.length > 0 && (
+                <button className="button secondary" onClick={() => repeatIncorrect(reviewQuestions.map(({ id }) => id), result.completedAt)}>
+                  Ulangi soal salah/kosong
+                </button>
+              )}
             </div>
           </div>
         </section>
@@ -1008,6 +1104,19 @@ export default function Home() {
                 </div>
               );
             })}
+          </div>
+
+          <div className="section-heading">
+            <span className="eyebrow">Tingkat kesulitan</span>
+            <h2>Nilai per kesulitan</h2>
+          </div>
+          <div className="topic-results">
+            {difficultyResults.map((item) => (
+              <div key={item.difficulty}>
+                <div><span>{item.difficulty}</span><strong>{item.correct}/{item.total} · {percentage(item.correct, item.total)}%</strong></div>
+                <div className="mini-progress"><span style={{ width: `${percentage(item.correct, item.total)}%` }} /></div>
+              </div>
+            ))}
           </div>
 
           <div className="review-heading">
@@ -1125,6 +1234,7 @@ export default function Home() {
             <span><strong>{topics.length}</strong> rumpun materi</span>
             <span><strong>4×</strong> pembahasan per soal</span>
           </div>
+
           <p className="audit-status">
             <strong>Kontrol mutu aktif:</strong>{" "}
             {quarantinedQuestionCount.toLocaleString("id-ID")} soal berpola
@@ -1208,6 +1318,18 @@ export default function Home() {
           </p>
         </div>
         <div className="mode-grid">
+          <div className="mode-card" aria-label="Pengaturan latihan internal">
+            <span className="mode-label">Pengaturan latihan internal</span>
+            <h3>Jumlah soal latihan</h3>
+            <p>{quizConfig.label}</p>
+            <div className="summary-filter">
+              {quizConfig.practiceCountOptions.map((count) => (
+                <button key={count} className={practiceCount === count ? "active" : ""} onClick={() => setPracticeCount(count)}>
+                  {count} soal
+                </button>
+              ))}
+            </div>
+          </div>
           <button className="mode-card featured sprint-card" onClick={() => startSession("sprint")}>
             <span className="mode-index">01</span>
             <div className="mode-icon">{SPRINT_SIZE}</div>
@@ -1222,7 +1344,7 @@ export default function Home() {
             <span className="mode-label">Kondisi ujian</span>
             <h3>Simulasi Penuh</h3>
             <p>100 soal unik ditarik acak dari bank {questions.length.toLocaleString("id-ID")}; susunan soal dan opsi berubah setiap simulasi.</p>
-            <footer><span>120 menit · pembahasan aktif</span><b>Mulai →</b></footer>
+            <footer><span>120 menit · pembahasan setelah dikumpulkan</span><b>Mulai →</b></footer>
           </button>
           <button className="mode-card" onClick={() => startSession("adaptive")}>
             <span className="mode-index">03</span>
@@ -1323,16 +1445,20 @@ export default function Home() {
             <p className="sources-intro">
               Materi utama berasal dari folder Talenta Anda. Area yang belum
               tersedia dilengkapi dari JDIH Kementerian Keuangan, BKN, dan LKPP.
+              Status dan tanggal verifikasi ditampilkan agar perubahan regulasi dapat diaudit.
             </p>
             <div className="sources-list">
-              {Object.entries(sources).map(([key, source], index) => (
+              {Object.entries(sourceCatalog).map(([key, source], index) => (
                 <a key={key} href={source.url} target="_blank" rel="noreferrer">
                   <span>{String(index + 1).padStart(2, "0")}</span>
-                  <strong>{source.label}</strong>
+                  <strong>{source.label}<small>{source.issuer} · {source.status} · diverifikasi {source.lastVerified}</small></strong>
                   <b>↗</b>
                 </a>
               ))}
             </div>
+            <p className="sources-intro">
+              <strong>Riwayat regulasi:</strong> {historicalRegulations[0].title} berstatus superseded dan digantikan oleh {historicalRegulations[0].replacedBy}; tidak digunakan sebagai dasar soal aktif.
+            </p>
           </section>
         </div>
       )}

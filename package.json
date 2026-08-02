@@ -10,7 +10,9 @@
     "build": "vinext build",
     "build:pages": "vite build --config vite.pages.config.ts",
     "start": "vinext start",
-    "test": "npm run build && node --test tests/rendered-html.test.mjs",
+    "test": "npm run validate:questions && npm run build && node --experimental-strip-types --test tests/*.test.mjs",
+    "validate:questions": "node --experimental-strip-types scripts/validate-questions.mjs",
+    "audit:questions": "node --experimental-strip-types scripts/validate-questions.mjs --write-audit",
     "lint": "eslint . --ignore-pattern dist --ignore-pattern .next",
     "db:generate": "drizzle-kit generate"
   },
