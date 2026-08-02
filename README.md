@@ -1,34 +1,29 @@
 # SIMTALENTA DJBC
 
-Simulator belajar Manajemen Talenta DJBC untuk bidang Dukungan Manajemen.
+Simulator belajar publik untuk Uji Kompetensi Manajerial DJBC. Versi bank aktif `2026.08.1000-v1` memuat tepat 1.000 soal dari 1.354 kandidat, terdistribusi ke sembilan domain.
 
-## Fitur
+## Fitur utama
 
-- bank aktif 229 soal pilihan ganda unik dan analitik dalam 11 rumpun materi
-- 1.000 soal berpola dikarantina setelah audit mutu; 24 soal revisi multi-ketentuan diaktifkan
-- simulasi 100 soal unik acak dari seluruh bank dengan batas waktu 120 menit
-- ringkasan hafalan dengan angka kunci, kode ingatan, dan jebakan ujian
-- mode pembahasan langsung setelah setiap jawaban
-- belajar adaptif 20 soal berdasarkan progres pengguna
-- Sprint 3 Hari dengan 33 soal berimbang dari seluruh 11 rumpun
-- rencana belajar harian dan rekomendasi topik prioritas dari progres lokal
-- chatbot knowledge base dengan pencarian pembahasan, ringkasan, serta tautan sumber Drive dan regulasi
-- latihan per topik
-- pembahasan jawaban benar dan seluruh opsi pengecoh
-- tautan rujukan materi Drive dan regulasi resmi
-- progres tersimpan lokal pada perangkat
-- versi statis untuk GitHub Pages tanpa autentikasi OpenAI
+- 1.000 soal aktif dengan ID stabil, metadata sumber, skor review, dan pembahasan keempat opsi
+- 23 shard JSON yang dimuat sesuai paket sesi; seluruh isi bank tidak masuk bundle awal
+- paket simulasi acak bertingkat berdasarkan domain, kesulitan, dan level kognitif
+- filter domain, subdomain, kesulitan, jumlah soal, dan waktu
+- mode simulasi, pembahasan langsung, Sprint 3 Hari, latihan topik, serta favorit
+- progres, sesi aktif, riwayat 20 sesi, seed, dan versi bank tersimpan lokal
+- chatbot knowledge base, kartu ringkasan, PWA/Add to Home Screen, dan sumber Drive
+- pemeriksaan skema, sumber, kualitas, kemiripan, distribusi kunci, serta privasi
 
-## Pengembangan
-
-Memerlukan Node.js `>=22.13.0`.
+## Perintah
 
 ```bash
-npm install
-npm run dev
-npm run lint
+npm run questions:build
+npm run questions:stats
+npm run questions:duplicates
+npm run questions:privacy
+npm run questions:sources
+npm run validate:questions
 npm test
 npm run build:pages
 ```
 
-GitHub Pages dibangun ke folder `docs/` dan disajikan dari cabang `main`.
+GitHub Pages dibangun ke `docs/` dan dipublikasikan dari cabang `main`.

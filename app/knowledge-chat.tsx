@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import type { FormEvent } from "react";
 import { questions, sources, type Question } from "./questions";
+import { activeQuestionCount } from "./question-bank";
 import { summaryCards, type SummaryCard } from "./summaries";
 
 type AnswerSource = { label: string; url: string };
@@ -258,7 +259,7 @@ export function KnowledgeChat() {
           </header>
 
           <div className="knowledge-chat-status">
-            <i /> Materi Drive terindeks · {questions.length.toLocaleString("id-ID")} soal · {summaryCards.length} ringkasan
+            <i /> Materi Drive terindeks · {activeQuestionCount.toLocaleString("id-ID")} soal aktif · {summaryCards.length} ringkasan
           </div>
 
           <div className="knowledge-chat-messages" aria-live="polite">
@@ -326,3 +327,5 @@ export function KnowledgeChat() {
     </>
   );
 }
+
+export default KnowledgeChat;

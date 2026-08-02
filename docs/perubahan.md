@@ -1,11 +1,13 @@
-# Perubahan operasional
+# Perubahan versi 2026.08.1000-v1
 
-## 3 Agustus 2026
-
-- Memisahkan mode latihan dan simulasi; simulasi membuka pembahasan hanya setelah submit.
-- Menambah persistensi/pemulihan sesi dan tenggat; timeout melakukan submit otomatis.
-- Menambah pilihan 10/20/30 soal latihan dan label konfigurasi internal.
-- Memperkaya hasil dengan durasi, benar/salah/kosong, nilai per domain/kesulitan, rekomendasi, dan ulang soal salah/kosong.
-- Menambah metadata audit per soal, katalog status sumber, dan posisi kunci yang seimbang.
-- Mengeluarkan dua soal bersumber anchor lokal sampai sumbernya terverifikasi.
-- Menambah validator serta test scoring, shuffle, timer, storage, recovery, hasil, metadata, dan base path.
+- mengganti bank runtime 227 soal dengan 1.000 soal aktif baru dari 1.354 kandidat;
+- menetapkan blueprint sembilan domain, level kognitif, dan kesulitan;
+- menambah registry sumber, 135 unit pengetahuan, rubrik review, serta enam laporan audit;
+- menolak sumber superseded/personal untuk soal aktif;
+- menambah audit Jaccard, cosine TF-IDF, exact duplicate, clue panjang opsi, dan privasi;
+- memecah bank aktif menjadi 23 shard yang dimuat per sesi;
+- menambah paket acak seimbang, filter, waktu/jumlah soal, seed dan versi bank;
+- menambah riwayat 20 sesi, penghindaran soal baru dilihat, progres, resume, dan favorit;
+- menambah hasil per domain, kesulitan, dan level kognitif;
+- mempertahankan PWA, chatbot, copyright © agung3956, dan doa terbaik;
+- memisahkan chatbot menjadi chunk terpisah dan membersihkan aset build lama.

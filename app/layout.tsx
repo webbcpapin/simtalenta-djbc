@@ -14,8 +14,8 @@ export async function generateMetadata(): Promise<Metadata> {
   const origin = host ? `${protocol}://${host}` : "https://sites.openai.com";
   const title = "SIMTALENTA DJBC · Simulator Dukungan Manajemen";
   const description =
-    "Bank soal unik analitik Manajemen Talenta DJBC, ringkasan hafalan, pembahasan langsung, dan sumber resmi.";
-  const socialImage = `${origin}/og.png`;
+    "Bank 1.000 soal aktif Uji Kompetensi Manajerial DJBC dalam sembilan domain, dengan pembahasan lengkap dan sumber terverifikasi.";
+  const socialImage = `${origin}/og-1000.png`;
 
   return {
     title,
@@ -41,7 +41,7 @@ export async function generateMetadata(): Promise<Metadata> {
       title,
       description,
       type: "website",
-      images: [{ url: socialImage, width: 1536, height: 1024 }],
+      images: [{ url: socialImage, width: 1731, height: 909 }],
     },
     twitter: {
       card: "summary_large_image",

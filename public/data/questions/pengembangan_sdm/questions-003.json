@@ -1,0 +1,2432 @@
+[
+  {
+    "id": "MT-SDM-0101",
+    "version": 1,
+    "status": "active",
+    "domain": "pengembangan_sdm",
+    "subdomain": "model_70_20_10",
+    "competency": "Mendesain pembelajaran terintegrasi",
+    "indicator": "Mengombinasikan pengalaman, sosial, dan terstruktur",
+    "questionType": "corrective_action",
+    "cognitiveLevel": "analyze",
+    "difficulty": "medium",
+    "stem": "Tim lintas fungsi membahas program calon pemimpin tim. Setiap pihak membawa kepentingan berbeda dan meminta keputusan segera. Dalam menjawab, fokuskan penilaian pada kemampuan mengombinasikan pengalaman, sosial, dan terstruktur. Rekomendasi korektif yang paling tepat adalah…",
+    "options": [
+      {
+        "id": "A",
+        "text": "Tindakan korektif: Mengandalkan kelas tanpa praktik. Terapkan khusus dalam program calon pemimpin tim, disertai pemilik tindakan dan waktu pemantauan, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini tidak tepat karena mengandalkan kelas tanpa praktik. Kekeliruannya adalah mengabaikan batas berikut: Rasio 70:20:10 adalah arah desain, bukan kewajiban menghitung setiap jam secara kaku.",
+        "misconception": "mengandalkan kelas tanpa praktik"
+      },
+      {
+        "id": "B",
+        "text": "Tindakan korektif: Membagi jam belajar secara mekanis tanpa tujuan. Terapkan khusus dalam program calon pemimpin tim, disertai pemilik tindakan dan waktu pemantauan, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini tidak tepat karena membagi jam belajar secara mekanis tanpa tujuan. Kekeliruannya adalah mengabaikan batas berikut: Rasio 70:20:10 adalah arah desain, bukan kewajiban menghitung setiap jam secara kaku.",
+        "misconception": "membagi jam belajar secara mekanis tanpa tujuan"
+      },
+      {
+        "id": "C",
+        "text": "Tindakan korektif: Rancang pengalaman kerja utama yang diperkuat coaching/mentoring dan pembelajaran terstruktur. Terapkan khusus dalam program calon pemimpin tim, disertai pemilik tindakan dan waktu pemantauan, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini paling tepat karena model pengembangan memadukan pengalaman kerja, belajar dari orang lain, dan pembelajaran terstruktur secara saling mendukung. Dalam konteks kasus, tindakan tersebut menjaga tujuan, batas penerapan, dan akuntabilitas keputusan.",
+        "misconception": null
+      },
+      {
+        "id": "D",
+        "text": "Tindakan korektif: Memberi penugasan tanpa dukungan atau refleksi. Terapkan khusus dalam program calon pemimpin tim, disertai pemilik tindakan dan waktu pemantauan, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini tidak tepat karena memberi penugasan tanpa dukungan atau refleksi. Kekeliruannya adalah mengabaikan batas berikut: Rasio 70:20:10 adalah arah desain, bukan kewajiban menghitung setiap jam secara kaku.",
+        "misconception": "memberi penugasan tanpa dukungan atau refleksi"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "Jawaban paling tepat adalah C. Pilihan ini paling tepat karena model pengembangan memadukan pengalaman kerja, belajar dari orang lain, dan pembelajaran terstruktur secara saling mendukung. Dalam konteks kasus, tindakan tersebut menjaga tujuan, batas penerapan, dan akuntabilitas keputusan. Konteks kasus: Tim lintas fungsi membahas program calon pemimpin tim. Setiap pihak membawa kepentingan berbeda dan meminta keputusan segera. Keputusan tetap harus ditautkan pada tujuan dan bukti. Prinsip yang digunakan: Model pengembangan memadukan pengalaman kerja, belajar dari orang lain, dan pembelajaran terstruktur secara saling mendukung. Batas penerapan: Rasio 70:20:10 adalah arah desain, bukan kewajiban menghitung setiap jam secara kaku. Implikasi praktisnya, pengambil keputusan perlu rancang pengalaman kerja utama yang diperkuat coaching/mentoring dan pembelajaran terstruktur. Setiap distraktor mewakili kekeliruan realistis: membagi jam belajar secara mekanis tanpa tujuan; mengandalkan kelas tanpa praktik; memberi penugasan tanpa dukungan atau refleksi. Sumber berstatus non_normative dan terakhir diverifikasi 2026-08-03. Topik lanjutan: Mendesain pembelajaran terintegrasi.",
+    "keyTakeaway": "Ingat: rancang pengalaman kerja utama yang diperkuat coaching/mentoring dan pembelajaran terstruktur.",
+    "sourceRefs": [
+      {
+        "sourceId": "SRC-SDM-2026",
+        "title": "Manajemen Pengembangan Sumber Daya Manusia DJBC",
+        "driveFileId": "17vZiwRpgx2nVTPSUCFYAbSi-jc8y6Vd8",
+        "section": "Desain Manajemen SDM—70:20:10",
+        "pageOrSlide": null,
+        "regulationStatus": "non_normative",
+        "lastVerified": "2026-08-03"
+      }
+    ],
+    "tags": [
+      "pengembangan_sdm",
+      "model_70_20_10",
+      "corrective_action",
+      "apply",
+      "medium"
+    ],
+    "review": {
+      "contentAccuracy": 25,
+      "sourceTraceability": 15,
+      "stemClarity": 9,
+      "distractorQuality": 9,
+      "singleBestAnswer": 10,
+      "competencyRelevance": 10,
+      "explanationQuality": 9,
+      "originality": 4,
+      "languageQuality": 3,
+      "difficultyFit": 2,
+      "total": 96,
+      "method": "rubrik_terotomasi_berbasis_unit_terverifikasi_v1"
+    },
+    "similarityGroup": null,
+    "knowledgeUnitId": "KU-MT-SDM-013-1",
+    "generationBatch": "2026.08.1000-v1",
+    "createdAt": "2026-08-03",
+    "lastReviewedAt": "2026-08-03",
+    "runtimeId": 391,
+    "selectedFromCandidateId": "CAND-MT-SDM-0127"
+  },
+  {
+    "id": "MT-SDM-0102",
+    "version": 1,
+    "status": "active",
+    "domain": "pengembangan_sdm",
+    "subdomain": "model_70_20_10",
+    "competency": "Mendesain pembelajaran terintegrasi",
+    "indicator": "Mengombinasikan pengalaman, sosial, dan terstruktur",
+    "questionType": "corrective_action",
+    "cognitiveLevel": "apply",
+    "difficulty": "hard",
+    "stem": "Seorang koordinator baru mengambil alih penguasaan proses bisnis baru. Dokumentasi lama tidak cukup menjelaskan alasan keputusan. Dalam menjawab, fokuskan penilaian pada kemampuan mengombinasikan pengalaman, sosial, dan terstruktur. Rekomendasi korektif yang paling tepat adalah…",
+    "options": [
+      {
+        "id": "A",
+        "text": "Tindakan korektif: Membagi jam belajar secara mekanis tanpa tujuan. Terapkan khusus dalam penguasaan proses bisnis baru, disertai pemilik tindakan dan waktu pemantauan, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini tidak tepat karena membagi jam belajar secara mekanis tanpa tujuan. Kekeliruannya adalah mengabaikan batas berikut: Rasio 70:20:10 adalah arah desain, bukan kewajiban menghitung setiap jam secara kaku.",
+        "misconception": "membagi jam belajar secara mekanis tanpa tujuan"
+      },
+      {
+        "id": "B",
+        "text": "Tindakan korektif: Memberi penugasan tanpa dukungan atau refleksi. Terapkan khusus dalam penguasaan proses bisnis baru, disertai pemilik tindakan dan waktu pemantauan, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini tidak tepat karena memberi penugasan tanpa dukungan atau refleksi. Kekeliruannya adalah mengabaikan batas berikut: Rasio 70:20:10 adalah arah desain, bukan kewajiban menghitung setiap jam secara kaku.",
+        "misconception": "memberi penugasan tanpa dukungan atau refleksi"
+      },
+      {
+        "id": "C",
+        "text": "Tindakan korektif: Mengandalkan kelas tanpa praktik. Terapkan khusus dalam penguasaan proses bisnis baru, disertai pemilik tindakan dan waktu pemantauan, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini tidak tepat karena mengandalkan kelas tanpa praktik. Kekeliruannya adalah mengabaikan batas berikut: Rasio 70:20:10 adalah arah desain, bukan kewajiban menghitung setiap jam secara kaku.",
+        "misconception": "mengandalkan kelas tanpa praktik"
+      },
+      {
+        "id": "D",
+        "text": "Tindakan korektif: Rancang pengalaman kerja utama yang diperkuat coaching/mentoring dan pembelajaran terstruktur. Terapkan khusus dalam penguasaan proses bisnis baru, disertai pemilik tindakan dan waktu pemantauan, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini paling tepat karena model pengembangan memadukan pengalaman kerja, belajar dari orang lain, dan pembelajaran terstruktur secara saling mendukung. Dalam konteks kasus, tindakan tersebut menjaga tujuan, batas penerapan, dan akuntabilitas keputusan.",
+        "misconception": null
+      }
+    ],
+    "correctOptionId": "D",
+    "explanation": "Jawaban paling tepat adalah D. Pilihan ini paling tepat karena model pengembangan memadukan pengalaman kerja, belajar dari orang lain, dan pembelajaran terstruktur secara saling mendukung. Dalam konteks kasus, tindakan tersebut menjaga tujuan, batas penerapan, dan akuntabilitas keputusan. Konteks kasus: Seorang koordinator baru mengambil alih penguasaan proses bisnis baru. Dokumentasi lama tidak cukup menjelaskan alasan keputusan. Keputusan tetap harus ditautkan pada tujuan dan bukti. Prinsip yang digunakan: Model pengembangan memadukan pengalaman kerja, belajar dari orang lain, dan pembelajaran terstruktur secara saling mendukung. Batas penerapan: Rasio 70:20:10 adalah arah desain, bukan kewajiban menghitung setiap jam secara kaku. Implikasi praktisnya, pengambil keputusan perlu rancang pengalaman kerja utama yang diperkuat coaching/mentoring dan pembelajaran terstruktur. Setiap distraktor mewakili kekeliruan realistis: membagi jam belajar secara mekanis tanpa tujuan; mengandalkan kelas tanpa praktik; memberi penugasan tanpa dukungan atau refleksi. Sumber berstatus non_normative dan terakhir diverifikasi 2026-08-03. Topik lanjutan: Mendesain pembelajaran terintegrasi.",
+    "keyTakeaway": "Ingat: rancang pengalaman kerja utama yang diperkuat coaching/mentoring dan pembelajaran terstruktur.",
+    "sourceRefs": [
+      {
+        "sourceId": "SRC-SDM-2026",
+        "title": "Manajemen Pengembangan Sumber Daya Manusia DJBC",
+        "driveFileId": "17vZiwRpgx2nVTPSUCFYAbSi-jc8y6Vd8",
+        "section": "Desain Manajemen SDM—70:20:10",
+        "pageOrSlide": null,
+        "regulationStatus": "non_normative",
+        "lastVerified": "2026-08-03"
+      }
+    ],
+    "tags": [
+      "pengembangan_sdm",
+      "model_70_20_10",
+      "corrective_action",
+      "apply",
+      "medium"
+    ],
+    "review": {
+      "contentAccuracy": 25,
+      "sourceTraceability": 15,
+      "stemClarity": 9,
+      "distractorQuality": 9,
+      "singleBestAnswer": 10,
+      "competencyRelevance": 10,
+      "explanationQuality": 9,
+      "originality": 4,
+      "languageQuality": 3,
+      "difficultyFit": 2,
+      "total": 96,
+      "method": "rubrik_terotomasi_berbasis_unit_terverifikasi_v1"
+    },
+    "similarityGroup": null,
+    "knowledgeUnitId": "KU-MT-SDM-013-2",
+    "generationBatch": "2026.08.1000-v1",
+    "createdAt": "2026-08-03",
+    "lastReviewedAt": "2026-08-03",
+    "runtimeId": 392,
+    "selectedFromCandidateId": "CAND-MT-SDM-0128"
+  },
+  {
+    "id": "MT-SDM-0103",
+    "version": 1,
+    "status": "active",
+    "domain": "pengembangan_sdm",
+    "subdomain": "coaching_mentoring",
+    "competency": "Membedakan dukungan pengembangan",
+    "indicator": "Memilih coaching atau mentoring sesuai kebutuhan",
+    "questionType": "corrective_action",
+    "cognitiveLevel": "analyze",
+    "difficulty": "easy",
+    "stem": "Ketika pegawai kesulitan memilih strategi kerja, muncul usulan untuk mengabaikan satu tahapan karena dianggap administratif. Dalam menjawab, fokuskan penilaian pada kemampuan memilih coaching atau mentoring sesuai kebutuhan. Rekomendasi korektif yang paling tepat adalah…",
+    "options": [
+      {
+        "id": "A",
+        "text": "Tindakan korektif: Pilih pendekatan berdasarkan kebutuhan refleksi atau transfer pengalaman dan sepakati tujuan pengembangan. Terapkan khusus dalam pegawai kesulitan memilih strategi kerja, disertai pemilik tindakan dan waktu pemantauan, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini paling tepat karena coaching membantu pegawai menemukan langkah melalui pertanyaan dan refleksi, sedangkan mentoring memanfaatkan pengalaman mentor untuk memberi perspektif dan arahan pengembangan. Dalam konteks kasus, tindakan tersebut menjaga tujuan, batas penerapan, dan akuntabilitas keputusan.",
+        "misconception": null
+      },
+      {
+        "id": "B",
+        "text": "Tindakan korektif: Memberi jawaban rinci lalu menyebutnya coaching. Terapkan khusus dalam pegawai kesulitan memilih strategi kerja, disertai pemilik tindakan dan waktu pemantauan, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini tidak tepat karena memberi jawaban rinci lalu menyebutnya coaching. Kekeliruannya adalah mengabaikan batas berikut: Keduanya bukan pengganti instruksi wajib atau penanganan pelanggaran.",
+        "misconception": "memberi jawaban rinci lalu menyebutnya coaching"
+      },
+      {
+        "id": "C",
+        "text": "Tindakan korektif: Menggunakan mentoring untuk menghindari umpan balik kinerja. Terapkan khusus dalam pegawai kesulitan memilih strategi kerja, disertai pemilik tindakan dan waktu pemantauan, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini tidak tepat karena menggunakan mentoring untuk menghindari umpan balik kinerja. Kekeliruannya adalah mengabaikan batas berikut: Keduanya bukan pengganti instruksi wajib atau penanganan pelanggaran.",
+        "misconception": "menggunakan mentoring untuk menghindari umpan balik kinerja"
+      },
+      {
+        "id": "D",
+        "text": "Tindakan korektif: Memakai coaching sebagai proses pemeriksaan disiplin. Terapkan khusus dalam pegawai kesulitan memilih strategi kerja, disertai pemilik tindakan dan waktu pemantauan, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini tidak tepat karena memakai coaching sebagai proses pemeriksaan disiplin. Kekeliruannya adalah mengabaikan batas berikut: Keduanya bukan pengganti instruksi wajib atau penanganan pelanggaran.",
+        "misconception": "memakai coaching sebagai proses pemeriksaan disiplin"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "Jawaban paling tepat adalah A. Pilihan ini paling tepat karena coaching membantu pegawai menemukan langkah melalui pertanyaan dan refleksi, sedangkan mentoring memanfaatkan pengalaman mentor untuk memberi perspektif dan arahan pengembangan. Dalam konteks kasus, tindakan tersebut menjaga tujuan, batas penerapan, dan akuntabilitas keputusan. Konteks kasus: Ketika pegawai kesulitan memilih strategi kerja, muncul usulan untuk mengabaikan satu tahapan karena dianggap administratif. Keputusan tetap harus ditautkan pada tujuan dan bukti. Prinsip yang digunakan: Coaching membantu pegawai menemukan langkah melalui pertanyaan dan refleksi, sedangkan mentoring memanfaatkan pengalaman mentor untuk memberi perspektif dan arahan pengembangan. Batas penerapan: Keduanya bukan pengganti instruksi wajib atau penanganan pelanggaran. Implikasi praktisnya, pengambil keputusan perlu pilih pendekatan berdasarkan kebutuhan refleksi atau transfer pengalaman dan sepakati tujuan pengembangan. Setiap distraktor mewakili kekeliruan realistis: memberi jawaban rinci lalu menyebutnya coaching; menggunakan mentoring untuk menghindari umpan balik kinerja; memakai coaching sebagai proses pemeriksaan disiplin. Sumber berstatus non_normative dan terakhir diverifikasi 2026-08-03. Topik lanjutan: Membedakan dukungan pengembangan.",
+    "keyTakeaway": "Ingat: pilih pendekatan berdasarkan kebutuhan refleksi atau transfer pengalaman dan sepakati tujuan pengembangan.",
+    "sourceRefs": [
+      {
+        "sourceId": "SRC-SDM-2026",
+        "title": "Manajemen Pengembangan Sumber Daya Manusia DJBC",
+        "driveFileId": "17vZiwRpgx2nVTPSUCFYAbSi-jc8y6Vd8",
+        "section": "Pembelajaran Nonklasikal—Coaching dan Mentoring",
+        "pageOrSlide": null,
+        "regulationStatus": "non_normative",
+        "lastVerified": "2026-08-03"
+      }
+    ],
+    "tags": [
+      "pengembangan_sdm",
+      "coaching_mentoring",
+      "corrective_action",
+      "apply",
+      "medium"
+    ],
+    "review": {
+      "contentAccuracy": 25,
+      "sourceTraceability": 15,
+      "stemClarity": 9,
+      "distractorQuality": 9,
+      "singleBestAnswer": 10,
+      "competencyRelevance": 10,
+      "explanationQuality": 9,
+      "originality": 4,
+      "languageQuality": 3,
+      "difficultyFit": 2,
+      "total": 96,
+      "method": "rubrik_terotomasi_berbasis_unit_terverifikasi_v1"
+    },
+    "similarityGroup": null,
+    "knowledgeUnitId": "KU-MT-SDM-014-1",
+    "generationBatch": "2026.08.1000-v1",
+    "createdAt": "2026-08-03",
+    "lastReviewedAt": "2026-08-03",
+    "runtimeId": 393,
+    "selectedFromCandidateId": "CAND-MT-SDM-0130"
+  },
+  {
+    "id": "MT-SDM-0104",
+    "version": 1,
+    "status": "active",
+    "domain": "pengembangan_sdm",
+    "subdomain": "coaching_mentoring",
+    "competency": "Membedakan dukungan pengembangan",
+    "indicator": "Memilih coaching atau mentoring sesuai kebutuhan",
+    "questionType": "corrective_action",
+    "cognitiveLevel": "apply",
+    "difficulty": "medium",
+    "stem": "Hasil reviu atas calon pemimpin membutuhkan wawasan pengalaman menunjukkan adanya kesenjangan antara tujuan, bukti, dan tindakan yang dipilih. Dalam menjawab, fokuskan penilaian pada kemampuan memilih coaching atau mentoring sesuai kebutuhan. Rekomendasi korektif yang paling tepat adalah…",
+    "options": [
+      {
+        "id": "A",
+        "text": "Tindakan korektif: Pilih pendekatan berdasarkan kebutuhan refleksi atau transfer pengalaman dan sepakati tujuan pengembangan. Terapkan khusus dalam calon pemimpin membutuhkan wawasan pengalaman, disertai pemilik tindakan dan waktu pemantauan, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini paling tepat karena coaching membantu pegawai menemukan langkah melalui pertanyaan dan refleksi, sedangkan mentoring memanfaatkan pengalaman mentor untuk memberi perspektif dan arahan pengembangan. Dalam konteks kasus, tindakan tersebut menjaga tujuan, batas penerapan, dan akuntabilitas keputusan.",
+        "misconception": null
+      },
+      {
+        "id": "B",
+        "text": "Tindakan korektif: Memberi jawaban rinci lalu menyebutnya coaching. Terapkan khusus dalam calon pemimpin membutuhkan wawasan pengalaman, disertai pemilik tindakan dan waktu pemantauan, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini tidak tepat karena memberi jawaban rinci lalu menyebutnya coaching. Kekeliruannya adalah mengabaikan batas berikut: Keduanya bukan pengganti instruksi wajib atau penanganan pelanggaran.",
+        "misconception": "memberi jawaban rinci lalu menyebutnya coaching"
+      },
+      {
+        "id": "C",
+        "text": "Tindakan korektif: Menggunakan mentoring untuk menghindari umpan balik kinerja. Terapkan khusus dalam calon pemimpin membutuhkan wawasan pengalaman, disertai pemilik tindakan dan waktu pemantauan, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini tidak tepat karena menggunakan mentoring untuk menghindari umpan balik kinerja. Kekeliruannya adalah mengabaikan batas berikut: Keduanya bukan pengganti instruksi wajib atau penanganan pelanggaran.",
+        "misconception": "menggunakan mentoring untuk menghindari umpan balik kinerja"
+      },
+      {
+        "id": "D",
+        "text": "Tindakan korektif: Memakai coaching sebagai proses pemeriksaan disiplin. Terapkan khusus dalam calon pemimpin membutuhkan wawasan pengalaman, disertai pemilik tindakan dan waktu pemantauan, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini tidak tepat karena memakai coaching sebagai proses pemeriksaan disiplin. Kekeliruannya adalah mengabaikan batas berikut: Keduanya bukan pengganti instruksi wajib atau penanganan pelanggaran.",
+        "misconception": "memakai coaching sebagai proses pemeriksaan disiplin"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "Jawaban paling tepat adalah A. Pilihan ini paling tepat karena coaching membantu pegawai menemukan langkah melalui pertanyaan dan refleksi, sedangkan mentoring memanfaatkan pengalaman mentor untuk memberi perspektif dan arahan pengembangan. Dalam konteks kasus, tindakan tersebut menjaga tujuan, batas penerapan, dan akuntabilitas keputusan. Konteks kasus: Hasil reviu atas calon pemimpin membutuhkan wawasan pengalaman menunjukkan adanya kesenjangan antara tujuan, bukti, dan tindakan yang dipilih. Keputusan tetap harus ditautkan pada tujuan dan bukti. Prinsip yang digunakan: Coaching membantu pegawai menemukan langkah melalui pertanyaan dan refleksi, sedangkan mentoring memanfaatkan pengalaman mentor untuk memberi perspektif dan arahan pengembangan. Batas penerapan: Keduanya bukan pengganti instruksi wajib atau penanganan pelanggaran. Implikasi praktisnya, pengambil keputusan perlu pilih pendekatan berdasarkan kebutuhan refleksi atau transfer pengalaman dan sepakati tujuan pengembangan. Setiap distraktor mewakili kekeliruan realistis: memberi jawaban rinci lalu menyebutnya coaching; menggunakan mentoring untuk menghindari umpan balik kinerja; memakai coaching sebagai proses pemeriksaan disiplin. Sumber berstatus non_normative dan terakhir diverifikasi 2026-08-03. Topik lanjutan: Membedakan dukungan pengembangan.",
+    "keyTakeaway": "Ingat: pilih pendekatan berdasarkan kebutuhan refleksi atau transfer pengalaman dan sepakati tujuan pengembangan.",
+    "sourceRefs": [
+      {
+        "sourceId": "SRC-SDM-2026",
+        "title": "Manajemen Pengembangan Sumber Daya Manusia DJBC",
+        "driveFileId": "17vZiwRpgx2nVTPSUCFYAbSi-jc8y6Vd8",
+        "section": "Pembelajaran Nonklasikal—Coaching dan Mentoring",
+        "pageOrSlide": null,
+        "regulationStatus": "non_normative",
+        "lastVerified": "2026-08-03"
+      }
+    ],
+    "tags": [
+      "pengembangan_sdm",
+      "coaching_mentoring",
+      "corrective_action",
+      "analyze",
+      "medium"
+    ],
+    "review": {
+      "contentAccuracy": 25,
+      "sourceTraceability": 15,
+      "stemClarity": 9,
+      "distractorQuality": 9,
+      "singleBestAnswer": 10,
+      "competencyRelevance": 10,
+      "explanationQuality": 9,
+      "originality": 4,
+      "languageQuality": 3,
+      "difficultyFit": 2,
+      "total": 96,
+      "method": "rubrik_terotomasi_berbasis_unit_terverifikasi_v1"
+    },
+    "similarityGroup": null,
+    "knowledgeUnitId": "KU-MT-SDM-014-2",
+    "generationBatch": "2026.08.1000-v1",
+    "createdAt": "2026-08-03",
+    "lastReviewedAt": "2026-08-03",
+    "runtimeId": 394,
+    "selectedFromCandidateId": "CAND-MT-SDM-0131"
+  },
+  {
+    "id": "MT-SDM-0105",
+    "version": 1,
+    "status": "active",
+    "domain": "pengembangan_sdm",
+    "subdomain": "coaching_mentoring",
+    "competency": "Membedakan dukungan pengembangan",
+    "indicator": "Memilih coaching atau mentoring sesuai kebutuhan",
+    "questionType": "corrective_action",
+    "cognitiveLevel": "apply",
+    "difficulty": "medium",
+    "stem": "Dalam rapat tindak lanjut tindak lanjut hasil asesmen kompetensi, pimpinan meminta alternatif yang paling dapat dipertanggungjawabkan. Dalam menjawab, fokuskan penilaian pada kemampuan memilih coaching atau mentoring sesuai kebutuhan. Rekomendasi korektif yang paling tepat adalah…",
+    "options": [
+      {
+        "id": "A",
+        "text": "Tindakan korektif: Memberi jawaban rinci lalu menyebutnya coaching. Terapkan khusus dalam tindak lanjut hasil asesmen kompetensi, disertai pemilik tindakan dan waktu pemantauan, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini tidak tepat karena memberi jawaban rinci lalu menyebutnya coaching. Kekeliruannya adalah mengabaikan batas berikut: Keduanya bukan pengganti instruksi wajib atau penanganan pelanggaran.",
+        "misconception": "memberi jawaban rinci lalu menyebutnya coaching"
+      },
+      {
+        "id": "B",
+        "text": "Tindakan korektif: Menggunakan mentoring untuk menghindari umpan balik kinerja. Terapkan khusus dalam tindak lanjut hasil asesmen kompetensi, disertai pemilik tindakan dan waktu pemantauan, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini tidak tepat karena menggunakan mentoring untuk menghindari umpan balik kinerja. Kekeliruannya adalah mengabaikan batas berikut: Keduanya bukan pengganti instruksi wajib atau penanganan pelanggaran.",
+        "misconception": "menggunakan mentoring untuk menghindari umpan balik kinerja"
+      },
+      {
+        "id": "C",
+        "text": "Tindakan korektif: Pilih pendekatan berdasarkan kebutuhan refleksi atau transfer pengalaman dan sepakati tujuan pengembangan. Terapkan khusus dalam tindak lanjut hasil asesmen kompetensi, disertai pemilik tindakan dan waktu pemantauan, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini paling tepat karena coaching membantu pegawai menemukan langkah melalui pertanyaan dan refleksi, sedangkan mentoring memanfaatkan pengalaman mentor untuk memberi perspektif dan arahan pengembangan. Dalam konteks kasus, tindakan tersebut menjaga tujuan, batas penerapan, dan akuntabilitas keputusan.",
+        "misconception": null
+      },
+      {
+        "id": "D",
+        "text": "Tindakan korektif: Memakai coaching sebagai proses pemeriksaan disiplin. Terapkan khusus dalam tindak lanjut hasil asesmen kompetensi, disertai pemilik tindakan dan waktu pemantauan, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini tidak tepat karena memakai coaching sebagai proses pemeriksaan disiplin. Kekeliruannya adalah mengabaikan batas berikut: Keduanya bukan pengganti instruksi wajib atau penanganan pelanggaran.",
+        "misconception": "memakai coaching sebagai proses pemeriksaan disiplin"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "Jawaban paling tepat adalah C. Pilihan ini paling tepat karena coaching membantu pegawai menemukan langkah melalui pertanyaan dan refleksi, sedangkan mentoring memanfaatkan pengalaman mentor untuk memberi perspektif dan arahan pengembangan. Dalam konteks kasus, tindakan tersebut menjaga tujuan, batas penerapan, dan akuntabilitas keputusan. Konteks kasus: Dalam rapat tindak lanjut tindak lanjut hasil asesmen kompetensi, pimpinan meminta alternatif yang paling dapat dipertanggungjawabkan. Keputusan tetap harus ditautkan pada tujuan dan bukti. Prinsip yang digunakan: Coaching membantu pegawai menemukan langkah melalui pertanyaan dan refleksi, sedangkan mentoring memanfaatkan pengalaman mentor untuk memberi perspektif dan arahan pengembangan. Batas penerapan: Keduanya bukan pengganti instruksi wajib atau penanganan pelanggaran. Implikasi praktisnya, pengambil keputusan perlu pilih pendekatan berdasarkan kebutuhan refleksi atau transfer pengalaman dan sepakati tujuan pengembangan. Setiap distraktor mewakili kekeliruan realistis: memberi jawaban rinci lalu menyebutnya coaching; menggunakan mentoring untuk menghindari umpan balik kinerja; memakai coaching sebagai proses pemeriksaan disiplin. Sumber berstatus non_normative dan terakhir diverifikasi 2026-08-03. Topik lanjutan: Membedakan dukungan pengembangan.",
+    "keyTakeaway": "Ingat: pilih pendekatan berdasarkan kebutuhan refleksi atau transfer pengalaman dan sepakati tujuan pengembangan.",
+    "sourceRefs": [
+      {
+        "sourceId": "SRC-SDM-2026",
+        "title": "Manajemen Pengembangan Sumber Daya Manusia DJBC",
+        "driveFileId": "17vZiwRpgx2nVTPSUCFYAbSi-jc8y6Vd8",
+        "section": "Pembelajaran Nonklasikal—Coaching dan Mentoring",
+        "pageOrSlide": null,
+        "regulationStatus": "non_normative",
+        "lastVerified": "2026-08-03"
+      }
+    ],
+    "tags": [
+      "pengembangan_sdm",
+      "coaching_mentoring",
+      "corrective_action",
+      "analyze",
+      "medium"
+    ],
+    "review": {
+      "contentAccuracy": 25,
+      "sourceTraceability": 15,
+      "stemClarity": 9,
+      "distractorQuality": 9,
+      "singleBestAnswer": 10,
+      "competencyRelevance": 10,
+      "explanationQuality": 9,
+      "originality": 4,
+      "languageQuality": 3,
+      "difficultyFit": 2,
+      "total": 96,
+      "method": "rubrik_terotomasi_berbasis_unit_terverifikasi_v1"
+    },
+    "similarityGroup": null,
+    "knowledgeUnitId": "KU-MT-SDM-014-3",
+    "generationBatch": "2026.08.1000-v1",
+    "createdAt": "2026-08-03",
+    "lastReviewedAt": "2026-08-03",
+    "runtimeId": 395,
+    "selectedFromCandidateId": "CAND-MT-SDM-0132"
+  },
+  {
+    "id": "MT-SDM-0106",
+    "version": 1,
+    "status": "active",
+    "domain": "pengembangan_sdm",
+    "subdomain": "monev_pengembangan",
+    "competency": "Mengevaluasi program pengembangan",
+    "indicator": "Membedakan pemantauan dan evaluasi",
+    "questionType": "corrective_action",
+    "cognitiveLevel": "analyze",
+    "difficulty": "hard",
+    "stem": "Unit harus memperbaiki review program semester berjalan tanpa menambah risiko kepatuhan atau mengurangi kualitas keputusan. Dalam menjawab, fokuskan penilaian pada kemampuan membedakan pemantauan dan evaluasi. Rekomendasi korektif yang paling tepat adalah…",
+    "options": [
+      {
+        "id": "A",
+        "text": "Tindakan korektif: Pantau pelaksanaan dan ukur perubahan kemampuan atau kinerja untuk menentukan perbaikan. Terapkan khusus dalam review program semester berjalan, disertai pemilik tindakan dan waktu pemantauan, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini paling tepat karena pemantauan memastikan pelaksanaan sesuai rencana; evaluasi menilai kesesuaian, kemanfaatan, dan kebutuhan masa mendatang. Dalam konteks kasus, tindakan tersebut menjaga tujuan, batas penerapan, dan akuntabilitas keputusan.",
+        "misconception": null
+      },
+      {
+        "id": "B",
+        "text": "Tindakan korektif: Menutup program setelah daftar hadir lengkap. Terapkan khusus dalam review program semester berjalan, disertai pemilik tindakan dan waktu pemantauan, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini tidak tepat karena menutup program setelah daftar hadir lengkap. Kekeliruannya adalah mengabaikan batas berikut: Kehadiran peserta saja belum membuktikan manfaat pembelajaran.",
+        "misconception": "menutup program setelah daftar hadir lengkap"
+      },
+      {
+        "id": "C",
+        "text": "Tindakan korektif: Menyamakan kepuasan peserta dengan dampak kinerja. Terapkan khusus dalam review program semester berjalan, disertai pemilik tindakan dan waktu pemantauan, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini tidak tepat karena menyamakan kepuasan peserta dengan dampak kinerja. Kekeliruannya adalah mengabaikan batas berikut: Kehadiran peserta saja belum membuktikan manfaat pembelajaran.",
+        "misconception": "menyamakan kepuasan peserta dengan dampak kinerja"
+      },
+      {
+        "id": "D",
+        "text": "Tindakan korektif: Mengubah program tanpa membandingkan rencana dan hasil. Terapkan khusus dalam review program semester berjalan, disertai pemilik tindakan dan waktu pemantauan, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini tidak tepat karena mengubah program tanpa membandingkan rencana dan hasil. Kekeliruannya adalah mengabaikan batas berikut: Kehadiran peserta saja belum membuktikan manfaat pembelajaran.",
+        "misconception": "mengubah program tanpa membandingkan rencana dan hasil"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "Jawaban paling tepat adalah A. Pilihan ini paling tepat karena pemantauan memastikan pelaksanaan sesuai rencana; evaluasi menilai kesesuaian, kemanfaatan, dan kebutuhan masa mendatang. Dalam konteks kasus, tindakan tersebut menjaga tujuan, batas penerapan, dan akuntabilitas keputusan. Konteks kasus: Unit harus memperbaiki review program semester berjalan tanpa menambah risiko kepatuhan atau mengurangi kualitas keputusan. Keputusan tetap harus ditautkan pada tujuan dan bukti. Prinsip yang digunakan: Pemantauan memastikan pelaksanaan sesuai rencana; evaluasi menilai kesesuaian, kemanfaatan, dan kebutuhan masa mendatang. Batas penerapan: Kehadiran peserta saja belum membuktikan manfaat pembelajaran. Implikasi praktisnya, pengambil keputusan perlu pantau pelaksanaan dan ukur perubahan kemampuan atau kinerja untuk menentukan perbaikan. Setiap distraktor mewakili kekeliruan realistis: menutup program setelah daftar hadir lengkap; menyamakan kepuasan peserta dengan dampak kinerja; mengubah program tanpa membandingkan rencana dan hasil. Sumber berstatus non_normative dan terakhir diverifikasi 2026-08-03. Topik lanjutan: Mengevaluasi program pengembangan.",
+    "keyTakeaway": "Ingat: pantau pelaksanaan dan ukur perubahan kemampuan atau kinerja untuk menentukan perbaikan.",
+    "sourceRefs": [
+      {
+        "sourceId": "SRC-SDM-2026",
+        "title": "Manajemen Pengembangan Sumber Daya Manusia DJBC",
+        "driveFileId": "17vZiwRpgx2nVTPSUCFYAbSi-jc8y6Vd8",
+        "section": "Monitoring dan Evaluasi Pengembangan",
+        "pageOrSlide": null,
+        "regulationStatus": "non_normative",
+        "lastVerified": "2026-08-03"
+      }
+    ],
+    "tags": [
+      "pengembangan_sdm",
+      "monev_pengembangan",
+      "corrective_action",
+      "analyze",
+      "medium"
+    ],
+    "review": {
+      "contentAccuracy": 25,
+      "sourceTraceability": 15,
+      "stemClarity": 9,
+      "distractorQuality": 9,
+      "singleBestAnswer": 10,
+      "competencyRelevance": 10,
+      "explanationQuality": 9,
+      "originality": 4,
+      "languageQuality": 3,
+      "difficultyFit": 2,
+      "total": 96,
+      "method": "rubrik_terotomasi_berbasis_unit_terverifikasi_v1"
+    },
+    "similarityGroup": null,
+    "knowledgeUnitId": "KU-MT-SDM-015-1",
+    "generationBatch": "2026.08.1000-v1",
+    "createdAt": "2026-08-03",
+    "lastReviewedAt": "2026-08-03",
+    "runtimeId": 396,
+    "selectedFromCandidateId": "CAND-MT-SDM-0133"
+  },
+  {
+    "id": "MT-SDM-0107",
+    "version": 1,
+    "status": "active",
+    "domain": "pengembangan_sdm",
+    "subdomain": "analisis_kebutuhan",
+    "competency": "Menganalisis kebutuhan pengembangan",
+    "indicator": "Menghubungkan gap dengan intervensi",
+    "questionType": "leadership_evaluation",
+    "cognitiveLevel": "apply",
+    "difficulty": "easy",
+    "stem": "Seorang koordinator baru mengambil alih penyusunan rencana pengembangan unit. Dokumentasi lama tidak cukup menjelaskan alasan keputusan. Dalam menjawab, fokuskan penilaian pada kemampuan menghubungkan gap dengan intervensi. Nasihat yang paling tepat kepada pimpinan adalah…",
+    "options": [
+      {
+        "id": "A",
+        "text": "Nasihat kepemimpinan: Memilih pelatihan dari popularitasnya. Terapkan khusus dalam penyusunan rencana pengembangan unit, lalu mengomunikasikan pertimbangan kepada pihak yang berwenang, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini tidak tepat karena memilih pelatihan dari popularitasnya. Kekeliruannya adalah mengabaikan batas berikut: Program populer tidak otomatis relevan untuk setiap gap.",
+        "misconception": "memilih pelatihan dari popularitasnya"
+      },
+      {
+        "id": "B",
+        "text": "Nasihat kepemimpinan: Mengukur kebutuhan hanya dari aspirasi individu. Terapkan khusus dalam penyusunan rencana pengembangan unit, lalu mengomunikasikan pertimbangan kepada pihak yang berwenang, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini tidak tepat karena mengukur kebutuhan hanya dari aspirasi individu. Kekeliruannya adalah mengabaikan batas berikut: Program populer tidak otomatis relevan untuk setiap gap.",
+        "misconception": "mengukur kebutuhan hanya dari aspirasi individu"
+      },
+      {
+        "id": "C",
+        "text": "Nasihat kepemimpinan: Menyamakan kebutuhan semua pegawai. Terapkan khusus dalam penyusunan rencana pengembangan unit, lalu mengomunikasikan pertimbangan kepada pihak yang berwenang, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini tidak tepat karena menyamakan kebutuhan semua pegawai. Kekeliruannya adalah mengabaikan batas berikut: Program populer tidak otomatis relevan untuk setiap gap.",
+        "misconception": "menyamakan kebutuhan semua pegawai"
+      },
+      {
+        "id": "D",
+        "text": "Nasihat kepemimpinan: Rumuskan gap dan hasil yang diharapkan sebelum memilih metode pengembangan. Terapkan khusus dalam penyusunan rencana pengembangan unit, lalu mengomunikasikan pertimbangan kepada pihak yang berwenang, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini paling tepat karena analisis kebutuhan pengembangan mempertimbangkan kompetensi, kinerja, mandatory jabatan, isu strategis, posisi box, dan kesenjangan kompetensi. Dalam konteks kasus, tindakan tersebut menjaga tujuan, batas penerapan, dan akuntabilitas keputusan.",
+        "misconception": null
+      }
+    ],
+    "correctOptionId": "D",
+    "explanation": "Jawaban paling tepat adalah D. Pilihan ini paling tepat karena analisis kebutuhan pengembangan mempertimbangkan kompetensi, kinerja, mandatory jabatan, isu strategis, posisi box, dan kesenjangan kompetensi. Dalam konteks kasus, tindakan tersebut menjaga tujuan, batas penerapan, dan akuntabilitas keputusan. Konteks kasus: Seorang koordinator baru mengambil alih penyusunan rencana pengembangan unit. Dokumentasi lama tidak cukup menjelaskan alasan keputusan. Keputusan tetap harus ditautkan pada tujuan dan bukti. Prinsip yang digunakan: Analisis kebutuhan pengembangan mempertimbangkan kompetensi, kinerja, mandatory jabatan, isu strategis, posisi box, dan kesenjangan kompetensi. Batas penerapan: Program populer tidak otomatis relevan untuk setiap gap. Implikasi praktisnya, pengambil keputusan perlu rumuskan gap dan hasil yang diharapkan sebelum memilih metode pengembangan. Setiap distraktor mewakili kekeliruan realistis: memilih pelatihan dari popularitasnya; menyamakan kebutuhan semua pegawai; mengukur kebutuhan hanya dari aspirasi individu. Sumber berstatus non_normative dan terakhir diverifikasi 2026-08-03. Topik lanjutan: Menganalisis kebutuhan pengembangan.",
+    "keyTakeaway": "Ingat: rumuskan gap dan hasil yang diharapkan sebelum memilih metode pengembangan.",
+    "sourceRefs": [
+      {
+        "sourceId": "SRC-SDM-2026",
+        "title": "Manajemen Pengembangan Sumber Daya Manusia DJBC",
+        "driveFileId": "17vZiwRpgx2nVTPSUCFYAbSi-jc8y6Vd8",
+        "section": "Input dan Analisis Kebutuhan Pembelajaran",
+        "pageOrSlide": null,
+        "regulationStatus": "non_normative",
+        "lastVerified": "2026-08-03"
+      }
+    ],
+    "tags": [
+      "pengembangan_sdm",
+      "analisis_kebutuhan",
+      "leadership_evaluation",
+      "analyze",
+      "hard"
+    ],
+    "review": {
+      "contentAccuracy": 25,
+      "sourceTraceability": 15,
+      "stemClarity": 9,
+      "distractorQuality": 9,
+      "singleBestAnswer": 10,
+      "competencyRelevance": 10,
+      "explanationQuality": 9,
+      "originality": 4,
+      "languageQuality": 3,
+      "difficultyFit": 2,
+      "total": 96,
+      "method": "rubrik_terotomasi_berbasis_unit_terverifikasi_v1"
+    },
+    "similarityGroup": null,
+    "knowledgeUnitId": "KU-MT-SDM-011-1",
+    "generationBatch": "2026.08.1000-v1",
+    "createdAt": "2026-08-03",
+    "lastReviewedAt": "2026-08-03",
+    "runtimeId": 397,
+    "selectedFromCandidateId": "CAND-MT-SDM-0136"
+  },
+  {
+    "id": "MT-SDM-0108",
+    "version": 1,
+    "status": "active",
+    "domain": "pengembangan_sdm",
+    "subdomain": "analisis_kebutuhan",
+    "competency": "Menganalisis kebutuhan pengembangan",
+    "indicator": "Menghubungkan gap dengan intervensi",
+    "questionType": "leadership_evaluation",
+    "cognitiveLevel": "apply",
+    "difficulty": "medium",
+    "stem": "Pada tahap pemantauan usulan pembelajaran individu, hasil terlihat baik tetapi terdapat sinyal bahwa proses belum konsisten. Dalam menjawab, fokuskan penilaian pada kemampuan menghubungkan gap dengan intervensi. Nasihat yang paling tepat kepada pimpinan adalah…",
+    "options": [
+      {
+        "id": "A",
+        "text": "Nasihat kepemimpinan: Memilih pelatihan dari popularitasnya. Terapkan khusus dalam usulan pembelajaran individu, lalu mengomunikasikan pertimbangan kepada pihak yang berwenang, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini tidak tepat karena memilih pelatihan dari popularitasnya. Kekeliruannya adalah mengabaikan batas berikut: Program populer tidak otomatis relevan untuk setiap gap.",
+        "misconception": "memilih pelatihan dari popularitasnya"
+      },
+      {
+        "id": "B",
+        "text": "Nasihat kepemimpinan: Rumuskan gap dan hasil yang diharapkan sebelum memilih metode pengembangan. Terapkan khusus dalam usulan pembelajaran individu, lalu mengomunikasikan pertimbangan kepada pihak yang berwenang, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini paling tepat karena analisis kebutuhan pengembangan mempertimbangkan kompetensi, kinerja, mandatory jabatan, isu strategis, posisi box, dan kesenjangan kompetensi. Dalam konteks kasus, tindakan tersebut menjaga tujuan, batas penerapan, dan akuntabilitas keputusan.",
+        "misconception": null
+      },
+      {
+        "id": "C",
+        "text": "Nasihat kepemimpinan: Menyamakan kebutuhan semua pegawai. Terapkan khusus dalam usulan pembelajaran individu, lalu mengomunikasikan pertimbangan kepada pihak yang berwenang, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini tidak tepat karena menyamakan kebutuhan semua pegawai. Kekeliruannya adalah mengabaikan batas berikut: Program populer tidak otomatis relevan untuk setiap gap.",
+        "misconception": "menyamakan kebutuhan semua pegawai"
+      },
+      {
+        "id": "D",
+        "text": "Nasihat kepemimpinan: Mengukur kebutuhan hanya dari aspirasi individu. Terapkan khusus dalam usulan pembelajaran individu, lalu mengomunikasikan pertimbangan kepada pihak yang berwenang, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini tidak tepat karena mengukur kebutuhan hanya dari aspirasi individu. Kekeliruannya adalah mengabaikan batas berikut: Program populer tidak otomatis relevan untuk setiap gap.",
+        "misconception": "mengukur kebutuhan hanya dari aspirasi individu"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "Jawaban paling tepat adalah B. Pilihan ini paling tepat karena analisis kebutuhan pengembangan mempertimbangkan kompetensi, kinerja, mandatory jabatan, isu strategis, posisi box, dan kesenjangan kompetensi. Dalam konteks kasus, tindakan tersebut menjaga tujuan, batas penerapan, dan akuntabilitas keputusan. Konteks kasus: Pada tahap pemantauan usulan pembelajaran individu, hasil terlihat baik tetapi terdapat sinyal bahwa proses belum konsisten. Keputusan tetap harus ditautkan pada tujuan dan bukti. Prinsip yang digunakan: Analisis kebutuhan pengembangan mempertimbangkan kompetensi, kinerja, mandatory jabatan, isu strategis, posisi box, dan kesenjangan kompetensi. Batas penerapan: Program populer tidak otomatis relevan untuk setiap gap. Implikasi praktisnya, pengambil keputusan perlu rumuskan gap dan hasil yang diharapkan sebelum memilih metode pengembangan. Setiap distraktor mewakili kekeliruan realistis: memilih pelatihan dari popularitasnya; menyamakan kebutuhan semua pegawai; mengukur kebutuhan hanya dari aspirasi individu. Sumber berstatus non_normative dan terakhir diverifikasi 2026-08-03. Topik lanjutan: Menganalisis kebutuhan pengembangan.",
+    "keyTakeaway": "Ingat: rumuskan gap dan hasil yang diharapkan sebelum memilih metode pengembangan.",
+    "sourceRefs": [
+      {
+        "sourceId": "SRC-SDM-2026",
+        "title": "Manajemen Pengembangan Sumber Daya Manusia DJBC",
+        "driveFileId": "17vZiwRpgx2nVTPSUCFYAbSi-jc8y6Vd8",
+        "section": "Input dan Analisis Kebutuhan Pembelajaran",
+        "pageOrSlide": null,
+        "regulationStatus": "non_normative",
+        "lastVerified": "2026-08-03"
+      }
+    ],
+    "tags": [
+      "pengembangan_sdm",
+      "analisis_kebutuhan",
+      "leadership_evaluation",
+      "analyze",
+      "hard"
+    ],
+    "review": {
+      "contentAccuracy": 25,
+      "sourceTraceability": 15,
+      "stemClarity": 9,
+      "distractorQuality": 9,
+      "singleBestAnswer": 10,
+      "competencyRelevance": 10,
+      "explanationQuality": 9,
+      "originality": 4,
+      "languageQuality": 3,
+      "difficultyFit": 2,
+      "total": 96,
+      "method": "rubrik_terotomasi_berbasis_unit_terverifikasi_v1"
+    },
+    "similarityGroup": null,
+    "knowledgeUnitId": "KU-MT-SDM-011-2",
+    "generationBatch": "2026.08.1000-v1",
+    "createdAt": "2026-08-03",
+    "lastReviewedAt": "2026-08-03",
+    "runtimeId": 398,
+    "selectedFromCandidateId": "CAND-MT-SDM-0137"
+  },
+  {
+    "id": "MT-SDM-0109",
+    "version": 1,
+    "status": "active",
+    "domain": "pengembangan_sdm",
+    "subdomain": "analisis_kebutuhan",
+    "competency": "Menganalisis kebutuhan pengembangan",
+    "indicator": "Menghubungkan gap dengan intervensi",
+    "questionType": "situational_judgment",
+    "cognitiveLevel": "analyze",
+    "difficulty": "medium",
+    "stem": "Ketika respons terhadap isu strategis baru, muncul usulan untuk mengabaikan satu tahapan karena dianggap administratif. Dalam menjawab, fokuskan penilaian pada kemampuan menghubungkan gap dengan intervensi. Nasihat yang paling tepat kepada pimpinan adalah…",
+    "options": [
+      {
+        "id": "A",
+        "text": "Nasihat kepemimpinan: Rumuskan gap dan hasil yang diharapkan sebelum memilih metode pengembangan. Terapkan khusus dalam respons terhadap isu strategis baru, lalu mengomunikasikan pertimbangan kepada pihak yang berwenang, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini paling tepat karena analisis kebutuhan pengembangan mempertimbangkan kompetensi, kinerja, mandatory jabatan, isu strategis, posisi box, dan kesenjangan kompetensi. Dalam konteks kasus, tindakan tersebut menjaga tujuan, batas penerapan, dan akuntabilitas keputusan.",
+        "misconception": null
+      },
+      {
+        "id": "B",
+        "text": "Nasihat kepemimpinan: Memilih pelatihan dari popularitasnya. Terapkan khusus dalam respons terhadap isu strategis baru, lalu mengomunikasikan pertimbangan kepada pihak yang berwenang, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini tidak tepat karena memilih pelatihan dari popularitasnya. Kekeliruannya adalah mengabaikan batas berikut: Program populer tidak otomatis relevan untuk setiap gap.",
+        "misconception": "memilih pelatihan dari popularitasnya"
+      },
+      {
+        "id": "C",
+        "text": "Nasihat kepemimpinan: Menyamakan kebutuhan semua pegawai. Terapkan khusus dalam respons terhadap isu strategis baru, lalu mengomunikasikan pertimbangan kepada pihak yang berwenang, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini tidak tepat karena menyamakan kebutuhan semua pegawai. Kekeliruannya adalah mengabaikan batas berikut: Program populer tidak otomatis relevan untuk setiap gap.",
+        "misconception": "menyamakan kebutuhan semua pegawai"
+      },
+      {
+        "id": "D",
+        "text": "Nasihat kepemimpinan: Mengukur kebutuhan hanya dari aspirasi individu. Terapkan khusus dalam respons terhadap isu strategis baru, lalu mengomunikasikan pertimbangan kepada pihak yang berwenang, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini tidak tepat karena mengukur kebutuhan hanya dari aspirasi individu. Kekeliruannya adalah mengabaikan batas berikut: Program populer tidak otomatis relevan untuk setiap gap.",
+        "misconception": "mengukur kebutuhan hanya dari aspirasi individu"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "Jawaban paling tepat adalah A. Pilihan ini paling tepat karena analisis kebutuhan pengembangan mempertimbangkan kompetensi, kinerja, mandatory jabatan, isu strategis, posisi box, dan kesenjangan kompetensi. Dalam konteks kasus, tindakan tersebut menjaga tujuan, batas penerapan, dan akuntabilitas keputusan. Konteks kasus: Ketika respons terhadap isu strategis baru, muncul usulan untuk mengabaikan satu tahapan karena dianggap administratif. Keputusan tetap harus ditautkan pada tujuan dan bukti. Prinsip yang digunakan: Analisis kebutuhan pengembangan mempertimbangkan kompetensi, kinerja, mandatory jabatan, isu strategis, posisi box, dan kesenjangan kompetensi. Batas penerapan: Program populer tidak otomatis relevan untuk setiap gap. Implikasi praktisnya, pengambil keputusan perlu rumuskan gap dan hasil yang diharapkan sebelum memilih metode pengembangan. Setiap distraktor mewakili kekeliruan realistis: memilih pelatihan dari popularitasnya; menyamakan kebutuhan semua pegawai; mengukur kebutuhan hanya dari aspirasi individu. Sumber berstatus non_normative dan terakhir diverifikasi 2026-08-03. Topik lanjutan: Menganalisis kebutuhan pengembangan.",
+    "keyTakeaway": "Ingat: rumuskan gap dan hasil yang diharapkan sebelum memilih metode pengembangan.",
+    "sourceRefs": [
+      {
+        "sourceId": "SRC-SDM-2026",
+        "title": "Manajemen Pengembangan Sumber Daya Manusia DJBC",
+        "driveFileId": "17vZiwRpgx2nVTPSUCFYAbSi-jc8y6Vd8",
+        "section": "Input dan Analisis Kebutuhan Pembelajaran",
+        "pageOrSlide": null,
+        "regulationStatus": "non_normative",
+        "lastVerified": "2026-08-03"
+      }
+    ],
+    "tags": [
+      "pengembangan_sdm",
+      "analisis_kebutuhan",
+      "situational_judgment",
+      "evaluate",
+      "hard"
+    ],
+    "review": {
+      "contentAccuracy": 25,
+      "sourceTraceability": 15,
+      "stemClarity": 9,
+      "distractorQuality": 9,
+      "singleBestAnswer": 10,
+      "competencyRelevance": 10,
+      "explanationQuality": 9,
+      "originality": 4,
+      "languageQuality": 3,
+      "difficultyFit": 2,
+      "total": 96,
+      "method": "rubrik_terotomasi_berbasis_unit_terverifikasi_v1"
+    },
+    "similarityGroup": null,
+    "knowledgeUnitId": "KU-MT-SDM-011-3",
+    "generationBatch": "2026.08.1000-v1",
+    "createdAt": "2026-08-03",
+    "lastReviewedAt": "2026-08-03",
+    "runtimeId": 399,
+    "selectedFromCandidateId": "CAND-MT-SDM-0138"
+  },
+  {
+    "id": "MT-SDM-0110",
+    "version": 1,
+    "status": "active",
+    "domain": "pengembangan_sdm",
+    "subdomain": "pendidikan_pembelajaran",
+    "competency": "Membedakan bentuk pengembangan SDM",
+    "indicator": "Menentukan pendidikan atau pembelajaran yang tepat",
+    "questionType": "situational_judgment",
+    "cognitiveLevel": "analyze",
+    "difficulty": "hard",
+    "stem": "Hasil reviu atas gap pengetahuan formal mendalam menunjukkan adanya kesenjangan antara tujuan, bukti, dan tindakan yang dipilih. Dalam menjawab, fokuskan penilaian pada kemampuan menentukan pendidikan atau pembelajaran yang tepat. Nasihat yang paling tepat kepada pimpinan adalah…",
+    "options": [
+      {
+        "id": "A",
+        "text": "Nasihat kepemimpinan: Membatasi pembelajaran pada pelatihan kelas. Terapkan khusus dalam gap pengetahuan formal mendalam, lalu mengomunikasikan pertimbangan kepada pihak yang berwenang, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini tidak tepat karena membatasi pembelajaran pada pelatihan kelas. Kekeliruannya adalah mengabaikan batas berikut: Tidak semua gap membutuhkan pendidikan formal dan tidak semua pembelajaran harus berupa kelas.",
+        "misconception": "membatasi pembelajaran pada pelatihan kelas"
+      },
+      {
+        "id": "B",
+        "text": "Nasihat kepemimpinan: Pilih bentuk pengembangan berdasarkan jenis gap, hasil yang dibutuhkan, dan konteks pekerjaan. Terapkan khusus dalam gap pengetahuan formal mendalam, lalu mengomunikasikan pertimbangan kepada pihak yang berwenang, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini paling tepat karena pengembangan sdm mencakup pendidikan formal/tugas belajar dan pembelajaran melalui metode klasikal maupun nonklasikal. Dalam konteks kasus, tindakan tersebut menjaga tujuan, batas penerapan, dan akuntabilitas keputusan.",
+        "misconception": null
+      },
+      {
+        "id": "C",
+        "text": "Nasihat kepemimpinan: Mengirim tugas belajar untuk gap keterampilan jangka pendek. Terapkan khusus dalam gap pengetahuan formal mendalam, lalu mengomunikasikan pertimbangan kepada pihak yang berwenang, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini tidak tepat karena mengirim tugas belajar untuk gap keterampilan jangka pendek. Kekeliruannya adalah mengabaikan batas berikut: Tidak semua gap membutuhkan pendidikan formal dan tidak semua pembelajaran harus berupa kelas.",
+        "misconception": "mengirim tugas belajar untuk gap keterampilan jangka pendek"
+      },
+      {
+        "id": "D",
+        "text": "Nasihat kepemimpinan: Menganggap belajar di tempat kerja bukan pengembangan. Terapkan khusus dalam gap pengetahuan formal mendalam, lalu mengomunikasikan pertimbangan kepada pihak yang berwenang, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini tidak tepat karena menganggap belajar di tempat kerja bukan pengembangan. Kekeliruannya adalah mengabaikan batas berikut: Tidak semua gap membutuhkan pendidikan formal dan tidak semua pembelajaran harus berupa kelas.",
+        "misconception": "menganggap belajar di tempat kerja bukan pengembangan"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "Jawaban paling tepat adalah B. Pilihan ini paling tepat karena pengembangan sdm mencakup pendidikan formal/tugas belajar dan pembelajaran melalui metode klasikal maupun nonklasikal. Dalam konteks kasus, tindakan tersebut menjaga tujuan, batas penerapan, dan akuntabilitas keputusan. Konteks kasus: Hasil reviu atas gap pengetahuan formal mendalam menunjukkan adanya kesenjangan antara tujuan, bukti, dan tindakan yang dipilih. Keputusan tetap harus ditautkan pada tujuan dan bukti. Prinsip yang digunakan: Pengembangan SDM mencakup pendidikan formal/tugas belajar dan pembelajaran melalui metode klasikal maupun nonklasikal. Batas penerapan: Tidak semua gap membutuhkan pendidikan formal dan tidak semua pembelajaran harus berupa kelas. Implikasi praktisnya, pengambil keputusan perlu pilih bentuk pengembangan berdasarkan jenis gap, hasil yang dibutuhkan, dan konteks pekerjaan. Setiap distraktor mewakili kekeliruan realistis: mengirim tugas belajar untuk gap keterampilan jangka pendek; membatasi pembelajaran pada pelatihan kelas; menganggap belajar di tempat kerja bukan pengembangan. Sumber berstatus non_normative dan terakhir diverifikasi 2026-08-03. Topik lanjutan: Membedakan bentuk pengembangan SDM.",
+    "keyTakeaway": "Ingat: pilih bentuk pengembangan berdasarkan jenis gap, hasil yang dibutuhkan, dan konteks pekerjaan.",
+    "sourceRefs": [
+      {
+        "sourceId": "SRC-SDM-2026",
+        "title": "Manajemen Pengembangan Sumber Daya Manusia DJBC",
+        "driveFileId": "17vZiwRpgx2nVTPSUCFYAbSi-jc8y6Vd8",
+        "section": "Bentuk Pengembangan SDM",
+        "pageOrSlide": null,
+        "regulationStatus": "non_normative",
+        "lastVerified": "2026-08-03"
+      }
+    ],
+    "tags": [
+      "pengembangan_sdm",
+      "pendidikan_pembelajaran",
+      "situational_judgment",
+      "evaluate",
+      "hard"
+    ],
+    "review": {
+      "contentAccuracy": 25,
+      "sourceTraceability": 15,
+      "stemClarity": 9,
+      "distractorQuality": 9,
+      "singleBestAnswer": 10,
+      "competencyRelevance": 10,
+      "explanationQuality": 9,
+      "originality": 4,
+      "languageQuality": 3,
+      "difficultyFit": 2,
+      "total": 96,
+      "method": "rubrik_terotomasi_berbasis_unit_terverifikasi_v1"
+    },
+    "similarityGroup": null,
+    "knowledgeUnitId": "KU-MT-SDM-012-1",
+    "generationBatch": "2026.08.1000-v1",
+    "createdAt": "2026-08-03",
+    "lastReviewedAt": "2026-08-03",
+    "runtimeId": 400,
+    "selectedFromCandidateId": "CAND-MT-SDM-0139"
+  },
+  {
+    "id": "MT-SDM-0111",
+    "version": 1,
+    "status": "active",
+    "domain": "pengembangan_sdm",
+    "subdomain": "pendidikan_pembelajaran",
+    "competency": "Membedakan bentuk pengembangan SDM",
+    "indicator": "Menentukan pendidikan atau pembelajaran yang tepat",
+    "questionType": "situational_judgment",
+    "cognitiveLevel": "analyze",
+    "difficulty": "easy",
+    "stem": "Dalam rapat tindak lanjut kebutuhan keterampilan operasional, pimpinan meminta alternatif yang paling dapat dipertanggungjawabkan. Dalam menjawab, fokuskan penilaian pada kemampuan menentukan pendidikan atau pembelajaran yang tepat. Nasihat yang paling tepat kepada pimpinan adalah…",
+    "options": [
+      {
+        "id": "A",
+        "text": "Nasihat kepemimpinan: Mengirim tugas belajar untuk gap keterampilan jangka pendek. Terapkan khusus dalam kebutuhan keterampilan operasional, lalu mengomunikasikan pertimbangan kepada pihak yang berwenang, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini tidak tepat karena mengirim tugas belajar untuk gap keterampilan jangka pendek. Kekeliruannya adalah mengabaikan batas berikut: Tidak semua gap membutuhkan pendidikan formal dan tidak semua pembelajaran harus berupa kelas.",
+        "misconception": "mengirim tugas belajar untuk gap keterampilan jangka pendek"
+      },
+      {
+        "id": "B",
+        "text": "Nasihat kepemimpinan: Menganggap belajar di tempat kerja bukan pengembangan. Terapkan khusus dalam kebutuhan keterampilan operasional, lalu mengomunikasikan pertimbangan kepada pihak yang berwenang, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini tidak tepat karena menganggap belajar di tempat kerja bukan pengembangan. Kekeliruannya adalah mengabaikan batas berikut: Tidak semua gap membutuhkan pendidikan formal dan tidak semua pembelajaran harus berupa kelas.",
+        "misconception": "menganggap belajar di tempat kerja bukan pengembangan"
+      },
+      {
+        "id": "C",
+        "text": "Nasihat kepemimpinan: Membatasi pembelajaran pada pelatihan kelas. Terapkan khusus dalam kebutuhan keterampilan operasional, lalu mengomunikasikan pertimbangan kepada pihak yang berwenang, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini tidak tepat karena membatasi pembelajaran pada pelatihan kelas. Kekeliruannya adalah mengabaikan batas berikut: Tidak semua gap membutuhkan pendidikan formal dan tidak semua pembelajaran harus berupa kelas.",
+        "misconception": "membatasi pembelajaran pada pelatihan kelas"
+      },
+      {
+        "id": "D",
+        "text": "Nasihat kepemimpinan: Pilih bentuk pengembangan berdasarkan jenis gap, hasil yang dibutuhkan, dan konteks pekerjaan. Terapkan khusus dalam kebutuhan keterampilan operasional, lalu mengomunikasikan pertimbangan kepada pihak yang berwenang, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini paling tepat karena pengembangan sdm mencakup pendidikan formal/tugas belajar dan pembelajaran melalui metode klasikal maupun nonklasikal. Dalam konteks kasus, tindakan tersebut menjaga tujuan, batas penerapan, dan akuntabilitas keputusan.",
+        "misconception": null
+      }
+    ],
+    "correctOptionId": "D",
+    "explanation": "Jawaban paling tepat adalah D. Pilihan ini paling tepat karena pengembangan sdm mencakup pendidikan formal/tugas belajar dan pembelajaran melalui metode klasikal maupun nonklasikal. Dalam konteks kasus, tindakan tersebut menjaga tujuan, batas penerapan, dan akuntabilitas keputusan. Konteks kasus: Dalam rapat tindak lanjut kebutuhan keterampilan operasional, pimpinan meminta alternatif yang paling dapat dipertanggungjawabkan. Keputusan tetap harus ditautkan pada tujuan dan bukti. Prinsip yang digunakan: Pengembangan SDM mencakup pendidikan formal/tugas belajar dan pembelajaran melalui metode klasikal maupun nonklasikal. Batas penerapan: Tidak semua gap membutuhkan pendidikan formal dan tidak semua pembelajaran harus berupa kelas. Implikasi praktisnya, pengambil keputusan perlu pilih bentuk pengembangan berdasarkan jenis gap, hasil yang dibutuhkan, dan konteks pekerjaan. Setiap distraktor mewakili kekeliruan realistis: mengirim tugas belajar untuk gap keterampilan jangka pendek; membatasi pembelajaran pada pelatihan kelas; menganggap belajar di tempat kerja bukan pengembangan. Sumber berstatus non_normative dan terakhir diverifikasi 2026-08-03. Topik lanjutan: Membedakan bentuk pengembangan SDM.",
+    "keyTakeaway": "Ingat: pilih bentuk pengembangan berdasarkan jenis gap, hasil yang dibutuhkan, dan konteks pekerjaan.",
+    "sourceRefs": [
+      {
+        "sourceId": "SRC-SDM-2026",
+        "title": "Manajemen Pengembangan Sumber Daya Manusia DJBC",
+        "driveFileId": "17vZiwRpgx2nVTPSUCFYAbSi-jc8y6Vd8",
+        "section": "Bentuk Pengembangan SDM",
+        "pageOrSlide": null,
+        "regulationStatus": "non_normative",
+        "lastVerified": "2026-08-03"
+      }
+    ],
+    "tags": [
+      "pengembangan_sdm",
+      "pendidikan_pembelajaran",
+      "situational_judgment",
+      "evaluate",
+      "hard"
+    ],
+    "review": {
+      "contentAccuracy": 25,
+      "sourceTraceability": 15,
+      "stemClarity": 9,
+      "distractorQuality": 9,
+      "singleBestAnswer": 10,
+      "competencyRelevance": 10,
+      "explanationQuality": 9,
+      "originality": 4,
+      "languageQuality": 3,
+      "difficultyFit": 2,
+      "total": 96,
+      "method": "rubrik_terotomasi_berbasis_unit_terverifikasi_v1"
+    },
+    "similarityGroup": null,
+    "knowledgeUnitId": "KU-MT-SDM-012-2",
+    "generationBatch": "2026.08.1000-v1",
+    "createdAt": "2026-08-03",
+    "lastReviewedAt": "2026-08-03",
+    "runtimeId": 401,
+    "selectedFromCandidateId": "CAND-MT-SDM-0140"
+  },
+  {
+    "id": "MT-SDM-0112",
+    "version": 1,
+    "status": "active",
+    "domain": "pengembangan_sdm",
+    "subdomain": "model_70_20_10",
+    "competency": "Mendesain pembelajaran terintegrasi",
+    "indicator": "Mengombinasikan pengalaman, sosial, dan terstruktur",
+    "questionType": "case_based_mcq",
+    "cognitiveLevel": "apply",
+    "difficulty": "medium",
+    "stem": "Audit internal atas program calon pemimpin tim menemukan hasil akhir yang benar, tetapi jejak pertimbangannya tidak memadai. Dalam menjawab, fokuskan penilaian pada kemampuan mengombinasikan pengalaman, sosial, dan terstruktur. Nasihat yang paling tepat kepada pimpinan adalah…",
+    "options": [
+      {
+        "id": "A",
+        "text": "Nasihat kepemimpinan: Rancang pengalaman kerja utama yang diperkuat coaching/mentoring dan pembelajaran terstruktur. Terapkan khusus dalam program calon pemimpin tim, lalu mengomunikasikan pertimbangan kepada pihak yang berwenang, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini paling tepat karena model pengembangan memadukan pengalaman kerja, belajar dari orang lain, dan pembelajaran terstruktur secara saling mendukung. Dalam konteks kasus, tindakan tersebut menjaga tujuan, batas penerapan, dan akuntabilitas keputusan.",
+        "misconception": null
+      },
+      {
+        "id": "B",
+        "text": "Nasihat kepemimpinan: Membagi jam belajar secara mekanis tanpa tujuan. Terapkan khusus dalam program calon pemimpin tim, lalu mengomunikasikan pertimbangan kepada pihak yang berwenang, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini tidak tepat karena membagi jam belajar secara mekanis tanpa tujuan. Kekeliruannya adalah mengabaikan batas berikut: Rasio 70:20:10 adalah arah desain, bukan kewajiban menghitung setiap jam secara kaku.",
+        "misconception": "membagi jam belajar secara mekanis tanpa tujuan"
+      },
+      {
+        "id": "C",
+        "text": "Nasihat kepemimpinan: Mengandalkan kelas tanpa praktik. Terapkan khusus dalam program calon pemimpin tim, lalu mengomunikasikan pertimbangan kepada pihak yang berwenang, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini tidak tepat karena mengandalkan kelas tanpa praktik. Kekeliruannya adalah mengabaikan batas berikut: Rasio 70:20:10 adalah arah desain, bukan kewajiban menghitung setiap jam secara kaku.",
+        "misconception": "mengandalkan kelas tanpa praktik"
+      },
+      {
+        "id": "D",
+        "text": "Nasihat kepemimpinan: Memberi penugasan tanpa dukungan atau refleksi. Terapkan khusus dalam program calon pemimpin tim, lalu mengomunikasikan pertimbangan kepada pihak yang berwenang, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini tidak tepat karena memberi penugasan tanpa dukungan atau refleksi. Kekeliruannya adalah mengabaikan batas berikut: Rasio 70:20:10 adalah arah desain, bukan kewajiban menghitung setiap jam secara kaku.",
+        "misconception": "memberi penugasan tanpa dukungan atau refleksi"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "Jawaban paling tepat adalah A. Pilihan ini paling tepat karena model pengembangan memadukan pengalaman kerja, belajar dari orang lain, dan pembelajaran terstruktur secara saling mendukung. Dalam konteks kasus, tindakan tersebut menjaga tujuan, batas penerapan, dan akuntabilitas keputusan. Konteks kasus: Audit internal atas program calon pemimpin tim menemukan hasil akhir yang benar, tetapi jejak pertimbangannya tidak memadai. Keputusan tetap harus ditautkan pada tujuan dan bukti. Prinsip yang digunakan: Model pengembangan memadukan pengalaman kerja, belajar dari orang lain, dan pembelajaran terstruktur secara saling mendukung. Batas penerapan: Rasio 70:20:10 adalah arah desain, bukan kewajiban menghitung setiap jam secara kaku. Implikasi praktisnya, pengambil keputusan perlu rancang pengalaman kerja utama yang diperkuat coaching/mentoring dan pembelajaran terstruktur. Setiap distraktor mewakili kekeliruan realistis: membagi jam belajar secara mekanis tanpa tujuan; mengandalkan kelas tanpa praktik; memberi penugasan tanpa dukungan atau refleksi. Sumber berstatus non_normative dan terakhir diverifikasi 2026-08-03. Topik lanjutan: Mendesain pembelajaran terintegrasi.",
+    "keyTakeaway": "Ingat: rancang pengalaman kerja utama yang diperkuat coaching/mentoring dan pembelajaran terstruktur.",
+    "sourceRefs": [
+      {
+        "sourceId": "SRC-SDM-2026",
+        "title": "Manajemen Pengembangan Sumber Daya Manusia DJBC",
+        "driveFileId": "17vZiwRpgx2nVTPSUCFYAbSi-jc8y6Vd8",
+        "section": "Desain Manajemen SDM—70:20:10",
+        "pageOrSlide": null,
+        "regulationStatus": "non_normative",
+        "lastVerified": "2026-08-03"
+      }
+    ],
+    "tags": [
+      "pengembangan_sdm",
+      "model_70_20_10",
+      "conceptual_mcq",
+      "remember",
+      "hard"
+    ],
+    "review": {
+      "contentAccuracy": 25,
+      "sourceTraceability": 15,
+      "stemClarity": 9,
+      "distractorQuality": 9,
+      "singleBestAnswer": 10,
+      "competencyRelevance": 10,
+      "explanationQuality": 9,
+      "originality": 4,
+      "languageQuality": 3,
+      "difficultyFit": 2,
+      "total": 96,
+      "method": "rubrik_terotomasi_berbasis_unit_terverifikasi_v1"
+    },
+    "similarityGroup": null,
+    "knowledgeUnitId": "KU-MT-SDM-013-1",
+    "generationBatch": "2026.08.1000-v1",
+    "createdAt": "2026-08-03",
+    "lastReviewedAt": "2026-08-03",
+    "runtimeId": 402,
+    "selectedFromCandidateId": "CAND-MT-SDM-0142"
+  },
+  {
+    "id": "MT-SDM-0113",
+    "version": 1,
+    "status": "active",
+    "domain": "pengembangan_sdm",
+    "subdomain": "model_70_20_10",
+    "competency": "Mendesain pembelajaran terintegrasi",
+    "indicator": "Mengombinasikan pengalaman, sosial, dan terstruktur",
+    "questionType": "case_based_mcq",
+    "cognitiveLevel": "analyze",
+    "difficulty": "medium",
+    "stem": "Saat menyiapkan serah terima penguasaan proses bisnis baru, tim menyadari bahwa pengetahuan penting hanya dikuasai satu orang. Dalam menjawab, fokuskan penilaian pada kemampuan mengombinasikan pengalaman, sosial, dan terstruktur. Nasihat yang paling tepat kepada pimpinan adalah…",
+    "options": [
+      {
+        "id": "A",
+        "text": "Nasihat kepemimpinan: Mengandalkan kelas tanpa praktik. Terapkan khusus dalam penguasaan proses bisnis baru, lalu mengomunikasikan pertimbangan kepada pihak yang berwenang, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini tidak tepat karena mengandalkan kelas tanpa praktik. Kekeliruannya adalah mengabaikan batas berikut: Rasio 70:20:10 adalah arah desain, bukan kewajiban menghitung setiap jam secara kaku.",
+        "misconception": "mengandalkan kelas tanpa praktik"
+      },
+      {
+        "id": "B",
+        "text": "Nasihat kepemimpinan: Membagi jam belajar secara mekanis tanpa tujuan. Terapkan khusus dalam penguasaan proses bisnis baru, lalu mengomunikasikan pertimbangan kepada pihak yang berwenang, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini tidak tepat karena membagi jam belajar secara mekanis tanpa tujuan. Kekeliruannya adalah mengabaikan batas berikut: Rasio 70:20:10 adalah arah desain, bukan kewajiban menghitung setiap jam secara kaku.",
+        "misconception": "membagi jam belajar secara mekanis tanpa tujuan"
+      },
+      {
+        "id": "C",
+        "text": "Nasihat kepemimpinan: Rancang pengalaman kerja utama yang diperkuat coaching/mentoring dan pembelajaran terstruktur. Terapkan khusus dalam penguasaan proses bisnis baru, lalu mengomunikasikan pertimbangan kepada pihak yang berwenang, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini paling tepat karena model pengembangan memadukan pengalaman kerja, belajar dari orang lain, dan pembelajaran terstruktur secara saling mendukung. Dalam konteks kasus, tindakan tersebut menjaga tujuan, batas penerapan, dan akuntabilitas keputusan.",
+        "misconception": null
+      },
+      {
+        "id": "D",
+        "text": "Nasihat kepemimpinan: Memberi penugasan tanpa dukungan atau refleksi. Terapkan khusus dalam penguasaan proses bisnis baru, lalu mengomunikasikan pertimbangan kepada pihak yang berwenang, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini tidak tepat karena memberi penugasan tanpa dukungan atau refleksi. Kekeliruannya adalah mengabaikan batas berikut: Rasio 70:20:10 adalah arah desain, bukan kewajiban menghitung setiap jam secara kaku.",
+        "misconception": "memberi penugasan tanpa dukungan atau refleksi"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "Jawaban paling tepat adalah C. Pilihan ini paling tepat karena model pengembangan memadukan pengalaman kerja, belajar dari orang lain, dan pembelajaran terstruktur secara saling mendukung. Dalam konteks kasus, tindakan tersebut menjaga tujuan, batas penerapan, dan akuntabilitas keputusan. Konteks kasus: Saat menyiapkan serah terima penguasaan proses bisnis baru, tim menyadari bahwa pengetahuan penting hanya dikuasai satu orang. Keputusan tetap harus ditautkan pada tujuan dan bukti. Prinsip yang digunakan: Model pengembangan memadukan pengalaman kerja, belajar dari orang lain, dan pembelajaran terstruktur secara saling mendukung. Batas penerapan: Rasio 70:20:10 adalah arah desain, bukan kewajiban menghitung setiap jam secara kaku. Implikasi praktisnya, pengambil keputusan perlu rancang pengalaman kerja utama yang diperkuat coaching/mentoring dan pembelajaran terstruktur. Setiap distraktor mewakili kekeliruan realistis: membagi jam belajar secara mekanis tanpa tujuan; mengandalkan kelas tanpa praktik; memberi penugasan tanpa dukungan atau refleksi. Sumber berstatus non_normative dan terakhir diverifikasi 2026-08-03. Topik lanjutan: Mendesain pembelajaran terintegrasi.",
+    "keyTakeaway": "Ingat: rancang pengalaman kerja utama yang diperkuat coaching/mentoring dan pembelajaran terstruktur.",
+    "sourceRefs": [
+      {
+        "sourceId": "SRC-SDM-2026",
+        "title": "Manajemen Pengembangan Sumber Daya Manusia DJBC",
+        "driveFileId": "17vZiwRpgx2nVTPSUCFYAbSi-jc8y6Vd8",
+        "section": "Desain Manajemen SDM—70:20:10",
+        "pageOrSlide": null,
+        "regulationStatus": "non_normative",
+        "lastVerified": "2026-08-03"
+      }
+    ],
+    "tags": [
+      "pengembangan_sdm",
+      "model_70_20_10",
+      "conceptual_mcq",
+      "remember",
+      "hard"
+    ],
+    "review": {
+      "contentAccuracy": 25,
+      "sourceTraceability": 15,
+      "stemClarity": 9,
+      "distractorQuality": 9,
+      "singleBestAnswer": 10,
+      "competencyRelevance": 10,
+      "explanationQuality": 9,
+      "originality": 4,
+      "languageQuality": 3,
+      "difficultyFit": 2,
+      "total": 96,
+      "method": "rubrik_terotomasi_berbasis_unit_terverifikasi_v1"
+    },
+    "similarityGroup": null,
+    "knowledgeUnitId": "KU-MT-SDM-013-2",
+    "generationBatch": "2026.08.1000-v1",
+    "createdAt": "2026-08-03",
+    "lastReviewedAt": "2026-08-03",
+    "runtimeId": 403,
+    "selectedFromCandidateId": "CAND-MT-SDM-0143"
+  },
+  {
+    "id": "MT-SDM-0114",
+    "version": 1,
+    "status": "active",
+    "domain": "pengembangan_sdm",
+    "subdomain": "model_70_20_10",
+    "competency": "Mendesain pembelajaran terintegrasi",
+    "indicator": "Mengombinasikan pengalaman, sosial, dan terstruktur",
+    "questionType": "leadership_evaluation",
+    "cognitiveLevel": "analyze",
+    "difficulty": "hard",
+    "stem": "Perubahan prioritas membuat unit harus meninjau kembali pengembangan kemampuan analitis dengan waktu dan sumber daya terbatas. Dalam menjawab, fokuskan penilaian pada kemampuan mengombinasikan pengalaman, sosial, dan terstruktur. Nasihat yang paling tepat kepada pimpinan adalah…",
+    "options": [
+      {
+        "id": "A",
+        "text": "Nasihat kepemimpinan: Membagi jam belajar secara mekanis tanpa tujuan. Terapkan khusus dalam pengembangan kemampuan analitis, lalu mengomunikasikan pertimbangan kepada pihak yang berwenang, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini tidak tepat karena membagi jam belajar secara mekanis tanpa tujuan. Kekeliruannya adalah mengabaikan batas berikut: Rasio 70:20:10 adalah arah desain, bukan kewajiban menghitung setiap jam secara kaku.",
+        "misconception": "membagi jam belajar secara mekanis tanpa tujuan"
+      },
+      {
+        "id": "B",
+        "text": "Nasihat kepemimpinan: Memberi penugasan tanpa dukungan atau refleksi. Terapkan khusus dalam pengembangan kemampuan analitis, lalu mengomunikasikan pertimbangan kepada pihak yang berwenang, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini tidak tepat karena memberi penugasan tanpa dukungan atau refleksi. Kekeliruannya adalah mengabaikan batas berikut: Rasio 70:20:10 adalah arah desain, bukan kewajiban menghitung setiap jam secara kaku.",
+        "misconception": "memberi penugasan tanpa dukungan atau refleksi"
+      },
+      {
+        "id": "C",
+        "text": "Nasihat kepemimpinan: Mengandalkan kelas tanpa praktik. Terapkan khusus dalam pengembangan kemampuan analitis, lalu mengomunikasikan pertimbangan kepada pihak yang berwenang, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini tidak tepat karena mengandalkan kelas tanpa praktik. Kekeliruannya adalah mengabaikan batas berikut: Rasio 70:20:10 adalah arah desain, bukan kewajiban menghitung setiap jam secara kaku.",
+        "misconception": "mengandalkan kelas tanpa praktik"
+      },
+      {
+        "id": "D",
+        "text": "Nasihat kepemimpinan: Rancang pengalaman kerja utama yang diperkuat coaching/mentoring dan pembelajaran terstruktur. Terapkan khusus dalam pengembangan kemampuan analitis, lalu mengomunikasikan pertimbangan kepada pihak yang berwenang, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini paling tepat karena model pengembangan memadukan pengalaman kerja, belajar dari orang lain, dan pembelajaran terstruktur secara saling mendukung. Dalam konteks kasus, tindakan tersebut menjaga tujuan, batas penerapan, dan akuntabilitas keputusan.",
+        "misconception": null
+      }
+    ],
+    "correctOptionId": "D",
+    "explanation": "Jawaban paling tepat adalah D. Pilihan ini paling tepat karena model pengembangan memadukan pengalaman kerja, belajar dari orang lain, dan pembelajaran terstruktur secara saling mendukung. Dalam konteks kasus, tindakan tersebut menjaga tujuan, batas penerapan, dan akuntabilitas keputusan. Konteks kasus: Perubahan prioritas membuat unit harus meninjau kembali pengembangan kemampuan analitis dengan waktu dan sumber daya terbatas. Keputusan tetap harus ditautkan pada tujuan dan bukti. Prinsip yang digunakan: Model pengembangan memadukan pengalaman kerja, belajar dari orang lain, dan pembelajaran terstruktur secara saling mendukung. Batas penerapan: Rasio 70:20:10 adalah arah desain, bukan kewajiban menghitung setiap jam secara kaku. Implikasi praktisnya, pengambil keputusan perlu rancang pengalaman kerja utama yang diperkuat coaching/mentoring dan pembelajaran terstruktur. Setiap distraktor mewakili kekeliruan realistis: membagi jam belajar secara mekanis tanpa tujuan; mengandalkan kelas tanpa praktik; memberi penugasan tanpa dukungan atau refleksi. Sumber berstatus non_normative dan terakhir diverifikasi 2026-08-03. Topik lanjutan: Mendesain pembelajaran terintegrasi.",
+    "keyTakeaway": "Ingat: rancang pengalaman kerja utama yang diperkuat coaching/mentoring dan pembelajaran terstruktur.",
+    "sourceRefs": [
+      {
+        "sourceId": "SRC-SDM-2026",
+        "title": "Manajemen Pengembangan Sumber Daya Manusia DJBC",
+        "driveFileId": "17vZiwRpgx2nVTPSUCFYAbSi-jc8y6Vd8",
+        "section": "Desain Manajemen SDM—70:20:10",
+        "pageOrSlide": null,
+        "regulationStatus": "non_normative",
+        "lastVerified": "2026-08-03"
+      }
+    ],
+    "tags": [
+      "pengembangan_sdm",
+      "model_70_20_10",
+      "leadership_evaluation",
+      "apply",
+      "hard"
+    ],
+    "review": {
+      "contentAccuracy": 25,
+      "sourceTraceability": 15,
+      "stemClarity": 9,
+      "distractorQuality": 9,
+      "singleBestAnswer": 10,
+      "competencyRelevance": 10,
+      "explanationQuality": 9,
+      "originality": 4,
+      "languageQuality": 3,
+      "difficultyFit": 2,
+      "total": 96,
+      "method": "rubrik_terotomasi_berbasis_unit_terverifikasi_v1"
+    },
+    "similarityGroup": null,
+    "knowledgeUnitId": "KU-MT-SDM-013-3",
+    "generationBatch": "2026.08.1000-v1",
+    "createdAt": "2026-08-03",
+    "lastReviewedAt": "2026-08-03",
+    "runtimeId": 404,
+    "selectedFromCandidateId": "CAND-MT-SDM-0144"
+  },
+  {
+    "id": "MT-SDM-0115",
+    "version": 1,
+    "status": "active",
+    "domain": "pengembangan_sdm",
+    "subdomain": "coaching_mentoring",
+    "competency": "Membedakan dukungan pengembangan",
+    "indicator": "Memilih coaching atau mentoring sesuai kebutuhan",
+    "questionType": "leadership_evaluation",
+    "cognitiveLevel": "analyze",
+    "difficulty": "easy",
+    "stem": "Pemangku kepentingan mempertanyakan konsistensi pegawai kesulitan memilih strategi kerja karena dua kasus serupa menghasilkan keputusan berbeda. Dalam menjawab, fokuskan penilaian pada kemampuan memilih coaching atau mentoring sesuai kebutuhan. Nasihat yang paling tepat kepada pimpinan adalah…",
+    "options": [
+      {
+        "id": "A",
+        "text": "Nasihat kepemimpinan: Pilih pendekatan berdasarkan kebutuhan refleksi atau transfer pengalaman dan sepakati tujuan pengembangan. Terapkan khusus dalam pegawai kesulitan memilih strategi kerja, lalu mengomunikasikan pertimbangan kepada pihak yang berwenang, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini paling tepat karena coaching membantu pegawai menemukan langkah melalui pertanyaan dan refleksi, sedangkan mentoring memanfaatkan pengalaman mentor untuk memberi perspektif dan arahan pengembangan. Dalam konteks kasus, tindakan tersebut menjaga tujuan, batas penerapan, dan akuntabilitas keputusan.",
+        "misconception": null
+      },
+      {
+        "id": "B",
+        "text": "Nasihat kepemimpinan: Memberi jawaban rinci lalu menyebutnya coaching. Terapkan khusus dalam pegawai kesulitan memilih strategi kerja, lalu mengomunikasikan pertimbangan kepada pihak yang berwenang, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini tidak tepat karena memberi jawaban rinci lalu menyebutnya coaching. Kekeliruannya adalah mengabaikan batas berikut: Keduanya bukan pengganti instruksi wajib atau penanganan pelanggaran.",
+        "misconception": "memberi jawaban rinci lalu menyebutnya coaching"
+      },
+      {
+        "id": "C",
+        "text": "Nasihat kepemimpinan: Menggunakan mentoring untuk menghindari umpan balik kinerja. Terapkan khusus dalam pegawai kesulitan memilih strategi kerja, lalu mengomunikasikan pertimbangan kepada pihak yang berwenang, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini tidak tepat karena menggunakan mentoring untuk menghindari umpan balik kinerja. Kekeliruannya adalah mengabaikan batas berikut: Keduanya bukan pengganti instruksi wajib atau penanganan pelanggaran.",
+        "misconception": "menggunakan mentoring untuk menghindari umpan balik kinerja"
+      },
+      {
+        "id": "D",
+        "text": "Nasihat kepemimpinan: Memakai coaching sebagai proses pemeriksaan disiplin. Terapkan khusus dalam pegawai kesulitan memilih strategi kerja, lalu mengomunikasikan pertimbangan kepada pihak yang berwenang, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini tidak tepat karena memakai coaching sebagai proses pemeriksaan disiplin. Kekeliruannya adalah mengabaikan batas berikut: Keduanya bukan pengganti instruksi wajib atau penanganan pelanggaran.",
+        "misconception": "memakai coaching sebagai proses pemeriksaan disiplin"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "Jawaban paling tepat adalah A. Pilihan ini paling tepat karena coaching membantu pegawai menemukan langkah melalui pertanyaan dan refleksi, sedangkan mentoring memanfaatkan pengalaman mentor untuk memberi perspektif dan arahan pengembangan. Dalam konteks kasus, tindakan tersebut menjaga tujuan, batas penerapan, dan akuntabilitas keputusan. Konteks kasus: Pemangku kepentingan mempertanyakan konsistensi pegawai kesulitan memilih strategi kerja karena dua kasus serupa menghasilkan keputusan berbeda. Keputusan tetap harus ditautkan pada tujuan dan bukti. Prinsip yang digunakan: Coaching membantu pegawai menemukan langkah melalui pertanyaan dan refleksi, sedangkan mentoring memanfaatkan pengalaman mentor untuk memberi perspektif dan arahan pengembangan. Batas penerapan: Keduanya bukan pengganti instruksi wajib atau penanganan pelanggaran. Implikasi praktisnya, pengambil keputusan perlu pilih pendekatan berdasarkan kebutuhan refleksi atau transfer pengalaman dan sepakati tujuan pengembangan. Setiap distraktor mewakili kekeliruan realistis: memberi jawaban rinci lalu menyebutnya coaching; menggunakan mentoring untuk menghindari umpan balik kinerja; memakai coaching sebagai proses pemeriksaan disiplin. Sumber berstatus non_normative dan terakhir diverifikasi 2026-08-03. Topik lanjutan: Membedakan dukungan pengembangan.",
+    "keyTakeaway": "Ingat: pilih pendekatan berdasarkan kebutuhan refleksi atau transfer pengalaman dan sepakati tujuan pengembangan.",
+    "sourceRefs": [
+      {
+        "sourceId": "SRC-SDM-2026",
+        "title": "Manajemen Pengembangan Sumber Daya Manusia DJBC",
+        "driveFileId": "17vZiwRpgx2nVTPSUCFYAbSi-jc8y6Vd8",
+        "section": "Pembelajaran Nonklasikal—Coaching dan Mentoring",
+        "pageOrSlide": null,
+        "regulationStatus": "non_normative",
+        "lastVerified": "2026-08-03"
+      }
+    ],
+    "tags": [
+      "pengembangan_sdm",
+      "coaching_mentoring",
+      "leadership_evaluation",
+      "apply",
+      "hard"
+    ],
+    "review": {
+      "contentAccuracy": 25,
+      "sourceTraceability": 15,
+      "stemClarity": 9,
+      "distractorQuality": 9,
+      "singleBestAnswer": 10,
+      "competencyRelevance": 10,
+      "explanationQuality": 9,
+      "originality": 4,
+      "languageQuality": 3,
+      "difficultyFit": 2,
+      "total": 96,
+      "method": "rubrik_terotomasi_berbasis_unit_terverifikasi_v1"
+    },
+    "similarityGroup": null,
+    "knowledgeUnitId": "KU-MT-SDM-014-1",
+    "generationBatch": "2026.08.1000-v1",
+    "createdAt": "2026-08-03",
+    "lastReviewedAt": "2026-08-03",
+    "runtimeId": 405,
+    "selectedFromCandidateId": "CAND-MT-SDM-0145"
+  },
+  {
+    "id": "MT-SDM-0116",
+    "version": 1,
+    "status": "active",
+    "domain": "pengembangan_sdm",
+    "subdomain": "coaching_mentoring",
+    "competency": "Membedakan dukungan pengembangan",
+    "indicator": "Memilih coaching atau mentoring sesuai kebutuhan",
+    "questionType": "leadership_evaluation",
+    "cognitiveLevel": "apply",
+    "difficulty": "medium",
+    "stem": "Sebuah usulan digitalisasi calon pemimpin membutuhkan wawasan pengalaman menjanjikan kecepatan, tetapi kontrol dan peran belum dirumuskan. Dalam menjawab, fokuskan penilaian pada kemampuan memilih coaching atau mentoring sesuai kebutuhan. Nasihat yang paling tepat kepada pimpinan adalah…",
+    "options": [
+      {
+        "id": "A",
+        "text": "Nasihat kepemimpinan: Memakai coaching sebagai proses pemeriksaan disiplin. Terapkan khusus dalam calon pemimpin membutuhkan wawasan pengalaman, lalu mengomunikasikan pertimbangan kepada pihak yang berwenang, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini tidak tepat karena memakai coaching sebagai proses pemeriksaan disiplin. Kekeliruannya adalah mengabaikan batas berikut: Keduanya bukan pengganti instruksi wajib atau penanganan pelanggaran.",
+        "misconception": "memakai coaching sebagai proses pemeriksaan disiplin"
+      },
+      {
+        "id": "B",
+        "text": "Nasihat kepemimpinan: Pilih pendekatan berdasarkan kebutuhan refleksi atau transfer pengalaman dan sepakati tujuan pengembangan. Terapkan khusus dalam calon pemimpin membutuhkan wawasan pengalaman, lalu mengomunikasikan pertimbangan kepada pihak yang berwenang, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini paling tepat karena coaching membantu pegawai menemukan langkah melalui pertanyaan dan refleksi, sedangkan mentoring memanfaatkan pengalaman mentor untuk memberi perspektif dan arahan pengembangan. Dalam konteks kasus, tindakan tersebut menjaga tujuan, batas penerapan, dan akuntabilitas keputusan.",
+        "misconception": null
+      },
+      {
+        "id": "C",
+        "text": "Nasihat kepemimpinan: Menggunakan mentoring untuk menghindari umpan balik kinerja. Terapkan khusus dalam calon pemimpin membutuhkan wawasan pengalaman, lalu mengomunikasikan pertimbangan kepada pihak yang berwenang, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini tidak tepat karena menggunakan mentoring untuk menghindari umpan balik kinerja. Kekeliruannya adalah mengabaikan batas berikut: Keduanya bukan pengganti instruksi wajib atau penanganan pelanggaran.",
+        "misconception": "menggunakan mentoring untuk menghindari umpan balik kinerja"
+      },
+      {
+        "id": "D",
+        "text": "Nasihat kepemimpinan: Memberi jawaban rinci lalu menyebutnya coaching. Terapkan khusus dalam calon pemimpin membutuhkan wawasan pengalaman, lalu mengomunikasikan pertimbangan kepada pihak yang berwenang, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini tidak tepat karena memberi jawaban rinci lalu menyebutnya coaching. Kekeliruannya adalah mengabaikan batas berikut: Keduanya bukan pengganti instruksi wajib atau penanganan pelanggaran.",
+        "misconception": "memberi jawaban rinci lalu menyebutnya coaching"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "Jawaban paling tepat adalah B. Pilihan ini paling tepat karena coaching membantu pegawai menemukan langkah melalui pertanyaan dan refleksi, sedangkan mentoring memanfaatkan pengalaman mentor untuk memberi perspektif dan arahan pengembangan. Dalam konteks kasus, tindakan tersebut menjaga tujuan, batas penerapan, dan akuntabilitas keputusan. Konteks kasus: Sebuah usulan digitalisasi calon pemimpin membutuhkan wawasan pengalaman menjanjikan kecepatan, tetapi kontrol dan peran belum dirumuskan. Keputusan tetap harus ditautkan pada tujuan dan bukti. Prinsip yang digunakan: Coaching membantu pegawai menemukan langkah melalui pertanyaan dan refleksi, sedangkan mentoring memanfaatkan pengalaman mentor untuk memberi perspektif dan arahan pengembangan. Batas penerapan: Keduanya bukan pengganti instruksi wajib atau penanganan pelanggaran. Implikasi praktisnya, pengambil keputusan perlu pilih pendekatan berdasarkan kebutuhan refleksi atau transfer pengalaman dan sepakati tujuan pengembangan. Setiap distraktor mewakili kekeliruan realistis: memberi jawaban rinci lalu menyebutnya coaching; menggunakan mentoring untuk menghindari umpan balik kinerja; memakai coaching sebagai proses pemeriksaan disiplin. Sumber berstatus non_normative dan terakhir diverifikasi 2026-08-03. Topik lanjutan: Membedakan dukungan pengembangan.",
+    "keyTakeaway": "Ingat: pilih pendekatan berdasarkan kebutuhan refleksi atau transfer pengalaman dan sepakati tujuan pengembangan.",
+    "sourceRefs": [
+      {
+        "sourceId": "SRC-SDM-2026",
+        "title": "Manajemen Pengembangan Sumber Daya Manusia DJBC",
+        "driveFileId": "17vZiwRpgx2nVTPSUCFYAbSi-jc8y6Vd8",
+        "section": "Pembelajaran Nonklasikal—Coaching dan Mentoring",
+        "pageOrSlide": null,
+        "regulationStatus": "non_normative",
+        "lastVerified": "2026-08-03"
+      }
+    ],
+    "tags": [
+      "pengembangan_sdm",
+      "coaching_mentoring",
+      "leadership_evaluation",
+      "apply",
+      "hard"
+    ],
+    "review": {
+      "contentAccuracy": 25,
+      "sourceTraceability": 15,
+      "stemClarity": 9,
+      "distractorQuality": 9,
+      "singleBestAnswer": 10,
+      "competencyRelevance": 10,
+      "explanationQuality": 9,
+      "originality": 4,
+      "languageQuality": 3,
+      "difficultyFit": 2,
+      "total": 96,
+      "method": "rubrik_terotomasi_berbasis_unit_terverifikasi_v1"
+    },
+    "similarityGroup": null,
+    "knowledgeUnitId": "KU-MT-SDM-014-2",
+    "generationBatch": "2026.08.1000-v1",
+    "createdAt": "2026-08-03",
+    "lastReviewedAt": "2026-08-03",
+    "runtimeId": 406,
+    "selectedFromCandidateId": "CAND-MT-SDM-0146"
+  },
+  {
+    "id": "MT-SDM-0117",
+    "version": 1,
+    "status": "active",
+    "domain": "pengembangan_sdm",
+    "subdomain": "monev_pengembangan",
+    "competency": "Mengevaluasi program pengembangan",
+    "indicator": "Membedakan pemantauan dan evaluasi",
+    "questionType": "leadership_evaluation",
+    "cognitiveLevel": "analyze",
+    "difficulty": "medium",
+    "stem": "Dalam simulasi pengambilan keputusan terkait review program semester berjalan, anggota tim tidak dapat menjelaskan hubungan tindakan dengan tujuan. Dalam menjawab, fokuskan penilaian pada kemampuan membedakan pemantauan dan evaluasi. Nasihat yang paling tepat kepada pimpinan adalah…",
+    "options": [
+      {
+        "id": "A",
+        "text": "Nasihat kepemimpinan: Menutup program setelah daftar hadir lengkap. Terapkan khusus dalam review program semester berjalan, lalu mengomunikasikan pertimbangan kepada pihak yang berwenang, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini tidak tepat karena menutup program setelah daftar hadir lengkap. Kekeliruannya adalah mengabaikan batas berikut: Kehadiran peserta saja belum membuktikan manfaat pembelajaran.",
+        "misconception": "menutup program setelah daftar hadir lengkap"
+      },
+      {
+        "id": "B",
+        "text": "Nasihat kepemimpinan: Mengubah program tanpa membandingkan rencana dan hasil. Terapkan khusus dalam review program semester berjalan, lalu mengomunikasikan pertimbangan kepada pihak yang berwenang, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini tidak tepat karena mengubah program tanpa membandingkan rencana dan hasil. Kekeliruannya adalah mengabaikan batas berikut: Kehadiran peserta saja belum membuktikan manfaat pembelajaran.",
+        "misconception": "mengubah program tanpa membandingkan rencana dan hasil"
+      },
+      {
+        "id": "C",
+        "text": "Nasihat kepemimpinan: Menyamakan kepuasan peserta dengan dampak kinerja. Terapkan khusus dalam review program semester berjalan, lalu mengomunikasikan pertimbangan kepada pihak yang berwenang, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini tidak tepat karena menyamakan kepuasan peserta dengan dampak kinerja. Kekeliruannya adalah mengabaikan batas berikut: Kehadiran peserta saja belum membuktikan manfaat pembelajaran.",
+        "misconception": "menyamakan kepuasan peserta dengan dampak kinerja"
+      },
+      {
+        "id": "D",
+        "text": "Nasihat kepemimpinan: Pantau pelaksanaan dan ukur perubahan kemampuan atau kinerja untuk menentukan perbaikan. Terapkan khusus dalam review program semester berjalan, lalu mengomunikasikan pertimbangan kepada pihak yang berwenang, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini paling tepat karena pemantauan memastikan pelaksanaan sesuai rencana; evaluasi menilai kesesuaian, kemanfaatan, dan kebutuhan masa mendatang. Dalam konteks kasus, tindakan tersebut menjaga tujuan, batas penerapan, dan akuntabilitas keputusan.",
+        "misconception": null
+      }
+    ],
+    "correctOptionId": "D",
+    "explanation": "Jawaban paling tepat adalah D. Pilihan ini paling tepat karena pemantauan memastikan pelaksanaan sesuai rencana; evaluasi menilai kesesuaian, kemanfaatan, dan kebutuhan masa mendatang. Dalam konteks kasus, tindakan tersebut menjaga tujuan, batas penerapan, dan akuntabilitas keputusan. Konteks kasus: Dalam simulasi pengambilan keputusan terkait review program semester berjalan, anggota tim tidak dapat menjelaskan hubungan tindakan dengan tujuan. Keputusan tetap harus ditautkan pada tujuan dan bukti. Prinsip yang digunakan: Pemantauan memastikan pelaksanaan sesuai rencana; evaluasi menilai kesesuaian, kemanfaatan, dan kebutuhan masa mendatang. Batas penerapan: Kehadiran peserta saja belum membuktikan manfaat pembelajaran. Implikasi praktisnya, pengambil keputusan perlu pantau pelaksanaan dan ukur perubahan kemampuan atau kinerja untuk menentukan perbaikan. Setiap distraktor mewakili kekeliruan realistis: menutup program setelah daftar hadir lengkap; menyamakan kepuasan peserta dengan dampak kinerja; mengubah program tanpa membandingkan rencana dan hasil. Sumber berstatus non_normative dan terakhir diverifikasi 2026-08-03. Topik lanjutan: Mengevaluasi program pengembangan.",
+    "keyTakeaway": "Ingat: pantau pelaksanaan dan ukur perubahan kemampuan atau kinerja untuk menentukan perbaikan.",
+    "sourceRefs": [
+      {
+        "sourceId": "SRC-SDM-2026",
+        "title": "Manajemen Pengembangan Sumber Daya Manusia DJBC",
+        "driveFileId": "17vZiwRpgx2nVTPSUCFYAbSi-jc8y6Vd8",
+        "section": "Monitoring dan Evaluasi Pengembangan",
+        "pageOrSlide": null,
+        "regulationStatus": "non_normative",
+        "lastVerified": "2026-08-03"
+      }
+    ],
+    "tags": [
+      "pengembangan_sdm",
+      "monev_pengembangan",
+      "leadership_evaluation",
+      "apply",
+      "hard"
+    ],
+    "review": {
+      "contentAccuracy": 25,
+      "sourceTraceability": 15,
+      "stemClarity": 9,
+      "distractorQuality": 9,
+      "singleBestAnswer": 10,
+      "competencyRelevance": 10,
+      "explanationQuality": 9,
+      "originality": 4,
+      "languageQuality": 3,
+      "difficultyFit": 2,
+      "total": 96,
+      "method": "rubrik_terotomasi_berbasis_unit_terverifikasi_v1"
+    },
+    "similarityGroup": null,
+    "knowledgeUnitId": "KU-MT-SDM-015-1",
+    "generationBatch": "2026.08.1000-v1",
+    "createdAt": "2026-08-03",
+    "lastReviewedAt": "2026-08-03",
+    "runtimeId": 407,
+    "selectedFromCandidateId": "CAND-MT-SDM-0148"
+  },
+  {
+    "id": "MT-SDM-0118",
+    "version": 1,
+    "status": "active",
+    "domain": "pengembangan_sdm",
+    "subdomain": "monev_pengembangan",
+    "competency": "Mengevaluasi program pengembangan",
+    "indicator": "Membedakan pemantauan dan evaluasi",
+    "questionType": "leadership_evaluation",
+    "cognitiveLevel": "analyze",
+    "difficulty": "hard",
+    "stem": "Keluhan atas evaluasi pembelajaran akhir tahun menunjukkan bahwa prosedur dilaksanakan, tetapi hasil yang dibutuhkan belum tercapai. Dalam menjawab, fokuskan penilaian pada kemampuan membedakan pemantauan dan evaluasi. Nasihat yang paling tepat kepada pimpinan adalah…",
+    "options": [
+      {
+        "id": "A",
+        "text": "Nasihat kepemimpinan: Mengubah program tanpa membandingkan rencana dan hasil. Terapkan khusus dalam evaluasi pembelajaran akhir tahun, lalu mengomunikasikan pertimbangan kepada pihak yang berwenang, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini tidak tepat karena mengubah program tanpa membandingkan rencana dan hasil. Kekeliruannya adalah mengabaikan batas berikut: Kehadiran peserta saja belum membuktikan manfaat pembelajaran.",
+        "misconception": "mengubah program tanpa membandingkan rencana dan hasil"
+      },
+      {
+        "id": "B",
+        "text": "Nasihat kepemimpinan: Menutup program setelah daftar hadir lengkap. Terapkan khusus dalam evaluasi pembelajaran akhir tahun, lalu mengomunikasikan pertimbangan kepada pihak yang berwenang, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini tidak tepat karena menutup program setelah daftar hadir lengkap. Kekeliruannya adalah mengabaikan batas berikut: Kehadiran peserta saja belum membuktikan manfaat pembelajaran.",
+        "misconception": "menutup program setelah daftar hadir lengkap"
+      },
+      {
+        "id": "C",
+        "text": "Nasihat kepemimpinan: Menyamakan kepuasan peserta dengan dampak kinerja. Terapkan khusus dalam evaluasi pembelajaran akhir tahun, lalu mengomunikasikan pertimbangan kepada pihak yang berwenang, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini tidak tepat karena menyamakan kepuasan peserta dengan dampak kinerja. Kekeliruannya adalah mengabaikan batas berikut: Kehadiran peserta saja belum membuktikan manfaat pembelajaran.",
+        "misconception": "menyamakan kepuasan peserta dengan dampak kinerja"
+      },
+      {
+        "id": "D",
+        "text": "Nasihat kepemimpinan: Pantau pelaksanaan dan ukur perubahan kemampuan atau kinerja untuk menentukan perbaikan. Terapkan khusus dalam evaluasi pembelajaran akhir tahun, lalu mengomunikasikan pertimbangan kepada pihak yang berwenang, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini paling tepat karena pemantauan memastikan pelaksanaan sesuai rencana; evaluasi menilai kesesuaian, kemanfaatan, dan kebutuhan masa mendatang. Dalam konteks kasus, tindakan tersebut menjaga tujuan, batas penerapan, dan akuntabilitas keputusan.",
+        "misconception": null
+      }
+    ],
+    "correctOptionId": "D",
+    "explanation": "Jawaban paling tepat adalah D. Pilihan ini paling tepat karena pemantauan memastikan pelaksanaan sesuai rencana; evaluasi menilai kesesuaian, kemanfaatan, dan kebutuhan masa mendatang. Dalam konteks kasus, tindakan tersebut menjaga tujuan, batas penerapan, dan akuntabilitas keputusan. Konteks kasus: Keluhan atas evaluasi pembelajaran akhir tahun menunjukkan bahwa prosedur dilaksanakan, tetapi hasil yang dibutuhkan belum tercapai. Keputusan tetap harus ditautkan pada tujuan dan bukti. Prinsip yang digunakan: Pemantauan memastikan pelaksanaan sesuai rencana; evaluasi menilai kesesuaian, kemanfaatan, dan kebutuhan masa mendatang. Batas penerapan: Kehadiran peserta saja belum membuktikan manfaat pembelajaran. Implikasi praktisnya, pengambil keputusan perlu pantau pelaksanaan dan ukur perubahan kemampuan atau kinerja untuk menentukan perbaikan. Setiap distraktor mewakili kekeliruan realistis: menutup program setelah daftar hadir lengkap; menyamakan kepuasan peserta dengan dampak kinerja; mengubah program tanpa membandingkan rencana dan hasil. Sumber berstatus non_normative dan terakhir diverifikasi 2026-08-03. Topik lanjutan: Mengevaluasi program pengembangan.",
+    "keyTakeaway": "Ingat: pantau pelaksanaan dan ukur perubahan kemampuan atau kinerja untuk menentukan perbaikan.",
+    "sourceRefs": [
+      {
+        "sourceId": "SRC-SDM-2026",
+        "title": "Manajemen Pengembangan Sumber Daya Manusia DJBC",
+        "driveFileId": "17vZiwRpgx2nVTPSUCFYAbSi-jc8y6Vd8",
+        "section": "Monitoring dan Evaluasi Pengembangan",
+        "pageOrSlide": null,
+        "regulationStatus": "non_normative",
+        "lastVerified": "2026-08-03"
+      }
+    ],
+    "tags": [
+      "pengembangan_sdm",
+      "monev_pengembangan",
+      "leadership_evaluation",
+      "apply",
+      "hard"
+    ],
+    "review": {
+      "contentAccuracy": 25,
+      "sourceTraceability": 15,
+      "stemClarity": 9,
+      "distractorQuality": 9,
+      "singleBestAnswer": 10,
+      "competencyRelevance": 10,
+      "explanationQuality": 9,
+      "originality": 4,
+      "languageQuality": 3,
+      "difficultyFit": 2,
+      "total": 96,
+      "method": "rubrik_terotomasi_berbasis_unit_terverifikasi_v1"
+    },
+    "similarityGroup": null,
+    "knowledgeUnitId": "KU-MT-SDM-015-2",
+    "generationBatch": "2026.08.1000-v1",
+    "createdAt": "2026-08-03",
+    "lastReviewedAt": "2026-08-03",
+    "runtimeId": 408,
+    "selectedFromCandidateId": "CAND-MT-SDM-0149"
+  },
+  {
+    "id": "MT-SDM-0119",
+    "version": 1,
+    "status": "active",
+    "domain": "pengembangan_sdm",
+    "subdomain": "monev_pengembangan",
+    "competency": "Mengevaluasi program pengembangan",
+    "indicator": "Membedakan pemantauan dan evaluasi",
+    "questionType": "leadership_evaluation",
+    "cognitiveLevel": "analyze",
+    "difficulty": "easy",
+    "stem": "Sebuah unit sedang perbaikan rencana pengembangan berikutnya. Data awal tersedia, tetapi tim belum menyepakati dasar keputusan. Dalam menjawab, fokuskan penilaian pada kemampuan membedakan pemantauan dan evaluasi. Nasihat yang paling tepat kepada pimpinan adalah…",
+    "options": [
+      {
+        "id": "A",
+        "text": "Nasihat kepemimpinan: Mengubah program tanpa membandingkan rencana dan hasil. Terapkan khusus dalam perbaikan rencana pengembangan berikutnya, lalu mengomunikasikan pertimbangan kepada pihak yang berwenang, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini tidak tepat karena mengubah program tanpa membandingkan rencana dan hasil. Kekeliruannya adalah mengabaikan batas berikut: Kehadiran peserta saja belum membuktikan manfaat pembelajaran.",
+        "misconception": "mengubah program tanpa membandingkan rencana dan hasil"
+      },
+      {
+        "id": "B",
+        "text": "Nasihat kepemimpinan: Menutup program setelah daftar hadir lengkap. Terapkan khusus dalam perbaikan rencana pengembangan berikutnya, lalu mengomunikasikan pertimbangan kepada pihak yang berwenang, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini tidak tepat karena menutup program setelah daftar hadir lengkap. Kekeliruannya adalah mengabaikan batas berikut: Kehadiran peserta saja belum membuktikan manfaat pembelajaran.",
+        "misconception": "menutup program setelah daftar hadir lengkap"
+      },
+      {
+        "id": "C",
+        "text": "Nasihat kepemimpinan: Pantau pelaksanaan dan ukur perubahan kemampuan atau kinerja untuk menentukan perbaikan. Terapkan khusus dalam perbaikan rencana pengembangan berikutnya, lalu mengomunikasikan pertimbangan kepada pihak yang berwenang, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini paling tepat karena pemantauan memastikan pelaksanaan sesuai rencana; evaluasi menilai kesesuaian, kemanfaatan, dan kebutuhan masa mendatang. Dalam konteks kasus, tindakan tersebut menjaga tujuan, batas penerapan, dan akuntabilitas keputusan.",
+        "misconception": null
+      },
+      {
+        "id": "D",
+        "text": "Nasihat kepemimpinan: Menyamakan kepuasan peserta dengan dampak kinerja. Terapkan khusus dalam perbaikan rencana pengembangan berikutnya, lalu mengomunikasikan pertimbangan kepada pihak yang berwenang, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini tidak tepat karena menyamakan kepuasan peserta dengan dampak kinerja. Kekeliruannya adalah mengabaikan batas berikut: Kehadiran peserta saja belum membuktikan manfaat pembelajaran.",
+        "misconception": "menyamakan kepuasan peserta dengan dampak kinerja"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "Jawaban paling tepat adalah C. Pilihan ini paling tepat karena pemantauan memastikan pelaksanaan sesuai rencana; evaluasi menilai kesesuaian, kemanfaatan, dan kebutuhan masa mendatang. Dalam konteks kasus, tindakan tersebut menjaga tujuan, batas penerapan, dan akuntabilitas keputusan. Konteks kasus: Sebuah unit sedang perbaikan rencana pengembangan berikutnya. Data awal tersedia, tetapi tim belum menyepakati dasar keputusan. Keputusan tetap harus ditautkan pada tujuan dan bukti. Prinsip yang digunakan: Pemantauan memastikan pelaksanaan sesuai rencana; evaluasi menilai kesesuaian, kemanfaatan, dan kebutuhan masa mendatang. Batas penerapan: Kehadiran peserta saja belum membuktikan manfaat pembelajaran. Implikasi praktisnya, pengambil keputusan perlu pantau pelaksanaan dan ukur perubahan kemampuan atau kinerja untuk menentukan perbaikan. Setiap distraktor mewakili kekeliruan realistis: menutup program setelah daftar hadir lengkap; menyamakan kepuasan peserta dengan dampak kinerja; mengubah program tanpa membandingkan rencana dan hasil. Sumber berstatus non_normative dan terakhir diverifikasi 2026-08-03. Topik lanjutan: Mengevaluasi program pengembangan.",
+    "keyTakeaway": "Ingat: pantau pelaksanaan dan ukur perubahan kemampuan atau kinerja untuk menentukan perbaikan.",
+    "sourceRefs": [
+      {
+        "sourceId": "SRC-SDM-2026",
+        "title": "Manajemen Pengembangan Sumber Daya Manusia DJBC",
+        "driveFileId": "17vZiwRpgx2nVTPSUCFYAbSi-jc8y6Vd8",
+        "section": "Monitoring dan Evaluasi Pengembangan",
+        "pageOrSlide": null,
+        "regulationStatus": "non_normative",
+        "lastVerified": "2026-08-03"
+      }
+    ],
+    "tags": [
+      "pengembangan_sdm",
+      "monev_pengembangan",
+      "leadership_evaluation",
+      "apply",
+      "hard"
+    ],
+    "review": {
+      "contentAccuracy": 25,
+      "sourceTraceability": 15,
+      "stemClarity": 9,
+      "distractorQuality": 9,
+      "singleBestAnswer": 10,
+      "competencyRelevance": 10,
+      "explanationQuality": 9,
+      "originality": 4,
+      "languageQuality": 3,
+      "difficultyFit": 2,
+      "total": 96,
+      "method": "rubrik_terotomasi_berbasis_unit_terverifikasi_v1"
+    },
+    "similarityGroup": null,
+    "knowledgeUnitId": "KU-MT-SDM-015-3",
+    "generationBatch": "2026.08.1000-v1",
+    "createdAt": "2026-08-03",
+    "lastReviewedAt": "2026-08-03",
+    "runtimeId": 409,
+    "selectedFromCandidateId": "CAND-MT-SDM-0150"
+  },
+  {
+    "id": "MT-SDM-0120",
+    "version": 1,
+    "status": "active",
+    "domain": "pengembangan_sdm",
+    "subdomain": "analisis_kebutuhan",
+    "competency": "Menganalisis kebutuhan pengembangan",
+    "indicator": "Menghubungkan gap dengan intervensi",
+    "questionType": "control_design",
+    "cognitiveLevel": "apply",
+    "difficulty": "medium",
+    "stem": "Perubahan prioritas membuat unit harus meninjau kembali usulan pembelajaran individu dengan waktu dan sumber daya terbatas. Dalam menjawab, fokuskan penilaian pada kemampuan menghubungkan gap dengan intervensi. Desain pengendalian mana yang paling relevan untuk kasus ini?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Desain pengendalian: Memilih pelatihan dari popularitasnya. Terapkan khusus dalam usulan pembelajaran individu, dengan bukti uji desain dan pelaksanaan, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini tidak tepat karena memilih pelatihan dari popularitasnya. Kekeliruannya adalah mengabaikan batas berikut: Program populer tidak otomatis relevan untuk setiap gap.",
+        "misconception": "memilih pelatihan dari popularitasnya"
+      },
+      {
+        "id": "B",
+        "text": "Desain pengendalian: Mengukur kebutuhan hanya dari aspirasi individu. Terapkan khusus dalam usulan pembelajaran individu, dengan bukti uji desain dan pelaksanaan, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini tidak tepat karena mengukur kebutuhan hanya dari aspirasi individu. Kekeliruannya adalah mengabaikan batas berikut: Program populer tidak otomatis relevan untuk setiap gap.",
+        "misconception": "mengukur kebutuhan hanya dari aspirasi individu"
+      },
+      {
+        "id": "C",
+        "text": "Desain pengendalian: Menyamakan kebutuhan semua pegawai. Terapkan khusus dalam usulan pembelajaran individu, dengan bukti uji desain dan pelaksanaan, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini tidak tepat karena menyamakan kebutuhan semua pegawai. Kekeliruannya adalah mengabaikan batas berikut: Program populer tidak otomatis relevan untuk setiap gap.",
+        "misconception": "menyamakan kebutuhan semua pegawai"
+      },
+      {
+        "id": "D",
+        "text": "Desain pengendalian: Rumuskan gap dan hasil yang diharapkan sebelum memilih metode pengembangan. Terapkan khusus dalam usulan pembelajaran individu, dengan bukti uji desain dan pelaksanaan, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini paling tepat karena analisis kebutuhan pengembangan mempertimbangkan kompetensi, kinerja, mandatory jabatan, isu strategis, posisi box, dan kesenjangan kompetensi. Dalam konteks kasus, tindakan tersebut menjaga tujuan, batas penerapan, dan akuntabilitas keputusan.",
+        "misconception": null
+      }
+    ],
+    "correctOptionId": "D",
+    "explanation": "Jawaban paling tepat adalah D. Pilihan ini paling tepat karena analisis kebutuhan pengembangan mempertimbangkan kompetensi, kinerja, mandatory jabatan, isu strategis, posisi box, dan kesenjangan kompetensi. Dalam konteks kasus, tindakan tersebut menjaga tujuan, batas penerapan, dan akuntabilitas keputusan. Konteks kasus: Perubahan prioritas membuat unit harus meninjau kembali usulan pembelajaran individu dengan waktu dan sumber daya terbatas. Keputusan tetap harus ditautkan pada tujuan dan bukti. Prinsip yang digunakan: Analisis kebutuhan pengembangan mempertimbangkan kompetensi, kinerja, mandatory jabatan, isu strategis, posisi box, dan kesenjangan kompetensi. Batas penerapan: Program populer tidak otomatis relevan untuk setiap gap. Implikasi praktisnya, pengambil keputusan perlu rumuskan gap dan hasil yang diharapkan sebelum memilih metode pengembangan. Setiap distraktor mewakili kekeliruan realistis: memilih pelatihan dari popularitasnya; menyamakan kebutuhan semua pegawai; mengukur kebutuhan hanya dari aspirasi individu. Sumber berstatus non_normative dan terakhir diverifikasi 2026-08-03. Topik lanjutan: Menganalisis kebutuhan pengembangan.",
+    "keyTakeaway": "Ingat: rumuskan gap dan hasil yang diharapkan sebelum memilih metode pengembangan.",
+    "sourceRefs": [
+      {
+        "sourceId": "SRC-SDM-2026",
+        "title": "Manajemen Pengembangan Sumber Daya Manusia DJBC",
+        "driveFileId": "17vZiwRpgx2nVTPSUCFYAbSi-jc8y6Vd8",
+        "section": "Input dan Analisis Kebutuhan Pembelajaran",
+        "pageOrSlide": null,
+        "regulationStatus": "non_normative",
+        "lastVerified": "2026-08-03"
+      }
+    ],
+    "tags": [
+      "pengembangan_sdm",
+      "analisis_kebutuhan",
+      "control_design",
+      "analyze",
+      "easy"
+    ],
+    "review": {
+      "contentAccuracy": 25,
+      "sourceTraceability": 15,
+      "stemClarity": 9,
+      "distractorQuality": 9,
+      "singleBestAnswer": 10,
+      "competencyRelevance": 10,
+      "explanationQuality": 9,
+      "originality": 4,
+      "languageQuality": 3,
+      "difficultyFit": 2,
+      "total": 96,
+      "method": "rubrik_terotomasi_berbasis_unit_terverifikasi_v1"
+    },
+    "similarityGroup": null,
+    "knowledgeUnitId": "KU-MT-SDM-011-2",
+    "generationBatch": "2026.08.1000-v1",
+    "createdAt": "2026-08-03",
+    "lastReviewedAt": "2026-08-03",
+    "runtimeId": 410,
+    "selectedFromCandidateId": "CAND-MT-SDM-0152"
+  },
+  {
+    "id": "MT-SDM-0121",
+    "version": 1,
+    "status": "active",
+    "domain": "pengembangan_sdm",
+    "subdomain": "pendidikan_pembelajaran",
+    "competency": "Membedakan bentuk pengembangan SDM",
+    "indicator": "Menentukan pendidikan atau pembelajaran yang tepat",
+    "questionType": "control_design",
+    "cognitiveLevel": "apply",
+    "difficulty": "medium",
+    "stem": "Sebuah usulan digitalisasi gap pengetahuan formal mendalam menjanjikan kecepatan, tetapi kontrol dan peran belum dirumuskan. Dalam menjawab, fokuskan penilaian pada kemampuan menentukan pendidikan atau pembelajaran yang tepat. Desain pengendalian mana yang paling relevan untuk kasus ini?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Desain pengendalian: Menganggap belajar di tempat kerja bukan pengembangan. Terapkan khusus dalam gap pengetahuan formal mendalam, dengan bukti uji desain dan pelaksanaan, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini tidak tepat karena menganggap belajar di tempat kerja bukan pengembangan. Kekeliruannya adalah mengabaikan batas berikut: Tidak semua gap membutuhkan pendidikan formal dan tidak semua pembelajaran harus berupa kelas.",
+        "misconception": "menganggap belajar di tempat kerja bukan pengembangan"
+      },
+      {
+        "id": "B",
+        "text": "Desain pengendalian: Mengirim tugas belajar untuk gap keterampilan jangka pendek. Terapkan khusus dalam gap pengetahuan formal mendalam, dengan bukti uji desain dan pelaksanaan, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini tidak tepat karena mengirim tugas belajar untuk gap keterampilan jangka pendek. Kekeliruannya adalah mengabaikan batas berikut: Tidak semua gap membutuhkan pendidikan formal dan tidak semua pembelajaran harus berupa kelas.",
+        "misconception": "mengirim tugas belajar untuk gap keterampilan jangka pendek"
+      },
+      {
+        "id": "C",
+        "text": "Desain pengendalian: Membatasi pembelajaran pada pelatihan kelas. Terapkan khusus dalam gap pengetahuan formal mendalam, dengan bukti uji desain dan pelaksanaan, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini tidak tepat karena membatasi pembelajaran pada pelatihan kelas. Kekeliruannya adalah mengabaikan batas berikut: Tidak semua gap membutuhkan pendidikan formal dan tidak semua pembelajaran harus berupa kelas.",
+        "misconception": "membatasi pembelajaran pada pelatihan kelas"
+      },
+      {
+        "id": "D",
+        "text": "Desain pengendalian: Pilih bentuk pengembangan berdasarkan jenis gap, hasil yang dibutuhkan, dan konteks pekerjaan. Terapkan khusus dalam gap pengetahuan formal mendalam, dengan bukti uji desain dan pelaksanaan, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini paling tepat karena pengembangan sdm mencakup pendidikan formal/tugas belajar dan pembelajaran melalui metode klasikal maupun nonklasikal. Dalam konteks kasus, tindakan tersebut menjaga tujuan, batas penerapan, dan akuntabilitas keputusan.",
+        "misconception": null
+      }
+    ],
+    "correctOptionId": "D",
+    "explanation": "Jawaban paling tepat adalah D. Pilihan ini paling tepat karena pengembangan sdm mencakup pendidikan formal/tugas belajar dan pembelajaran melalui metode klasikal maupun nonklasikal. Dalam konteks kasus, tindakan tersebut menjaga tujuan, batas penerapan, dan akuntabilitas keputusan. Konteks kasus: Sebuah usulan digitalisasi gap pengetahuan formal mendalam menjanjikan kecepatan, tetapi kontrol dan peran belum dirumuskan. Keputusan tetap harus ditautkan pada tujuan dan bukti. Prinsip yang digunakan: Pengembangan SDM mencakup pendidikan formal/tugas belajar dan pembelajaran melalui metode klasikal maupun nonklasikal. Batas penerapan: Tidak semua gap membutuhkan pendidikan formal dan tidak semua pembelajaran harus berupa kelas. Implikasi praktisnya, pengambil keputusan perlu pilih bentuk pengembangan berdasarkan jenis gap, hasil yang dibutuhkan, dan konteks pekerjaan. Setiap distraktor mewakili kekeliruan realistis: mengirim tugas belajar untuk gap keterampilan jangka pendek; membatasi pembelajaran pada pelatihan kelas; menganggap belajar di tempat kerja bukan pengembangan. Sumber berstatus non_normative dan terakhir diverifikasi 2026-08-03. Topik lanjutan: Membedakan bentuk pengembangan SDM.",
+    "keyTakeaway": "Ingat: pilih bentuk pengembangan berdasarkan jenis gap, hasil yang dibutuhkan, dan konteks pekerjaan.",
+    "sourceRefs": [
+      {
+        "sourceId": "SRC-SDM-2026",
+        "title": "Manajemen Pengembangan Sumber Daya Manusia DJBC",
+        "driveFileId": "17vZiwRpgx2nVTPSUCFYAbSi-jc8y6Vd8",
+        "section": "Bentuk Pengembangan SDM",
+        "pageOrSlide": null,
+        "regulationStatus": "non_normative",
+        "lastVerified": "2026-08-03"
+      }
+    ],
+    "tags": [
+      "pengembangan_sdm",
+      "pendidikan_pembelajaran",
+      "control_design",
+      "analyze",
+      "easy"
+    ],
+    "review": {
+      "contentAccuracy": 25,
+      "sourceTraceability": 15,
+      "stemClarity": 9,
+      "distractorQuality": 9,
+      "singleBestAnswer": 10,
+      "competencyRelevance": 10,
+      "explanationQuality": 9,
+      "originality": 4,
+      "languageQuality": 3,
+      "difficultyFit": 2,
+      "total": 96,
+      "method": "rubrik_terotomasi_berbasis_unit_terverifikasi_v1"
+    },
+    "similarityGroup": null,
+    "knowledgeUnitId": "KU-MT-SDM-012-1",
+    "generationBatch": "2026.08.1000-v1",
+    "createdAt": "2026-08-03",
+    "lastReviewedAt": "2026-08-03",
+    "runtimeId": 411,
+    "selectedFromCandidateId": "CAND-MT-SDM-0154"
+  },
+  {
+    "id": "MT-SDM-0122",
+    "version": 1,
+    "status": "active",
+    "domain": "pengembangan_sdm",
+    "subdomain": "pendidikan_pembelajaran",
+    "competency": "Membedakan bentuk pengembangan SDM",
+    "indicator": "Menentukan pendidikan atau pembelajaran yang tepat",
+    "questionType": "control_design",
+    "cognitiveLevel": "analyze",
+    "difficulty": "hard",
+    "stem": "Data terbaru untuk kebutuhan keterampilan operasional berbeda dari asumsi awal sehingga keputusan lama perlu diuji kembali. Dalam menjawab, fokuskan penilaian pada kemampuan menentukan pendidikan atau pembelajaran yang tepat. Desain pengendalian mana yang paling relevan untuk kasus ini?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Desain pengendalian: Membatasi pembelajaran pada pelatihan kelas. Terapkan khusus dalam kebutuhan keterampilan operasional, dengan bukti uji desain dan pelaksanaan, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini tidak tepat karena membatasi pembelajaran pada pelatihan kelas. Kekeliruannya adalah mengabaikan batas berikut: Tidak semua gap membutuhkan pendidikan formal dan tidak semua pembelajaran harus berupa kelas.",
+        "misconception": "membatasi pembelajaran pada pelatihan kelas"
+      },
+      {
+        "id": "B",
+        "text": "Desain pengendalian: Pilih bentuk pengembangan berdasarkan jenis gap, hasil yang dibutuhkan, dan konteks pekerjaan. Terapkan khusus dalam kebutuhan keterampilan operasional, dengan bukti uji desain dan pelaksanaan, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini paling tepat karena pengembangan sdm mencakup pendidikan formal/tugas belajar dan pembelajaran melalui metode klasikal maupun nonklasikal. Dalam konteks kasus, tindakan tersebut menjaga tujuan, batas penerapan, dan akuntabilitas keputusan.",
+        "misconception": null
+      },
+      {
+        "id": "C",
+        "text": "Desain pengendalian: Mengirim tugas belajar untuk gap keterampilan jangka pendek. Terapkan khusus dalam kebutuhan keterampilan operasional, dengan bukti uji desain dan pelaksanaan, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini tidak tepat karena mengirim tugas belajar untuk gap keterampilan jangka pendek. Kekeliruannya adalah mengabaikan batas berikut: Tidak semua gap membutuhkan pendidikan formal dan tidak semua pembelajaran harus berupa kelas.",
+        "misconception": "mengirim tugas belajar untuk gap keterampilan jangka pendek"
+      },
+      {
+        "id": "D",
+        "text": "Desain pengendalian: Menganggap belajar di tempat kerja bukan pengembangan. Terapkan khusus dalam kebutuhan keterampilan operasional, dengan bukti uji desain dan pelaksanaan, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini tidak tepat karena menganggap belajar di tempat kerja bukan pengembangan. Kekeliruannya adalah mengabaikan batas berikut: Tidak semua gap membutuhkan pendidikan formal dan tidak semua pembelajaran harus berupa kelas.",
+        "misconception": "menganggap belajar di tempat kerja bukan pengembangan"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "Jawaban paling tepat adalah B. Pilihan ini paling tepat karena pengembangan sdm mencakup pendidikan formal/tugas belajar dan pembelajaran melalui metode klasikal maupun nonklasikal. Dalam konteks kasus, tindakan tersebut menjaga tujuan, batas penerapan, dan akuntabilitas keputusan. Konteks kasus: Data terbaru untuk kebutuhan keterampilan operasional berbeda dari asumsi awal sehingga keputusan lama perlu diuji kembali. Keputusan tetap harus ditautkan pada tujuan dan bukti. Prinsip yang digunakan: Pengembangan SDM mencakup pendidikan formal/tugas belajar dan pembelajaran melalui metode klasikal maupun nonklasikal. Batas penerapan: Tidak semua gap membutuhkan pendidikan formal dan tidak semua pembelajaran harus berupa kelas. Implikasi praktisnya, pengambil keputusan perlu pilih bentuk pengembangan berdasarkan jenis gap, hasil yang dibutuhkan, dan konteks pekerjaan. Setiap distraktor mewakili kekeliruan realistis: mengirim tugas belajar untuk gap keterampilan jangka pendek; membatasi pembelajaran pada pelatihan kelas; menganggap belajar di tempat kerja bukan pengembangan. Sumber berstatus non_normative dan terakhir diverifikasi 2026-08-03. Topik lanjutan: Membedakan bentuk pengembangan SDM.",
+    "keyTakeaway": "Ingat: pilih bentuk pengembangan berdasarkan jenis gap, hasil yang dibutuhkan, dan konteks pekerjaan.",
+    "sourceRefs": [
+      {
+        "sourceId": "SRC-SDM-2026",
+        "title": "Manajemen Pengembangan Sumber Daya Manusia DJBC",
+        "driveFileId": "17vZiwRpgx2nVTPSUCFYAbSi-jc8y6Vd8",
+        "section": "Bentuk Pengembangan SDM",
+        "pageOrSlide": null,
+        "regulationStatus": "non_normative",
+        "lastVerified": "2026-08-03"
+      }
+    ],
+    "tags": [
+      "pengembangan_sdm",
+      "pendidikan_pembelajaran",
+      "control_design",
+      "analyze",
+      "easy"
+    ],
+    "review": {
+      "contentAccuracy": 25,
+      "sourceTraceability": 15,
+      "stemClarity": 9,
+      "distractorQuality": 9,
+      "singleBestAnswer": 10,
+      "competencyRelevance": 10,
+      "explanationQuality": 9,
+      "originality": 4,
+      "languageQuality": 3,
+      "difficultyFit": 2,
+      "total": 96,
+      "method": "rubrik_terotomasi_berbasis_unit_terverifikasi_v1"
+    },
+    "similarityGroup": null,
+    "knowledgeUnitId": "KU-MT-SDM-012-2",
+    "generationBatch": "2026.08.1000-v1",
+    "createdAt": "2026-08-03",
+    "lastReviewedAt": "2026-08-03",
+    "runtimeId": 412,
+    "selectedFromCandidateId": "CAND-MT-SDM-0155"
+  },
+  {
+    "id": "MT-SDM-0123",
+    "version": 1,
+    "status": "active",
+    "domain": "pengembangan_sdm",
+    "subdomain": "pendidikan_pembelajaran",
+    "competency": "Membedakan bentuk pengembangan SDM",
+    "indicator": "Menentukan pendidikan atau pembelajaran yang tepat",
+    "questionType": "control_design",
+    "cognitiveLevel": "apply",
+    "difficulty": "easy",
+    "stem": "Dalam simulasi pengambilan keputusan terkait pengembangan perilaku kepemimpinan, anggota tim tidak dapat menjelaskan hubungan tindakan dengan tujuan. Dalam menjawab, fokuskan penilaian pada kemampuan menentukan pendidikan atau pembelajaran yang tepat. Desain pengendalian mana yang paling relevan untuk kasus ini?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Desain pengendalian: Mengirim tugas belajar untuk gap keterampilan jangka pendek. Terapkan khusus dalam pengembangan perilaku kepemimpinan, dengan bukti uji desain dan pelaksanaan, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini tidak tepat karena mengirim tugas belajar untuk gap keterampilan jangka pendek. Kekeliruannya adalah mengabaikan batas berikut: Tidak semua gap membutuhkan pendidikan formal dan tidak semua pembelajaran harus berupa kelas.",
+        "misconception": "mengirim tugas belajar untuk gap keterampilan jangka pendek"
+      },
+      {
+        "id": "B",
+        "text": "Desain pengendalian: Pilih bentuk pengembangan berdasarkan jenis gap, hasil yang dibutuhkan, dan konteks pekerjaan. Terapkan khusus dalam pengembangan perilaku kepemimpinan, dengan bukti uji desain dan pelaksanaan, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini paling tepat karena pengembangan sdm mencakup pendidikan formal/tugas belajar dan pembelajaran melalui metode klasikal maupun nonklasikal. Dalam konteks kasus, tindakan tersebut menjaga tujuan, batas penerapan, dan akuntabilitas keputusan.",
+        "misconception": null
+      },
+      {
+        "id": "C",
+        "text": "Desain pengendalian: Membatasi pembelajaran pada pelatihan kelas. Terapkan khusus dalam pengembangan perilaku kepemimpinan, dengan bukti uji desain dan pelaksanaan, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini tidak tepat karena membatasi pembelajaran pada pelatihan kelas. Kekeliruannya adalah mengabaikan batas berikut: Tidak semua gap membutuhkan pendidikan formal dan tidak semua pembelajaran harus berupa kelas.",
+        "misconception": "membatasi pembelajaran pada pelatihan kelas"
+      },
+      {
+        "id": "D",
+        "text": "Desain pengendalian: Menganggap belajar di tempat kerja bukan pengembangan. Terapkan khusus dalam pengembangan perilaku kepemimpinan, dengan bukti uji desain dan pelaksanaan, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini tidak tepat karena menganggap belajar di tempat kerja bukan pengembangan. Kekeliruannya adalah mengabaikan batas berikut: Tidak semua gap membutuhkan pendidikan formal dan tidak semua pembelajaran harus berupa kelas.",
+        "misconception": "menganggap belajar di tempat kerja bukan pengembangan"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "Jawaban paling tepat adalah B. Pilihan ini paling tepat karena pengembangan sdm mencakup pendidikan formal/tugas belajar dan pembelajaran melalui metode klasikal maupun nonklasikal. Dalam konteks kasus, tindakan tersebut menjaga tujuan, batas penerapan, dan akuntabilitas keputusan. Konteks kasus: Dalam simulasi pengambilan keputusan terkait pengembangan perilaku kepemimpinan, anggota tim tidak dapat menjelaskan hubungan tindakan dengan tujuan. Keputusan tetap harus ditautkan pada tujuan dan bukti. Prinsip yang digunakan: Pengembangan SDM mencakup pendidikan formal/tugas belajar dan pembelajaran melalui metode klasikal maupun nonklasikal. Batas penerapan: Tidak semua gap membutuhkan pendidikan formal dan tidak semua pembelajaran harus berupa kelas. Implikasi praktisnya, pengambil keputusan perlu pilih bentuk pengembangan berdasarkan jenis gap, hasil yang dibutuhkan, dan konteks pekerjaan. Setiap distraktor mewakili kekeliruan realistis: mengirim tugas belajar untuk gap keterampilan jangka pendek; membatasi pembelajaran pada pelatihan kelas; menganggap belajar di tempat kerja bukan pengembangan. Sumber berstatus non_normative dan terakhir diverifikasi 2026-08-03. Topik lanjutan: Membedakan bentuk pengembangan SDM.",
+    "keyTakeaway": "Ingat: pilih bentuk pengembangan berdasarkan jenis gap, hasil yang dibutuhkan, dan konteks pekerjaan.",
+    "sourceRefs": [
+      {
+        "sourceId": "SRC-SDM-2026",
+        "title": "Manajemen Pengembangan Sumber Daya Manusia DJBC",
+        "driveFileId": "17vZiwRpgx2nVTPSUCFYAbSi-jc8y6Vd8",
+        "section": "Bentuk Pengembangan SDM",
+        "pageOrSlide": null,
+        "regulationStatus": "non_normative",
+        "lastVerified": "2026-08-03"
+      }
+    ],
+    "tags": [
+      "pengembangan_sdm",
+      "pendidikan_pembelajaran",
+      "control_design",
+      "analyze",
+      "easy"
+    ],
+    "review": {
+      "contentAccuracy": 25,
+      "sourceTraceability": 15,
+      "stemClarity": 9,
+      "distractorQuality": 9,
+      "singleBestAnswer": 10,
+      "competencyRelevance": 10,
+      "explanationQuality": 9,
+      "originality": 4,
+      "languageQuality": 3,
+      "difficultyFit": 2,
+      "total": 96,
+      "method": "rubrik_terotomasi_berbasis_unit_terverifikasi_v1"
+    },
+    "similarityGroup": null,
+    "knowledgeUnitId": "KU-MT-SDM-012-3",
+    "generationBatch": "2026.08.1000-v1",
+    "createdAt": "2026-08-03",
+    "lastReviewedAt": "2026-08-03",
+    "runtimeId": 413,
+    "selectedFromCandidateId": "CAND-MT-SDM-0156"
+  },
+  {
+    "id": "MT-SDM-0124",
+    "version": 1,
+    "status": "active",
+    "domain": "pengembangan_sdm",
+    "subdomain": "model_70_20_10",
+    "competency": "Mendesain pembelajaran terintegrasi",
+    "indicator": "Mengombinasikan pengalaman, sosial, dan terstruktur",
+    "questionType": "control_design",
+    "cognitiveLevel": "apply",
+    "difficulty": "medium",
+    "stem": "Keluhan atas program calon pemimpin tim menunjukkan bahwa prosedur dilaksanakan, tetapi hasil yang dibutuhkan belum tercapai. Dalam menjawab, fokuskan penilaian pada kemampuan mengombinasikan pengalaman, sosial, dan terstruktur. Desain pengendalian mana yang paling relevan untuk kasus ini?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Desain pengendalian: Memberi penugasan tanpa dukungan atau refleksi. Terapkan khusus dalam program calon pemimpin tim, dengan bukti uji desain dan pelaksanaan, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini tidak tepat karena memberi penugasan tanpa dukungan atau refleksi. Kekeliruannya adalah mengabaikan batas berikut: Rasio 70:20:10 adalah arah desain, bukan kewajiban menghitung setiap jam secara kaku.",
+        "misconception": "memberi penugasan tanpa dukungan atau refleksi"
+      },
+      {
+        "id": "B",
+        "text": "Desain pengendalian: Membagi jam belajar secara mekanis tanpa tujuan. Terapkan khusus dalam program calon pemimpin tim, dengan bukti uji desain dan pelaksanaan, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini tidak tepat karena membagi jam belajar secara mekanis tanpa tujuan. Kekeliruannya adalah mengabaikan batas berikut: Rasio 70:20:10 adalah arah desain, bukan kewajiban menghitung setiap jam secara kaku.",
+        "misconception": "membagi jam belajar secara mekanis tanpa tujuan"
+      },
+      {
+        "id": "C",
+        "text": "Desain pengendalian: Mengandalkan kelas tanpa praktik. Terapkan khusus dalam program calon pemimpin tim, dengan bukti uji desain dan pelaksanaan, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini tidak tepat karena mengandalkan kelas tanpa praktik. Kekeliruannya adalah mengabaikan batas berikut: Rasio 70:20:10 adalah arah desain, bukan kewajiban menghitung setiap jam secara kaku.",
+        "misconception": "mengandalkan kelas tanpa praktik"
+      },
+      {
+        "id": "D",
+        "text": "Desain pengendalian: Rancang pengalaman kerja utama yang diperkuat coaching/mentoring dan pembelajaran terstruktur. Terapkan khusus dalam program calon pemimpin tim, dengan bukti uji desain dan pelaksanaan, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini paling tepat karena model pengembangan memadukan pengalaman kerja, belajar dari orang lain, dan pembelajaran terstruktur secara saling mendukung. Dalam konteks kasus, tindakan tersebut menjaga tujuan, batas penerapan, dan akuntabilitas keputusan.",
+        "misconception": null
+      }
+    ],
+    "correctOptionId": "D",
+    "explanation": "Jawaban paling tepat adalah D. Pilihan ini paling tepat karena model pengembangan memadukan pengalaman kerja, belajar dari orang lain, dan pembelajaran terstruktur secara saling mendukung. Dalam konteks kasus, tindakan tersebut menjaga tujuan, batas penerapan, dan akuntabilitas keputusan. Konteks kasus: Keluhan atas program calon pemimpin tim menunjukkan bahwa prosedur dilaksanakan, tetapi hasil yang dibutuhkan belum tercapai. Keputusan tetap harus ditautkan pada tujuan dan bukti. Prinsip yang digunakan: Model pengembangan memadukan pengalaman kerja, belajar dari orang lain, dan pembelajaran terstruktur secara saling mendukung. Batas penerapan: Rasio 70:20:10 adalah arah desain, bukan kewajiban menghitung setiap jam secara kaku. Implikasi praktisnya, pengambil keputusan perlu rancang pengalaman kerja utama yang diperkuat coaching/mentoring dan pembelajaran terstruktur. Setiap distraktor mewakili kekeliruan realistis: membagi jam belajar secara mekanis tanpa tujuan; mengandalkan kelas tanpa praktik; memberi penugasan tanpa dukungan atau refleksi. Sumber berstatus non_normative dan terakhir diverifikasi 2026-08-03. Topik lanjutan: Mendesain pembelajaran terintegrasi.",
+    "keyTakeaway": "Ingat: rancang pengalaman kerja utama yang diperkuat coaching/mentoring dan pembelajaran terstruktur.",
+    "sourceRefs": [
+      {
+        "sourceId": "SRC-SDM-2026",
+        "title": "Manajemen Pengembangan Sumber Daya Manusia DJBC",
+        "driveFileId": "17vZiwRpgx2nVTPSUCFYAbSi-jc8y6Vd8",
+        "section": "Desain Manajemen SDM—70:20:10",
+        "pageOrSlide": null,
+        "regulationStatus": "non_normative",
+        "lastVerified": "2026-08-03"
+      }
+    ],
+    "tags": [
+      "pengembangan_sdm",
+      "model_70_20_10",
+      "control_design",
+      "analyze",
+      "easy"
+    ],
+    "review": {
+      "contentAccuracy": 25,
+      "sourceTraceability": 15,
+      "stemClarity": 9,
+      "distractorQuality": 9,
+      "singleBestAnswer": 10,
+      "competencyRelevance": 10,
+      "explanationQuality": 9,
+      "originality": 4,
+      "languageQuality": 3,
+      "difficultyFit": 2,
+      "total": 96,
+      "method": "rubrik_terotomasi_berbasis_unit_terverifikasi_v1"
+    },
+    "similarityGroup": null,
+    "knowledgeUnitId": "KU-MT-SDM-013-1",
+    "generationBatch": "2026.08.1000-v1",
+    "createdAt": "2026-08-03",
+    "lastReviewedAt": "2026-08-03",
+    "runtimeId": 414,
+    "selectedFromCandidateId": "CAND-MT-SDM-0157"
+  },
+  {
+    "id": "MT-SDM-0125",
+    "version": 1,
+    "status": "active",
+    "domain": "pengembangan_sdm",
+    "subdomain": "model_70_20_10",
+    "competency": "Mendesain pembelajaran terintegrasi",
+    "indicator": "Mengombinasikan pengalaman, sosial, dan terstruktur",
+    "questionType": "situational_judgment",
+    "cognitiveLevel": "evaluate",
+    "difficulty": "medium",
+    "stem": "Sebuah unit sedang penguasaan proses bisnis baru. Data awal tersedia, tetapi tim belum menyepakati dasar keputusan. Dalam menjawab, fokuskan penilaian pada kemampuan mengombinasikan pengalaman, sosial, dan terstruktur. Desain pengendalian mana yang paling relevan untuk kasus ini?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Desain pengendalian: Rancang pengalaman kerja utama yang diperkuat coaching/mentoring dan pembelajaran terstruktur. Terapkan khusus dalam penguasaan proses bisnis baru, dengan bukti uji desain dan pelaksanaan, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini paling tepat karena model pengembangan memadukan pengalaman kerja, belajar dari orang lain, dan pembelajaran terstruktur secara saling mendukung. Dalam konteks kasus, tindakan tersebut menjaga tujuan, batas penerapan, dan akuntabilitas keputusan.",
+        "misconception": null
+      },
+      {
+        "id": "B",
+        "text": "Desain pengendalian: Membagi jam belajar secara mekanis tanpa tujuan. Terapkan khusus dalam penguasaan proses bisnis baru, dengan bukti uji desain dan pelaksanaan, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini tidak tepat karena membagi jam belajar secara mekanis tanpa tujuan. Kekeliruannya adalah mengabaikan batas berikut: Rasio 70:20:10 adalah arah desain, bukan kewajiban menghitung setiap jam secara kaku.",
+        "misconception": "membagi jam belajar secara mekanis tanpa tujuan"
+      },
+      {
+        "id": "C",
+        "text": "Desain pengendalian: Mengandalkan kelas tanpa praktik. Terapkan khusus dalam penguasaan proses bisnis baru, dengan bukti uji desain dan pelaksanaan, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini tidak tepat karena mengandalkan kelas tanpa praktik. Kekeliruannya adalah mengabaikan batas berikut: Rasio 70:20:10 adalah arah desain, bukan kewajiban menghitung setiap jam secara kaku.",
+        "misconception": "mengandalkan kelas tanpa praktik"
+      },
+      {
+        "id": "D",
+        "text": "Desain pengendalian: Memberi penugasan tanpa dukungan atau refleksi. Terapkan khusus dalam penguasaan proses bisnis baru, dengan bukti uji desain dan pelaksanaan, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini tidak tepat karena memberi penugasan tanpa dukungan atau refleksi. Kekeliruannya adalah mengabaikan batas berikut: Rasio 70:20:10 adalah arah desain, bukan kewajiban menghitung setiap jam secara kaku.",
+        "misconception": "memberi penugasan tanpa dukungan atau refleksi"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "Jawaban paling tepat adalah A. Pilihan ini paling tepat karena model pengembangan memadukan pengalaman kerja, belajar dari orang lain, dan pembelajaran terstruktur secara saling mendukung. Dalam konteks kasus, tindakan tersebut menjaga tujuan, batas penerapan, dan akuntabilitas keputusan. Konteks kasus: Sebuah unit sedang penguasaan proses bisnis baru. Data awal tersedia, tetapi tim belum menyepakati dasar keputusan. Keputusan tetap harus ditautkan pada tujuan dan bukti. Prinsip yang digunakan: Model pengembangan memadukan pengalaman kerja, belajar dari orang lain, dan pembelajaran terstruktur secara saling mendukung. Batas penerapan: Rasio 70:20:10 adalah arah desain, bukan kewajiban menghitung setiap jam secara kaku. Implikasi praktisnya, pengambil keputusan perlu rancang pengalaman kerja utama yang diperkuat coaching/mentoring dan pembelajaran terstruktur. Setiap distraktor mewakili kekeliruan realistis: membagi jam belajar secara mekanis tanpa tujuan; mengandalkan kelas tanpa praktik; memberi penugasan tanpa dukungan atau refleksi. Sumber berstatus non_normative dan terakhir diverifikasi 2026-08-03. Topik lanjutan: Mendesain pembelajaran terintegrasi.",
+    "keyTakeaway": "Ingat: rancang pengalaman kerja utama yang diperkuat coaching/mentoring dan pembelajaran terstruktur.",
+    "sourceRefs": [
+      {
+        "sourceId": "SRC-SDM-2026",
+        "title": "Manajemen Pengembangan Sumber Daya Manusia DJBC",
+        "driveFileId": "17vZiwRpgx2nVTPSUCFYAbSi-jc8y6Vd8",
+        "section": "Desain Manajemen SDM—70:20:10",
+        "pageOrSlide": null,
+        "regulationStatus": "non_normative",
+        "lastVerified": "2026-08-03"
+      }
+    ],
+    "tags": [
+      "pengembangan_sdm",
+      "model_70_20_10",
+      "situational_judgment",
+      "evaluate",
+      "easy"
+    ],
+    "review": {
+      "contentAccuracy": 25,
+      "sourceTraceability": 15,
+      "stemClarity": 9,
+      "distractorQuality": 9,
+      "singleBestAnswer": 10,
+      "competencyRelevance": 10,
+      "explanationQuality": 9,
+      "originality": 4,
+      "languageQuality": 3,
+      "difficultyFit": 2,
+      "total": 96,
+      "method": "rubrik_terotomasi_berbasis_unit_terverifikasi_v1"
+    },
+    "similarityGroup": null,
+    "knowledgeUnitId": "KU-MT-SDM-013-2",
+    "generationBatch": "2026.08.1000-v1",
+    "createdAt": "2026-08-03",
+    "lastReviewedAt": "2026-08-03",
+    "runtimeId": 415,
+    "selectedFromCandidateId": "CAND-MT-SDM-0158"
+  },
+  {
+    "id": "MT-SDM-0126",
+    "version": 1,
+    "status": "active",
+    "domain": "pengembangan_sdm",
+    "subdomain": "coaching_mentoring",
+    "competency": "Membedakan dukungan pengembangan",
+    "indicator": "Memilih coaching atau mentoring sesuai kebutuhan",
+    "questionType": "situational_judgment",
+    "cognitiveLevel": "evaluate",
+    "difficulty": "hard",
+    "stem": "Dalam evaluasi pegawai kesulitan memilih strategi kerja, ditemukan bahwa keputusan sebelumnya lebih banyak didasarkan pada kebiasaan daripada bukti. Dalam menjawab, fokuskan penilaian pada kemampuan memilih coaching atau mentoring sesuai kebutuhan. Desain pengendalian mana yang paling relevan untuk kasus ini?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Desain pengendalian: Memberi jawaban rinci lalu menyebutnya coaching. Terapkan khusus dalam pegawai kesulitan memilih strategi kerja, dengan bukti uji desain dan pelaksanaan, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini tidak tepat karena memberi jawaban rinci lalu menyebutnya coaching. Kekeliruannya adalah mengabaikan batas berikut: Keduanya bukan pengganti instruksi wajib atau penanganan pelanggaran.",
+        "misconception": "memberi jawaban rinci lalu menyebutnya coaching"
+      },
+      {
+        "id": "B",
+        "text": "Desain pengendalian: Pilih pendekatan berdasarkan kebutuhan refleksi atau transfer pengalaman dan sepakati tujuan pengembangan. Terapkan khusus dalam pegawai kesulitan memilih strategi kerja, dengan bukti uji desain dan pelaksanaan, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini paling tepat karena coaching membantu pegawai menemukan langkah melalui pertanyaan dan refleksi, sedangkan mentoring memanfaatkan pengalaman mentor untuk memberi perspektif dan arahan pengembangan. Dalam konteks kasus, tindakan tersebut menjaga tujuan, batas penerapan, dan akuntabilitas keputusan.",
+        "misconception": null
+      },
+      {
+        "id": "C",
+        "text": "Desain pengendalian: Menggunakan mentoring untuk menghindari umpan balik kinerja. Terapkan khusus dalam pegawai kesulitan memilih strategi kerja, dengan bukti uji desain dan pelaksanaan, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini tidak tepat karena menggunakan mentoring untuk menghindari umpan balik kinerja. Kekeliruannya adalah mengabaikan batas berikut: Keduanya bukan pengganti instruksi wajib atau penanganan pelanggaran.",
+        "misconception": "menggunakan mentoring untuk menghindari umpan balik kinerja"
+      },
+      {
+        "id": "D",
+        "text": "Desain pengendalian: Memakai coaching sebagai proses pemeriksaan disiplin. Terapkan khusus dalam pegawai kesulitan memilih strategi kerja, dengan bukti uji desain dan pelaksanaan, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini tidak tepat karena memakai coaching sebagai proses pemeriksaan disiplin. Kekeliruannya adalah mengabaikan batas berikut: Keduanya bukan pengganti instruksi wajib atau penanganan pelanggaran.",
+        "misconception": "memakai coaching sebagai proses pemeriksaan disiplin"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "Jawaban paling tepat adalah B. Pilihan ini paling tepat karena coaching membantu pegawai menemukan langkah melalui pertanyaan dan refleksi, sedangkan mentoring memanfaatkan pengalaman mentor untuk memberi perspektif dan arahan pengembangan. Dalam konteks kasus, tindakan tersebut menjaga tujuan, batas penerapan, dan akuntabilitas keputusan. Konteks kasus: Dalam evaluasi pegawai kesulitan memilih strategi kerja, ditemukan bahwa keputusan sebelumnya lebih banyak didasarkan pada kebiasaan daripada bukti. Keputusan tetap harus ditautkan pada tujuan dan bukti. Prinsip yang digunakan: Coaching membantu pegawai menemukan langkah melalui pertanyaan dan refleksi, sedangkan mentoring memanfaatkan pengalaman mentor untuk memberi perspektif dan arahan pengembangan. Batas penerapan: Keduanya bukan pengganti instruksi wajib atau penanganan pelanggaran. Implikasi praktisnya, pengambil keputusan perlu pilih pendekatan berdasarkan kebutuhan refleksi atau transfer pengalaman dan sepakati tujuan pengembangan. Setiap distraktor mewakili kekeliruan realistis: memberi jawaban rinci lalu menyebutnya coaching; menggunakan mentoring untuk menghindari umpan balik kinerja; memakai coaching sebagai proses pemeriksaan disiplin. Sumber berstatus non_normative dan terakhir diverifikasi 2026-08-03. Topik lanjutan: Membedakan dukungan pengembangan.",
+    "keyTakeaway": "Ingat: pilih pendekatan berdasarkan kebutuhan refleksi atau transfer pengalaman dan sepakati tujuan pengembangan.",
+    "sourceRefs": [
+      {
+        "sourceId": "SRC-SDM-2026",
+        "title": "Manajemen Pengembangan Sumber Daya Manusia DJBC",
+        "driveFileId": "17vZiwRpgx2nVTPSUCFYAbSi-jc8y6Vd8",
+        "section": "Pembelajaran Nonklasikal—Coaching dan Mentoring",
+        "pageOrSlide": null,
+        "regulationStatus": "non_normative",
+        "lastVerified": "2026-08-03"
+      }
+    ],
+    "tags": [
+      "pengembangan_sdm",
+      "coaching_mentoring",
+      "situational_judgment",
+      "evaluate",
+      "easy"
+    ],
+    "review": {
+      "contentAccuracy": 25,
+      "sourceTraceability": 15,
+      "stemClarity": 9,
+      "distractorQuality": 9,
+      "singleBestAnswer": 10,
+      "competencyRelevance": 10,
+      "explanationQuality": 9,
+      "originality": 4,
+      "languageQuality": 3,
+      "difficultyFit": 2,
+      "total": 96,
+      "method": "rubrik_terotomasi_berbasis_unit_terverifikasi_v1"
+    },
+    "similarityGroup": null,
+    "knowledgeUnitId": "KU-MT-SDM-014-1",
+    "generationBatch": "2026.08.1000-v1",
+    "createdAt": "2026-08-03",
+    "lastReviewedAt": "2026-08-03",
+    "runtimeId": 416,
+    "selectedFromCandidateId": "CAND-MT-SDM-0160"
+  },
+  {
+    "id": "MT-SDM-0127",
+    "version": 1,
+    "status": "active",
+    "domain": "pengembangan_sdm",
+    "subdomain": "coaching_mentoring",
+    "competency": "Membedakan dukungan pengembangan",
+    "indicator": "Memilih coaching atau mentoring sesuai kebutuhan",
+    "questionType": "case_based_mcq",
+    "cognitiveLevel": "apply",
+    "difficulty": "easy",
+    "stem": "Tim lintas fungsi membahas calon pemimpin membutuhkan wawasan pengalaman. Setiap pihak membawa kepentingan berbeda dan meminta keputusan segera. Dalam menjawab, fokuskan penilaian pada kemampuan memilih coaching atau mentoring sesuai kebutuhan. Desain pengendalian mana yang paling relevan untuk kasus ini?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Desain pengendalian: Menggunakan mentoring untuk menghindari umpan balik kinerja. Terapkan khusus dalam calon pemimpin membutuhkan wawasan pengalaman, dengan bukti uji desain dan pelaksanaan, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini tidak tepat karena menggunakan mentoring untuk menghindari umpan balik kinerja. Kekeliruannya adalah mengabaikan batas berikut: Keduanya bukan pengganti instruksi wajib atau penanganan pelanggaran.",
+        "misconception": "menggunakan mentoring untuk menghindari umpan balik kinerja"
+      },
+      {
+        "id": "B",
+        "text": "Desain pengendalian: Memberi jawaban rinci lalu menyebutnya coaching. Terapkan khusus dalam calon pemimpin membutuhkan wawasan pengalaman, dengan bukti uji desain dan pelaksanaan, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini tidak tepat karena memberi jawaban rinci lalu menyebutnya coaching. Kekeliruannya adalah mengabaikan batas berikut: Keduanya bukan pengganti instruksi wajib atau penanganan pelanggaran.",
+        "misconception": "memberi jawaban rinci lalu menyebutnya coaching"
+      },
+      {
+        "id": "C",
+        "text": "Desain pengendalian: Pilih pendekatan berdasarkan kebutuhan refleksi atau transfer pengalaman dan sepakati tujuan pengembangan. Terapkan khusus dalam calon pemimpin membutuhkan wawasan pengalaman, dengan bukti uji desain dan pelaksanaan, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini paling tepat karena coaching membantu pegawai menemukan langkah melalui pertanyaan dan refleksi, sedangkan mentoring memanfaatkan pengalaman mentor untuk memberi perspektif dan arahan pengembangan. Dalam konteks kasus, tindakan tersebut menjaga tujuan, batas penerapan, dan akuntabilitas keputusan.",
+        "misconception": null
+      },
+      {
+        "id": "D",
+        "text": "Desain pengendalian: Memakai coaching sebagai proses pemeriksaan disiplin. Terapkan khusus dalam calon pemimpin membutuhkan wawasan pengalaman, dengan bukti uji desain dan pelaksanaan, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini tidak tepat karena memakai coaching sebagai proses pemeriksaan disiplin. Kekeliruannya adalah mengabaikan batas berikut: Keduanya bukan pengganti instruksi wajib atau penanganan pelanggaran.",
+        "misconception": "memakai coaching sebagai proses pemeriksaan disiplin"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "Jawaban paling tepat adalah C. Pilihan ini paling tepat karena coaching membantu pegawai menemukan langkah melalui pertanyaan dan refleksi, sedangkan mentoring memanfaatkan pengalaman mentor untuk memberi perspektif dan arahan pengembangan. Dalam konteks kasus, tindakan tersebut menjaga tujuan, batas penerapan, dan akuntabilitas keputusan. Konteks kasus: Tim lintas fungsi membahas calon pemimpin membutuhkan wawasan pengalaman. Setiap pihak membawa kepentingan berbeda dan meminta keputusan segera. Keputusan tetap harus ditautkan pada tujuan dan bukti. Prinsip yang digunakan: Coaching membantu pegawai menemukan langkah melalui pertanyaan dan refleksi, sedangkan mentoring memanfaatkan pengalaman mentor untuk memberi perspektif dan arahan pengembangan. Batas penerapan: Keduanya bukan pengganti instruksi wajib atau penanganan pelanggaran. Implikasi praktisnya, pengambil keputusan perlu pilih pendekatan berdasarkan kebutuhan refleksi atau transfer pengalaman dan sepakati tujuan pengembangan. Setiap distraktor mewakili kekeliruan realistis: memberi jawaban rinci lalu menyebutnya coaching; menggunakan mentoring untuk menghindari umpan balik kinerja; memakai coaching sebagai proses pemeriksaan disiplin. Sumber berstatus non_normative dan terakhir diverifikasi 2026-08-03. Topik lanjutan: Membedakan dukungan pengembangan.",
+    "keyTakeaway": "Ingat: pilih pendekatan berdasarkan kebutuhan refleksi atau transfer pengalaman dan sepakati tujuan pengembangan.",
+    "sourceRefs": [
+      {
+        "sourceId": "SRC-SDM-2026",
+        "title": "Manajemen Pengembangan Sumber Daya Manusia DJBC",
+        "driveFileId": "17vZiwRpgx2nVTPSUCFYAbSi-jc8y6Vd8",
+        "section": "Pembelajaran Nonklasikal—Coaching dan Mentoring",
+        "pageOrSlide": null,
+        "regulationStatus": "non_normative",
+        "lastVerified": "2026-08-03"
+      }
+    ],
+    "tags": [
+      "pengembangan_sdm",
+      "coaching_mentoring",
+      "conceptual_mcq",
+      "remember",
+      "easy"
+    ],
+    "review": {
+      "contentAccuracy": 25,
+      "sourceTraceability": 15,
+      "stemClarity": 9,
+      "distractorQuality": 9,
+      "singleBestAnswer": 10,
+      "competencyRelevance": 10,
+      "explanationQuality": 9,
+      "originality": 4,
+      "languageQuality": 3,
+      "difficultyFit": 2,
+      "total": 96,
+      "method": "rubrik_terotomasi_berbasis_unit_terverifikasi_v1"
+    },
+    "similarityGroup": null,
+    "knowledgeUnitId": "KU-MT-SDM-014-2",
+    "generationBatch": "2026.08.1000-v1",
+    "createdAt": "2026-08-03",
+    "lastReviewedAt": "2026-08-03",
+    "runtimeId": 417,
+    "selectedFromCandidateId": "CAND-MT-SDM-0161"
+  },
+  {
+    "id": "MT-SDM-0128",
+    "version": 1,
+    "status": "active",
+    "domain": "pengembangan_sdm",
+    "subdomain": "coaching_mentoring",
+    "competency": "Membedakan dukungan pengembangan",
+    "indicator": "Memilih coaching atau mentoring sesuai kebutuhan",
+    "questionType": "case_based_mcq",
+    "cognitiveLevel": "apply",
+    "difficulty": "medium",
+    "stem": "Seorang koordinator baru mengambil alih tindak lanjut hasil asesmen kompetensi. Dokumentasi lama tidak cukup menjelaskan alasan keputusan. Dalam menjawab, fokuskan penilaian pada kemampuan memilih coaching atau mentoring sesuai kebutuhan. Desain pengendalian mana yang paling relevan untuk kasus ini?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Desain pengendalian: Memakai coaching sebagai proses pemeriksaan disiplin. Terapkan khusus dalam tindak lanjut hasil asesmen kompetensi, dengan bukti uji desain dan pelaksanaan, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini tidak tepat karena memakai coaching sebagai proses pemeriksaan disiplin. Kekeliruannya adalah mengabaikan batas berikut: Keduanya bukan pengganti instruksi wajib atau penanganan pelanggaran.",
+        "misconception": "memakai coaching sebagai proses pemeriksaan disiplin"
+      },
+      {
+        "id": "B",
+        "text": "Desain pengendalian: Memberi jawaban rinci lalu menyebutnya coaching. Terapkan khusus dalam tindak lanjut hasil asesmen kompetensi, dengan bukti uji desain dan pelaksanaan, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini tidak tepat karena memberi jawaban rinci lalu menyebutnya coaching. Kekeliruannya adalah mengabaikan batas berikut: Keduanya bukan pengganti instruksi wajib atau penanganan pelanggaran.",
+        "misconception": "memberi jawaban rinci lalu menyebutnya coaching"
+      },
+      {
+        "id": "C",
+        "text": "Desain pengendalian: Menggunakan mentoring untuk menghindari umpan balik kinerja. Terapkan khusus dalam tindak lanjut hasil asesmen kompetensi, dengan bukti uji desain dan pelaksanaan, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini tidak tepat karena menggunakan mentoring untuk menghindari umpan balik kinerja. Kekeliruannya adalah mengabaikan batas berikut: Keduanya bukan pengganti instruksi wajib atau penanganan pelanggaran.",
+        "misconception": "menggunakan mentoring untuk menghindari umpan balik kinerja"
+      },
+      {
+        "id": "D",
+        "text": "Desain pengendalian: Pilih pendekatan berdasarkan kebutuhan refleksi atau transfer pengalaman dan sepakati tujuan pengembangan. Terapkan khusus dalam tindak lanjut hasil asesmen kompetensi, dengan bukti uji desain dan pelaksanaan, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini paling tepat karena coaching membantu pegawai menemukan langkah melalui pertanyaan dan refleksi, sedangkan mentoring memanfaatkan pengalaman mentor untuk memberi perspektif dan arahan pengembangan. Dalam konteks kasus, tindakan tersebut menjaga tujuan, batas penerapan, dan akuntabilitas keputusan.",
+        "misconception": null
+      }
+    ],
+    "correctOptionId": "D",
+    "explanation": "Jawaban paling tepat adalah D. Pilihan ini paling tepat karena coaching membantu pegawai menemukan langkah melalui pertanyaan dan refleksi, sedangkan mentoring memanfaatkan pengalaman mentor untuk memberi perspektif dan arahan pengembangan. Dalam konteks kasus, tindakan tersebut menjaga tujuan, batas penerapan, dan akuntabilitas keputusan. Konteks kasus: Seorang koordinator baru mengambil alih tindak lanjut hasil asesmen kompetensi. Dokumentasi lama tidak cukup menjelaskan alasan keputusan. Keputusan tetap harus ditautkan pada tujuan dan bukti. Prinsip yang digunakan: Coaching membantu pegawai menemukan langkah melalui pertanyaan dan refleksi, sedangkan mentoring memanfaatkan pengalaman mentor untuk memberi perspektif dan arahan pengembangan. Batas penerapan: Keduanya bukan pengganti instruksi wajib atau penanganan pelanggaran. Implikasi praktisnya, pengambil keputusan perlu pilih pendekatan berdasarkan kebutuhan refleksi atau transfer pengalaman dan sepakati tujuan pengembangan. Setiap distraktor mewakili kekeliruan realistis: memberi jawaban rinci lalu menyebutnya coaching; menggunakan mentoring untuk menghindari umpan balik kinerja; memakai coaching sebagai proses pemeriksaan disiplin. Sumber berstatus non_normative dan terakhir diverifikasi 2026-08-03. Topik lanjutan: Membedakan dukungan pengembangan.",
+    "keyTakeaway": "Ingat: pilih pendekatan berdasarkan kebutuhan refleksi atau transfer pengalaman dan sepakati tujuan pengembangan.",
+    "sourceRefs": [
+      {
+        "sourceId": "SRC-SDM-2026",
+        "title": "Manajemen Pengembangan Sumber Daya Manusia DJBC",
+        "driveFileId": "17vZiwRpgx2nVTPSUCFYAbSi-jc8y6Vd8",
+        "section": "Pembelajaran Nonklasikal—Coaching dan Mentoring",
+        "pageOrSlide": null,
+        "regulationStatus": "non_normative",
+        "lastVerified": "2026-08-03"
+      }
+    ],
+    "tags": [
+      "pengembangan_sdm",
+      "coaching_mentoring",
+      "conceptual_mcq",
+      "remember",
+      "easy"
+    ],
+    "review": {
+      "contentAccuracy": 25,
+      "sourceTraceability": 15,
+      "stemClarity": 9,
+      "distractorQuality": 9,
+      "singleBestAnswer": 10,
+      "competencyRelevance": 10,
+      "explanationQuality": 9,
+      "originality": 4,
+      "languageQuality": 3,
+      "difficultyFit": 2,
+      "total": 96,
+      "method": "rubrik_terotomasi_berbasis_unit_terverifikasi_v1"
+    },
+    "similarityGroup": null,
+    "knowledgeUnitId": "KU-MT-SDM-014-3",
+    "generationBatch": "2026.08.1000-v1",
+    "createdAt": "2026-08-03",
+    "lastReviewedAt": "2026-08-03",
+    "runtimeId": 418,
+    "selectedFromCandidateId": "CAND-MT-SDM-0162"
+  },
+  {
+    "id": "MT-SDM-0129",
+    "version": 1,
+    "status": "active",
+    "domain": "pengembangan_sdm",
+    "subdomain": "monev_pengembangan",
+    "competency": "Mengevaluasi program pengembangan",
+    "indicator": "Membedakan pemantauan dan evaluasi",
+    "questionType": "case_based_mcq",
+    "cognitiveLevel": "analyze",
+    "difficulty": "medium",
+    "stem": "Pada tahap pemantauan review program semester berjalan, hasil terlihat baik tetapi terdapat sinyal bahwa proses belum konsisten. Dalam menjawab, fokuskan penilaian pada kemampuan membedakan pemantauan dan evaluasi. Desain pengendalian mana yang paling relevan untuk kasus ini?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Desain pengendalian: Menyamakan kepuasan peserta dengan dampak kinerja. Terapkan khusus dalam review program semester berjalan, dengan bukti uji desain dan pelaksanaan, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini tidak tepat karena menyamakan kepuasan peserta dengan dampak kinerja. Kekeliruannya adalah mengabaikan batas berikut: Kehadiran peserta saja belum membuktikan manfaat pembelajaran.",
+        "misconception": "menyamakan kepuasan peserta dengan dampak kinerja"
+      },
+      {
+        "id": "B",
+        "text": "Desain pengendalian: Menutup program setelah daftar hadir lengkap. Terapkan khusus dalam review program semester berjalan, dengan bukti uji desain dan pelaksanaan, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini tidak tepat karena menutup program setelah daftar hadir lengkap. Kekeliruannya adalah mengabaikan batas berikut: Kehadiran peserta saja belum membuktikan manfaat pembelajaran.",
+        "misconception": "menutup program setelah daftar hadir lengkap"
+      },
+      {
+        "id": "C",
+        "text": "Desain pengendalian: Pantau pelaksanaan dan ukur perubahan kemampuan atau kinerja untuk menentukan perbaikan. Terapkan khusus dalam review program semester berjalan, dengan bukti uji desain dan pelaksanaan, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini paling tepat karena pemantauan memastikan pelaksanaan sesuai rencana; evaluasi menilai kesesuaian, kemanfaatan, dan kebutuhan masa mendatang. Dalam konteks kasus, tindakan tersebut menjaga tujuan, batas penerapan, dan akuntabilitas keputusan.",
+        "misconception": null
+      },
+      {
+        "id": "D",
+        "text": "Desain pengendalian: Mengubah program tanpa membandingkan rencana dan hasil. Terapkan khusus dalam review program semester berjalan, dengan bukti uji desain dan pelaksanaan, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini tidak tepat karena mengubah program tanpa membandingkan rencana dan hasil. Kekeliruannya adalah mengabaikan batas berikut: Kehadiran peserta saja belum membuktikan manfaat pembelajaran.",
+        "misconception": "mengubah program tanpa membandingkan rencana dan hasil"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "Jawaban paling tepat adalah C. Pilihan ini paling tepat karena pemantauan memastikan pelaksanaan sesuai rencana; evaluasi menilai kesesuaian, kemanfaatan, dan kebutuhan masa mendatang. Dalam konteks kasus, tindakan tersebut menjaga tujuan, batas penerapan, dan akuntabilitas keputusan. Konteks kasus: Pada tahap pemantauan review program semester berjalan, hasil terlihat baik tetapi terdapat sinyal bahwa proses belum konsisten. Keputusan tetap harus ditautkan pada tujuan dan bukti. Prinsip yang digunakan: Pemantauan memastikan pelaksanaan sesuai rencana; evaluasi menilai kesesuaian, kemanfaatan, dan kebutuhan masa mendatang. Batas penerapan: Kehadiran peserta saja belum membuktikan manfaat pembelajaran. Implikasi praktisnya, pengambil keputusan perlu pantau pelaksanaan dan ukur perubahan kemampuan atau kinerja untuk menentukan perbaikan. Setiap distraktor mewakili kekeliruan realistis: menutup program setelah daftar hadir lengkap; menyamakan kepuasan peserta dengan dampak kinerja; mengubah program tanpa membandingkan rencana dan hasil. Sumber berstatus non_normative dan terakhir diverifikasi 2026-08-03. Topik lanjutan: Mengevaluasi program pengembangan.",
+    "keyTakeaway": "Ingat: pantau pelaksanaan dan ukur perubahan kemampuan atau kinerja untuk menentukan perbaikan.",
+    "sourceRefs": [
+      {
+        "sourceId": "SRC-SDM-2026",
+        "title": "Manajemen Pengembangan Sumber Daya Manusia DJBC",
+        "driveFileId": "17vZiwRpgx2nVTPSUCFYAbSi-jc8y6Vd8",
+        "section": "Monitoring dan Evaluasi Pengembangan",
+        "pageOrSlide": null,
+        "regulationStatus": "non_normative",
+        "lastVerified": "2026-08-03"
+      }
+    ],
+    "tags": [
+      "pengembangan_sdm",
+      "monev_pengembangan",
+      "conceptual_mcq",
+      "remember",
+      "easy"
+    ],
+    "review": {
+      "contentAccuracy": 25,
+      "sourceTraceability": 15,
+      "stemClarity": 9,
+      "distractorQuality": 9,
+      "singleBestAnswer": 10,
+      "competencyRelevance": 10,
+      "explanationQuality": 9,
+      "originality": 4,
+      "languageQuality": 3,
+      "difficultyFit": 2,
+      "total": 96,
+      "method": "rubrik_terotomasi_berbasis_unit_terverifikasi_v1"
+    },
+    "similarityGroup": null,
+    "knowledgeUnitId": "KU-MT-SDM-015-1",
+    "generationBatch": "2026.08.1000-v1",
+    "createdAt": "2026-08-03",
+    "lastReviewedAt": "2026-08-03",
+    "runtimeId": 419,
+    "selectedFromCandidateId": "CAND-MT-SDM-0163"
+  },
+  {
+    "id": "MT-SDM-0130",
+    "version": 1,
+    "status": "active",
+    "domain": "pengembangan_sdm",
+    "subdomain": "monev_pengembangan",
+    "competency": "Mengevaluasi program pengembangan",
+    "indicator": "Membedakan pemantauan dan evaluasi",
+    "questionType": "situational_judgment",
+    "cognitiveLevel": "evaluate",
+    "difficulty": "hard",
+    "stem": "Ketika evaluasi pembelajaran akhir tahun, muncul usulan untuk mengabaikan satu tahapan karena dianggap administratif. Dalam menjawab, fokuskan penilaian pada kemampuan membedakan pemantauan dan evaluasi. Desain pengendalian mana yang paling relevan untuk kasus ini?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Desain pengendalian: Pantau pelaksanaan dan ukur perubahan kemampuan atau kinerja untuk menentukan perbaikan. Terapkan khusus dalam evaluasi pembelajaran akhir tahun, dengan bukti uji desain dan pelaksanaan, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini paling tepat karena pemantauan memastikan pelaksanaan sesuai rencana; evaluasi menilai kesesuaian, kemanfaatan, dan kebutuhan masa mendatang. Dalam konteks kasus, tindakan tersebut menjaga tujuan, batas penerapan, dan akuntabilitas keputusan.",
+        "misconception": null
+      },
+      {
+        "id": "B",
+        "text": "Desain pengendalian: Menutup program setelah daftar hadir lengkap. Terapkan khusus dalam evaluasi pembelajaran akhir tahun, dengan bukti uji desain dan pelaksanaan, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini tidak tepat karena menutup program setelah daftar hadir lengkap. Kekeliruannya adalah mengabaikan batas berikut: Kehadiran peserta saja belum membuktikan manfaat pembelajaran.",
+        "misconception": "menutup program setelah daftar hadir lengkap"
+      },
+      {
+        "id": "C",
+        "text": "Desain pengendalian: Menyamakan kepuasan peserta dengan dampak kinerja. Terapkan khusus dalam evaluasi pembelajaran akhir tahun, dengan bukti uji desain dan pelaksanaan, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini tidak tepat karena menyamakan kepuasan peserta dengan dampak kinerja. Kekeliruannya adalah mengabaikan batas berikut: Kehadiran peserta saja belum membuktikan manfaat pembelajaran.",
+        "misconception": "menyamakan kepuasan peserta dengan dampak kinerja"
+      },
+      {
+        "id": "D",
+        "text": "Desain pengendalian: Mengubah program tanpa membandingkan rencana dan hasil. Terapkan khusus dalam evaluasi pembelajaran akhir tahun, dengan bukti uji desain dan pelaksanaan, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini tidak tepat karena mengubah program tanpa membandingkan rencana dan hasil. Kekeliruannya adalah mengabaikan batas berikut: Kehadiran peserta saja belum membuktikan manfaat pembelajaran.",
+        "misconception": "mengubah program tanpa membandingkan rencana dan hasil"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "Jawaban paling tepat adalah A. Pilihan ini paling tepat karena pemantauan memastikan pelaksanaan sesuai rencana; evaluasi menilai kesesuaian, kemanfaatan, dan kebutuhan masa mendatang. Dalam konteks kasus, tindakan tersebut menjaga tujuan, batas penerapan, dan akuntabilitas keputusan. Konteks kasus: Ketika evaluasi pembelajaran akhir tahun, muncul usulan untuk mengabaikan satu tahapan karena dianggap administratif. Keputusan tetap harus ditautkan pada tujuan dan bukti. Prinsip yang digunakan: Pemantauan memastikan pelaksanaan sesuai rencana; evaluasi menilai kesesuaian, kemanfaatan, dan kebutuhan masa mendatang. Batas penerapan: Kehadiran peserta saja belum membuktikan manfaat pembelajaran. Implikasi praktisnya, pengambil keputusan perlu pantau pelaksanaan dan ukur perubahan kemampuan atau kinerja untuk menentukan perbaikan. Setiap distraktor mewakili kekeliruan realistis: menutup program setelah daftar hadir lengkap; menyamakan kepuasan peserta dengan dampak kinerja; mengubah program tanpa membandingkan rencana dan hasil. Sumber berstatus non_normative dan terakhir diverifikasi 2026-08-03. Topik lanjutan: Mengevaluasi program pengembangan.",
+    "keyTakeaway": "Ingat: pantau pelaksanaan dan ukur perubahan kemampuan atau kinerja untuk menentukan perbaikan.",
+    "sourceRefs": [
+      {
+        "sourceId": "SRC-SDM-2026",
+        "title": "Manajemen Pengembangan Sumber Daya Manusia DJBC",
+        "driveFileId": "17vZiwRpgx2nVTPSUCFYAbSi-jc8y6Vd8",
+        "section": "Monitoring dan Evaluasi Pengembangan",
+        "pageOrSlide": null,
+        "regulationStatus": "non_normative",
+        "lastVerified": "2026-08-03"
+      }
+    ],
+    "tags": [
+      "pengembangan_sdm",
+      "monev_pengembangan",
+      "control_design",
+      "apply",
+      "easy"
+    ],
+    "review": {
+      "contentAccuracy": 25,
+      "sourceTraceability": 15,
+      "stemClarity": 9,
+      "distractorQuality": 9,
+      "singleBestAnswer": 10,
+      "competencyRelevance": 10,
+      "explanationQuality": 9,
+      "originality": 4,
+      "languageQuality": 3,
+      "difficultyFit": 2,
+      "total": 96,
+      "method": "rubrik_terotomasi_berbasis_unit_terverifikasi_v1"
+    },
+    "similarityGroup": null,
+    "knowledgeUnitId": "KU-MT-SDM-015-2",
+    "generationBatch": "2026.08.1000-v1",
+    "createdAt": "2026-08-03",
+    "lastReviewedAt": "2026-08-03",
+    "runtimeId": 420,
+    "selectedFromCandidateId": "CAND-MT-SDM-0164"
+  }
+]

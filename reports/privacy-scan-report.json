@@ -1,0 +1,9 @@
+{
+  "generatedAt": "2026-08-03",
+  "scannedActive": 1000,
+  "findings": [],
+  "excludedSourceIds": [
+    "SRC-PERSONAL-CANDIDATES",
+    "SRC-PERSONAL-STATEMENTS"
+  ]
+}

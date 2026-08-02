@@ -1,13 +1,9 @@
-# Sumber dan validasi regulasi
+# Sumber dan validasi
 
-Terakhir diverifikasi: 3 Agustus 2026.
+Registry mencatat 15 sumber: 11 sumber aktif/non-normatif yang diizinkan, satu regulasi superseded untuk riwayat, dan dua sumber personal/restricted yang dilarang. Soal aktif hanya boleh menggunakan status `current` atau `non_normative` dengan `allowedForScoredQuestions=true` dan `containsPersonalData=false`.
 
-- **PMK 38 Tahun 2025 — Manajemen Talenta**: `current`. Materi internal menyatakan aturan ini menggantikan PMK 60/PMK.01/2016 jo. PMK 161/PMK.01/2017.
-- **PMK 60/PMK.01/2016 jo. PMK 161/PMK.01/2017**: `superseded`; bukan dasar soal aktif.
-- **ND-2345/BC.01/2026, 21 Juli 2026**: `current` untuk penyesuaian pilihan bidang Pengawasan, Pelayanan, dan Dukungan Manajemen. Tenggat berlalu tidak dijadikan fakta ujian permanen.
-- **Panduan Statement of Purpose**: sumber belajar current untuk struktur/prinsip penulisan; aplikasi tidak menghasilkan SoP atas nama peserta.
+Sumber utama mencakup PMK 38/2025, ND-2345/BC.01/2026, Panduan SoP 2026, materi Pengembangan SDM DJBC 2026, KMK 127/2026, PP 94/2021, PMK 123/2023, PMK 83/2024, Buku Saku Risiko DJBC 2024, KMK 105/2022, Kamus Kompetensi Manajerial ASN, serta PP 11/2017 jo. PP 17/2020.
 
-Tautan Drive/JDIH dicatat pada `sourceUrl` tiap soal dan ditampilkan dalam aplikasi. Status yang diperbolehkan: `current`, `superseded`, `revoked`, `unclear`, `needs_verification`; hanya `current` boleh aktif.
+PMK 60/2016 jo. PMK 161/2017 berstatus `superseded` dan tidak menjadi dasar soal aktif. Dua sumber berstatus `personal_or_restricted`; keduanya tidak dibuka, dan identitas maupun lokasinya tidak disimpan di repository publik.
 
-Daftar nama calon dan dokumen berpotensi data pribadi tidak dibuka, disalin, atau dimasukkan ke bank soal.
-
+Lihat rincian mesin pada `reports/source-validation-report.json` dan registry pada `src/data/sources/source-registry.json`.

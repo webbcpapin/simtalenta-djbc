@@ -1,0 +1,239 @@
+[
+  {
+    "id": "CAND-MT-KMP-0201",
+    "version": 1,
+    "status": "under_review",
+    "domain": "kompetensi_kepemimpinan",
+    "subdomain": "kerja_sama",
+    "competency": "Membangun kerja sama efektif",
+    "indicator": "Mengintegrasikan keahlian dan kepentingan tim",
+    "questionType": "conceptual_mcq",
+    "cognitiveLevel": "remember",
+    "difficulty": "easy",
+    "stem": "Audit internal atas anggota baru memiliki keahlian kritis menemukan hasil akhir yang benar, tetapi jejak pertimbangannya tidak memadai. Dalam menjawab, fokuskan penilaian pada kemampuan mengintegrasikan keahlian dan kepentingan tim. Rencana implementasi mana yang paling dapat dijalankan?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Rencana implementasi: Libatkan keahlian relevan, rumuskan sasaran bersama, dan selesaikan perbedaan secara terbuka. Terapkan khusus dalam anggota baru memiliki keahlian kritis, lengkap dengan keluaran, penanggung jawab, dan tenggat realistis, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini paling tepat karena kerja sama mencakup mendengar, berbagi informasi, memanfaatkan kekuatan anggota, membangun komitmen, dan menyelesaikan perbedaan demi sasaran bersama. Dalam konteks kasus, tindakan tersebut menjaga tujuan, batas penerapan, dan akuntabilitas keputusan.",
+        "misconception": null
+      },
+      {
+        "id": "B",
+        "text": "Rencana implementasi: Memutuskan sendiri agar rapat cepat selesai. Terapkan khusus dalam anggota baru memiliki keahlian kritis, lengkap dengan keluaran, penanggung jawab, dan tenggat realistis, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini tidak tepat karena memutuskan sendiri agar rapat cepat selesai. Kekeliruannya adalah mengabaikan batas berikut: Kesepakatan semu yang mengabaikan risiko bukan sinergi.",
+        "misconception": "memutuskan sendiri agar rapat cepat selesai"
+      },
+      {
+        "id": "C",
+        "text": "Rencana implementasi: Membagi informasi hanya kepada kelompok dekat. Terapkan khusus dalam anggota baru memiliki keahlian kritis, lengkap dengan keluaran, penanggung jawab, dan tenggat realistis, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini tidak tepat karena membagi informasi hanya kepada kelompok dekat. Kekeliruannya adalah mengabaikan batas berikut: Kesepakatan semu yang mengabaikan risiko bukan sinergi.",
+        "misconception": "membagi informasi hanya kepada kelompok dekat"
+      },
+      {
+        "id": "D",
+        "text": "Rencana implementasi: Menghindari konflik dengan membiarkan tujuan tidak jelas. Terapkan khusus dalam anggota baru memiliki keahlian kritis, lengkap dengan keluaran, penanggung jawab, dan tenggat realistis, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini tidak tepat karena menghindari konflik dengan membiarkan tujuan tidak jelas. Kekeliruannya adalah mengabaikan batas berikut: Kesepakatan semu yang mengabaikan risiko bukan sinergi.",
+        "misconception": "menghindari konflik dengan membiarkan tujuan tidak jelas"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "Jawaban paling tepat adalah A. Pilihan ini paling tepat karena kerja sama mencakup mendengar, berbagi informasi, memanfaatkan kekuatan anggota, membangun komitmen, dan menyelesaikan perbedaan demi sasaran bersama. Dalam konteks kasus, tindakan tersebut menjaga tujuan, batas penerapan, dan akuntabilitas keputusan. Konteks kasus: Audit internal atas anggota baru memiliki keahlian kritis menemukan hasil akhir yang benar, tetapi jejak pertimbangannya tidak memadai. Keputusan tetap harus ditautkan pada tujuan dan bukti. Prinsip yang digunakan: Kerja sama mencakup mendengar, berbagi informasi, memanfaatkan kekuatan anggota, membangun komitmen, dan menyelesaikan perbedaan demi sasaran bersama. Batas penerapan: Kesepakatan semu yang mengabaikan risiko bukan sinergi. Implikasi praktisnya, pengambil keputusan perlu libatkan keahlian relevan, rumuskan sasaran bersama, dan selesaikan perbedaan secara terbuka. Setiap distraktor mewakili kekeliruan realistis: memutuskan sendiri agar rapat cepat selesai; membagi informasi hanya kepada kelompok dekat; menghindari konflik dengan membiarkan tujuan tidak jelas. Sumber berstatus current dan terakhir diverifikasi 2026-08-03. Topik lanjutan: Membangun kerja sama efektif.",
+    "keyTakeaway": "Ingat: libatkan keahlian relevan, rumuskan sasaran bersama, dan selesaikan perbedaan secara terbuka.",
+    "sourceRefs": [
+      {
+        "sourceId": "SRC-COMPETENCY",
+        "title": "Kamus Kompetensi Manajerial ASN",
+        "driveFileId": "1fg14rpT8QuhFgdK2Wgkdf-hGH7VLuEoQ",
+        "section": "Kompetensi Kerja Sama",
+        "pageOrSlide": null,
+        "regulationStatus": "current",
+        "lastVerified": "2026-08-03"
+      }
+    ],
+    "tags": [
+      "kompetensi_kepemimpinan",
+      "kerja_sama",
+      "conceptual_mcq",
+      "remember",
+      "easy"
+    ],
+    "review": {
+      "contentAccuracy": 25,
+      "sourceTraceability": 15,
+      "stemClarity": 9,
+      "distractorQuality": 9,
+      "singleBestAnswer": 10,
+      "competencyRelevance": 10,
+      "explanationQuality": 9,
+      "originality": 4,
+      "languageQuality": 3,
+      "difficultyFit": 2,
+      "total": 96,
+      "method": "rubrik_terotomasi_berbasis_unit_terverifikasi_v1"
+    },
+    "similarityGroup": null,
+    "knowledgeUnitId": "KU-MT-KMP-027-3",
+    "generationBatch": "2026.08.1000-v1",
+    "createdAt": "2026-08-03",
+    "lastReviewedAt": "2026-08-03"
+  },
+  {
+    "id": "CAND-MT-KMP-0202",
+    "version": 1,
+    "status": "rejected",
+    "domain": "kompetensi_kepemimpinan",
+    "subdomain": "komunikasi",
+    "competency": "Menerapkan komunikasi manajerial",
+    "indicator": "Menyederhanakan informasi dan memastikan pemahaman",
+    "questionType": "conceptual_mcq",
+    "cognitiveLevel": "remember",
+    "difficulty": "easy",
+    "stem": "Saat menyiapkan serah terima penjelasan kebijakan sensitif, tim menyadari bahwa pengetahuan penting hanya dikuasai satu orang. Dalam menjawab, fokuskan penilaian pada kemampuan menyederhanakan informasi dan memastikan pemahaman. Rencana implementasi mana yang paling dapat dijalankan?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Rencana implementasi: Menganggap diamnya penerima sebagai persetujuan. Terapkan khusus dalam penjelasan kebijakan sensitif, lengkap dengan keluaran, penanggung jawab, dan tenggat realistis, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini tidak tepat karena menganggap diamnya penerima sebagai persetujuan. Kekeliruannya adalah mengabaikan batas berikut: Banyaknya informasi tidak menjamin pesan dipahami.",
+        "misconception": "menganggap diamnya penerima sebagai persetujuan"
+      },
+      {
+        "id": "B",
+        "text": "Rencana implementasi: Mengirim seluruh dokumen tanpa ringkasan. Terapkan khusus dalam penjelasan kebijakan sensitif, lengkap dengan keluaran, penanggung jawab, dan tenggat realistis, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini tidak tepat karena mengirim seluruh dokumen tanpa ringkasan. Kekeliruannya adalah mengabaikan batas berikut: Banyaknya informasi tidak menjamin pesan dipahami.",
+        "misconception": "mengirim seluruh dokumen tanpa ringkasan"
+      },
+      {
+        "id": "C",
+        "text": "Rencana implementasi: Menggunakan istilah teknis untuk menunjukkan otoritas. Terapkan khusus dalam penjelasan kebijakan sensitif, lengkap dengan keluaran, penanggung jawab, dan tenggat realistis, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini tidak tepat karena menggunakan istilah teknis untuk menunjukkan otoritas. Kekeliruannya adalah mengabaikan batas berikut: Banyaknya informasi tidak menjamin pesan dipahami.",
+        "misconception": "menggunakan istilah teknis untuk menunjukkan otoritas"
+      },
+      {
+        "id": "D",
+        "text": "Rencana implementasi: Susun pesan berdasarkan kebutuhan penerima, jelaskan alasan, dengarkan respons, dan konfirmasi pemahaman. Terapkan khusus dalam penjelasan kebijakan sensitif, lengkap dengan keluaran, penanggung jawab, dan tenggat realistis, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini paling tepat karena komunikasi efektif menyampaikan gagasan jelas, logis, sesuai media, mendengarkan aktif, memastikan pemahaman, dan menyesuaikan pendekatan untuk isu kompleks. Dalam konteks kasus, tindakan tersebut menjaga tujuan, batas penerapan, dan akuntabilitas keputusan.",
+        "misconception": null
+      }
+    ],
+    "correctOptionId": "D",
+    "explanation": "Jawaban paling tepat adalah D. Pilihan ini paling tepat karena komunikasi efektif menyampaikan gagasan jelas, logis, sesuai media, mendengarkan aktif, memastikan pemahaman, dan menyesuaikan pendekatan untuk isu kompleks. Dalam konteks kasus, tindakan tersebut menjaga tujuan, batas penerapan, dan akuntabilitas keputusan. Konteks kasus: Saat menyiapkan serah terima penjelasan kebijakan sensitif, tim menyadari bahwa pengetahuan penting hanya dikuasai satu orang. Keputusan tetap harus ditautkan pada tujuan dan bukti. Prinsip yang digunakan: Komunikasi efektif menyampaikan gagasan jelas, logis, sesuai media, mendengarkan aktif, memastikan pemahaman, dan menyesuaikan pendekatan untuk isu kompleks. Batas penerapan: Banyaknya informasi tidak menjamin pesan dipahami. Implikasi praktisnya, pengambil keputusan perlu susun pesan berdasarkan kebutuhan penerima, jelaskan alasan, dengarkan respons, dan konfirmasi pemahaman. Setiap distraktor mewakili kekeliruan realistis: mengirim seluruh dokumen tanpa ringkasan; menggunakan istilah teknis untuk menunjukkan otoritas; menganggap diamnya penerima sebagai persetujuan. Sumber berstatus current dan terakhir diverifikasi 2026-08-03. Topik lanjutan: Menerapkan komunikasi manajerial.",
+    "keyTakeaway": "Ingat: susun pesan berdasarkan kebutuhan penerima, jelaskan alasan, dengarkan respons, dan konfirmasi pemahaman.",
+    "sourceRefs": [
+      {
+        "sourceId": "SRC-COMPETENCY",
+        "title": "Kamus Kompetensi Manajerial ASN",
+        "driveFileId": "1fg14rpT8QuhFgdK2Wgkdf-hGH7VLuEoQ",
+        "section": "Kompetensi Komunikasi",
+        "pageOrSlide": null,
+        "regulationStatus": "current",
+        "lastVerified": "2026-08-03"
+      }
+    ],
+    "tags": [
+      "kompetensi_kepemimpinan",
+      "komunikasi",
+      "conceptual_mcq",
+      "remember",
+      "easy"
+    ],
+    "review": {
+      "contentAccuracy": 20,
+      "sourceTraceability": 15,
+      "stemClarity": 8,
+      "distractorQuality": 6,
+      "singleBestAnswer": 10,
+      "competencyRelevance": 10,
+      "explanationQuality": 7,
+      "originality": 3,
+      "languageQuality": 3,
+      "difficultyFit": 2,
+      "total": 84,
+      "method": "rubrik_terotomasi_berbasis_unit_terverifikasi_v1"
+    },
+    "similarityGroup": null,
+    "knowledgeUnitId": "KU-MT-KMP-028-1",
+    "generationBatch": "2026.08.1000-v1",
+    "createdAt": "2026-08-03",
+    "lastReviewedAt": "2026-08-03"
+  },
+  {
+    "id": "CAND-MT-KMP-0203",
+    "version": 1,
+    "status": "under_review",
+    "domain": "kompetensi_kepemimpinan",
+    "subdomain": "komunikasi",
+    "competency": "Menerapkan komunikasi manajerial",
+    "indicator": "Menyederhanakan informasi dan memastikan pemahaman",
+    "questionType": "conceptual_mcq",
+    "cognitiveLevel": "remember",
+    "difficulty": "easy",
+    "stem": "Perubahan prioritas membuat unit harus meninjau kembali instruksi proses baru dengan waktu dan sumber daya terbatas. Dalam menjawab, fokuskan penilaian pada kemampuan menyederhanakan informasi dan memastikan pemahaman. Rencana implementasi mana yang paling dapat dijalankan?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Rencana implementasi: Menggunakan istilah teknis untuk menunjukkan otoritas. Terapkan khusus dalam instruksi proses baru, lengkap dengan keluaran, penanggung jawab, dan tenggat realistis, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini tidak tepat karena menggunakan istilah teknis untuk menunjukkan otoritas. Kekeliruannya adalah mengabaikan batas berikut: Banyaknya informasi tidak menjamin pesan dipahami.",
+        "misconception": "menggunakan istilah teknis untuk menunjukkan otoritas"
+      },
+      {
+        "id": "B",
+        "text": "Rencana implementasi: Mengirim seluruh dokumen tanpa ringkasan. Terapkan khusus dalam instruksi proses baru, lengkap dengan keluaran, penanggung jawab, dan tenggat realistis, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini tidak tepat karena mengirim seluruh dokumen tanpa ringkasan. Kekeliruannya adalah mengabaikan batas berikut: Banyaknya informasi tidak menjamin pesan dipahami.",
+        "misconception": "mengirim seluruh dokumen tanpa ringkasan"
+      },
+      {
+        "id": "C",
+        "text": "Rencana implementasi: Susun pesan berdasarkan kebutuhan penerima, jelaskan alasan, dengarkan respons, dan konfirmasi pemahaman. Terapkan khusus dalam instruksi proses baru, lengkap dengan keluaran, penanggung jawab, dan tenggat realistis, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini paling tepat karena komunikasi efektif menyampaikan gagasan jelas, logis, sesuai media, mendengarkan aktif, memastikan pemahaman, dan menyesuaikan pendekatan untuk isu kompleks. Dalam konteks kasus, tindakan tersebut menjaga tujuan, batas penerapan, dan akuntabilitas keputusan.",
+        "misconception": null
+      },
+      {
+        "id": "D",
+        "text": "Rencana implementasi: Menganggap diamnya penerima sebagai persetujuan. Terapkan khusus dalam instruksi proses baru, lengkap dengan keluaran, penanggung jawab, dan tenggat realistis, dengan catatan keputusan yang dapat ditelusuri.",
+        "rationale": "Pilihan ini tidak tepat karena menganggap diamnya penerima sebagai persetujuan. Kekeliruannya adalah mengabaikan batas berikut: Banyaknya informasi tidak menjamin pesan dipahami.",
+        "misconception": "menganggap diamnya penerima sebagai persetujuan"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "Jawaban paling tepat adalah C. Pilihan ini paling tepat karena komunikasi efektif menyampaikan gagasan jelas, logis, sesuai media, mendengarkan aktif, memastikan pemahaman, dan menyesuaikan pendekatan untuk isu kompleks. Dalam konteks kasus, tindakan tersebut menjaga tujuan, batas penerapan, dan akuntabilitas keputusan. Konteks kasus: Perubahan prioritas membuat unit harus meninjau kembali instruksi proses baru dengan waktu dan sumber daya terbatas. Keputusan tetap harus ditautkan pada tujuan dan bukti. Prinsip yang digunakan: Komunikasi efektif menyampaikan gagasan jelas, logis, sesuai media, mendengarkan aktif, memastikan pemahaman, dan menyesuaikan pendekatan untuk isu kompleks. Batas penerapan: Banyaknya informasi tidak menjamin pesan dipahami. Implikasi praktisnya, pengambil keputusan perlu susun pesan berdasarkan kebutuhan penerima, jelaskan alasan, dengarkan respons, dan konfirmasi pemahaman. Setiap distraktor mewakili kekeliruan realistis: mengirim seluruh dokumen tanpa ringkasan; menggunakan istilah teknis untuk menunjukkan otoritas; menganggap diamnya penerima sebagai persetujuan. Sumber berstatus current dan terakhir diverifikasi 2026-08-03. Topik lanjutan: Menerapkan komunikasi manajerial.",
+    "keyTakeaway": "Ingat: susun pesan berdasarkan kebutuhan penerima, jelaskan alasan, dengarkan respons, dan konfirmasi pemahaman.",
+    "sourceRefs": [
+      {
+        "sourceId": "SRC-COMPETENCY",
+        "title": "Kamus Kompetensi Manajerial ASN",
+        "driveFileId": "1fg14rpT8QuhFgdK2Wgkdf-hGH7VLuEoQ",
+        "section": "Kompetensi Komunikasi",
+        "pageOrSlide": null,
+        "regulationStatus": "current",
+        "lastVerified": "2026-08-03"
+      }
+    ],
+    "tags": [
+      "kompetensi_kepemimpinan",
+      "komunikasi",
+      "conceptual_mcq",
+      "remember",
+      "easy"
+    ],
+    "review": {
+      "contentAccuracy": 25,
+      "sourceTraceability": 15,
+      "stemClarity": 9,
+      "distractorQuality": 9,
+      "singleBestAnswer": 10,
+      "competencyRelevance": 10,
+      "explanationQuality": 9,
+      "originality": 4,
+      "languageQuality": 3,
+      "difficultyFit": 2,
+      "total": 96,
+      "method": "rubrik_terotomasi_berbasis_unit_terverifikasi_v1"
+    },
+    "similarityGroup": null,
+    "knowledgeUnitId": "KU-MT-KMP-028-2",
+    "generationBatch": "2026.08.1000-v1",
+    "createdAt": "2026-08-03",
+    "lastReviewedAt": "2026-08-03"
+  }
+]

@@ -1,0 +1,147 @@
+{
+  "bankVersion": "2026.08.1000-v1",
+  "generatedAt": "2026-08-03",
+  "activeCount": 1000,
+  "candidateCount": 1354,
+  "shardSize": 50,
+  "files": [
+    {
+      "file": "manajemen_talenta/questions-001.json",
+      "domain": "manajemen_talenta",
+      "count": 50,
+      "sha256": "126a8afe498fd61753b86f14783f7f87a5bb487249bc543c512d4bef657aad74"
+    },
+    {
+      "file": "manajemen_talenta/questions-002.json",
+      "domain": "manajemen_talenta",
+      "count": 50,
+      "sha256": "58117d5c90db472f7301d8df6b271f162cf6e49d2731aeb2b790c48b3c793d71"
+    },
+    {
+      "file": "manajemen_talenta/questions-003.json",
+      "domain": "manajemen_talenta",
+      "count": 50,
+      "sha256": "4147ff36203918ac68bf906fd3ba74d802d01cce2b8880e1136082e95378923f"
+    },
+    {
+      "file": "manajemen_talenta/questions-004.json",
+      "domain": "manajemen_talenta",
+      "count": 30,
+      "sha256": "abe783b017eac12e3d857e598b4113ddf7b29e161819af712956bd68870e0703"
+    },
+    {
+      "file": "karier_bidang_penugasan/questions-001.json",
+      "domain": "karier_bidang_penugasan",
+      "count": 50,
+      "sha256": "636f3e3d8134587a113d473784186725e5b004ce70be5b7cc40628ad9bcb5755"
+    },
+    {
+      "file": "karier_bidang_penugasan/questions-002.json",
+      "domain": "karier_bidang_penugasan",
+      "count": 50,
+      "sha256": "88ca0ba41cc14eeb911c81b2c4bf4d822abdf39d44d9c0cabaa3ccbbac2143c6"
+    },
+    {
+      "file": "karier_bidang_penugasan/questions-003.json",
+      "domain": "karier_bidang_penugasan",
+      "count": 10,
+      "sha256": "ac80de77b226c4a4c12754fcfb29f902ae3b9484bc87fedccf8f02f03ce54005"
+    },
+    {
+      "file": "pengembangan_sdm/questions-001.json",
+      "domain": "pengembangan_sdm",
+      "count": 50,
+      "sha256": "d976253ec6cd54d232a86d55d19d737f1f166eadea6306402040f604c700a694"
+    },
+    {
+      "file": "pengembangan_sdm/questions-002.json",
+      "domain": "pengembangan_sdm",
+      "count": 50,
+      "sha256": "4046665af4e6617fba06de5bf1237e0928eb6e0e0a9bd87f5ad5bea493196f53"
+    },
+    {
+      "file": "pengembangan_sdm/questions-003.json",
+      "domain": "pengembangan_sdm",
+      "count": 30,
+      "sha256": "589a45e4e90bb1b7ea6b06b0a55f53efa8f3348b5292dd4acb8776d9f94f5993"
+    },
+    {
+      "file": "manajemen_kinerja/questions-001.json",
+      "domain": "manajemen_kinerja",
+      "count": 50,
+      "sha256": "7dec0262700aefc13395acb1a94f4d874c49494f6983c6487e0e5fbbc10a20e6"
+    },
+    {
+      "file": "manajemen_kinerja/questions-002.json",
+      "domain": "manajemen_kinerja",
+      "count": 50,
+      "sha256": "d33433968fdc46a681e3dcd582f72dad66f96f61b4f172b98365a51acad9b69b"
+    },
+    {
+      "file": "manajemen_kinerja/questions-003.json",
+      "domain": "manajemen_kinerja",
+      "count": 20,
+      "sha256": "2e4d071441f4d2569fe47db79337a166016c818ea1a15798e84391557079e33d"
+    },
+    {
+      "file": "kepatuhan_integritas_disiplin/questions-001.json",
+      "domain": "kepatuhan_integritas_disiplin",
+      "count": 50,
+      "sha256": "2186997da43ac5bad79db2120b1b255d58278df79f7d72329c6a5f85e3405914"
+    },
+    {
+      "file": "kepatuhan_integritas_disiplin/questions-002.json",
+      "domain": "kepatuhan_integritas_disiplin",
+      "count": 50,
+      "sha256": "9570bd7b859e91195dae8cbaa9ee51b7f7e4fe802330a5d5dcbe206054f42782"
+    },
+    {
+      "file": "kepatuhan_integritas_disiplin/questions-003.json",
+      "domain": "kepatuhan_integritas_disiplin",
+      "count": 40,
+      "sha256": "7f1701104eed30613770e2742e4cb41eb1149cc462bb8b16f49e1c877815aec2"
+    },
+    {
+      "file": "kompetensi_kepemimpinan/questions-001.json",
+      "domain": "kompetensi_kepemimpinan",
+      "count": 50,
+      "sha256": "07ee781a1d517679c3d0420e4addc31fcf24037e7c72f72384d21b9d78d18a5a"
+    },
+    {
+      "file": "kompetensi_kepemimpinan/questions-002.json",
+      "domain": "kompetensi_kepemimpinan",
+      "count": 50,
+      "sha256": "c32577ff91ebf7821d9e803a508fa73b1676b31d93d861359f54048e58b93fae"
+    },
+    {
+      "file": "kompetensi_kepemimpinan/questions-003.json",
+      "domain": "kompetensi_kepemimpinan",
+      "count": 50,
+      "sha256": "7321c92cf29c0e5e1bd644b914f38eedef12678d4b8be0d1fad51920e419f3a1"
+    },
+    {
+      "file": "tata_kelola_risiko/questions-001.json",
+      "domain": "tata_kelola_risiko",
+      "count": 50,
+      "sha256": "cda3fb230bd23df678e2e7f6f4c6c177de3bc976055b4d9c46b044be95d60016"
+    },
+    {
+      "file": "tata_kelola_risiko/questions-002.json",
+      "domain": "tata_kelola_risiko",
+      "count": 40,
+      "sha256": "b170770edd18324e435eb6eb06b4b731766ab4b9cf1af591f77bdf42b66f8dc5"
+    },
+    {
+      "file": "learning_knowledge/questions-001.json",
+      "domain": "learning_knowledge",
+      "count": 50,
+      "sha256": "fa4d2f873682480b24c77e67f4e781e9d21f3c582aae96abf51ceb125498c1cf"
+    },
+    {
+      "file": "sop_kesiapan/questions-001.json",
+      "domain": "sop_kesiapan",
+      "count": 30,
+      "sha256": "eccc9c548b38e55c7cc7e67aab6549fca945ddcaadae5885ae7f4c22aa444aae"
+    }
+  ]
+}

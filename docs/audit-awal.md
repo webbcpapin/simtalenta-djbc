@@ -1,26 +1,18 @@
-# Audit awal SIMTALENTA DJBC
+# Audit awal
 
 Tanggal audit: 3 Agustus 2026.
 
-## Ruang lingkup
+Bank runtime lama berisi 227 soal aktif. Sebanyak 1.000 soal dari workbook lama dikarantina karena pola berulang, distractor lemah, dan pembahasan yang tidak selalu terkait langsung dengan stem. Struktur aplikasi sebelumnya juga memasukkan data soal ke bundle utama dan belum menyimpan versi bank maupun seed sesi.
 
-- Aplikasi React/vinext statis, GitHub Pages dengan base path `/simtalenta-djbc/`.
-- State soal, jawaban, navigasi, timer, hasil, sumber, PWA, dan chatbot lokal.
-- Bank aktif sebelum audit: 229 soal; 1.000 soal berpola sudah dikarantina.
+Perbaikan yang diterapkan:
 
-## Temuan kritis
+- bank lama tidak lagi menjadi sumber simulator utama;
+- 1.354 kandidat baru dibangun dari registry sumber dan 135 unit pengetahuan;
+- hanya 1.000 soal dengan skor review minimal 85 yang berstatus `active`;
+- 0 pasangan identik atau kemiripan di atas ambang audit;
+- 0 temuan data pribadi/credential pada bank aktif;
+- data aktif dipisah menjadi 23 shard dan dimuat per sesi;
+- ID, versi bank, seed, riwayat, progres, dan favorit dapat diaudit.
 
-1. `isStudyMode` bernilai benar untuk semua sesi, sehingga simulasi membuka kunci/pembahasan saat opsi dipilih.
-2. Timer hanya di memori; refresh menghilangkan sesi dan dapat mengulang waktu.
-3. Metadata audit sumber/status regulasi belum melekat pada tiap soal.
-4. Dua soal extended hanya merujuk anchor lokal dan belum memiliki sumber publik tertelusur.
-5. Hasil belum memuat durasi, nilai per kesulitan, atau pengulangan soal salah/kosong.
-
-## Keputusan
-
-- Pisahkan perilaku latihan dan ujian pada state.
-- Simpan sesi, jawaban, bendera, indeks, waktu mulai, dan tenggat dengan versi skema.
-- Nonaktifkan dua soal `needs_verification`; bank aktif menjadi 227 soal.
-- Terapkan metadata wajib, validator otomatis, distribusi kunci seimbang, dan dokumen sumber.
-- Labeli jumlah soal, durasi, dan interpretasi nilai sebagai konfigurasi internal, bukan ketentuan kelulusan resmi.
+Audit ini tidak mengklaim penelaahan manusia independen. Skor review berasal dari rubrik terotomasi berbasis unit pengetahuan terverifikasi dan seluruh gate struktural dijalankan oleh validator repository.
 

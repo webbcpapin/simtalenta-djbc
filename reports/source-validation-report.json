@@ -1,0 +1,138 @@
+{
+  "generatedAt": "2026-08-03",
+  "sources": [
+    {
+      "sourceId": "SRC-MT-38",
+      "title": "Internalisasi PMK 38 Tahun 2025 tentang Manajemen Talenta",
+      "status": "current",
+      "allowedForScoredQuestions": true,
+      "containsPersonalData": false,
+      "lastVerified": "2026-08-03"
+    },
+    {
+      "sourceId": "SRC-ND-2345",
+      "title": "Penyesuaian Pilihan Bidang Penugasan dan Permintaan Dokumen Kelengkapan Calon Talenta DJBC Tahun 2026",
+      "status": "current",
+      "allowedForScoredQuestions": true,
+      "containsPersonalData": false,
+      "lastVerified": "2026-08-03"
+    },
+    {
+      "sourceId": "SRC-SOP-2026",
+      "title": "Panduan Penyusunan Statement of Purpose dalam Manajemen Talenta DJBC Tahun 2026",
+      "status": "current",
+      "allowedForScoredQuestions": true,
+      "containsPersonalData": false,
+      "lastVerified": "2026-08-03"
+    },
+    {
+      "sourceId": "SRC-SDM-2026",
+      "title": "Manajemen Pengembangan Sumber Daya Manusia DJBC",
+      "status": "non_normative",
+      "allowedForScoredQuestions": true,
+      "containsPersonalData": false,
+      "lastVerified": "2026-08-03"
+    },
+    {
+      "sourceId": "SRC-KMK-127",
+      "title": "KMK Nomor 127 Tahun 2026 tentang Manajemen Kinerja di Lingkungan Kementerian Keuangan",
+      "status": "current",
+      "allowedForScoredQuestions": true,
+      "containsPersonalData": false,
+      "lastVerified": "2026-08-03"
+    },
+    {
+      "sourceId": "SRC-PP-94",
+      "title": "PP Nomor 94 Tahun 2021 tentang Disiplin PNS",
+      "status": "current",
+      "allowedForScoredQuestions": true,
+      "containsPersonalData": false,
+      "lastVerified": "2026-08-03"
+    },
+    {
+      "sourceId": "SRC-PMK-123",
+      "title": "PMK Nomor 123 Tahun 2023 tentang Pemeriksaan Pelanggaran Disiplin dan Penjatuhan Hukuman Disiplin",
+      "status": "current",
+      "allowedForScoredQuestions": true,
+      "containsPersonalData": false,
+      "lastVerified": "2026-08-03"
+    },
+    {
+      "sourceId": "SRC-PMK-83",
+      "title": "PMK Nomor 83 Tahun 2024 tentang Sistem Pengendalian Intern Terintegrasi",
+      "status": "current",
+      "allowedForScoredQuestions": true,
+      "containsPersonalData": false,
+      "lastVerified": "2026-08-03"
+    },
+    {
+      "sourceId": "SRC-RISK-BOOK",
+      "title": "Buku Saku Manajemen Risiko DJBC Edisi 2024",
+      "status": "non_normative",
+      "allowedForScoredQuestions": true,
+      "containsPersonalData": false,
+      "lastVerified": "2026-08-03"
+    },
+    {
+      "sourceId": "SRC-KMK-105",
+      "title": "KMK Nomor 105 Tahun 2022 tentang Petunjuk Pelaksanaan Manajemen Risiko Pengelolaan Keuangan Negara",
+      "status": "current",
+      "allowedForScoredQuestions": true,
+      "containsPersonalData": false,
+      "lastVerified": "2026-08-03"
+    },
+    {
+      "sourceId": "SRC-COMPETENCY",
+      "title": "Kamus Kompetensi Manajerial ASN",
+      "status": "current",
+      "allowedForScoredQuestions": true,
+      "containsPersonalData": false,
+      "lastVerified": "2026-08-03"
+    },
+    {
+      "sourceId": "SRC-PP-11-17",
+      "title": "PP Nomor 11 Tahun 2017 jo. PP Nomor 17 Tahun 2020 tentang Manajemen PNS",
+      "status": "current",
+      "allowedForScoredQuestions": true,
+      "containsPersonalData": false,
+      "lastVerified": "2026-08-03"
+    },
+    {
+      "sourceId": "SRC-MT-OLD",
+      "title": "Ketentuan Manajemen Talenta sebelum PMK 38 Tahun 2025",
+      "status": "superseded",
+      "allowedForScoredQuestions": false,
+      "containsPersonalData": false,
+      "lastVerified": "2026-08-03"
+    },
+    {
+      "sourceId": "SRC-PERSONAL-CANDIDATES",
+      "title": "Sumber personal/restricted dikecualikan 1",
+      "status": "personal_or_restricted",
+      "allowedForScoredQuestions": false,
+      "containsPersonalData": true,
+      "lastVerified": "2026-08-03"
+    },
+    {
+      "sourceId": "SRC-PERSONAL-STATEMENTS",
+      "title": "Sumber personal/restricted dikecualikan 2",
+      "status": "personal_or_restricted",
+      "allowedForScoredQuestions": false,
+      "containsPersonalData": true,
+      "lastVerified": "2026-08-03"
+    }
+  ],
+  "activeQuestionSourceIds": [
+    "SRC-MT-38",
+    "SRC-ND-2345",
+    "SRC-PP-11-17",
+    "SRC-SDM-2026",
+    "SRC-KMK-127",
+    "SRC-PMK-123",
+    "SRC-PMK-83",
+    "SRC-COMPETENCY",
+    "SRC-KMK-105",
+    "SRC-RISK-BOOK",
+    "SRC-SOP-2026"
+  ]
+}

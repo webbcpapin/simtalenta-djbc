@@ -1,0 +1,37 @@
+{
+  "generatedAt": "2026-08-03",
+  "expected": {
+    "manajemen_talenta": 180,
+    "karier_bidang_penugasan": 110,
+    "pengembangan_sdm": 130,
+    "manajemen_kinerja": 120,
+    "kepatuhan_integritas_disiplin": 140,
+    "kompetensi_kepemimpinan": 150,
+    "tata_kelola_risiko": 90,
+    "learning_knowledge": 50,
+    "sop_kesiapan": 30
+  },
+  "actual": {
+    "karier_bidang_penugasan": 110,
+    "kepatuhan_integritas_disiplin": 140,
+    "kompetensi_kepemimpinan": 150,
+    "learning_knowledge": 50,
+    "manajemen_kinerja": 120,
+    "manajemen_talenta": 180,
+    "pengembangan_sdm": 130,
+    "sop_kesiapan": 30,
+    "tata_kelola_risiko": 90
+  },
+  "cognitive": {
+    "analyze": 350,
+    "apply": 350,
+    "evaluate": 150,
+    "remember": 150
+  },
+  "difficulty": {
+    "easy": 250,
+    "hard": 250,
+    "medium": 500
+  },
+  "caseAndApplicationCount": 850
+}

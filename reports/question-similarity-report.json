@@ -1,0 +1,32 @@
+{
+  "generatedAt": "2026-08-03",
+  "method": "Jaccard stem berbasis token substantif + cosine TF-IDF stem/opsi",
+  "thresholds": {
+    "stem": 0.82,
+    "combined": 0.88
+  },
+  "corpusStopWords": [
+    "atas",
+    "berbeda",
+    "bukti",
+    "dasar",
+    "data",
+    "evaluasi",
+    "fokuskan",
+    "kemampuan",
+    "kepentingan",
+    "memilih",
+    "menjawab",
+    "menunjukkan",
+    "organisasi",
+    "penilaian",
+    "perbaikan",
+    "prinsip",
+    "risiko",
+    "tepat",
+    "tersebut",
+    "tujuan"
+  ],
+  "comparedPairs": 499500,
+  "pairs": []
+}
