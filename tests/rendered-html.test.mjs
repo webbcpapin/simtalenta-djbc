@@ -81,6 +81,12 @@ test("production source replaces all starter preview artifacts", async () => {
   assert.match(page, /setRevealed/);
   assert.match(layout, /lang="id"/);
   assert.match(questions, /length:\s*1000/);
+  assert.match(questions, /stem:\s*seed\.stem/);
+  assert.doesNotMatch(questions, /const stemFrames/);
+  assert.doesNotMatch(
+    questions,
+    /Seorang penelaah menemukan opsi yang hanya berbeda angka atau istilah/,
+  );
   assert.equal((questions.match(/^\s+id:\s+\d+,/gm) ?? []).length, 100);
   assert.equal((hardOptions.match(/^\s+\d+:\s+\[$/gm) ?? []).length, 100);
   assert.equal((supplemental.match(/^\s+q\(/gm) ?? []).length, 36);

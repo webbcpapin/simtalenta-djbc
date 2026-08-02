@@ -1649,24 +1649,6 @@ const baseQuestions: Question[] = [
   },
 ];
 
-const stemFrames = [
-  (stem: string) => stem,
-  (stem: string) =>
-    `Dalam uji ketelitian regulasi, pilih rumusan yang sepenuhnya presisi. ${stem}`,
-  (stem: string) =>
-    `Seorang penelaah menemukan opsi yang hanya berbeda angka atau istilah. ${stem}`,
-  (stem: string) =>
-    `Pada validasi berjenjang, jawaban tidak boleh diparafrasa secara longgar. ${stem}`,
-  (stem: string) =>
-    `Untuk mencegah salah kutip dalam nota dinas, tentukan jawaban yang tepat. ${stem}`,
-  (stem: string) =>
-    `Dalam simulasi tingkat lanjut, tiga pilihan memuat satu unsur yang digeser. ${stem}`,
-  (stem: string) =>
-    `Auditor meminta dasar yang konsisten antara istilah, angka, dan kewenangan. ${stem}`,
-  (stem: string) =>
-    `Tanpa membulatkan angka atau menukar nomenklatur, jawab pertanyaan berikut. ${stem}`,
-] as const;
-
 const seedQuestions: Question[] = [
   ...baseQuestions.map((question) => ({
     ...question,
@@ -1686,7 +1668,7 @@ export const questions: Question[] = Array.from({ length: 1000 }, (_, index) => 
     ...seed,
     id: index + 1,
     difficulty: "Menjebak",
-    stem: stemFrames[variant % stemFrames.length](seed.stem),
+    stem: seed.stem,
     reference:
       variant === 0
         ? seed.reference
