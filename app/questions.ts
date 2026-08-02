@@ -1,4 +1,5 @@
 import { hardOptions } from "./hard-options.ts";
+import { kmk127FlashcardQuestions } from "./kmk127-flashcard-questions.ts";
 import { supplementalQuestions } from "./supplemental-questions.ts";
 
 export type Topic =
@@ -28,6 +29,18 @@ export type Question = {
 };
 
 export const sources = {
+  notebookFlashcards: {
+    label: "NotebookLM Kinerja · 67 flashcard",
+    url: "https://notebook.google.com/notebook/0f00dabe-0507-437e-a26f-eff19ee2a3b5/artifact/f5c2c4c9-4bd2-4e45-85d6-0b7ae1914b89",
+  },
+  notebookQuiz15: {
+    label: "NotebookLM Kinerja · 15 soal",
+    url: "https://notebook.google.com/notebook/0f00dabe-0507-437e-a26f-eff19ee2a3b5/artifact/a775226f-4a64-465b-ad07-44609b80839a",
+  },
+  notebookQuiz30: {
+    label: "NotebookLM Kinerja · 30 soal",
+    url: "https://notebook.google.com/notebook/0f00dabe-0507-437e-a26f-eff19ee2a3b5/artifact/c2ddc209-4f43-4746-81dd-a24ab3a32c6d",
+  },
   kmk127: {
     label: "KMK 127 Tahun 2026 — Manajemen Kinerja",
     url: "https://drive.google.com/file/d/1jxbHqKcSD7ypahCvBcb8BgxAvR_ZCsiI/view",
@@ -1659,9 +1672,12 @@ const seedQuestions: Question[] = [
     options: hardOptions[question.id] ?? question.options,
   })),
   ...supplementalQuestions,
+  ...kmk127FlashcardQuestions,
 ];
 
-export const questions: Question[] = Array.from({ length: 1000 }, (_, index) => {
+export const uniqueQuestionCount = seedQuestions.length;
+
+export const questions: Question[] = Array.from({ length: 1200 }, (_, index) => {
   const seed = seedQuestions[index % seedQuestions.length];
   const variant = Math.floor(index / seedQuestions.length);
   return {

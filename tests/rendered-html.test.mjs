@@ -56,6 +56,7 @@ test("production source replaces all starter preview artifacts", async () => {
     questions,
     hardOptions,
     supplemental,
+    kmkFlashcards,
     summaries,
     knowledgeChat,
     packageJson,
@@ -65,6 +66,7 @@ test("production source replaces all starter preview artifacts", async () => {
     readFile(new URL("../app/questions.ts", import.meta.url), "utf8"),
     readFile(new URL("../app/hard-options.ts", import.meta.url), "utf8"),
     readFile(new URL("../app/supplemental-questions.ts", import.meta.url), "utf8"),
+    readFile(new URL("../app/kmk127-flashcard-questions.ts", import.meta.url), "utf8"),
     readFile(new URL("../app/summaries.ts", import.meta.url), "utf8"),
     readFile(new URL("../app/knowledge-chat.tsx", import.meta.url), "utf8"),
     readFile(new URL("../package.json", import.meta.url), "utf8"),
@@ -73,6 +75,8 @@ test("production source replaces all starter preview artifacts", async () => {
   assert.match(page, /Simulasi Penuh/);
   assert.match(page, /Sprint 3 Hari/);
   assert.match(page, /topics\.flatMap/);
+  assert.match(page, /distinctQuestions\(questions\)/);
+  assert.match(page, /100 soal unik ditarik acak/);
   assert.match(page, /Mengapa benar/);
   assert.match(page, /Mengapa bukan/);
   assert.match(page, /Pembahasan lengkap/);
@@ -85,7 +89,10 @@ test("production source replaces all starter preview artifacts", async () => {
   assert.match(page, /Ringkasan Hafalan/);
   assert.match(page, /setRevealed/);
   assert.match(layout, /lang="id"/);
-  assert.match(questions, /length:\s*1000/);
+  assert.match(questions, /length:\s*1200/);
+  assert.match(questions, /uniqueQuestionCount = seedQuestions\.length/);
+  assert.match(questions, /notebookQuiz15/);
+  assert.match(questions, /notebookQuiz30/);
   assert.match(questions, /stem:\s*seed\.stem/);
   assert.doesNotMatch(questions, /const stemFrames/);
   assert.doesNotMatch(
@@ -95,12 +102,15 @@ test("production source replaces all starter preview artifacts", async () => {
   assert.equal((questions.match(/^\s+id:\s+\d+,/gm) ?? []).length, 100);
   assert.equal((hardOptions.match(/^\s+\d+:\s+\[$/gm) ?? []).length, 100);
   assert.equal((supplemental.match(/^\s+q\(/gm) ?? []).length, 36);
+  assert.equal((kmkFlashcards.match(/\{"stem":/g) ?? []).length, 67);
+  assert.match(kmkFlashcards, /SMART-C/);
+  assert.match(kmkFlashcards, /Balanced Scorecard/);
   assert.ok((summaries.match(/^\s+id:\s*"/gm) ?? []).length >= 25);
   assert.match(hardOptions, /hari kerja/);
   assert.match(hardOptions, /PP Nomor 94 Tahun 2021/);
   assert.match(supplemental, /3 jam 45 menit/);
   assert.match(summaries, /25–20–15/);
-  assert.match(knowledgeChat, /1\.000 soal · 31 ringkasan/);
+  assert.match(knowledgeChat, /1\.200 soal · 31 ringkasan/);
   assert.match(knowledgeChat, /Saya belum menemukan dasar yang cukup kuat/);
   assert.match(knowledgeChat, /Sumber jawaban/);
   assert.doesNotMatch(packageJson, /react-loading-skeleton/);

@@ -1,7 +1,13 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
-import { questions, sources, type Question, type Topic } from "./questions";
+import {
+  questions,
+  sources,
+  uniqueQuestionCount,
+  type Question,
+  type Topic,
+} from "./questions";
 import { summaryCards, type SummaryCard } from "./summaries";
 import { KnowledgeChat } from "./knowledge-chat";
 
@@ -96,6 +102,16 @@ function shuffle<T>(input: T[]) {
     [next[i], next[j]] = [next[j], next[i]];
   }
   return next;
+}
+
+function distinctQuestions(input: Question[]) {
+  const seen = new Set<string>();
+  return input.filter((question) => {
+    const key = question.stem.trim().toLowerCase();
+    if (seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
 }
 
 function reorderQuestion(question: Question, order?: number[]): Question {
@@ -289,25 +305,27 @@ export default function Home() {
         .map(({ question }) => question);
 
     if (mode === "exam") {
-      pool = shuffle(questions).slice(0, 100);
-      title = "Simulasi Penuh · 100 dari 1.000 Soal";
+      pool = shuffle(distinctQuestions(questions)).slice(0, 100);
+      title = "Simulasi Penuh · 100 Soal Unik Acak";
       setTimeLeft(120 * 60);
     } else if (mode === "sprint") {
       pool = shuffle(
         topics.flatMap((sprintTopic) =>
           prioritize(
-            questions.filter((question) => question.topic === sprintTopic),
+            distinctQuestions(
+              questions.filter((question) => question.topic === sprintTopic),
+            ),
           ).slice(0, 3),
         ),
       );
       title = "Sprint 3 Hari · 30 Soal · Seluruh Rumpun";
     } else if (mode === "topic" && topic) {
-      pool = shuffle(
+      pool = shuffle(distinctQuestions(
         questions.filter((question) => question.topic === topic),
-      ).slice(0, 25);
-      title = `Latihan · ${topicMeta[topic].short} · Pembahasan Langsung`;
+      )).slice(0, 25);
+      title = `Latihan · ${topicMeta[topic].short} · ${pool.length} Soal Unik`;
     } else {
-      pool = prioritize(questions).slice(0, 20);
+      pool = prioritize(distinctQuestions(questions)).slice(0, 20);
       title = "Belajar Langsung · 20 Soal Adaptif";
     }
 
@@ -1061,7 +1079,7 @@ export default function Home() {
             Berlatih seperti ujian. <em>Memahami</em> seperti ahli.
           </h1>
           <p>
-            Bank 1.000 soal analitik dan menjebak untuk Manajemen Talenta
+            Bank 1.200 varian soal analitik dan menjebak untuk Manajemen Talenta
             DJBC—setiap simulasi mengambil 100 soal acak, dengan opsi yang
             berbeda tipis pada angka, istilah, dan nomor peraturan.
           </p>
@@ -1075,7 +1093,8 @@ export default function Home() {
           </div>
           <div className="hero-facts">
             <span><strong>120</strong> menit</span>
-            <span><strong>1.000</strong> bank soal</span>
+            <span><strong>1.200</strong> varian soal</span>
+            <span><strong>{uniqueQuestionCount}</strong> soal unik</span>
             <span><strong>{summaryCards.length}</strong> kartu hafalan</span>
             <span><strong>{topics.length}</strong> rumpun materi</span>
             <span><strong>4×</strong> pembahasan per soal</span>
@@ -1092,7 +1111,7 @@ export default function Home() {
           </div>
           <div className="dashboard-stats">
             <div><small>Akurasi</small><strong>{hydrated && totalAttempts ? `${percentage(totalCorrect, totalAttempts)}%` : "—"}</strong></div>
-            <div><small>Dikuasai</small><strong>{hydrated ? mastered : "—"}<i>/1.000</i></strong></div>
+            <div><small>Dikuasai</small><strong>{hydrated ? mastered : "—"}<i>/1.200</i></strong></div>
             <div><small>Dikerjakan</small><strong>{hydrated ? Object.keys(progress).length : "—"}</strong></div>
           </div>
           <div className="dashboard-callout">
@@ -1119,7 +1138,7 @@ export default function Home() {
             <h2 id="sprint-title">Kuasai yang paling menentukan dalam 3 hari.</h2>
           </div>
           <p>
-            Gunakan pembahasan sebagai materi utama. Jangan mengejar 1.000 soal;
+            Gunakan pembahasan sebagai materi utama. Jangan mengejar 1.200 varian;
             kejar cakupan, pola jebakan, lalu ulangi kesalahan.
           </p>
         </div>
@@ -1170,7 +1189,7 @@ export default function Home() {
             <div className="mode-icon">100</div>
             <span className="mode-label">Kondisi ujian</span>
             <h3>Simulasi Penuh</h3>
-            <p>100 soal ditarik acak dari bank 1.000 dengan alasan setiap opsi dan pembahasan topik langsung setelah menjawab.</p>
+            <p>100 soal unik ditarik acak dari bank 1.200 varian; susunan soal dan opsi berubah setiap simulasi.</p>
             <footer><span>120 menit · pembahasan aktif</span><b>Mulai →</b></footer>
           </button>
           <button className="mode-card" onClick={() => startSession("adaptive")}>
@@ -1194,8 +1213,8 @@ export default function Home() {
             <div className="mode-icon">{String(topics.length).padStart(2, "0")}</div>
             <span className="mode-label">Pendalaman</span>
             <h3>Latihan per Topik</h3>
-            <p>Pilih satu rumpun untuk 25 soal acak dengan pembahasan langsung.</p>
-            <footer><span>25 soal per sesi</span><b>Pilih →</b></footer>
+            <p>Pilih satu rumpun untuk hingga 25 soal unik acak dengan pembahasan langsung.</p>
+            <footer><span>hingga 25 soal per sesi</span><b>Pilih →</b></footer>
           </a>
         </div>
       </section>
