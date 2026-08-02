@@ -1,0 +1,60 @@
+[
+  {
+    "bankId": "tambahan-1",
+    "topic": "Kepatuhan Internal",
+    "difficulty": "Analitik",
+    "stem": "Atasan langsung menerima dugaan pelanggaran disiplin bawahan dari media sosial. Langkah awal yang tepat adalah...",
+    "options": [
+      [
+        "Langsung menjatuhkan hukuman disiplin",
+        "Keliru. Kunci yang tepat adalah B. Atasan langsung memiliki kewajiban pembinaan dan perlu melakukan proses pembuktian terhadap dugaan pelanggaran."
+      ],
+      [
+        "Melakukan klarifikasi dan pembuktian untuk membuat terang perkara",
+        "Atasan langsung memiliki kewajiban pembinaan dan perlu melakukan proses pembuktian terhadap dugaan pelanggaran."
+      ],
+      [
+        "Mengabaikan karena terjadi di luar jam kerja",
+        "Keliru. Kunci yang tepat adalah B. Atasan langsung memiliki kewajiban pembinaan dan perlu melakukan proses pembuktian terhadap dugaan pelanggaran."
+      ],
+      [
+        "Menyerahkan seluruhnya kepada aparat hukum",
+        "Keliru. Kunci yang tepat adalah B. Atasan langsung memiliki kewajiban pembinaan dan perlu melakukan proses pembuktian terhadap dugaan pelanggaran."
+      ]
+    ],
+    "answer": 1,
+    "source": "extendedBank",
+    "reference": "DUKUNGAN MANAJEMEN.docx",
+    "originalSource": "DUKUNGAN MANAJEMEN.docx",
+    "originalUrl": ""
+  },
+  {
+    "bankId": "tambahan-2",
+    "topic": "Disiplin & Kepegawaian",
+    "difficulty": "Analitik",
+    "stem": "Disiplin PNS merupakan kesanggupan untuk...",
+    "options": [
+      [
+        "Mengikuti seluruh keputusan pimpinan tanpa pengecualian",
+        "Keliru. Kunci yang tepat adalah B. Definisi disiplin PNS berkaitan dengan kewajiban dan larangan yang ditentukan peraturan."
+      ],
+      [
+        "Mematuhi kewajiban dan menghindari larangan sesuai ketentuan",
+        "Definisi disiplin PNS berkaitan dengan kewajiban dan larangan yang ditentukan peraturan."
+      ],
+      [
+        "Mencapai target kinerja organisasi saja",
+        "Keliru. Kunci yang tepat adalah B. Definisi disiplin PNS berkaitan dengan kewajiban dan larangan yang ditentukan peraturan."
+      ],
+      [
+        "Menjaga hubungan kerja dengan seluruh pegawai",
+        "Keliru. Kunci yang tepat adalah B. Definisi disiplin PNS berkaitan dengan kewajiban dan larangan yang ditentukan peraturan."
+      ]
+    ],
+    "answer": 1,
+    "source": "extendedBank",
+    "reference": "MANAJEMEN SDM DAN KEPATUHAN INTERNAL.docx",
+    "originalSource": "MANAJEMEN SDM DAN KEPATUHAN INTERNAL.docx",
+    "originalUrl": ""
+  }
+]

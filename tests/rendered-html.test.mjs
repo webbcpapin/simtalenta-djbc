@@ -47,6 +47,8 @@ test("server-renders the SIMTALENTA landing page", async () => {
   assert.match(html, /Manajemen Talenta &amp; SDM/);
   assert.match(html, /Keuangan &amp; Pengadaan/);
   assert.match(html, /AI dalam Probis/);
+  assert.match(html, /Kontrol mutu aktif/);
+  assert.match(html, /1\.000(?:<!-- -->)? soal berpola/);
   assert.doesNotMatch(html, /codex-preview|loading skeleton|react-loading-skeleton/i);
 });
 
@@ -62,6 +64,8 @@ test("production source replaces all starter preview artifacts", async () => {
     knowledgeChat,
     packageJson,
     competencyJson,
+    auditedRevisionsJson,
+    extendedQuestionsJson,
   ] = await Promise.all([
     readFile(new URL("../app/page.tsx", import.meta.url), "utf8"),
     readFile(new URL("../app/layout.tsx", import.meta.url), "utf8"),
@@ -73,8 +77,12 @@ test("production source replaces all starter preview artifacts", async () => {
     readFile(new URL("../app/knowledge-chat.tsx", import.meta.url), "utf8"),
     readFile(new URL("../package.json", import.meta.url), "utf8"),
     readFile(new URL("../app/generated-competency-questions.json", import.meta.url), "utf8"),
+    readFile(new URL("../app/generated-audited-revisions.json", import.meta.url), "utf8"),
+    readFile(new URL("../app/generated-extended-questions.json", import.meta.url), "utf8"),
   ]);
   const competencyQuestions = JSON.parse(competencyJson);
+  const auditedRevisions = JSON.parse(auditedRevisionsJson);
+  const extendedQuestions = JSON.parse(extendedQuestionsJson);
 
   assert.match(page, /Simulasi Penuh/);
   assert.match(page, /Sprint 3 Hari/);
@@ -97,7 +105,10 @@ test("production source replaces all starter preview artifacts", async () => {
   assert.match(page, /setRevealed/);
   assert.match(layout, /lang="id"/);
   assert.match(questions, /uniqueQuestionCount = seedQuestions\.length/);
-  assert.match(questions, /\.\.\.competencyQuestions/);
+  assert.match(questions, /\.\.\.auditedRevisionQuestions/);
+  assert.match(questions, /\.\.\.extendedQuestions/);
+  assert.doesNotMatch(questions, /\.\.\.competencyQuestions/);
+  assert.match(questions, /quarantinedQuestionCount = 1000/);
   assert.match(questions, /seedQuestions\.map/);
   assert.match(questions, /notebookQuiz15/);
   assert.match(questions, /notebookQuiz30/);
@@ -122,17 +133,19 @@ test("production source replaces all starter preview artifacts", async () => {
   assert.match(knowledgeChat, /questions\.length\.toLocaleString\("id-ID"\)/);
   assert.match(knowledgeChat, /Saya belum menemukan dasar yang cukup kuat/);
   assert.match(knowledgeChat, /Sumber jawaban/);
-  assert.equal(competencyQuestions.length, 1002);
+  assert.equal(competencyQuestions.length, 1000);
   assert.equal(
     competencyQuestions.filter(({ bankId }) => bankId.startsWith("utama-")).length,
     1000,
   );
+  assert.equal(auditedRevisions.length, 24);
+  assert.equal(extendedQuestions.length, 2);
   assert.equal(
-    competencyQuestions.filter(({ bankId }) => bankId.startsWith("tambahan-")).length,
-    2,
+    auditedRevisions.filter(({ bankId }) => bankId.startsWith("revisi-audit-")).length,
+    24,
   );
   const exactQuestionKeys = new Set();
-  for (const question of competencyQuestions) {
+  for (const question of [...competencyQuestions, ...auditedRevisions, ...extendedQuestions]) {
     assert.equal(question.options.length, 4);
     assert.ok(Number.isInteger(question.answer) && question.answer >= 0 && question.answer < 4);
     assert.ok(question.stem.trim());

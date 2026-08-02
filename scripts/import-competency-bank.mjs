@@ -2,12 +2,27 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import { pathToFileURL } from "node:url";
 
-const [primaryPath, extendedPath, outputPath] = process.argv.slice(2);
+const [
+  primaryPath,
+  extendedPath,
+  quarantineOutputPath,
+  auditPath,
+  revisionsOutputPath,
+  extendedOutputPath,
+] = process.argv.slice(2);
 const artifactToolEntry = process.env.ARTIFACT_TOOL_ENTRY;
 
-if (!primaryPath || !extendedPath || !outputPath || !artifactToolEntry) {
+if (
+  !primaryPath ||
+  !extendedPath ||
+  !quarantineOutputPath ||
+  !auditPath ||
+  !revisionsOutputPath ||
+  !extendedOutputPath ||
+  !artifactToolEntry
+) {
   throw new Error(
-    "Usage: ARTIFACT_TOOL_ENTRY=<artifact_tool.mjs> node scripts/import-competency-bank.mjs <primary.xlsx> <extended.xlsx> <output.json>",
+    "Usage: ARTIFACT_TOOL_ENTRY=<artifact_tool.mjs> node scripts/import-competency-bank.mjs <primary.xlsx> <extended.xlsx> <quarantine.json> <audit.xlsx> <revisions.json> <extended-output.json>",
   );
 }
 
@@ -65,10 +80,10 @@ function makeOptionExplanation({ correct, key, discussion }) {
   return `Keliru. Kunci yang tepat adalah ${key}. ${discussion}`;
 }
 
-async function readSheetRows(filePath) {
+async function readSheetRows(filePath, sheetName = "Bank Soal") {
   const input = await FileBlob.load(filePath);
   const workbook = await SpreadsheetFile.importXlsx(input);
-  const sheet = workbook.worksheets.getItem("Bank Soal");
+  const sheet = workbook.worksheets.getItem(sheetName);
   const values = sheet.getUsedRange(true).values;
   const headers = values[0].map(text);
   return values.slice(1).map((row) =>
@@ -96,11 +111,7 @@ function normalizePrimary(row, index) {
     stem: normalizeStem(row.Soal),
     options: "ABCD".split("").map((letter, optionIndex) => [
       text(row[letter]),
-      makeOptionExplanation({
-        correct: optionIndex === answer,
-        key,
-        discussion,
-      }),
+      makeOptionExplanation({ correct: optionIndex === answer, key, discussion }),
     ]),
     answer,
     source,
@@ -130,11 +141,7 @@ function normalizeExtended(row, index) {
     stem: normalizeStem(row.Soal),
     options: "ABCD".split("").map((letter, optionIndex) => [
       text(row[letter]),
-      makeOptionExplanation({
-        correct: optionIndex === answer,
-        key,
-        discussion,
-      }),
+      makeOptionExplanation({ correct: optionIndex === answer, key, discussion }),
     ]),
     answer,
     source: "extendedBank",
@@ -144,43 +151,91 @@ function normalizeExtended(row, index) {
   };
 }
 
-const primaryRows = await readSheetRows(primaryPath);
-const extendedRows = await readSheetRows(extendedPath);
-const normalized = [
-  ...primaryRows.map(normalizePrimary),
-  ...extendedRows.map(normalizeExtended),
-];
+function normalizeRevision(row, index) {
+  const category = text(row.Kategori);
+  const key = text(row.Kunci).toUpperCase();
+  const answer = "ABCD".indexOf(key);
+  const discussion = text(row.Pembahasan);
+  const sourceLabel = text(row.Sumber);
+  const topic = topicByCategory[category];
+  const source = sourceByLabel[sourceLabel];
 
-const exactKeys = new Set();
-for (const [index, question] of normalized.entries()) {
-  if (!question.stem || question.options.some(([option]) => !option)) {
-    throw new Error(`Soal ${question.bankId} tidak lengkap.`);
-  }
-  if (new Set(question.options.map(([option]) => option)).size !== 4) {
-    throw new Error(`Soal ${question.bankId} memiliki opsi duplikat.`);
-  }
-  if (!question.options.every(([, explanation]) => explanation)) {
-    throw new Error(`Soal ${question.bankId} tidak memiliki pembahasan lengkap.`);
+  if (!topic || !source || answer < 0) {
+    throw new Error(`Baris contoh revisi ${index + 2} tidak dapat dipetakan.`);
   }
 
-  const exactKey = JSON.stringify([
-    question.stem.toLocaleLowerCase("id-ID"),
-    question.options.map(([option]) => option.toLocaleLowerCase("id-ID")),
-  ]);
-  if (exactKeys.has(exactKey)) {
-    throw new Error(`Duplikasi identik ditemukan pada soal ${index + 1}.`);
-  }
-  exactKeys.add(exactKey);
+  return {
+    bankId: `revisi-audit-${text(row.No)}`,
+    topic,
+    difficulty: "Menjebak",
+    stem: normalizeStem(row.Soal),
+    options: "ABCD".split("").map((letter, optionIndex) => [
+      text(row[letter]),
+      makeOptionExplanation({ correct: optionIndex === answer, key, discussion }),
+    ]),
+    answer,
+    source,
+    reference: [text(row.Lokasi), text(row.Tipologi)]
+      .filter(Boolean)
+      .join(" · "),
+    originalSource: sourceLabel,
+    originalUrl: text(row["URL Sumber"]),
+  };
 }
 
-await fs.mkdir(path.dirname(outputPath), { recursive: true });
-await fs.writeFile(outputPath, `${JSON.stringify(normalized, null, 2)}\n`, "utf8");
+function validateQuestions(questions, label) {
+  const exactKeys = new Set();
+  for (const [index, question] of questions.entries()) {
+    if (!question.stem || question.options.some(([option]) => !option)) {
+      throw new Error(`Soal ${question.bankId} tidak lengkap.`);
+    }
+    if (new Set(question.options.map(([option]) => option)).size !== 4) {
+      throw new Error(`Soal ${question.bankId} memiliki opsi duplikat.`);
+    }
+    if (!question.options.every(([, explanation]) => explanation)) {
+      throw new Error(`Soal ${question.bankId} tidak memiliki pembahasan lengkap.`);
+    }
+
+    const exactKey = JSON.stringify([
+      question.stem.toLocaleLowerCase("id-ID"),
+      question.options.map(([option]) => option.toLocaleLowerCase("id-ID")),
+    ]);
+    if (exactKeys.has(exactKey)) {
+      throw new Error(`Duplikasi identik ${label} pada soal ${index + 1}.`);
+    }
+    exactKeys.add(exactKey);
+  }
+}
+
+async function writeJson(outputPath, data) {
+  await fs.mkdir(path.dirname(outputPath), { recursive: true });
+  await fs.writeFile(outputPath, `${JSON.stringify(data, null, 2)}\n`, "utf8");
+}
+
+const primaryRows = await readSheetRows(primaryPath);
+const extendedRows = await readSheetRows(extendedPath);
+const revisionRows = await readSheetRows(auditPath, "Contoh Revisi 24");
+const quarantined = primaryRows.map(normalizePrimary);
+const activeExtended = extendedRows.map(normalizeExtended);
+const auditedRevisions = revisionRows.map(normalizeRevision);
+
+validateQuestions(quarantined, "bank karantina");
+validateQuestions(activeExtended, "bank tambahan aktif");
+validateQuestions(auditedRevisions, "contoh revisi audit");
+
+await writeJson(quarantineOutputPath, quarantined);
+await writeJson(extendedOutputPath, activeExtended);
+await writeJson(revisionsOutputPath, auditedRevisions);
 
 console.log(
   JSON.stringify({
     primary: primaryRows.length,
     extended: extendedRows.length,
-    total: normalized.length,
-    output: path.resolve(outputPath),
+    revisions: revisionRows.length,
+    quarantined: quarantined.length,
+    active: activeExtended.length + auditedRevisions.length,
+    quarantineOutput: path.resolve(quarantineOutputPath),
+    revisionsOutput: path.resolve(revisionsOutputPath),
+    extendedOutput: path.resolve(extendedOutputPath),
   }),
 );

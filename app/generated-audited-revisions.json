@@ -1,0 +1,698 @@
+[
+  {
+    "bankId": "revisi-audit-1",
+    "topic": "Manajemen Kinerja",
+    "difficulty": "Menjebak",
+    "stem": "Tim penelaah Manajemen Kinerja menguji tiga kesimpulan sebelum menyetujui rekomendasi. Kesimpulan yang sesuai dengan sumber adalah: I. IKU baru tidak dapat dibandingkan targetnya dengan realisasi IKU pada tahun sebelum atau realisasi terakhir evaluasi pada PK UPK tersebut atau PK UPK di atasnya. II. Pegawai yang memiliki lebih dari 2 (dua) SKP pada tahun yang sama wajib membuat nomor urut SKP yang berbeda. III. Evaluasi kinerja tahunan/akhir pegawai (evaluasi siklus penuh) dilakukan paling lama 6 (enam) pekan setelah periode kinerja tahunan berakhir.",
+    "options": [
+      [
+        "III saja",
+        "Keliru. Kunci yang tepat adalah C. I benar: IKU baru tidak dapat dibandingkan targetnya dengan realisasi IKU pada tahun sebelum atau realisasi terakhir evaluasi pada PK UPK tersebut atau PK UPK di atasnya. Rujukan: KMK 127 Tahun 2026, Halaman 74. II salah. Rumusan tersebut mengganti “1 (satu)” menjadi “2 (dua)”. Ketentuan yang benar: Pegawai yang memiliki lebih dari 1 (satu) SKP pada tahun yang sama, wajib membuat nomor urut SKP yang berbeda. Rujukan: KMK 127 Tahun 2026, Halaman 93. III benar: Evaluasi kinerja tahunan/akhir pegawai (evaluasi siklus penuh) dilakukan paling lama 6 (enam) pekan setelah periode kinerja tahunan berakhir. Rujukan: KMK 127 Tahun 2026, Halaman 117. Karena itu, jawaban yang tepat adalah I dan III (C)."
+      ],
+      [
+        "I saja",
+        "Keliru. Kunci yang tepat adalah C. I benar: IKU baru tidak dapat dibandingkan targetnya dengan realisasi IKU pada tahun sebelum atau realisasi terakhir evaluasi pada PK UPK tersebut atau PK UPK di atasnya. Rujukan: KMK 127 Tahun 2026, Halaman 74. II salah. Rumusan tersebut mengganti “1 (satu)” menjadi “2 (dua)”. Ketentuan yang benar: Pegawai yang memiliki lebih dari 1 (satu) SKP pada tahun yang sama, wajib membuat nomor urut SKP yang berbeda. Rujukan: KMK 127 Tahun 2026, Halaman 93. III benar: Evaluasi kinerja tahunan/akhir pegawai (evaluasi siklus penuh) dilakukan paling lama 6 (enam) pekan setelah periode kinerja tahunan berakhir. Rujukan: KMK 127 Tahun 2026, Halaman 117. Karena itu, jawaban yang tepat adalah I dan III (C)."
+      ],
+      [
+        "I dan III",
+        "I benar: IKU baru tidak dapat dibandingkan targetnya dengan realisasi IKU pada tahun sebelum atau realisasi terakhir evaluasi pada PK UPK tersebut atau PK UPK di atasnya. Rujukan: KMK 127 Tahun 2026, Halaman 74. II salah. Rumusan tersebut mengganti “1 (satu)” menjadi “2 (dua)”. Ketentuan yang benar: Pegawai yang memiliki lebih dari 1 (satu) SKP pada tahun yang sama, wajib membuat nomor urut SKP yang berbeda. Rujukan: KMK 127 Tahun 2026, Halaman 93. III benar: Evaluasi kinerja tahunan/akhir pegawai (evaluasi siklus penuh) dilakukan paling lama 6 (enam) pekan setelah periode kinerja tahunan berakhir. Rujukan: KMK 127 Tahun 2026, Halaman 117. Karena itu, jawaban yang tepat adalah I dan III (C)."
+      ],
+      [
+        "I, II, dan III",
+        "Keliru. Kunci yang tepat adalah C. I benar: IKU baru tidak dapat dibandingkan targetnya dengan realisasi IKU pada tahun sebelum atau realisasi terakhir evaluasi pada PK UPK tersebut atau PK UPK di atasnya. Rujukan: KMK 127 Tahun 2026, Halaman 74. II salah. Rumusan tersebut mengganti “1 (satu)” menjadi “2 (dua)”. Ketentuan yang benar: Pegawai yang memiliki lebih dari 1 (satu) SKP pada tahun yang sama, wajib membuat nomor urut SKP yang berbeda. Rujukan: KMK 127 Tahun 2026, Halaman 93. III benar: Evaluasi kinerja tahunan/akhir pegawai (evaluasi siklus penuh) dilakukan paling lama 6 (enam) pekan setelah periode kinerja tahunan berakhir. Rujukan: KMK 127 Tahun 2026, Halaman 117. Karena itu, jawaban yang tepat adalah I dan III (C)."
+      ]
+    ],
+    "answer": 2,
+    "source": "kinerja2026",
+    "reference": "KMK 127 Tahun 2026—Halaman 74 | KMK 127 Tahun 2026—Halaman 93 | KMK 127 Tahun 2026—Halaman 117 · Kasus reviu multi-ketentuan",
+    "originalSource": "KMK 127 Tahun 2026",
+    "originalUrl": "https://drive.google.com/file/d/15XlEDdUh6PRgP2pIbNxkICnP4J85XCDL/view"
+  },
+  {
+    "bankId": "revisi-audit-2",
+    "topic": "Manajemen Kinerja",
+    "difficulty": "Menjebak",
+    "stem": "Dalam reviu kepatuhan bidang Manajemen Kinerja, tiga pernyataan berikut harus dinilai secara kumulatif. Kombinasi pernyataan yang benar adalah: I. Pegawai yang menjadi Plt. pada tahun berjalan wajib menyusun SKP adendum dengan menambahkan 2 (dua) IKU/IKI yang mengukur NHK jabatan Plt. II. Dalam hal periode pelaporan IKU belum jatuh tempo atau data realisasinya belum tersedia pada periode tersebut, maka realisasi IKU dianggap tidak tersedia (N/A), bukan diberikan nilai 0 (nol). III. Melalui dialog kinerja, atasan langsung dapat memberikan ekspektasi khusus terhadap perilaku kerja yang harus ditunjukkan pegawai dalam rangka pencapaian hasil kerja dan perilaku kerja yang diharapkan dalam tahun berjalan.",
+    "options": [
+      [
+        "I, II, dan III",
+        "Keliru. Kunci yang tepat adalah C. I salah. Rumusan tersebut menghilangkan “pada jabatan definitif”; mengganti “1 (satu)” menjadi “2 (dua)”. Ketentuan yang benar: Pegawai yang menjadi Plt. pada tahun berjalan wajib menyusun SKP adendum pada jabatan definitif dengan menambahkan 1 (satu) IKU/IKI yang mengukur NHK jabatan Plt. Rujukan: KMK 127 Tahun 2026, Halaman 98. II benar: Dalam hal periode pelaporan IKU belum jatuh tempo atau data realisasinya belum tersedia pada periode tersebut, maka realisasi IKU dianggap tidak tersedia (N/A), bukan diberikan nilai 0 (nol). Rujukan: KMK 127 Tahun 2026, Halaman 67. III benar: Melalui dialog kinerja, atasan langsung dapat memberikan ekspektasi khusus terhadap perilaku kerja yang harus ditunjukkan pegawai dalam rangka pencapaian hasil kerja dan perilaku kerja yang diharapkan dalam tahun berjalan. Rujukan: KMK 127 Tahun 2026, Halaman 90. Karena itu, jawaban yang tepat adalah II dan III (C)."
+      ],
+      [
+        "III saja",
+        "Keliru. Kunci yang tepat adalah C. I salah. Rumusan tersebut menghilangkan “pada jabatan definitif”; mengganti “1 (satu)” menjadi “2 (dua)”. Ketentuan yang benar: Pegawai yang menjadi Plt. pada tahun berjalan wajib menyusun SKP adendum pada jabatan definitif dengan menambahkan 1 (satu) IKU/IKI yang mengukur NHK jabatan Plt. Rujukan: KMK 127 Tahun 2026, Halaman 98. II benar: Dalam hal periode pelaporan IKU belum jatuh tempo atau data realisasinya belum tersedia pada periode tersebut, maka realisasi IKU dianggap tidak tersedia (N/A), bukan diberikan nilai 0 (nol). Rujukan: KMK 127 Tahun 2026, Halaman 67. III benar: Melalui dialog kinerja, atasan langsung dapat memberikan ekspektasi khusus terhadap perilaku kerja yang harus ditunjukkan pegawai dalam rangka pencapaian hasil kerja dan perilaku kerja yang diharapkan dalam tahun berjalan. Rujukan: KMK 127 Tahun 2026, Halaman 90. Karena itu, jawaban yang tepat adalah II dan III (C)."
+      ],
+      [
+        "II dan III",
+        "I salah. Rumusan tersebut menghilangkan “pada jabatan definitif”; mengganti “1 (satu)” menjadi “2 (dua)”. Ketentuan yang benar: Pegawai yang menjadi Plt. pada tahun berjalan wajib menyusun SKP adendum pada jabatan definitif dengan menambahkan 1 (satu) IKU/IKI yang mengukur NHK jabatan Plt. Rujukan: KMK 127 Tahun 2026, Halaman 98. II benar: Dalam hal periode pelaporan IKU belum jatuh tempo atau data realisasinya belum tersedia pada periode tersebut, maka realisasi IKU dianggap tidak tersedia (N/A), bukan diberikan nilai 0 (nol). Rujukan: KMK 127 Tahun 2026, Halaman 67. III benar: Melalui dialog kinerja, atasan langsung dapat memberikan ekspektasi khusus terhadap perilaku kerja yang harus ditunjukkan pegawai dalam rangka pencapaian hasil kerja dan perilaku kerja yang diharapkan dalam tahun berjalan. Rujukan: KMK 127 Tahun 2026, Halaman 90. Karena itu, jawaban yang tepat adalah II dan III (C)."
+      ],
+      [
+        "II saja",
+        "Keliru. Kunci yang tepat adalah C. I salah. Rumusan tersebut menghilangkan “pada jabatan definitif”; mengganti “1 (satu)” menjadi “2 (dua)”. Ketentuan yang benar: Pegawai yang menjadi Plt. pada tahun berjalan wajib menyusun SKP adendum pada jabatan definitif dengan menambahkan 1 (satu) IKU/IKI yang mengukur NHK jabatan Plt. Rujukan: KMK 127 Tahun 2026, Halaman 98. II benar: Dalam hal periode pelaporan IKU belum jatuh tempo atau data realisasinya belum tersedia pada periode tersebut, maka realisasi IKU dianggap tidak tersedia (N/A), bukan diberikan nilai 0 (nol). Rujukan: KMK 127 Tahun 2026, Halaman 67. III benar: Melalui dialog kinerja, atasan langsung dapat memberikan ekspektasi khusus terhadap perilaku kerja yang harus ditunjukkan pegawai dalam rangka pencapaian hasil kerja dan perilaku kerja yang diharapkan dalam tahun berjalan. Rujukan: KMK 127 Tahun 2026, Halaman 90. Karena itu, jawaban yang tepat adalah II dan III (C)."
+      ]
+    ],
+    "answer": 2,
+    "source": "kinerja2026",
+    "reference": "KMK 127 Tahun 2026—Halaman 98 | KMK 127 Tahun 2026—Halaman 67 | KMK 127 Tahun 2026—Halaman 90 · Kasus reviu multi-ketentuan",
+    "originalSource": "KMK 127 Tahun 2026",
+    "originalUrl": "https://drive.google.com/file/d/15XlEDdUh6PRgP2pIbNxkICnP4J85XCDL/view"
+  },
+  {
+    "bankId": "revisi-audit-3",
+    "topic": "Manajemen Talenta & SDM",
+    "difficulty": "Menjebak",
+    "stem": "Tim penelaah Pengelolaan SDM menguji tiga kesimpulan sebelum menyetujui rekomendasi. Kesimpulan yang sesuai dengan sumber adalah: I. Jumlah jam kerja reguler DJBC adalah 42 jam 45 menit per minggu atau mengikuti ketentuan peraturan perundang-undangan. II. Fleksibilitas waktu kerja diberikan selama 90 menit pada awal dan akhir jam kerja dengan tetap memperhatikan jam kolaboratif. III. Akumulasi pelanggaran jam kerja selama 8 jam diperhitungkan sebagai 1 (satu) hari tidak masuk kerja.",
+    "options": [
+      [
+        "I, II, dan III",
+        "Keliru. Kunci yang tepat adalah B. I benar: Jumlah jam kerja reguler DJBC adalah 42 jam 45 menit per minggu atau mengikuti ketentuan peraturan perundang-undangan. Rujukan: Peningkatan Kompetensi Bidang SDM, Slide 5. II benar: Fleksibilitas waktu kerja diberikan selama 90 menit pada awal dan akhir jam kerja dengan tetap memperhatikan jam kolaboratif. Rujukan: Peningkatan Kompetensi Bidang SDM, Slide 5. III salah. Rumusan tersebut mengganti “7” menjadi “8”; menghilangkan “30 menit”. Ketentuan yang benar: Akumulasi pelanggaran jam kerja selama 7 jam 30 menit diperhitungkan sebagai 1 (satu) hari tidak masuk kerja. Rujukan: Peningkatan Kompetensi Bidang SDM, Slide 7. Karena itu, jawaban yang tepat adalah I dan II (B)."
+      ],
+      [
+        "I dan II",
+        "I benar: Jumlah jam kerja reguler DJBC adalah 42 jam 45 menit per minggu atau mengikuti ketentuan peraturan perundang-undangan. Rujukan: Peningkatan Kompetensi Bidang SDM, Slide 5. II benar: Fleksibilitas waktu kerja diberikan selama 90 menit pada awal dan akhir jam kerja dengan tetap memperhatikan jam kolaboratif. Rujukan: Peningkatan Kompetensi Bidang SDM, Slide 5. III salah. Rumusan tersebut mengganti “7” menjadi “8”; menghilangkan “30 menit”. Ketentuan yang benar: Akumulasi pelanggaran jam kerja selama 7 jam 30 menit diperhitungkan sebagai 1 (satu) hari tidak masuk kerja. Rujukan: Peningkatan Kompetensi Bidang SDM, Slide 7. Karena itu, jawaban yang tepat adalah I dan II (B)."
+      ],
+      [
+        "II saja",
+        "Keliru. Kunci yang tepat adalah B. I benar: Jumlah jam kerja reguler DJBC adalah 42 jam 45 menit per minggu atau mengikuti ketentuan peraturan perundang-undangan. Rujukan: Peningkatan Kompetensi Bidang SDM, Slide 5. II benar: Fleksibilitas waktu kerja diberikan selama 90 menit pada awal dan akhir jam kerja dengan tetap memperhatikan jam kolaboratif. Rujukan: Peningkatan Kompetensi Bidang SDM, Slide 5. III salah. Rumusan tersebut mengganti “7” menjadi “8”; menghilangkan “30 menit”. Ketentuan yang benar: Akumulasi pelanggaran jam kerja selama 7 jam 30 menit diperhitungkan sebagai 1 (satu) hari tidak masuk kerja. Rujukan: Peningkatan Kompetensi Bidang SDM, Slide 7. Karena itu, jawaban yang tepat adalah I dan II (B)."
+      ],
+      [
+        "I saja",
+        "Keliru. Kunci yang tepat adalah B. I benar: Jumlah jam kerja reguler DJBC adalah 42 jam 45 menit per minggu atau mengikuti ketentuan peraturan perundang-undangan. Rujukan: Peningkatan Kompetensi Bidang SDM, Slide 5. II benar: Fleksibilitas waktu kerja diberikan selama 90 menit pada awal dan akhir jam kerja dengan tetap memperhatikan jam kolaboratif. Rujukan: Peningkatan Kompetensi Bidang SDM, Slide 5. III salah. Rumusan tersebut mengganti “7” menjadi “8”; menghilangkan “30 menit”. Ketentuan yang benar: Akumulasi pelanggaran jam kerja selama 7 jam 30 menit diperhitungkan sebagai 1 (satu) hari tidak masuk kerja. Rujukan: Peningkatan Kompetensi Bidang SDM, Slide 7. Karena itu, jawaban yang tepat adalah I dan II (B)."
+      ]
+    ],
+    "answer": 1,
+    "source": "sdmAdmin",
+    "reference": "Peningkatan Kompetensi Bidang SDM—Slide 5 | Peningkatan Kompetensi Bidang SDM—Slide 5 | Peningkatan Kompetensi Bidang SDM—Slide 7 · Kasus reviu multi-ketentuan",
+    "originalSource": "Peningkatan Kompetensi Bidang SDM",
+    "originalUrl": "https://docs.google.com/presentation/d/1TsYni3hb3kRktqezfURSj92_ZT2kzkrW/edit"
+  },
+  {
+    "bankId": "revisi-audit-4",
+    "topic": "Manajemen Talenta & SDM",
+    "difficulty": "Menjebak",
+    "stem": "Dalam reviu kepatuhan bidang Pengelolaan SDM, tiga pernyataan berikut harus dinilai secara kumulatif. Kombinasi pernyataan yang benar adalah: I. Upaya coaching terhadap pegawai yang diduga sengaja tidak melaksanakan tugas cukup dilakukan 1 (satu) kali. II. Hak cuti tahunan diberikan setelah pegawai bekerja paling kurang 1 (satu) tahun secara terus-menerus. III. Cuti besar dapat diberikan setelah pegawai bekerja paling singkat 4 (empat) tahun secara terus-menerus.",
+    "options": [
+      [
+        "I dan II",
+        "Keliru. Kunci yang tepat adalah D. I salah. Rumusan tersebut menambahkan “cukup”; mengganti “paling sedikit 2 (dua)” menjadi “1 (satu)”. Ketentuan yang benar: Upaya coaching terhadap pegawai yang diduga sengaja tidak melaksanakan tugas dilakukan paling sedikit 2 (dua) kali. Rujukan: Peningkatan Kompetensi Bidang SDM, Slide 7. II benar: Hak cuti tahunan diberikan setelah pegawai bekerja paling kurang 1 (satu) tahun secara terus-menerus. Rujukan: Peningkatan Kompetensi Bidang SDM, Slide 11. III salah. Rumusan tersebut mengganti “5 (lima)” menjadi “4 (empat)”. Ketentuan yang benar: Cuti besar dapat diberikan setelah pegawai bekerja paling singkat 5 (lima) tahun secara terus-menerus. Rujukan: Peningkatan Kompetensi Bidang SDM, Slide 11. Karena itu, jawaban yang tepat adalah II saja (D)."
+      ],
+      [
+        "II dan III",
+        "Keliru. Kunci yang tepat adalah D. I salah. Rumusan tersebut menambahkan “cukup”; mengganti “paling sedikit 2 (dua)” menjadi “1 (satu)”. Ketentuan yang benar: Upaya coaching terhadap pegawai yang diduga sengaja tidak melaksanakan tugas dilakukan paling sedikit 2 (dua) kali. Rujukan: Peningkatan Kompetensi Bidang SDM, Slide 7. II benar: Hak cuti tahunan diberikan setelah pegawai bekerja paling kurang 1 (satu) tahun secara terus-menerus. Rujukan: Peningkatan Kompetensi Bidang SDM, Slide 11. III salah. Rumusan tersebut mengganti “5 (lima)” menjadi “4 (empat)”. Ketentuan yang benar: Cuti besar dapat diberikan setelah pegawai bekerja paling singkat 5 (lima) tahun secara terus-menerus. Rujukan: Peningkatan Kompetensi Bidang SDM, Slide 11. Karena itu, jawaban yang tepat adalah II saja (D)."
+      ],
+      [
+        "I saja",
+        "Keliru. Kunci yang tepat adalah D. I salah. Rumusan tersebut menambahkan “cukup”; mengganti “paling sedikit 2 (dua)” menjadi “1 (satu)”. Ketentuan yang benar: Upaya coaching terhadap pegawai yang diduga sengaja tidak melaksanakan tugas dilakukan paling sedikit 2 (dua) kali. Rujukan: Peningkatan Kompetensi Bidang SDM, Slide 7. II benar: Hak cuti tahunan diberikan setelah pegawai bekerja paling kurang 1 (satu) tahun secara terus-menerus. Rujukan: Peningkatan Kompetensi Bidang SDM, Slide 11. III salah. Rumusan tersebut mengganti “5 (lima)” menjadi “4 (empat)”. Ketentuan yang benar: Cuti besar dapat diberikan setelah pegawai bekerja paling singkat 5 (lima) tahun secara terus-menerus. Rujukan: Peningkatan Kompetensi Bidang SDM, Slide 11. Karena itu, jawaban yang tepat adalah II saja (D)."
+      ],
+      [
+        "II saja",
+        "I salah. Rumusan tersebut menambahkan “cukup”; mengganti “paling sedikit 2 (dua)” menjadi “1 (satu)”. Ketentuan yang benar: Upaya coaching terhadap pegawai yang diduga sengaja tidak melaksanakan tugas dilakukan paling sedikit 2 (dua) kali. Rujukan: Peningkatan Kompetensi Bidang SDM, Slide 7. II benar: Hak cuti tahunan diberikan setelah pegawai bekerja paling kurang 1 (satu) tahun secara terus-menerus. Rujukan: Peningkatan Kompetensi Bidang SDM, Slide 11. III salah. Rumusan tersebut mengganti “5 (lima)” menjadi “4 (empat)”. Ketentuan yang benar: Cuti besar dapat diberikan setelah pegawai bekerja paling singkat 5 (lima) tahun secara terus-menerus. Rujukan: Peningkatan Kompetensi Bidang SDM, Slide 11. Karena itu, jawaban yang tepat adalah II saja (D)."
+      ]
+    ],
+    "answer": 3,
+    "source": "sdmAdmin",
+    "reference": "Peningkatan Kompetensi Bidang SDM—Slide 7 | Peningkatan Kompetensi Bidang SDM—Slide 11 | Peningkatan Kompetensi Bidang SDM—Slide 11 · Kasus reviu multi-ketentuan",
+    "originalSource": "Peningkatan Kompetensi Bidang SDM",
+    "originalUrl": "https://docs.google.com/presentation/d/1TsYni3hb3kRktqezfURSj92_ZT2kzkrW/edit"
+  },
+  {
+    "bankId": "revisi-audit-5",
+    "topic": "Manajemen Talenta & SDM",
+    "difficulty": "Menjebak",
+    "stem": "Tim penelaah Manajemen Talenta menguji tiga kesimpulan sebelum menyetujui rekomendasi. Kesimpulan yang sesuai dengan sumber adalah: I. Pegawai dengan hukuman disiplin berat terkait fraud tidak dapat dipromosikan melalui Manajemen Talenta. II. Proses Manajemen Talenta hanya mencakup akuisisi, pengembangan, penempatan, dan evaluasi Talenta. III. Untuk 1 (satu) Jabatan Target Promosi paling sedikit terdapat 3 (tiga) Talenta yang dicalonkan.",
+    "options": [
+      [
+        "I saja",
+        "Keliru. Kunci yang tepat adalah B. I benar: Pegawai dengan hukuman disiplin berat terkait fraud tidak dapat dipromosikan melalui Manajemen Talenta. Rujukan: Internalisasi PMK 38 Tahun 2025, Halaman 5. II salah. Rumusan tersebut menambahkan “hanya”; menghilangkan “retensi, serta pemantauan”. Ketentuan yang benar: Proses Manajemen Talenta mencakup akuisisi, pengembangan, penempatan, retensi, serta pemantauan dan evaluasi Talenta. Rujukan: Internalisasi PMK 38 Tahun 2025, Halaman 8. III benar: Untuk 1 (satu) Jabatan Target Promosi paling sedikit terdapat 3 (tiga) Talenta yang dicalonkan. Rujukan: Internalisasi PMK 38 Tahun 2025, Halaman 11. Karena itu, jawaban yang tepat adalah I dan III (B)."
+      ],
+      [
+        "I dan III",
+        "I benar: Pegawai dengan hukuman disiplin berat terkait fraud tidak dapat dipromosikan melalui Manajemen Talenta. Rujukan: Internalisasi PMK 38 Tahun 2025, Halaman 5. II salah. Rumusan tersebut menambahkan “hanya”; menghilangkan “retensi, serta pemantauan”. Ketentuan yang benar: Proses Manajemen Talenta mencakup akuisisi, pengembangan, penempatan, retensi, serta pemantauan dan evaluasi Talenta. Rujukan: Internalisasi PMK 38 Tahun 2025, Halaman 8. III benar: Untuk 1 (satu) Jabatan Target Promosi paling sedikit terdapat 3 (tiga) Talenta yang dicalonkan. Rujukan: Internalisasi PMK 38 Tahun 2025, Halaman 11. Karena itu, jawaban yang tepat adalah I dan III (B)."
+      ],
+      [
+        "III saja",
+        "Keliru. Kunci yang tepat adalah B. I benar: Pegawai dengan hukuman disiplin berat terkait fraud tidak dapat dipromosikan melalui Manajemen Talenta. Rujukan: Internalisasi PMK 38 Tahun 2025, Halaman 5. II salah. Rumusan tersebut menambahkan “hanya”; menghilangkan “retensi, serta pemantauan”. Ketentuan yang benar: Proses Manajemen Talenta mencakup akuisisi, pengembangan, penempatan, retensi, serta pemantauan dan evaluasi Talenta. Rujukan: Internalisasi PMK 38 Tahun 2025, Halaman 8. III benar: Untuk 1 (satu) Jabatan Target Promosi paling sedikit terdapat 3 (tiga) Talenta yang dicalonkan. Rujukan: Internalisasi PMK 38 Tahun 2025, Halaman 11. Karena itu, jawaban yang tepat adalah I dan III (B)."
+      ],
+      [
+        "I, II, dan III",
+        "Keliru. Kunci yang tepat adalah B. I benar: Pegawai dengan hukuman disiplin berat terkait fraud tidak dapat dipromosikan melalui Manajemen Talenta. Rujukan: Internalisasi PMK 38 Tahun 2025, Halaman 5. II salah. Rumusan tersebut menambahkan “hanya”; menghilangkan “retensi, serta pemantauan”. Ketentuan yang benar: Proses Manajemen Talenta mencakup akuisisi, pengembangan, penempatan, retensi, serta pemantauan dan evaluasi Talenta. Rujukan: Internalisasi PMK 38 Tahun 2025, Halaman 8. III benar: Untuk 1 (satu) Jabatan Target Promosi paling sedikit terdapat 3 (tiga) Talenta yang dicalonkan. Rujukan: Internalisasi PMK 38 Tahun 2025, Halaman 11. Karena itu, jawaban yang tepat adalah I dan III (B)."
+      ]
+    ],
+    "answer": 1,
+    "source": "talenta38",
+    "reference": "Internalisasi PMK 38 Tahun 2025—Halaman 5 | Internalisasi PMK 38 Tahun 2025—Halaman 8 | Internalisasi PMK 38 Tahun 2025—Halaman 11 · Kasus reviu multi-ketentuan",
+    "originalSource": "Internalisasi PMK 38 Tahun 2025",
+    "originalUrl": "https://drive.google.com/file/d/1FK6RiD9YbuTIUyX3e8---PL_9UllBQHS/view"
+  },
+  {
+    "bankId": "revisi-audit-6",
+    "topic": "Manajemen Talenta & SDM",
+    "difficulty": "Menjebak",
+    "stem": "Dalam reviu kepatuhan bidang Manajemen Talenta, tiga pernyataan berikut harus dinilai secara kumulatif. Kombinasi pernyataan yang benar adalah: I. Seleksi administrasi memeriksa persyaratan jabatan, nilai Job Person Match, kinerja, dan usia calon Talenta. II. Forum Pimpinan membahas kompetensi atau potensi, kinerja, kepemimpinan, komunikasi atau jejaring, dan pengalaman calon Talenta. III. Evaluasi Talenta mencakup peningkatan kompetensi, penilaian 360 derajat atas etos kerja, serta uji kelayakan dan kepatutan.",
+    "options": [
+      [
+        "II dan III",
+        "I salah. Rumusan tersebut mengganti “status penugasan” menjadi “usia”. Ketentuan yang benar: Seleksi administrasi memeriksa persyaratan jabatan, nilai Job Person Match, kinerja, dan status penugasan calon Talenta. Rujukan: Internalisasi PMK 38 Tahun 2025, Halaman 12. II benar: Forum Pimpinan membahas kompetensi atau potensi, kinerja, kepemimpinan, komunikasi atau jejaring, dan pengalaman calon Talenta. Rujukan: Internalisasi PMK 38 Tahun 2025, Halaman 14. III benar: Evaluasi Talenta mencakup peningkatan kompetensi, penilaian 360 derajat atas etos kerja, serta uji kelayakan dan kepatutan. Rujukan: Internalisasi PMK 38 Tahun 2025, Halaman 5. Karena itu, jawaban yang tepat adalah II dan III (A)."
+      ],
+      [
+        "III saja",
+        "Keliru. Kunci yang tepat adalah A. I salah. Rumusan tersebut mengganti “status penugasan” menjadi “usia”. Ketentuan yang benar: Seleksi administrasi memeriksa persyaratan jabatan, nilai Job Person Match, kinerja, dan status penugasan calon Talenta. Rujukan: Internalisasi PMK 38 Tahun 2025, Halaman 12. II benar: Forum Pimpinan membahas kompetensi atau potensi, kinerja, kepemimpinan, komunikasi atau jejaring, dan pengalaman calon Talenta. Rujukan: Internalisasi PMK 38 Tahun 2025, Halaman 14. III benar: Evaluasi Talenta mencakup peningkatan kompetensi, penilaian 360 derajat atas etos kerja, serta uji kelayakan dan kepatutan. Rujukan: Internalisasi PMK 38 Tahun 2025, Halaman 5. Karena itu, jawaban yang tepat adalah II dan III (A)."
+      ],
+      [
+        "II saja",
+        "Keliru. Kunci yang tepat adalah A. I salah. Rumusan tersebut mengganti “status penugasan” menjadi “usia”. Ketentuan yang benar: Seleksi administrasi memeriksa persyaratan jabatan, nilai Job Person Match, kinerja, dan status penugasan calon Talenta. Rujukan: Internalisasi PMK 38 Tahun 2025, Halaman 12. II benar: Forum Pimpinan membahas kompetensi atau potensi, kinerja, kepemimpinan, komunikasi atau jejaring, dan pengalaman calon Talenta. Rujukan: Internalisasi PMK 38 Tahun 2025, Halaman 14. III benar: Evaluasi Talenta mencakup peningkatan kompetensi, penilaian 360 derajat atas etos kerja, serta uji kelayakan dan kepatutan. Rujukan: Internalisasi PMK 38 Tahun 2025, Halaman 5. Karena itu, jawaban yang tepat adalah II dan III (A)."
+      ],
+      [
+        "I, II, dan III",
+        "Keliru. Kunci yang tepat adalah A. I salah. Rumusan tersebut mengganti “status penugasan” menjadi “usia”. Ketentuan yang benar: Seleksi administrasi memeriksa persyaratan jabatan, nilai Job Person Match, kinerja, dan status penugasan calon Talenta. Rujukan: Internalisasi PMK 38 Tahun 2025, Halaman 12. II benar: Forum Pimpinan membahas kompetensi atau potensi, kinerja, kepemimpinan, komunikasi atau jejaring, dan pengalaman calon Talenta. Rujukan: Internalisasi PMK 38 Tahun 2025, Halaman 14. III benar: Evaluasi Talenta mencakup peningkatan kompetensi, penilaian 360 derajat atas etos kerja, serta uji kelayakan dan kepatutan. Rujukan: Internalisasi PMK 38 Tahun 2025, Halaman 5. Karena itu, jawaban yang tepat adalah II dan III (A)."
+      ]
+    ],
+    "answer": 0,
+    "source": "talenta38",
+    "reference": "Internalisasi PMK 38 Tahun 2025—Halaman 12 | Internalisasi PMK 38 Tahun 2025—Halaman 14 | Internalisasi PMK 38 Tahun 2025—Halaman 5 · Kasus reviu multi-ketentuan",
+    "originalSource": "Internalisasi PMK 38 Tahun 2025",
+    "originalUrl": "https://drive.google.com/file/d/1FK6RiD9YbuTIUyX3e8---PL_9UllBQHS/view"
+  },
+  {
+    "bankId": "revisi-audit-7",
+    "topic": "Disiplin & Kepegawaian",
+    "difficulty": "Menjebak",
+    "stem": "Tim penelaah Disiplin Pegawai menguji tiga kesimpulan sebelum menyetujui rekomendasi. Kesimpulan yang sesuai dengan sumber adalah: I. Penyampaian keputusan Hukuman Disiplin dilakukan paling lama 14 (empat belas) hari kerja sejak keputusan Hukuman Disiplin ditetapkan. II. Pasal 43 Dokumen surat panggilan, berita acara pemeriksaan, dan dokumen bahan lain yang berhubungan dengan Hukuman Disiplin bersifat rahasia. III. Pemeriksaan Pelanggaran Disiplin dapat dihadiri pegawai lain sepanjang mendapat persetujuan Terperiksa.",
+    "options": [
+      [
+        "I dan II",
+        "I benar: Penyampaian keputusan Hukuman Disiplin dilakukan paling lama 14 (empat belas) hari kerja sejak keputusan Hukuman Disiplin ditetapkan. Rujukan: PMK 123 Tahun 2023, Halaman 34. II benar: Pasal 43 Dokumen surat panggilan, berita acara pemeriksaan, dan dokumen bahan lain yang berhubungan dengan Hukuman Disiplin bersifat rahasia. Rujukan: PMK 123 Tahun 2023, Halaman 36. III salah. Rumusan tersebut menghilangkan “Pasal 13”; mengganti “dilakukan secara tertutup dan hanya” menjadi “dapat”. Ketentuan yang benar: Pasal 13 Pemeriksaan Pelanggaran Disiplin dilakukan secara tertutup dan hanya dihadiri oleh Terperiksa dan Atasan Langsung atau Tim Pemeriksa. Rujukan: PMK 123 Tahun 2023, Halaman 13. Karena itu, jawaban yang tepat adalah I dan II (A)."
+      ],
+      [
+        "I, II, dan III",
+        "Keliru. Kunci yang tepat adalah A. I benar: Penyampaian keputusan Hukuman Disiplin dilakukan paling lama 14 (empat belas) hari kerja sejak keputusan Hukuman Disiplin ditetapkan. Rujukan: PMK 123 Tahun 2023, Halaman 34. II benar: Pasal 43 Dokumen surat panggilan, berita acara pemeriksaan, dan dokumen bahan lain yang berhubungan dengan Hukuman Disiplin bersifat rahasia. Rujukan: PMK 123 Tahun 2023, Halaman 36. III salah. Rumusan tersebut menghilangkan “Pasal 13”; mengganti “dilakukan secara tertutup dan hanya” menjadi “dapat”. Ketentuan yang benar: Pasal 13 Pemeriksaan Pelanggaran Disiplin dilakukan secara tertutup dan hanya dihadiri oleh Terperiksa dan Atasan Langsung atau Tim Pemeriksa. Rujukan: PMK 123 Tahun 2023, Halaman 13. Karena itu, jawaban yang tepat adalah I dan II (A)."
+      ],
+      [
+        "II saja",
+        "Keliru. Kunci yang tepat adalah A. I benar: Penyampaian keputusan Hukuman Disiplin dilakukan paling lama 14 (empat belas) hari kerja sejak keputusan Hukuman Disiplin ditetapkan. Rujukan: PMK 123 Tahun 2023, Halaman 34. II benar: Pasal 43 Dokumen surat panggilan, berita acara pemeriksaan, dan dokumen bahan lain yang berhubungan dengan Hukuman Disiplin bersifat rahasia. Rujukan: PMK 123 Tahun 2023, Halaman 36. III salah. Rumusan tersebut menghilangkan “Pasal 13”; mengganti “dilakukan secara tertutup dan hanya” menjadi “dapat”. Ketentuan yang benar: Pasal 13 Pemeriksaan Pelanggaran Disiplin dilakukan secara tertutup dan hanya dihadiri oleh Terperiksa dan Atasan Langsung atau Tim Pemeriksa. Rujukan: PMK 123 Tahun 2023, Halaman 13. Karena itu, jawaban yang tepat adalah I dan II (A)."
+      ],
+      [
+        "I saja",
+        "Keliru. Kunci yang tepat adalah A. I benar: Penyampaian keputusan Hukuman Disiplin dilakukan paling lama 14 (empat belas) hari kerja sejak keputusan Hukuman Disiplin ditetapkan. Rujukan: PMK 123 Tahun 2023, Halaman 34. II benar: Pasal 43 Dokumen surat panggilan, berita acara pemeriksaan, dan dokumen bahan lain yang berhubungan dengan Hukuman Disiplin bersifat rahasia. Rujukan: PMK 123 Tahun 2023, Halaman 36. III salah. Rumusan tersebut menghilangkan “Pasal 13”; mengganti “dilakukan secara tertutup dan hanya” menjadi “dapat”. Ketentuan yang benar: Pasal 13 Pemeriksaan Pelanggaran Disiplin dilakukan secara tertutup dan hanya dihadiri oleh Terperiksa dan Atasan Langsung atau Tim Pemeriksa. Rujukan: PMK 123 Tahun 2023, Halaman 13. Karena itu, jawaban yang tepat adalah I dan II (A)."
+      ]
+    ],
+    "answer": 0,
+    "source": "pmk123",
+    "reference": "PMK 123 Tahun 2023—Halaman 34 | PMK 123 Tahun 2023—Halaman 36 | PMK 123 Tahun 2023—Halaman 13 · Kasus reviu multi-ketentuan",
+    "originalSource": "PMK 123 Tahun 2023",
+    "originalUrl": "https://drive.google.com/file/d/1uoLEaPPPnjBVz-iPtImNKk4Wd_2RZahd/view"
+  },
+  {
+    "bankId": "revisi-audit-8",
+    "topic": "Disiplin & Kepegawaian",
+    "difficulty": "Menjebak",
+    "stem": "Dalam reviu kepatuhan bidang Disiplin Pegawai, tiga pernyataan berikut harus dinilai secara kumulatif. Kombinasi pernyataan yang benar adalah: I. Keputusan Hukuman Disiplin berlaku pada hari kerja ke-14 sejak keputusan diterima pegawai. II. Pasal 11 Jarak waktu antara tanggal surat panggilan sebagaimana dimaksud dalam Pasal 10 ayat (1) dengan tanggal pemeriksaan paling lama 7 (tujuh) hari kerja. III. Pemeriksaan terhadap Terperiksa hanya dapat dilakukan melalui tatap muka langsung.",
+    "options": [
+      [
+        "II saja",
+        "I salah. Rumusan tersebut menghilangkan “Pasal 39”; mengganti “ke15 (lima belas)” menjadi “ke-14”. Ketentuan yang benar: Pasal 39 Keputusan Hukuman Disiplin berlaku pada hari kerja ke15 (lima belas) sejak keputusan diterima Pegawai yang dijatuhi Hukuman Disiplin. Rujukan: PMK 123 Tahun 2023, Halaman 34. II benar: Pasal 11 Jarak waktu antara tanggal surat panggilan sebagaimana dimaksud dalam Pasal 10 ayat (1) dengan tanggal pemeriksaan paling lama 7 (tujuh) hari kerja. Rujukan: PMK 123 Tahun 2023, Halaman 12. III salah. Rumusan tersebut menghilangkan “Pasal 12”; menghilangkan “oleh Atasan Langsung atau Tim Pemeriksa”. Ketentuan yang benar: Pasal 12 Pemeriksaan oleh Atasan Langsung atau Tim Pemeriksa terhadap Terperiksa dilakukan dengan mekanisme tatap muka langsung, virtual, dan/atau kombinasi (hybrid). Rujukan: PMK 123 Tahun 2023, Halaman 13. Karena itu, jawaban yang tepat adalah II saja (A)."
+      ],
+      [
+        "II dan III",
+        "Keliru. Kunci yang tepat adalah A. I salah. Rumusan tersebut menghilangkan “Pasal 39”; mengganti “ke15 (lima belas)” menjadi “ke-14”. Ketentuan yang benar: Pasal 39 Keputusan Hukuman Disiplin berlaku pada hari kerja ke15 (lima belas) sejak keputusan diterima Pegawai yang dijatuhi Hukuman Disiplin. Rujukan: PMK 123 Tahun 2023, Halaman 34. II benar: Pasal 11 Jarak waktu antara tanggal surat panggilan sebagaimana dimaksud dalam Pasal 10 ayat (1) dengan tanggal pemeriksaan paling lama 7 (tujuh) hari kerja. Rujukan: PMK 123 Tahun 2023, Halaman 12. III salah. Rumusan tersebut menghilangkan “Pasal 12”; menghilangkan “oleh Atasan Langsung atau Tim Pemeriksa”. Ketentuan yang benar: Pasal 12 Pemeriksaan oleh Atasan Langsung atau Tim Pemeriksa terhadap Terperiksa dilakukan dengan mekanisme tatap muka langsung, virtual, dan/atau kombinasi (hybrid). Rujukan: PMK 123 Tahun 2023, Halaman 13. Karena itu, jawaban yang tepat adalah II saja (A)."
+      ],
+      [
+        "I saja",
+        "Keliru. Kunci yang tepat adalah A. I salah. Rumusan tersebut menghilangkan “Pasal 39”; mengganti “ke15 (lima belas)” menjadi “ke-14”. Ketentuan yang benar: Pasal 39 Keputusan Hukuman Disiplin berlaku pada hari kerja ke15 (lima belas) sejak keputusan diterima Pegawai yang dijatuhi Hukuman Disiplin. Rujukan: PMK 123 Tahun 2023, Halaman 34. II benar: Pasal 11 Jarak waktu antara tanggal surat panggilan sebagaimana dimaksud dalam Pasal 10 ayat (1) dengan tanggal pemeriksaan paling lama 7 (tujuh) hari kerja. Rujukan: PMK 123 Tahun 2023, Halaman 12. III salah. Rumusan tersebut menghilangkan “Pasal 12”; menghilangkan “oleh Atasan Langsung atau Tim Pemeriksa”. Ketentuan yang benar: Pasal 12 Pemeriksaan oleh Atasan Langsung atau Tim Pemeriksa terhadap Terperiksa dilakukan dengan mekanisme tatap muka langsung, virtual, dan/atau kombinasi (hybrid). Rujukan: PMK 123 Tahun 2023, Halaman 13. Karena itu, jawaban yang tepat adalah II saja (A)."
+      ],
+      [
+        "I dan II",
+        "Keliru. Kunci yang tepat adalah A. I salah. Rumusan tersebut menghilangkan “Pasal 39”; mengganti “ke15 (lima belas)” menjadi “ke-14”. Ketentuan yang benar: Pasal 39 Keputusan Hukuman Disiplin berlaku pada hari kerja ke15 (lima belas) sejak keputusan diterima Pegawai yang dijatuhi Hukuman Disiplin. Rujukan: PMK 123 Tahun 2023, Halaman 34. II benar: Pasal 11 Jarak waktu antara tanggal surat panggilan sebagaimana dimaksud dalam Pasal 10 ayat (1) dengan tanggal pemeriksaan paling lama 7 (tujuh) hari kerja. Rujukan: PMK 123 Tahun 2023, Halaman 12. III salah. Rumusan tersebut menghilangkan “Pasal 12”; menghilangkan “oleh Atasan Langsung atau Tim Pemeriksa”. Ketentuan yang benar: Pasal 12 Pemeriksaan oleh Atasan Langsung atau Tim Pemeriksa terhadap Terperiksa dilakukan dengan mekanisme tatap muka langsung, virtual, dan/atau kombinasi (hybrid). Rujukan: PMK 123 Tahun 2023, Halaman 13. Karena itu, jawaban yang tepat adalah II saja (A)."
+      ]
+    ],
+    "answer": 0,
+    "source": "pmk123",
+    "reference": "PMK 123 Tahun 2023—Halaman 34 | PMK 123 Tahun 2023—Halaman 12 | PMK 123 Tahun 2023—Halaman 13 · Kasus reviu multi-ketentuan",
+    "originalSource": "PMK 123 Tahun 2023",
+    "originalUrl": "https://drive.google.com/file/d/1uoLEaPPPnjBVz-iPtImNKk4Wd_2RZahd/view"
+  },
+  {
+    "bankId": "revisi-audit-9",
+    "topic": "Keuangan & Pengadaan",
+    "difficulty": "Menjebak",
+    "stem": "Tim penelaah Penganggaran dan Perbendaharaan menguji tiga kesimpulan sebelum menyetujui rekomendasi. Kesimpulan yang sesuai dengan sumber adalah: I. Jika terdapat belanja pegawai bulan ke-14, maka dibagi 14 dan ditempatkan pada waktu menjelang hari raya yang ditetapkan sebagai waktu pembayaran. II. Penetapan Alokasi Anggaran BUN hanya dapat dilakukan sebelum dimulainya tahun anggaran yang direncanakan. III. Pembayaran tunggakan dengan pembebanan pada DIPA Tahun Anggaran berkenaan dapat dilakukan tanpa melalui mekanisme revisi anggaran sepanjang alokasi anggaran untuk peruntukan yang sama telah tersedia.",
+    "options": [
+      [
+        "I, II, dan III",
+        "Keliru. Kunci yang tepat adalah C. I benar: Jika terdapat belanja pegawai bulan ke-14, maka dibagi 14 dan ditempatkan pada waktu menjelang hari raya yang ditetapkan sebagai waktu pembayaran. Rujukan: PMK 41 Tahun 2026, Halaman 310. II salah. Rumusan tersebut menambahkan “hanya”; mengganti “direncanakan atau dapat pula ditetapkan pada tahun anggaran berjalan.” menjadi “direncanakan.”. Ketentuan yang benar: Penetapan Alokasi Anggaran BUN dapat dilakukan sebelum dimulainya tahun anggaran yang direncanakan atau dapat pula ditetapkan pada tahun anggaran berjalan. Rujukan: PMK 41 Tahun 2026, Halaman 343. III benar: Pembayaran tunggakan dengan pembebanan pada DIPA Tahun Anggaran berkenaan dapat dilakukan tanpa melalui mekanisme revisi anggaran sepanjang alokasi anggaran untuk peruntukan yang sama telah tersedia. Rujukan: PMK 41 Tahun 2026, Halaman 523. Karena itu, jawaban yang tepat adalah I dan III (C)."
+      ],
+      [
+        "III saja",
+        "Keliru. Kunci yang tepat adalah C. I benar: Jika terdapat belanja pegawai bulan ke-14, maka dibagi 14 dan ditempatkan pada waktu menjelang hari raya yang ditetapkan sebagai waktu pembayaran. Rujukan: PMK 41 Tahun 2026, Halaman 310. II salah. Rumusan tersebut menambahkan “hanya”; mengganti “direncanakan atau dapat pula ditetapkan pada tahun anggaran berjalan.” menjadi “direncanakan.”. Ketentuan yang benar: Penetapan Alokasi Anggaran BUN dapat dilakukan sebelum dimulainya tahun anggaran yang direncanakan atau dapat pula ditetapkan pada tahun anggaran berjalan. Rujukan: PMK 41 Tahun 2026, Halaman 343. III benar: Pembayaran tunggakan dengan pembebanan pada DIPA Tahun Anggaran berkenaan dapat dilakukan tanpa melalui mekanisme revisi anggaran sepanjang alokasi anggaran untuk peruntukan yang sama telah tersedia. Rujukan: PMK 41 Tahun 2026, Halaman 523. Karena itu, jawaban yang tepat adalah I dan III (C)."
+      ],
+      [
+        "I dan III",
+        "I benar: Jika terdapat belanja pegawai bulan ke-14, maka dibagi 14 dan ditempatkan pada waktu menjelang hari raya yang ditetapkan sebagai waktu pembayaran. Rujukan: PMK 41 Tahun 2026, Halaman 310. II salah. Rumusan tersebut menambahkan “hanya”; mengganti “direncanakan atau dapat pula ditetapkan pada tahun anggaran berjalan.” menjadi “direncanakan.”. Ketentuan yang benar: Penetapan Alokasi Anggaran BUN dapat dilakukan sebelum dimulainya tahun anggaran yang direncanakan atau dapat pula ditetapkan pada tahun anggaran berjalan. Rujukan: PMK 41 Tahun 2026, Halaman 343. III benar: Pembayaran tunggakan dengan pembebanan pada DIPA Tahun Anggaran berkenaan dapat dilakukan tanpa melalui mekanisme revisi anggaran sepanjang alokasi anggaran untuk peruntukan yang sama telah tersedia. Rujukan: PMK 41 Tahun 2026, Halaman 523. Karena itu, jawaban yang tepat adalah I dan III (C)."
+      ],
+      [
+        "I saja",
+        "Keliru. Kunci yang tepat adalah C. I benar: Jika terdapat belanja pegawai bulan ke-14, maka dibagi 14 dan ditempatkan pada waktu menjelang hari raya yang ditetapkan sebagai waktu pembayaran. Rujukan: PMK 41 Tahun 2026, Halaman 310. II salah. Rumusan tersebut menambahkan “hanya”; mengganti “direncanakan atau dapat pula ditetapkan pada tahun anggaran berjalan.” menjadi “direncanakan.”. Ketentuan yang benar: Penetapan Alokasi Anggaran BUN dapat dilakukan sebelum dimulainya tahun anggaran yang direncanakan atau dapat pula ditetapkan pada tahun anggaran berjalan. Rujukan: PMK 41 Tahun 2026, Halaman 343. III benar: Pembayaran tunggakan dengan pembebanan pada DIPA Tahun Anggaran berkenaan dapat dilakukan tanpa melalui mekanisme revisi anggaran sepanjang alokasi anggaran untuk peruntukan yang sama telah tersedia. Rujukan: PMK 41 Tahun 2026, Halaman 523. Karena itu, jawaban yang tepat adalah I dan III (C)."
+      ]
+    ],
+    "answer": 2,
+    "source": "anggaran",
+    "reference": "PMK 41 Tahun 2026—Halaman 310 | PMK 41 Tahun 2026—Halaman 343 | PMK 41 Tahun 2026—Halaman 523 · Kasus reviu multi-ketentuan",
+    "originalSource": "PMK 41 Tahun 2026",
+    "originalUrl": "https://drive.google.com/file/d/12TZvdrrhaPptg_Ve3q9_KM3x0wWHOcgt/view"
+  },
+  {
+    "bankId": "revisi-audit-10",
+    "topic": "Keuangan & Pengadaan",
+    "difficulty": "Menjebak",
+    "stem": "Dalam reviu kepatuhan bidang Penganggaran dan Perbendaharaan, tiga pernyataan berikut harus dinilai secara kumulatif. Kombinasi pernyataan yang benar adalah: I. Penelaahan Revisi Anggaran terkait belanja K/L berbasis spasial wajib melibatkan Direktorat Jenderal Perimbangan Keuangan. II. Karena itu, informasi yang dituangkan pada saat penyusunan RKA-K/L harus dilakukan secara benar dan lengkap, sehingga DIPA yang dihasilkan siap digunakan sebagai dasar pelaksanaan kegiatan sejak awal tahun anggaran. III. Pekerjaan yang dalam pelaksanaannya membebani lebih dari satu tahun anggaran dapat dilakukan setelah mendapatkan persetujuan dari Menteri Keuangan atau Menteri/Pimpinan Lembaga/PA yang bersangkutan sesuai kewenangannya.",
+    "options": [
+      [
+        "II dan III",
+        "I salah. Rumusan tersebut mengganti “Dalam hal usulan” menjadi “Penelaahan”; menghilangkan “sebagaimana dimaksud pada ayat (2)”. Ketentuan yang benar: Dalam hal usulan Revisi Anggaran sebagaimana dimaksud pada ayat (2) terkait dengan belanja K/L yang berbasis spasial/kewilayahan, maka proses penelaahannya dapat melibatkan Direktorat Jenderal Perimbangan Keuangan. Rujukan: PMK 41 Tahun 2026, Halaman 49. II benar: Karena itu, informasi yang dituangkan pada saat penyusunan RKA-K/L harus dilakukan secara benar dan lengkap, sehingga DIPA yang dihasilkan siap digunakan sebagai dasar pelaksanaan kegiatan sejak awal tahun anggaran. Rujukan: PMK 41 Tahun 2026, Halaman 304. III benar: Pekerjaan yang dalam pelaksanaannya membebani lebih dari satu tahun anggaran dapat dilakukan setelah mendapatkan persetujuan dari Menteri Keuangan atau Menteri/Pimpinan Lembaga/PA yang bersangkutan sesuai kewenangannya. Rujukan: PMK 41 Tahun 2026, Halaman 198. Karena itu, jawaban yang tepat adalah II dan III (A)."
+      ],
+      [
+        "III saja",
+        "Keliru. Kunci yang tepat adalah A. I salah. Rumusan tersebut mengganti “Dalam hal usulan” menjadi “Penelaahan”; menghilangkan “sebagaimana dimaksud pada ayat (2)”. Ketentuan yang benar: Dalam hal usulan Revisi Anggaran sebagaimana dimaksud pada ayat (2) terkait dengan belanja K/L yang berbasis spasial/kewilayahan, maka proses penelaahannya dapat melibatkan Direktorat Jenderal Perimbangan Keuangan. Rujukan: PMK 41 Tahun 2026, Halaman 49. II benar: Karena itu, informasi yang dituangkan pada saat penyusunan RKA-K/L harus dilakukan secara benar dan lengkap, sehingga DIPA yang dihasilkan siap digunakan sebagai dasar pelaksanaan kegiatan sejak awal tahun anggaran. Rujukan: PMK 41 Tahun 2026, Halaman 304. III benar: Pekerjaan yang dalam pelaksanaannya membebani lebih dari satu tahun anggaran dapat dilakukan setelah mendapatkan persetujuan dari Menteri Keuangan atau Menteri/Pimpinan Lembaga/PA yang bersangkutan sesuai kewenangannya. Rujukan: PMK 41 Tahun 2026, Halaman 198. Karena itu, jawaban yang tepat adalah II dan III (A)."
+      ],
+      [
+        "II saja",
+        "Keliru. Kunci yang tepat adalah A. I salah. Rumusan tersebut mengganti “Dalam hal usulan” menjadi “Penelaahan”; menghilangkan “sebagaimana dimaksud pada ayat (2)”. Ketentuan yang benar: Dalam hal usulan Revisi Anggaran sebagaimana dimaksud pada ayat (2) terkait dengan belanja K/L yang berbasis spasial/kewilayahan, maka proses penelaahannya dapat melibatkan Direktorat Jenderal Perimbangan Keuangan. Rujukan: PMK 41 Tahun 2026, Halaman 49. II benar: Karena itu, informasi yang dituangkan pada saat penyusunan RKA-K/L harus dilakukan secara benar dan lengkap, sehingga DIPA yang dihasilkan siap digunakan sebagai dasar pelaksanaan kegiatan sejak awal tahun anggaran. Rujukan: PMK 41 Tahun 2026, Halaman 304. III benar: Pekerjaan yang dalam pelaksanaannya membebani lebih dari satu tahun anggaran dapat dilakukan setelah mendapatkan persetujuan dari Menteri Keuangan atau Menteri/Pimpinan Lembaga/PA yang bersangkutan sesuai kewenangannya. Rujukan: PMK 41 Tahun 2026, Halaman 198. Karena itu, jawaban yang tepat adalah II dan III (A)."
+      ],
+      [
+        "I, II, dan III",
+        "Keliru. Kunci yang tepat adalah A. I salah. Rumusan tersebut mengganti “Dalam hal usulan” menjadi “Penelaahan”; menghilangkan “sebagaimana dimaksud pada ayat (2)”. Ketentuan yang benar: Dalam hal usulan Revisi Anggaran sebagaimana dimaksud pada ayat (2) terkait dengan belanja K/L yang berbasis spasial/kewilayahan, maka proses penelaahannya dapat melibatkan Direktorat Jenderal Perimbangan Keuangan. Rujukan: PMK 41 Tahun 2026, Halaman 49. II benar: Karena itu, informasi yang dituangkan pada saat penyusunan RKA-K/L harus dilakukan secara benar dan lengkap, sehingga DIPA yang dihasilkan siap digunakan sebagai dasar pelaksanaan kegiatan sejak awal tahun anggaran. Rujukan: PMK 41 Tahun 2026, Halaman 304. III benar: Pekerjaan yang dalam pelaksanaannya membebani lebih dari satu tahun anggaran dapat dilakukan setelah mendapatkan persetujuan dari Menteri Keuangan atau Menteri/Pimpinan Lembaga/PA yang bersangkutan sesuai kewenangannya. Rujukan: PMK 41 Tahun 2026, Halaman 198. Karena itu, jawaban yang tepat adalah II dan III (A)."
+      ]
+    ],
+    "answer": 0,
+    "source": "anggaran",
+    "reference": "PMK 41 Tahun 2026—Halaman 49 | PMK 41 Tahun 2026—Halaman 304 | PMK 41 Tahun 2026—Halaman 198 · Kasus reviu multi-ketentuan",
+    "originalSource": "PMK 41 Tahun 2026",
+    "originalUrl": "https://drive.google.com/file/d/12TZvdrrhaPptg_Ve3q9_KM3x0wWHOcgt/view"
+  },
+  {
+    "bankId": "revisi-audit-11",
+    "topic": "Umum, Rumah Tangga & BMN",
+    "difficulty": "Menjebak",
+    "stem": "Tim penelaah Pengelolaan BMN menguji tiga kesimpulan sebelum menyetujui rekomendasi. Kesimpulan yang sesuai dengan sumber adalah: I. Pengelola Barang berwenang merumuskan kebijakan, mengatur, dan menetapkan pedoman pengelolaan BMN. II. Pengelola Barang berwenang meneliti dan menyetujui rencana kebutuhan BMN. III. Kuasa Pengguna Barang mengajukan rencana kebutuhan dan penganggaran BMN untuk kementerian atau lembaga.",
+    "options": [
+      [
+        "II saja",
+        "Keliru. Kunci yang tepat adalah D. I benar: Pengelola Barang berwenang merumuskan kebijakan, mengatur, dan menetapkan pedoman pengelolaan BMN. Rujukan: Siklus Pengelolaan BMN, Slide 4. II benar: Pengelola Barang berwenang meneliti dan menyetujui rencana kebutuhan BMN. Rujukan: Siklus Pengelolaan BMN, Slide 4. III salah. Rumusan tersebut menambahkan “Kuasa”; mengganti “lembaga yang dipimpinnya.” menjadi “lembaga.”. Ketentuan yang benar: Pengguna Barang mengajukan rencana kebutuhan dan penganggaran BMN untuk kementerian atau lembaga yang dipimpinnya. Rujukan: Siklus Pengelolaan BMN, Slide 4. Karena itu, jawaban yang tepat adalah I dan II (D)."
+      ],
+      [
+        "I, II, dan III",
+        "Keliru. Kunci yang tepat adalah D. I benar: Pengelola Barang berwenang merumuskan kebijakan, mengatur, dan menetapkan pedoman pengelolaan BMN. Rujukan: Siklus Pengelolaan BMN, Slide 4. II benar: Pengelola Barang berwenang meneliti dan menyetujui rencana kebutuhan BMN. Rujukan: Siklus Pengelolaan BMN, Slide 4. III salah. Rumusan tersebut menambahkan “Kuasa”; mengganti “lembaga yang dipimpinnya.” menjadi “lembaga.”. Ketentuan yang benar: Pengguna Barang mengajukan rencana kebutuhan dan penganggaran BMN untuk kementerian atau lembaga yang dipimpinnya. Rujukan: Siklus Pengelolaan BMN, Slide 4. Karena itu, jawaban yang tepat adalah I dan II (D)."
+      ],
+      [
+        "I saja",
+        "Keliru. Kunci yang tepat adalah D. I benar: Pengelola Barang berwenang merumuskan kebijakan, mengatur, dan menetapkan pedoman pengelolaan BMN. Rujukan: Siklus Pengelolaan BMN, Slide 4. II benar: Pengelola Barang berwenang meneliti dan menyetujui rencana kebutuhan BMN. Rujukan: Siklus Pengelolaan BMN, Slide 4. III salah. Rumusan tersebut menambahkan “Kuasa”; mengganti “lembaga yang dipimpinnya.” menjadi “lembaga.”. Ketentuan yang benar: Pengguna Barang mengajukan rencana kebutuhan dan penganggaran BMN untuk kementerian atau lembaga yang dipimpinnya. Rujukan: Siklus Pengelolaan BMN, Slide 4. Karena itu, jawaban yang tepat adalah I dan II (D)."
+      ],
+      [
+        "I dan II",
+        "I benar: Pengelola Barang berwenang merumuskan kebijakan, mengatur, dan menetapkan pedoman pengelolaan BMN. Rujukan: Siklus Pengelolaan BMN, Slide 4. II benar: Pengelola Barang berwenang meneliti dan menyetujui rencana kebutuhan BMN. Rujukan: Siklus Pengelolaan BMN, Slide 4. III salah. Rumusan tersebut menambahkan “Kuasa”; mengganti “lembaga yang dipimpinnya.” menjadi “lembaga.”. Ketentuan yang benar: Pengguna Barang mengajukan rencana kebutuhan dan penganggaran BMN untuk kementerian atau lembaga yang dipimpinnya. Rujukan: Siklus Pengelolaan BMN, Slide 4. Karena itu, jawaban yang tepat adalah I dan II (D)."
+      ]
+    ],
+    "answer": 3,
+    "source": "bmn2026",
+    "reference": "Siklus Pengelolaan BMN—Slide 4 | Siklus Pengelolaan BMN—Slide 4 | Siklus Pengelolaan BMN—Slide 4 · Kasus reviu multi-ketentuan",
+    "originalSource": "Siklus Pengelolaan BMN",
+    "originalUrl": "https://docs.google.com/presentation/d/16byPcXOIv5n_n7AdHWVliznV0DBMRMFP/edit"
+  },
+  {
+    "bankId": "revisi-audit-12",
+    "topic": "Umum, Rumah Tangga & BMN",
+    "difficulty": "Menjebak",
+    "stem": "Dalam reviu kepatuhan bidang Pengelolaan BMN, tiga pernyataan berikut harus dinilai secara kumulatif. Kombinasi pernyataan yang benar adalah: I. Pengelola Barang wajib mengamankan dan memelihara seluruh BMN yang berada dalam penguasaan Pengguna Barang. II. Perencanaan kebutuhan riil BMN diselaraskan dengan rencana penggunaan, pemanfaatan, penghapusan, dan pemindahtanganan untuk periode 3 (tiga) tahun ke depan. III. Bentuk pemanfaatan BMN mencakup sewa, pinjam pakai, kerja sama pemanfaatan, penjualan, dan hibah.",
+    "options": [
+      [
+        "I saja",
+        "Keliru. Kunci yang tepat adalah D. I salah. Rumusan tersebut mengganti “Pengguna” menjadi “Pengelola”; menambahkan “seluruh”. Ketentuan yang benar: Pengguna Barang wajib mengamankan dan memelihara BMN yang berada dalam penguasaannya. Rujukan: Siklus Pengelolaan BMN, Slide 4. II benar: Perencanaan kebutuhan riil BMN diselaraskan dengan rencana penggunaan, pemanfaatan, penghapusan, dan pemindahtanganan untuk periode 3 (tiga) tahun ke depan. Rujukan: Siklus Pengelolaan BMN, Slide 5. III salah. Rumusan tersebut mengganti “bangun guna serah, bangun serah guna,” menjadi “penjualan,”; mengganti “kerja sama pemanfaatan infrastruktur.” menjadi “hibah.”. Ketentuan yang benar: Bentuk pemanfaatan BMN mencakup sewa, pinjam pakai, kerja sama pemanfaatan, bangun guna serah, bangun serah guna, dan kerja sama pemanfaatan infrastruktur. Rujukan: Siklus Pengelolaan BMN, Slide 5. Karena itu, jawaban yang tepat adalah II saja (D)."
+      ],
+      [
+        "I dan II",
+        "Keliru. Kunci yang tepat adalah D. I salah. Rumusan tersebut mengganti “Pengguna” menjadi “Pengelola”; menambahkan “seluruh”. Ketentuan yang benar: Pengguna Barang wajib mengamankan dan memelihara BMN yang berada dalam penguasaannya. Rujukan: Siklus Pengelolaan BMN, Slide 4. II benar: Perencanaan kebutuhan riil BMN diselaraskan dengan rencana penggunaan, pemanfaatan, penghapusan, dan pemindahtanganan untuk periode 3 (tiga) tahun ke depan. Rujukan: Siklus Pengelolaan BMN, Slide 5. III salah. Rumusan tersebut mengganti “bangun guna serah, bangun serah guna,” menjadi “penjualan,”; mengganti “kerja sama pemanfaatan infrastruktur.” menjadi “hibah.”. Ketentuan yang benar: Bentuk pemanfaatan BMN mencakup sewa, pinjam pakai, kerja sama pemanfaatan, bangun guna serah, bangun serah guna, dan kerja sama pemanfaatan infrastruktur. Rujukan: Siklus Pengelolaan BMN, Slide 5. Karena itu, jawaban yang tepat adalah II saja (D)."
+      ],
+      [
+        "II dan III",
+        "Keliru. Kunci yang tepat adalah D. I salah. Rumusan tersebut mengganti “Pengguna” menjadi “Pengelola”; menambahkan “seluruh”. Ketentuan yang benar: Pengguna Barang wajib mengamankan dan memelihara BMN yang berada dalam penguasaannya. Rujukan: Siklus Pengelolaan BMN, Slide 4. II benar: Perencanaan kebutuhan riil BMN diselaraskan dengan rencana penggunaan, pemanfaatan, penghapusan, dan pemindahtanganan untuk periode 3 (tiga) tahun ke depan. Rujukan: Siklus Pengelolaan BMN, Slide 5. III salah. Rumusan tersebut mengganti “bangun guna serah, bangun serah guna,” menjadi “penjualan,”; mengganti “kerja sama pemanfaatan infrastruktur.” menjadi “hibah.”. Ketentuan yang benar: Bentuk pemanfaatan BMN mencakup sewa, pinjam pakai, kerja sama pemanfaatan, bangun guna serah, bangun serah guna, dan kerja sama pemanfaatan infrastruktur. Rujukan: Siklus Pengelolaan BMN, Slide 5. Karena itu, jawaban yang tepat adalah II saja (D)."
+      ],
+      [
+        "II saja",
+        "I salah. Rumusan tersebut mengganti “Pengguna” menjadi “Pengelola”; menambahkan “seluruh”. Ketentuan yang benar: Pengguna Barang wajib mengamankan dan memelihara BMN yang berada dalam penguasaannya. Rujukan: Siklus Pengelolaan BMN, Slide 4. II benar: Perencanaan kebutuhan riil BMN diselaraskan dengan rencana penggunaan, pemanfaatan, penghapusan, dan pemindahtanganan untuk periode 3 (tiga) tahun ke depan. Rujukan: Siklus Pengelolaan BMN, Slide 5. III salah. Rumusan tersebut mengganti “bangun guna serah, bangun serah guna,” menjadi “penjualan,”; mengganti “kerja sama pemanfaatan infrastruktur.” menjadi “hibah.”. Ketentuan yang benar: Bentuk pemanfaatan BMN mencakup sewa, pinjam pakai, kerja sama pemanfaatan, bangun guna serah, bangun serah guna, dan kerja sama pemanfaatan infrastruktur. Rujukan: Siklus Pengelolaan BMN, Slide 5. Karena itu, jawaban yang tepat adalah II saja (D)."
+      ]
+    ],
+    "answer": 3,
+    "source": "bmn2026",
+    "reference": "Siklus Pengelolaan BMN—Slide 4 | Siklus Pengelolaan BMN—Slide 5 | Siklus Pengelolaan BMN—Slide 5 · Kasus reviu multi-ketentuan",
+    "originalSource": "Siklus Pengelolaan BMN",
+    "originalUrl": "https://docs.google.com/presentation/d/16byPcXOIv5n_n7AdHWVliznV0DBMRMFP/edit"
+  },
+  {
+    "bankId": "revisi-audit-13",
+    "topic": "PPID",
+    "difficulty": "Menjebak",
+    "stem": "Tim penelaah PPID dan Keterbukaan Informasi menguji tiga kesimpulan sebelum menyetujui rekomendasi. Kesimpulan yang sesuai dengan sumber adalah: I. Atasan PPID Kementerian Keuangan atau Atasan PPID Pelaksana wajib memberikan tanggapan atas keberatan yang disampaikan oleh Pemohon atau kuasanya paling lama 30 (tiga puluh) hari kerja sejak dicatatnya pengajuan keberatan dalam register keberatan. II. Penyelesaian sengketa kepada Komisi Informasi dapat diajukan dalam jangka waktu 14 (empat belas) hari kalender sejak keputusan Atasan PPID diterima. III. Laporan layanan Informasi Publik PPID Tingkat III sebagaimana dimaksud dalam Pasal 51 ayat (1) huruf a, disampaikan kepada PPID Tingkat I atau PPID Tingkat II secara berjenjang, paling lambat pada tanggal 15 Januari setiap tahun berjalan atau hari kerja berikutnya dalam hal tanggal 15 Januari merupakan hari libur.",
+    "options": [
+      [
+        "I, II, dan III",
+        "Keliru. Kunci yang tepat adalah B. I benar: Atasan PPID Kementerian Keuangan atau Atasan PPID Pelaksana wajib memberikan tanggapan atas keberatan yang disampaikan oleh Pemohon atau kuasanya paling lama 30 (tiga puluh) hari kerja sejak dicatatnya pengajuan keberatan dalam register keberatan. Rujukan: PMK 110 Tahun 2022, Halaman 30. II salah. Rumusan tersebut mengganti “Apabila pemohon informasi publik tidak puas dengan keputusan Atasan PPID, maka pemohon informasi publik dapat mengajukan penyelesaian” menjadi “Penyelesaian”; mengganti “dalamjangka” menjadi “dapat diajukan dalam jangka”. Ketentuan yang benar: Apabila pemohon informasi publik tidak puas dengan keputusan Atasan PPID, maka pemohon informasi publik dapat mengajukan penyelesaian sengketa kepada Komisi Informasi dalamjangka waktu 14 (empat belas) hari kerja sejak diterimanya keputusan atasan PPID oleh pemohon informasi publik. Rujukan: PMK 110 Tahun 2022, Halaman 68. III benar: Laporan layanan Informasi Publik PPID Tingkat III sebagaimana dimaksud dalam Pasal 51 ayat (1) huruf a, disampaikan kepada PPID Tingkat I atau PPID Tingkat II secara berjenjang, paling lambat pada tanggal 15 Januari setiap tahun berjalan atau hari kerja berikutnya dalam hal tanggal 15 Januari merupakan hari libur. Rujukan: PMK 110 Tahun 2022, Halaman 61. Karena itu, jawaban yang tepat adalah I dan III (B)."
+      ],
+      [
+        "I dan III",
+        "I benar: Atasan PPID Kementerian Keuangan atau Atasan PPID Pelaksana wajib memberikan tanggapan atas keberatan yang disampaikan oleh Pemohon atau kuasanya paling lama 30 (tiga puluh) hari kerja sejak dicatatnya pengajuan keberatan dalam register keberatan. Rujukan: PMK 110 Tahun 2022, Halaman 30. II salah. Rumusan tersebut mengganti “Apabila pemohon informasi publik tidak puas dengan keputusan Atasan PPID, maka pemohon informasi publik dapat mengajukan penyelesaian” menjadi “Penyelesaian”; mengganti “dalamjangka” menjadi “dapat diajukan dalam jangka”. Ketentuan yang benar: Apabila pemohon informasi publik tidak puas dengan keputusan Atasan PPID, maka pemohon informasi publik dapat mengajukan penyelesaian sengketa kepada Komisi Informasi dalamjangka waktu 14 (empat belas) hari kerja sejak diterimanya keputusan atasan PPID oleh pemohon informasi publik. Rujukan: PMK 110 Tahun 2022, Halaman 68. III benar: Laporan layanan Informasi Publik PPID Tingkat III sebagaimana dimaksud dalam Pasal 51 ayat (1) huruf a, disampaikan kepada PPID Tingkat I atau PPID Tingkat II secara berjenjang, paling lambat pada tanggal 15 Januari setiap tahun berjalan atau hari kerja berikutnya dalam hal tanggal 15 Januari merupakan hari libur. Rujukan: PMK 110 Tahun 2022, Halaman 61. Karena itu, jawaban yang tepat adalah I dan III (B)."
+      ],
+      [
+        "III saja",
+        "Keliru. Kunci yang tepat adalah B. I benar: Atasan PPID Kementerian Keuangan atau Atasan PPID Pelaksana wajib memberikan tanggapan atas keberatan yang disampaikan oleh Pemohon atau kuasanya paling lama 30 (tiga puluh) hari kerja sejak dicatatnya pengajuan keberatan dalam register keberatan. Rujukan: PMK 110 Tahun 2022, Halaman 30. II salah. Rumusan tersebut mengganti “Apabila pemohon informasi publik tidak puas dengan keputusan Atasan PPID, maka pemohon informasi publik dapat mengajukan penyelesaian” menjadi “Penyelesaian”; mengganti “dalamjangka” menjadi “dapat diajukan dalam jangka”. Ketentuan yang benar: Apabila pemohon informasi publik tidak puas dengan keputusan Atasan PPID, maka pemohon informasi publik dapat mengajukan penyelesaian sengketa kepada Komisi Informasi dalamjangka waktu 14 (empat belas) hari kerja sejak diterimanya keputusan atasan PPID oleh pemohon informasi publik. Rujukan: PMK 110 Tahun 2022, Halaman 68. III benar: Laporan layanan Informasi Publik PPID Tingkat III sebagaimana dimaksud dalam Pasal 51 ayat (1) huruf a, disampaikan kepada PPID Tingkat I atau PPID Tingkat II secara berjenjang, paling lambat pada tanggal 15 Januari setiap tahun berjalan atau hari kerja berikutnya dalam hal tanggal 15 Januari merupakan hari libur. Rujukan: PMK 110 Tahun 2022, Halaman 61. Karena itu, jawaban yang tepat adalah I dan III (B)."
+      ],
+      [
+        "I saja",
+        "Keliru. Kunci yang tepat adalah B. I benar: Atasan PPID Kementerian Keuangan atau Atasan PPID Pelaksana wajib memberikan tanggapan atas keberatan yang disampaikan oleh Pemohon atau kuasanya paling lama 30 (tiga puluh) hari kerja sejak dicatatnya pengajuan keberatan dalam register keberatan. Rujukan: PMK 110 Tahun 2022, Halaman 30. II salah. Rumusan tersebut mengganti “Apabila pemohon informasi publik tidak puas dengan keputusan Atasan PPID, maka pemohon informasi publik dapat mengajukan penyelesaian” menjadi “Penyelesaian”; mengganti “dalamjangka” menjadi “dapat diajukan dalam jangka”. Ketentuan yang benar: Apabila pemohon informasi publik tidak puas dengan keputusan Atasan PPID, maka pemohon informasi publik dapat mengajukan penyelesaian sengketa kepada Komisi Informasi dalamjangka waktu 14 (empat belas) hari kerja sejak diterimanya keputusan atasan PPID oleh pemohon informasi publik. Rujukan: PMK 110 Tahun 2022, Halaman 68. III benar: Laporan layanan Informasi Publik PPID Tingkat III sebagaimana dimaksud dalam Pasal 51 ayat (1) huruf a, disampaikan kepada PPID Tingkat I atau PPID Tingkat II secara berjenjang, paling lambat pada tanggal 15 Januari setiap tahun berjalan atau hari kerja berikutnya dalam hal tanggal 15 Januari merupakan hari libur. Rujukan: PMK 110 Tahun 2022, Halaman 61. Karena itu, jawaban yang tepat adalah I dan III (B)."
+      ]
+    ],
+    "answer": 1,
+    "source": "ppid",
+    "reference": "PMK 110 Tahun 2022—Halaman 30 | PMK 110 Tahun 2022—Halaman 68 | PMK 110 Tahun 2022—Halaman 61 · Kasus reviu multi-ketentuan",
+    "originalSource": "PMK 110 Tahun 2022",
+    "originalUrl": "https://drive.google.com/file/d/1fuzKMZW1ICj1kt3enpcVP4kweN7XS1G3/view"
+  },
+  {
+    "bankId": "revisi-audit-14",
+    "topic": "PPID",
+    "difficulty": "Menjebak",
+    "stem": "Dalam reviu kepatuhan bidang PPID dan Keterbukaan Informasi, tiga pernyataan berikut harus dinilai secara kumulatif. Kombinasi pernyataan yang benar adalah: I. Laporan Layanan Informasi Publik mencakup periode Januari sampai dengan November setiap tahun. II. Dalam hal Pemohon merupakan Penyandang Disabilitas, pengisian formulir keberatan dapat dibantu oleh Petugas Pelayanan Informasi. III. Laporan layanan Informasi Publik PPID Kementerian Keuangan sebagaimana dimaksud dalam Pasal 51 ayat (1) huruf d, disampaikan kepada Atasan PPID Kementerian Keuangan, paling lambat pada tanggal 15 Maret setiap tahun berjalan atau hari kerja berikutnya dalam hal tanggal 15 Maret merupakan hari libur.",
+    "options": [
+      [
+        "I, II, dan III",
+        "Keliru. Kunci yang tepat adalah B. I salah. Rumusan tersebut mengganti “adalah laporan yang disusun sebagai bahan monitoring dan evaluasi atas layanan Informasi Publik PPID Kementerian Keuangan dan/ atau PPID Pelaksana” menjadi “mencakup”; menghilangkan “bulan”. Ketentuan yang benar: Laporan Layanan Informasi Publik adalah laporan yang disusun sebagai bahan monitoring dan evaluasi atas layanan Informasi Publik PPID Kementerian Keuangan dan/ atau PPID Pelaksana periode bulan Januari sampai dengan bulan Desember setiap tahun. Rujukan: PMK 110 Tahun 2022, Halaman 6. II benar: Dalam hal Pemohon merupakan Penyandang Disabilitas, pengisian formulir keberatan dapat dibantu oleh Petugas Pelayanan Informasi. Rujukan: PMK 110 Tahun 2022, Halaman 29. III benar: Laporan layanan Informasi Publik PPID Kementerian Keuangan sebagaimana dimaksud dalam Pasal 51 ayat (1) huruf d, disampaikan kepada Atasan PPID Kementerian Keuangan, paling lambat pada tanggal 15 Maret setiap tahun berjalan atau hari kerja berikutnya dalam hal tanggal 15 Maret merupakan hari libur. Rujukan: PMK 110 Tahun 2022, Halaman 62. Karena itu, jawaban yang tepat adalah II dan III (B)."
+      ],
+      [
+        "II dan III",
+        "I salah. Rumusan tersebut mengganti “adalah laporan yang disusun sebagai bahan monitoring dan evaluasi atas layanan Informasi Publik PPID Kementerian Keuangan dan/ atau PPID Pelaksana” menjadi “mencakup”; menghilangkan “bulan”. Ketentuan yang benar: Laporan Layanan Informasi Publik adalah laporan yang disusun sebagai bahan monitoring dan evaluasi atas layanan Informasi Publik PPID Kementerian Keuangan dan/ atau PPID Pelaksana periode bulan Januari sampai dengan bulan Desember setiap tahun. Rujukan: PMK 110 Tahun 2022, Halaman 6. II benar: Dalam hal Pemohon merupakan Penyandang Disabilitas, pengisian formulir keberatan dapat dibantu oleh Petugas Pelayanan Informasi. Rujukan: PMK 110 Tahun 2022, Halaman 29. III benar: Laporan layanan Informasi Publik PPID Kementerian Keuangan sebagaimana dimaksud dalam Pasal 51 ayat (1) huruf d, disampaikan kepada Atasan PPID Kementerian Keuangan, paling lambat pada tanggal 15 Maret setiap tahun berjalan atau hari kerja berikutnya dalam hal tanggal 15 Maret merupakan hari libur. Rujukan: PMK 110 Tahun 2022, Halaman 62. Karena itu, jawaban yang tepat adalah II dan III (B)."
+      ],
+      [
+        "II saja",
+        "Keliru. Kunci yang tepat adalah B. I salah. Rumusan tersebut mengganti “adalah laporan yang disusun sebagai bahan monitoring dan evaluasi atas layanan Informasi Publik PPID Kementerian Keuangan dan/ atau PPID Pelaksana” menjadi “mencakup”; menghilangkan “bulan”. Ketentuan yang benar: Laporan Layanan Informasi Publik adalah laporan yang disusun sebagai bahan monitoring dan evaluasi atas layanan Informasi Publik PPID Kementerian Keuangan dan/ atau PPID Pelaksana periode bulan Januari sampai dengan bulan Desember setiap tahun. Rujukan: PMK 110 Tahun 2022, Halaman 6. II benar: Dalam hal Pemohon merupakan Penyandang Disabilitas, pengisian formulir keberatan dapat dibantu oleh Petugas Pelayanan Informasi. Rujukan: PMK 110 Tahun 2022, Halaman 29. III benar: Laporan layanan Informasi Publik PPID Kementerian Keuangan sebagaimana dimaksud dalam Pasal 51 ayat (1) huruf d, disampaikan kepada Atasan PPID Kementerian Keuangan, paling lambat pada tanggal 15 Maret setiap tahun berjalan atau hari kerja berikutnya dalam hal tanggal 15 Maret merupakan hari libur. Rujukan: PMK 110 Tahun 2022, Halaman 62. Karena itu, jawaban yang tepat adalah II dan III (B)."
+      ],
+      [
+        "III saja",
+        "Keliru. Kunci yang tepat adalah B. I salah. Rumusan tersebut mengganti “adalah laporan yang disusun sebagai bahan monitoring dan evaluasi atas layanan Informasi Publik PPID Kementerian Keuangan dan/ atau PPID Pelaksana” menjadi “mencakup”; menghilangkan “bulan”. Ketentuan yang benar: Laporan Layanan Informasi Publik adalah laporan yang disusun sebagai bahan monitoring dan evaluasi atas layanan Informasi Publik PPID Kementerian Keuangan dan/ atau PPID Pelaksana periode bulan Januari sampai dengan bulan Desember setiap tahun. Rujukan: PMK 110 Tahun 2022, Halaman 6. II benar: Dalam hal Pemohon merupakan Penyandang Disabilitas, pengisian formulir keberatan dapat dibantu oleh Petugas Pelayanan Informasi. Rujukan: PMK 110 Tahun 2022, Halaman 29. III benar: Laporan layanan Informasi Publik PPID Kementerian Keuangan sebagaimana dimaksud dalam Pasal 51 ayat (1) huruf d, disampaikan kepada Atasan PPID Kementerian Keuangan, paling lambat pada tanggal 15 Maret setiap tahun berjalan atau hari kerja berikutnya dalam hal tanggal 15 Maret merupakan hari libur. Rujukan: PMK 110 Tahun 2022, Halaman 62. Karena itu, jawaban yang tepat adalah II dan III (B)."
+      ]
+    ],
+    "answer": 1,
+    "source": "ppid",
+    "reference": "PMK 110 Tahun 2022—Halaman 6 | PMK 110 Tahun 2022—Halaman 29 | PMK 110 Tahun 2022—Halaman 62 · Kasus reviu multi-ketentuan",
+    "originalSource": "PMK 110 Tahun 2022",
+    "originalUrl": "https://drive.google.com/file/d/1fuzKMZW1ICj1kt3enpcVP4kweN7XS1G3/view"
+  },
+  {
+    "bankId": "revisi-audit-15",
+    "topic": "Komunikasi & Penyuluhan",
+    "difficulty": "Menjebak",
+    "stem": "Tim penelaah Kehumasan dan Komunikasi Internal menguji tiga kesimpulan sebelum menyetujui rekomendasi. Kesimpulan yang sesuai dengan sumber adalah: I. Tahap pascakrisis merupakan tahapan isu telah mengalami penurunan menjadi melandai dan/atau tidak terdapat pemberitaan baru dengan perspektif berbeda selama 3 (tiga) hari berturut-turut sejak pemberitaan terakhir. II. Dalam hal diperlukan, juru bicara menyampaikan bahwa Kementerian Keuangan menghormati pengajuan gugatan yang merupakan hak setiap warga negara. III. Krisis dalam klaster kesengajaan memiliki persepsi publik atas tanggung jawab organisasi yang rendah dan potensi ancaman reputasi kecil.",
+    "options": [
+      [
+        "I, II, dan III",
+        "Keliru. Kunci yang tepat adalah C. I benar: Tahap pascakrisis merupakan tahapan isu telah mengalami penurunan menjadi melandai dan/atau tidak terdapat pemberitaan baru dengan perspektif berbeda selama 3 (tiga) hari berturut-turut sejak pemberitaan terakhir. Rujukan: Pedoman Pengelolaan Komunikasi Kemenkeu, Halaman 77. II benar: Dalam hal diperlukan, juru bicara menyampaikan bahwa Kementerian Keuangan menghormati pengajuan gugatan yang merupakan hak setiap warga negara. Rujukan: Pedoman Pengelolaan Komunikasi Kemenkeu, Halaman 51. III salah. Rumusan tersebut mengganti “(intentional cluster) merupakan krisis yang berasal dari tindakan Kementerian Keuangan atau pegawai Kementerian Keuangan yang melanggar norma atau hukum, dengan” menjadi “memiliki”; mengganti “tinggi, serta” menjadi “rendah dan”. Ketentuan yang benar: Krisis dalam klaster kesengajaan (intentional cluster) merupakan krisis yang berasal dari tindakan Kementerian Keuangan atau pegawai Kementerian Keuangan yang melanggar norma atau hukum, dengan persepsi publik atas tanggung jawab organisasi yang tinggi, serta potensi ancaman terhadap reputasi besar. Rujukan: Pedoman Pengelolaan Komunikasi Kemenkeu, Halaman 65. Karena itu, jawaban yang tepat adalah I dan II (C)."
+      ],
+      [
+        "I saja",
+        "Keliru. Kunci yang tepat adalah C. I benar: Tahap pascakrisis merupakan tahapan isu telah mengalami penurunan menjadi melandai dan/atau tidak terdapat pemberitaan baru dengan perspektif berbeda selama 3 (tiga) hari berturut-turut sejak pemberitaan terakhir. Rujukan: Pedoman Pengelolaan Komunikasi Kemenkeu, Halaman 77. II benar: Dalam hal diperlukan, juru bicara menyampaikan bahwa Kementerian Keuangan menghormati pengajuan gugatan yang merupakan hak setiap warga negara. Rujukan: Pedoman Pengelolaan Komunikasi Kemenkeu, Halaman 51. III salah. Rumusan tersebut mengganti “(intentional cluster) merupakan krisis yang berasal dari tindakan Kementerian Keuangan atau pegawai Kementerian Keuangan yang melanggar norma atau hukum, dengan” menjadi “memiliki”; mengganti “tinggi, serta” menjadi “rendah dan”. Ketentuan yang benar: Krisis dalam klaster kesengajaan (intentional cluster) merupakan krisis yang berasal dari tindakan Kementerian Keuangan atau pegawai Kementerian Keuangan yang melanggar norma atau hukum, dengan persepsi publik atas tanggung jawab organisasi yang tinggi, serta potensi ancaman terhadap reputasi besar. Rujukan: Pedoman Pengelolaan Komunikasi Kemenkeu, Halaman 65. Karena itu, jawaban yang tepat adalah I dan II (C)."
+      ],
+      [
+        "I dan II",
+        "I benar: Tahap pascakrisis merupakan tahapan isu telah mengalami penurunan menjadi melandai dan/atau tidak terdapat pemberitaan baru dengan perspektif berbeda selama 3 (tiga) hari berturut-turut sejak pemberitaan terakhir. Rujukan: Pedoman Pengelolaan Komunikasi Kemenkeu, Halaman 77. II benar: Dalam hal diperlukan, juru bicara menyampaikan bahwa Kementerian Keuangan menghormati pengajuan gugatan yang merupakan hak setiap warga negara. Rujukan: Pedoman Pengelolaan Komunikasi Kemenkeu, Halaman 51. III salah. Rumusan tersebut mengganti “(intentional cluster) merupakan krisis yang berasal dari tindakan Kementerian Keuangan atau pegawai Kementerian Keuangan yang melanggar norma atau hukum, dengan” menjadi “memiliki”; mengganti “tinggi, serta” menjadi “rendah dan”. Ketentuan yang benar: Krisis dalam klaster kesengajaan (intentional cluster) merupakan krisis yang berasal dari tindakan Kementerian Keuangan atau pegawai Kementerian Keuangan yang melanggar norma atau hukum, dengan persepsi publik atas tanggung jawab organisasi yang tinggi, serta potensi ancaman terhadap reputasi besar. Rujukan: Pedoman Pengelolaan Komunikasi Kemenkeu, Halaman 65. Karena itu, jawaban yang tepat adalah I dan II (C)."
+      ],
+      [
+        "II saja",
+        "Keliru. Kunci yang tepat adalah C. I benar: Tahap pascakrisis merupakan tahapan isu telah mengalami penurunan menjadi melandai dan/atau tidak terdapat pemberitaan baru dengan perspektif berbeda selama 3 (tiga) hari berturut-turut sejak pemberitaan terakhir. Rujukan: Pedoman Pengelolaan Komunikasi Kemenkeu, Halaman 77. II benar: Dalam hal diperlukan, juru bicara menyampaikan bahwa Kementerian Keuangan menghormati pengajuan gugatan yang merupakan hak setiap warga negara. Rujukan: Pedoman Pengelolaan Komunikasi Kemenkeu, Halaman 51. III salah. Rumusan tersebut mengganti “(intentional cluster) merupakan krisis yang berasal dari tindakan Kementerian Keuangan atau pegawai Kementerian Keuangan yang melanggar norma atau hukum, dengan” menjadi “memiliki”; mengganti “tinggi, serta” menjadi “rendah dan”. Ketentuan yang benar: Krisis dalam klaster kesengajaan (intentional cluster) merupakan krisis yang berasal dari tindakan Kementerian Keuangan atau pegawai Kementerian Keuangan yang melanggar norma atau hukum, dengan persepsi publik atas tanggung jawab organisasi yang tinggi, serta potensi ancaman terhadap reputasi besar. Rujukan: Pedoman Pengelolaan Komunikasi Kemenkeu, Halaman 65. Karena itu, jawaban yang tepat adalah I dan II (C)."
+      ]
+    ],
+    "answer": 2,
+    "source": "komunikasi",
+    "reference": "Pedoman Pengelolaan Komunikasi Kemenkeu—Halaman 77 | Pedoman Pengelolaan Komunikasi Kemenkeu—Halaman 51 | Pedoman Pengelolaan Komunikasi Kemenkeu—Halaman 65 · Kasus reviu multi-ketentuan",
+    "originalSource": "Pedoman Pengelolaan Komunikasi Kemenkeu",
+    "originalUrl": "https://drive.google.com/file/d/1qJQQpE93G5Ux_EKjmSJH8fVDf7OJd7pK/view"
+  },
+  {
+    "bankId": "revisi-audit-16",
+    "topic": "Komunikasi & Penyuluhan",
+    "difficulty": "Menjebak",
+    "stem": "Dalam reviu kepatuhan bidang Kehumasan dan Komunikasi Internal, tiga pernyataan berikut harus dinilai secara kumulatif. Kombinasi pernyataan yang benar adalah: I. Evaluasi komunikasi di lingkungan Kementerian Keuangan dilakukan minimal 2 (dua) kali dalam 1 (satu) tahun. II. Pelaksana komunikasi tingkat kementerian menyusun laporan hasil monitoring, identifikasi, dan analisis isu minimal 1 (satu) kali dalam 1 (satu) hari kerja hingga hasil monitoring, identifikasi, dan analisis isu menunjukkan penurunan status isu menjadi melandai. III. Unggahan media sosial hanya dapat disalin atau ditangkap layar setelah pegawai memberikan persetujuan.",
+    "options": [
+      [
+        "I dan II",
+        "Keliru. Kunci yang tepat adalah C. I salah. Rumusan tersebut mengganti “1 (satu)” menjadi “2 (dua)”. Ketentuan yang benar: Evaluasi komunikasi di lingkungan Kementerian Keuangan dilakukan minimal 1 (satu) kali dalam 1 (satu) tahun. Rujukan: Pedoman Pengelolaan Komunikasi Kemenkeu, Halaman 35. II benar: Pelaksana komunikasi tingkat kementerian menyusun laporan hasil monitoring, identifikasi, dan analisis isu minimal 1 (satu) kali dalam 1 (satu) hari kerja hingga hasil monitoring, identifikasi, dan analisis isu menunjukkan penurunan status isu menjadi melandai. Rujukan: Pedoman Pengelolaan Komunikasi Kemenkeu, Halaman 72. III salah. Rumusan tersebut mengganti “Semua unggahan di” menjadi “Unggahan”; menambahkan “hanya”. Ketentuan yang benar: Semua unggahan di media sosial dapat digandakan, disalin, diunduh, dan/atau dilakukan penangkapan layar, oleh orang lain dengan atau tanpa sepengetahuan pegawai. Rujukan: Pedoman Pengelolaan Komunikasi Kemenkeu, Halaman 153. Karena itu, jawaban yang tepat adalah II saja (C)."
+      ],
+      [
+        "I saja",
+        "Keliru. Kunci yang tepat adalah C. I salah. Rumusan tersebut mengganti “1 (satu)” menjadi “2 (dua)”. Ketentuan yang benar: Evaluasi komunikasi di lingkungan Kementerian Keuangan dilakukan minimal 1 (satu) kali dalam 1 (satu) tahun. Rujukan: Pedoman Pengelolaan Komunikasi Kemenkeu, Halaman 35. II benar: Pelaksana komunikasi tingkat kementerian menyusun laporan hasil monitoring, identifikasi, dan analisis isu minimal 1 (satu) kali dalam 1 (satu) hari kerja hingga hasil monitoring, identifikasi, dan analisis isu menunjukkan penurunan status isu menjadi melandai. Rujukan: Pedoman Pengelolaan Komunikasi Kemenkeu, Halaman 72. III salah. Rumusan tersebut mengganti “Semua unggahan di” menjadi “Unggahan”; menambahkan “hanya”. Ketentuan yang benar: Semua unggahan di media sosial dapat digandakan, disalin, diunduh, dan/atau dilakukan penangkapan layar, oleh orang lain dengan atau tanpa sepengetahuan pegawai. Rujukan: Pedoman Pengelolaan Komunikasi Kemenkeu, Halaman 153. Karena itu, jawaban yang tepat adalah II saja (C)."
+      ],
+      [
+        "II saja",
+        "I salah. Rumusan tersebut mengganti “1 (satu)” menjadi “2 (dua)”. Ketentuan yang benar: Evaluasi komunikasi di lingkungan Kementerian Keuangan dilakukan minimal 1 (satu) kali dalam 1 (satu) tahun. Rujukan: Pedoman Pengelolaan Komunikasi Kemenkeu, Halaman 35. II benar: Pelaksana komunikasi tingkat kementerian menyusun laporan hasil monitoring, identifikasi, dan analisis isu minimal 1 (satu) kali dalam 1 (satu) hari kerja hingga hasil monitoring, identifikasi, dan analisis isu menunjukkan penurunan status isu menjadi melandai. Rujukan: Pedoman Pengelolaan Komunikasi Kemenkeu, Halaman 72. III salah. Rumusan tersebut mengganti “Semua unggahan di” menjadi “Unggahan”; menambahkan “hanya”. Ketentuan yang benar: Semua unggahan di media sosial dapat digandakan, disalin, diunduh, dan/atau dilakukan penangkapan layar, oleh orang lain dengan atau tanpa sepengetahuan pegawai. Rujukan: Pedoman Pengelolaan Komunikasi Kemenkeu, Halaman 153. Karena itu, jawaban yang tepat adalah II saja (C)."
+      ],
+      [
+        "II dan III",
+        "Keliru. Kunci yang tepat adalah C. I salah. Rumusan tersebut mengganti “1 (satu)” menjadi “2 (dua)”. Ketentuan yang benar: Evaluasi komunikasi di lingkungan Kementerian Keuangan dilakukan minimal 1 (satu) kali dalam 1 (satu) tahun. Rujukan: Pedoman Pengelolaan Komunikasi Kemenkeu, Halaman 35. II benar: Pelaksana komunikasi tingkat kementerian menyusun laporan hasil monitoring, identifikasi, dan analisis isu minimal 1 (satu) kali dalam 1 (satu) hari kerja hingga hasil monitoring, identifikasi, dan analisis isu menunjukkan penurunan status isu menjadi melandai. Rujukan: Pedoman Pengelolaan Komunikasi Kemenkeu, Halaman 72. III salah. Rumusan tersebut mengganti “Semua unggahan di” menjadi “Unggahan”; menambahkan “hanya”. Ketentuan yang benar: Semua unggahan di media sosial dapat digandakan, disalin, diunduh, dan/atau dilakukan penangkapan layar, oleh orang lain dengan atau tanpa sepengetahuan pegawai. Rujukan: Pedoman Pengelolaan Komunikasi Kemenkeu, Halaman 153. Karena itu, jawaban yang tepat adalah II saja (C)."
+      ]
+    ],
+    "answer": 2,
+    "source": "komunikasi",
+    "reference": "Pedoman Pengelolaan Komunikasi Kemenkeu—Halaman 35 | Pedoman Pengelolaan Komunikasi Kemenkeu—Halaman 72 | Pedoman Pengelolaan Komunikasi Kemenkeu—Halaman 153 · Kasus reviu multi-ketentuan",
+    "originalSource": "Pedoman Pengelolaan Komunikasi Kemenkeu",
+    "originalUrl": "https://drive.google.com/file/d/1qJQQpE93G5Ux_EKjmSJH8fVDf7OJd7pK/view"
+  },
+  {
+    "bankId": "revisi-audit-17",
+    "topic": "Layanan Informasi",
+    "difficulty": "Menjebak",
+    "stem": "Tim penelaah Layanan Informasi menguji tiga kesimpulan sebelum menyetujui rekomendasi. Kesimpulan yang sesuai dengan sumber adalah: I. PPID Tingkat III membuat dan menyampaikan laporan tahunan layanan Informasi Publik pada unit kerjanya kepada PPID Tingkat II secara berjenjang paling lambat tanggal 15 Januari setiap tahun berjalan atau hari kerja berikutnya dalam hal tanggal 15 Januari merupakan hari libur. II. Laporan layanan Informasi Publik memuat seluruh permintaan, keberatan, dan sengketa yang diterima, termasuk yang belum selesai sampai 31 Desember. III. PPID DJBC menyampaikan pemberitahuan tertulis paling lama 10 (sepuluh) hari kerja sejak diterimanya Permintaan Informasi Publik.",
+    "options": [
+      [
+        "III saja",
+        "Keliru. Kunci yang tepat adalah B. I benar: PPID Tingkat III membuat dan menyampaikan laporan tahunan layanan Informasi Publik pada unit kerjanya kepada PPID Tingkat II secara berjenjang paling lambat tanggal 15 Januari setiap tahun berjalan atau hari kerja berikutnya dalam hal tanggal 15 Januari merupakan hari libur. Rujukan: SE-15/BC/2025 Pemberian dan Layanan Informasi, Halaman 26. II salah. Rumusan tersebut mengganti “Data yang dilaporkan pada laporan” menjadi “Laporan”; mengganti “meliputi data Permintaan Informasi Publik,” menjadi “memuat seluruh permintaan,”. Ketentuan yang benar: Data yang dilaporkan pada laporan layanan Informasi Publik meliputi data Permintaan Informasi Publik, keberatan, dan Sengketa Informasi Publik, yang telah selesai ditanggapi atau dilaksanakan sampai dengan tanggal 31 Desember pada tahun laporan. Rujukan: SE-15/BC/2025 Pemberian dan Layanan Informasi, Halaman 26. III benar: PPID DJBC menyampaikan pemberitahuan tertulis paling lama 10 (sepuluh) hari kerja sejak diterimanya Permintaan Informasi Publik. Rujukan: SE-15/BC/2025 Pemberian dan Layanan Informasi, Halaman 24. Karena itu, jawaban yang tepat adalah I dan III (B)."
+      ],
+      [
+        "I dan III",
+        "I benar: PPID Tingkat III membuat dan menyampaikan laporan tahunan layanan Informasi Publik pada unit kerjanya kepada PPID Tingkat II secara berjenjang paling lambat tanggal 15 Januari setiap tahun berjalan atau hari kerja berikutnya dalam hal tanggal 15 Januari merupakan hari libur. Rujukan: SE-15/BC/2025 Pemberian dan Layanan Informasi, Halaman 26. II salah. Rumusan tersebut mengganti “Data yang dilaporkan pada laporan” menjadi “Laporan”; mengganti “meliputi data Permintaan Informasi Publik,” menjadi “memuat seluruh permintaan,”. Ketentuan yang benar: Data yang dilaporkan pada laporan layanan Informasi Publik meliputi data Permintaan Informasi Publik, keberatan, dan Sengketa Informasi Publik, yang telah selesai ditanggapi atau dilaksanakan sampai dengan tanggal 31 Desember pada tahun laporan. Rujukan: SE-15/BC/2025 Pemberian dan Layanan Informasi, Halaman 26. III benar: PPID DJBC menyampaikan pemberitahuan tertulis paling lama 10 (sepuluh) hari kerja sejak diterimanya Permintaan Informasi Publik. Rujukan: SE-15/BC/2025 Pemberian dan Layanan Informasi, Halaman 24. Karena itu, jawaban yang tepat adalah I dan III (B)."
+      ],
+      [
+        "I saja",
+        "Keliru. Kunci yang tepat adalah B. I benar: PPID Tingkat III membuat dan menyampaikan laporan tahunan layanan Informasi Publik pada unit kerjanya kepada PPID Tingkat II secara berjenjang paling lambat tanggal 15 Januari setiap tahun berjalan atau hari kerja berikutnya dalam hal tanggal 15 Januari merupakan hari libur. Rujukan: SE-15/BC/2025 Pemberian dan Layanan Informasi, Halaman 26. II salah. Rumusan tersebut mengganti “Data yang dilaporkan pada laporan” menjadi “Laporan”; mengganti “meliputi data Permintaan Informasi Publik,” menjadi “memuat seluruh permintaan,”. Ketentuan yang benar: Data yang dilaporkan pada laporan layanan Informasi Publik meliputi data Permintaan Informasi Publik, keberatan, dan Sengketa Informasi Publik, yang telah selesai ditanggapi atau dilaksanakan sampai dengan tanggal 31 Desember pada tahun laporan. Rujukan: SE-15/BC/2025 Pemberian dan Layanan Informasi, Halaman 26. III benar: PPID DJBC menyampaikan pemberitahuan tertulis paling lama 10 (sepuluh) hari kerja sejak diterimanya Permintaan Informasi Publik. Rujukan: SE-15/BC/2025 Pemberian dan Layanan Informasi, Halaman 24. Karena itu, jawaban yang tepat adalah I dan III (B)."
+      ],
+      [
+        "I, II, dan III",
+        "Keliru. Kunci yang tepat adalah B. I benar: PPID Tingkat III membuat dan menyampaikan laporan tahunan layanan Informasi Publik pada unit kerjanya kepada PPID Tingkat II secara berjenjang paling lambat tanggal 15 Januari setiap tahun berjalan atau hari kerja berikutnya dalam hal tanggal 15 Januari merupakan hari libur. Rujukan: SE-15/BC/2025 Pemberian dan Layanan Informasi, Halaman 26. II salah. Rumusan tersebut mengganti “Data yang dilaporkan pada laporan” menjadi “Laporan”; mengganti “meliputi data Permintaan Informasi Publik,” menjadi “memuat seluruh permintaan,”. Ketentuan yang benar: Data yang dilaporkan pada laporan layanan Informasi Publik meliputi data Permintaan Informasi Publik, keberatan, dan Sengketa Informasi Publik, yang telah selesai ditanggapi atau dilaksanakan sampai dengan tanggal 31 Desember pada tahun laporan. Rujukan: SE-15/BC/2025 Pemberian dan Layanan Informasi, Halaman 26. III benar: PPID DJBC menyampaikan pemberitahuan tertulis paling lama 10 (sepuluh) hari kerja sejak diterimanya Permintaan Informasi Publik. Rujukan: SE-15/BC/2025 Pemberian dan Layanan Informasi, Halaman 24. Karena itu, jawaban yang tepat adalah I dan III (B)."
+      ]
+    ],
+    "answer": 1,
+    "source": "se15",
+    "reference": "SE-15/BC/2025 Pemberian dan Layanan Informasi—Halaman 26 | SE-15/BC/2025 Pemberian dan Layanan Informasi—Halaman 26 | SE-15/BC/2025 Pemberian dan Layanan Informasi—Halaman 24 · Kasus reviu multi-ketentuan",
+    "originalSource": "SE-15/BC/2025 Pemberian dan Layanan Informasi",
+    "originalUrl": "https://drive.google.com/file/d/1V31w7_BRSAfdhmqTEvkZQ22eO46Kqldk/view"
+  },
+  {
+    "bankId": "revisi-audit-18",
+    "topic": "Layanan Informasi",
+    "difficulty": "Menjebak",
+    "stem": "Dalam reviu kepatuhan bidang Layanan Informasi, tiga pernyataan berikut harus dinilai secara kumulatif. Kombinasi pernyataan yang benar adalah: I. Laporan Tahunan Kegiatan Operasional Pusat Kontak Layanan disampaikan paling lambat tanggal 28 Februari tahun anggaran berikutnya. II. Atasan PPID Pelaksana DJBC memberikan tanggapan atas keberatan yang disampaikan oleh Pemohon atau kuasanya paling lama 30 (tiga puluh) hari kerja sejak dicatatnya pengajuan keberatan dalam register keberatan. III. Juru Bicara Tingkat III adalah Pimpinan Kantor Pengawasan dan Pelayanan Bea dan Cukai (KPPBC), Balai Laboratorium Bea dan Cukai (BLBC), dan Pangkalan Sarana Operasi Bea dan Cukai (PSO BC) atau Pejabat yang ditunjuk oleh Pimpinan Unit Kerja tersebut.",
+    "options": [
+      [
+        "II saja",
+        "Keliru. Kunci yang tepat adalah D. I salah. Rumusan tersebut mengganti “31 Januari” menjadi “28 Februari”. Ketentuan yang benar: Laporan Tahunan Kegiatan Operasional Pusat Kontak Layanan disampaikan paling lambat tanggal 31 Januari tahun anggaran berikutnya. Rujukan: SE-15/BC/2025 Pemberian dan Layanan Informasi, Halaman 22. II benar: Atasan PPID Pelaksana DJBC memberikan tanggapan atas keberatan yang disampaikan oleh Pemohon atau kuasanya paling lama 30 (tiga puluh) hari kerja sejak dicatatnya pengajuan keberatan dalam register keberatan. Rujukan: SE-15/BC/2025 Pemberian dan Layanan Informasi, Halaman 25. III benar: Juru Bicara Tingkat III adalah Pimpinan Kantor Pengawasan dan Pelayanan Bea dan Cukai (KPPBC), Balai Laboratorium Bea dan Cukai (BLBC), dan Pangkalan Sarana Operasi Bea dan Cukai (PSO BC) atau Pejabat yang ditunjuk oleh Pimpinan Unit Kerja tersebut. Rujukan: SE-15/BC/2025 Pemberian dan Layanan Informasi, Halaman 2. Karena itu, jawaban yang tepat adalah II dan III (D)."
+      ],
+      [
+        "III saja",
+        "Keliru. Kunci yang tepat adalah D. I salah. Rumusan tersebut mengganti “31 Januari” menjadi “28 Februari”. Ketentuan yang benar: Laporan Tahunan Kegiatan Operasional Pusat Kontak Layanan disampaikan paling lambat tanggal 31 Januari tahun anggaran berikutnya. Rujukan: SE-15/BC/2025 Pemberian dan Layanan Informasi, Halaman 22. II benar: Atasan PPID Pelaksana DJBC memberikan tanggapan atas keberatan yang disampaikan oleh Pemohon atau kuasanya paling lama 30 (tiga puluh) hari kerja sejak dicatatnya pengajuan keberatan dalam register keberatan. Rujukan: SE-15/BC/2025 Pemberian dan Layanan Informasi, Halaman 25. III benar: Juru Bicara Tingkat III adalah Pimpinan Kantor Pengawasan dan Pelayanan Bea dan Cukai (KPPBC), Balai Laboratorium Bea dan Cukai (BLBC), dan Pangkalan Sarana Operasi Bea dan Cukai (PSO BC) atau Pejabat yang ditunjuk oleh Pimpinan Unit Kerja tersebut. Rujukan: SE-15/BC/2025 Pemberian dan Layanan Informasi, Halaman 2. Karena itu, jawaban yang tepat adalah II dan III (D)."
+      ],
+      [
+        "I, II, dan III",
+        "Keliru. Kunci yang tepat adalah D. I salah. Rumusan tersebut mengganti “31 Januari” menjadi “28 Februari”. Ketentuan yang benar: Laporan Tahunan Kegiatan Operasional Pusat Kontak Layanan disampaikan paling lambat tanggal 31 Januari tahun anggaran berikutnya. Rujukan: SE-15/BC/2025 Pemberian dan Layanan Informasi, Halaman 22. II benar: Atasan PPID Pelaksana DJBC memberikan tanggapan atas keberatan yang disampaikan oleh Pemohon atau kuasanya paling lama 30 (tiga puluh) hari kerja sejak dicatatnya pengajuan keberatan dalam register keberatan. Rujukan: SE-15/BC/2025 Pemberian dan Layanan Informasi, Halaman 25. III benar: Juru Bicara Tingkat III adalah Pimpinan Kantor Pengawasan dan Pelayanan Bea dan Cukai (KPPBC), Balai Laboratorium Bea dan Cukai (BLBC), dan Pangkalan Sarana Operasi Bea dan Cukai (PSO BC) atau Pejabat yang ditunjuk oleh Pimpinan Unit Kerja tersebut. Rujukan: SE-15/BC/2025 Pemberian dan Layanan Informasi, Halaman 2. Karena itu, jawaban yang tepat adalah II dan III (D)."
+      ],
+      [
+        "II dan III",
+        "I salah. Rumusan tersebut mengganti “31 Januari” menjadi “28 Februari”. Ketentuan yang benar: Laporan Tahunan Kegiatan Operasional Pusat Kontak Layanan disampaikan paling lambat tanggal 31 Januari tahun anggaran berikutnya. Rujukan: SE-15/BC/2025 Pemberian dan Layanan Informasi, Halaman 22. II benar: Atasan PPID Pelaksana DJBC memberikan tanggapan atas keberatan yang disampaikan oleh Pemohon atau kuasanya paling lama 30 (tiga puluh) hari kerja sejak dicatatnya pengajuan keberatan dalam register keberatan. Rujukan: SE-15/BC/2025 Pemberian dan Layanan Informasi, Halaman 25. III benar: Juru Bicara Tingkat III adalah Pimpinan Kantor Pengawasan dan Pelayanan Bea dan Cukai (KPPBC), Balai Laboratorium Bea dan Cukai (BLBC), dan Pangkalan Sarana Operasi Bea dan Cukai (PSO BC) atau Pejabat yang ditunjuk oleh Pimpinan Unit Kerja tersebut. Rujukan: SE-15/BC/2025 Pemberian dan Layanan Informasi, Halaman 2. Karena itu, jawaban yang tepat adalah II dan III (D)."
+      ]
+    ],
+    "answer": 3,
+    "source": "se15",
+    "reference": "SE-15/BC/2025 Pemberian dan Layanan Informasi—Halaman 22 | SE-15/BC/2025 Pemberian dan Layanan Informasi—Halaman 25 | SE-15/BC/2025 Pemberian dan Layanan Informasi—Halaman 2 · Kasus reviu multi-ketentuan",
+    "originalSource": "SE-15/BC/2025 Pemberian dan Layanan Informasi",
+    "originalUrl": "https://drive.google.com/file/d/1V31w7_BRSAfdhmqTEvkZQ22eO46Kqldk/view"
+  },
+  {
+    "bankId": "revisi-audit-19",
+    "topic": "Organisasi, Sejarah & Logo",
+    "difficulty": "Menjebak",
+    "stem": "Tim penelaah Organisasi dan Tusi DJBC menguji tiga kesimpulan sebelum menyetujui rekomendasi. Kesimpulan yang sesuai dengan sumber adalah: I. Lembaga Bea Cukai setelah Indonesia merdeka dibentuk pada 1 Oktober 1946 dengan nama Pejabatan Bea dan Cukai. II. Direktorat Jenderal Bea dan Cukai dipimpin oleh Direktur Jenderal Bea dan Cukai. III. Logo Bea Cukai memuat tongkat dengan 8 ulir, 28 sayap kecil, 10 sayap besar, dan 24 butir padi.",
+    "options": [
+      [
+        "I dan II",
+        "I benar: Lembaga Bea Cukai setelah Indonesia merdeka dibentuk pada 1 Oktober 1946 dengan nama Pejabatan Bea dan Cukai. Rujukan: Semua Tentang Bea Cukai, Halaman 1. II benar: Direktorat Jenderal Bea dan Cukai dipimpin oleh Direktur Jenderal Bea dan Cukai. Rujukan: Semua Tentang Bea Cukai, Halaman 5. III salah. Rumusan tersebut menghilangkan “(delapan)”; mengganti “30 (tiga puluh)” menjadi “28”. Ketentuan yang benar: Logo Bea Cukai memuat tongkat dengan 8 (delapan) ulir, 30 (tiga puluh) sayap kecil, 10 (sepuluh) sayap besar, dan 24 (dua puluh empat) butir padi. Rujukan: Semua Tentang Bea Cukai, Halaman 18. Karena itu, jawaban yang tepat adalah I dan II (A)."
+      ],
+      [
+        "I, II, dan III",
+        "Keliru. Kunci yang tepat adalah A. I benar: Lembaga Bea Cukai setelah Indonesia merdeka dibentuk pada 1 Oktober 1946 dengan nama Pejabatan Bea dan Cukai. Rujukan: Semua Tentang Bea Cukai, Halaman 1. II benar: Direktorat Jenderal Bea dan Cukai dipimpin oleh Direktur Jenderal Bea dan Cukai. Rujukan: Semua Tentang Bea Cukai, Halaman 5. III salah. Rumusan tersebut menghilangkan “(delapan)”; mengganti “30 (tiga puluh)” menjadi “28”. Ketentuan yang benar: Logo Bea Cukai memuat tongkat dengan 8 (delapan) ulir, 30 (tiga puluh) sayap kecil, 10 (sepuluh) sayap besar, dan 24 (dua puluh empat) butir padi. Rujukan: Semua Tentang Bea Cukai, Halaman 18. Karena itu, jawaban yang tepat adalah I dan II (A)."
+      ],
+      [
+        "I saja",
+        "Keliru. Kunci yang tepat adalah A. I benar: Lembaga Bea Cukai setelah Indonesia merdeka dibentuk pada 1 Oktober 1946 dengan nama Pejabatan Bea dan Cukai. Rujukan: Semua Tentang Bea Cukai, Halaman 1. II benar: Direktorat Jenderal Bea dan Cukai dipimpin oleh Direktur Jenderal Bea dan Cukai. Rujukan: Semua Tentang Bea Cukai, Halaman 5. III salah. Rumusan tersebut menghilangkan “(delapan)”; mengganti “30 (tiga puluh)” menjadi “28”. Ketentuan yang benar: Logo Bea Cukai memuat tongkat dengan 8 (delapan) ulir, 30 (tiga puluh) sayap kecil, 10 (sepuluh) sayap besar, dan 24 (dua puluh empat) butir padi. Rujukan: Semua Tentang Bea Cukai, Halaman 18. Karena itu, jawaban yang tepat adalah I dan II (A)."
+      ],
+      [
+        "II saja",
+        "Keliru. Kunci yang tepat adalah A. I benar: Lembaga Bea Cukai setelah Indonesia merdeka dibentuk pada 1 Oktober 1946 dengan nama Pejabatan Bea dan Cukai. Rujukan: Semua Tentang Bea Cukai, Halaman 1. II benar: Direktorat Jenderal Bea dan Cukai dipimpin oleh Direktur Jenderal Bea dan Cukai. Rujukan: Semua Tentang Bea Cukai, Halaman 5. III salah. Rumusan tersebut menghilangkan “(delapan)”; mengganti “30 (tiga puluh)” menjadi “28”. Ketentuan yang benar: Logo Bea Cukai memuat tongkat dengan 8 (delapan) ulir, 30 (tiga puluh) sayap kecil, 10 (sepuluh) sayap besar, dan 24 (dua puluh empat) butir padi. Rujukan: Semua Tentang Bea Cukai, Halaman 18. Karena itu, jawaban yang tepat adalah I dan II (A)."
+      ]
+    ],
+    "answer": 0,
+    "source": "organisasi",
+    "reference": "Semua Tentang Bea Cukai—Halaman 1 | Semua Tentang Bea Cukai—Halaman 5 | Semua Tentang Bea Cukai—Halaman 18 · Kasus reviu multi-ketentuan",
+    "originalSource": "Semua Tentang Bea Cukai",
+    "originalUrl": "https://drive.google.com/file/d/1F-2tFGm65n981KMF0smPNg2hZPnNkJ3U/view"
+  },
+  {
+    "bankId": "revisi-audit-20",
+    "topic": "Organisasi, Sejarah & Logo",
+    "difficulty": "Menjebak",
+    "stem": "Dalam reviu kepatuhan bidang Organisasi dan Tusi DJBC, tiga pernyataan berikut harus dinilai secara kumulatif. Kombinasi pernyataan yang benar adalah: I. Tongkat dengan 8 ulir melambangkan hubungan perdagangan internasional dari empat penjuru mata angin. II. Sayap 30 (tiga puluh) kecil dan 10 (sepuluh) besar melambangkan Hari Oeang Republik Indonesia pada 30 Oktober. III. Lembaga Bea Cukai setelah Indonesia merdeka dibentuk pada 1 Oktober 1947 dengan nama Pejabatan Bea dan Cukai.",
+    "options": [
+      [
+        "I dan II",
+        "Keliru. Kunci yang tepat adalah D. I salah. Rumusan tersebut menghilangkan “(delapan)”; mengganti “delapan” menjadi “empat”. Ketentuan yang benar: Tongkat dengan 8 (delapan) ulir melambangkan hubungan perdagangan internasional dari delapan penjuru mata angin. Rujukan: Semua Tentang Bea Cukai, Halaman 19. II benar: Sayap 30 (tiga puluh) kecil dan 10 (sepuluh) besar melambangkan Hari Oeang Republik Indonesia pada 30 Oktober. Rujukan: Semua Tentang Bea Cukai, Halaman 19. III salah. Rumusan tersebut mengganti “1946” menjadi “1947”. Ketentuan yang benar: Lembaga Bea Cukai setelah Indonesia merdeka dibentuk pada 1 Oktober 1946 dengan nama Pejabatan Bea dan Cukai. Rujukan: Semua Tentang Bea Cukai, Halaman 1. Karena itu, jawaban yang tepat adalah II saja (D)."
+      ],
+      [
+        "II dan III",
+        "Keliru. Kunci yang tepat adalah D. I salah. Rumusan tersebut menghilangkan “(delapan)”; mengganti “delapan” menjadi “empat”. Ketentuan yang benar: Tongkat dengan 8 (delapan) ulir melambangkan hubungan perdagangan internasional dari delapan penjuru mata angin. Rujukan: Semua Tentang Bea Cukai, Halaman 19. II benar: Sayap 30 (tiga puluh) kecil dan 10 (sepuluh) besar melambangkan Hari Oeang Republik Indonesia pada 30 Oktober. Rujukan: Semua Tentang Bea Cukai, Halaman 19. III salah. Rumusan tersebut mengganti “1946” menjadi “1947”. Ketentuan yang benar: Lembaga Bea Cukai setelah Indonesia merdeka dibentuk pada 1 Oktober 1946 dengan nama Pejabatan Bea dan Cukai. Rujukan: Semua Tentang Bea Cukai, Halaman 1. Karena itu, jawaban yang tepat adalah II saja (D)."
+      ],
+      [
+        "I saja",
+        "Keliru. Kunci yang tepat adalah D. I salah. Rumusan tersebut menghilangkan “(delapan)”; mengganti “delapan” menjadi “empat”. Ketentuan yang benar: Tongkat dengan 8 (delapan) ulir melambangkan hubungan perdagangan internasional dari delapan penjuru mata angin. Rujukan: Semua Tentang Bea Cukai, Halaman 19. II benar: Sayap 30 (tiga puluh) kecil dan 10 (sepuluh) besar melambangkan Hari Oeang Republik Indonesia pada 30 Oktober. Rujukan: Semua Tentang Bea Cukai, Halaman 19. III salah. Rumusan tersebut mengganti “1946” menjadi “1947”. Ketentuan yang benar: Lembaga Bea Cukai setelah Indonesia merdeka dibentuk pada 1 Oktober 1946 dengan nama Pejabatan Bea dan Cukai. Rujukan: Semua Tentang Bea Cukai, Halaman 1. Karena itu, jawaban yang tepat adalah II saja (D)."
+      ],
+      [
+        "II saja",
+        "I salah. Rumusan tersebut menghilangkan “(delapan)”; mengganti “delapan” menjadi “empat”. Ketentuan yang benar: Tongkat dengan 8 (delapan) ulir melambangkan hubungan perdagangan internasional dari delapan penjuru mata angin. Rujukan: Semua Tentang Bea Cukai, Halaman 19. II benar: Sayap 30 (tiga puluh) kecil dan 10 (sepuluh) besar melambangkan Hari Oeang Republik Indonesia pada 30 Oktober. Rujukan: Semua Tentang Bea Cukai, Halaman 19. III salah. Rumusan tersebut mengganti “1946” menjadi “1947”. Ketentuan yang benar: Lembaga Bea Cukai setelah Indonesia merdeka dibentuk pada 1 Oktober 1946 dengan nama Pejabatan Bea dan Cukai. Rujukan: Semua Tentang Bea Cukai, Halaman 1. Karena itu, jawaban yang tepat adalah II saja (D)."
+      ]
+    ],
+    "answer": 3,
+    "source": "organisasi",
+    "reference": "Semua Tentang Bea Cukai—Halaman 19 | Semua Tentang Bea Cukai—Halaman 19 | Semua Tentang Bea Cukai—Halaman 1 · Kasus reviu multi-ketentuan",
+    "originalSource": "Semua Tentang Bea Cukai",
+    "originalUrl": "https://drive.google.com/file/d/1F-2tFGm65n981KMF0smPNg2hZPnNkJ3U/view"
+  },
+  {
+    "bankId": "revisi-audit-21",
+    "topic": "Kepatuhan Internal",
+    "difficulty": "Menjebak",
+    "stem": "Tim penelaah Kepatuhan Internal dan UKI menguji tiga kesimpulan sebelum menyetujui rekomendasi. Kesimpulan yang sesuai dengan sumber adalah: I. Unit Kepatuhan Internal adalah unit kerja di lingkungan DJBC yang memiliki tugas dan fungsi di bidang penegakan kepatuhan internal. II. Fungsi kepatuhan internal terdiri atas pencegahan, pengawasan, dan penjaminan kualitas tanpa pengelolaan kinerja. III. Fungsi pencegahan mencakup pembinaan mental, edukasi antikorupsi, pengendalian gratifikasi, dan pemantauan perilaku pegawai.",
+    "options": [
+      [
+        "I, II, dan III",
+        "Keliru. Kunci yang tepat adalah C. I benar: Unit Kepatuhan Internal adalah unit kerja di lingkungan DJBC yang memiliki tugas dan fungsi di bidang penegakan kepatuhan internal. Rujukan: Tusi UKI, Slide 4. II salah. Rumusan tersebut menambahkan “dan”; mengganti “kualitas, dan” menjadi “kualitas tanpa”. Ketentuan yang benar: Fungsi kepatuhan internal terdiri atas pencegahan, pengawasan, penjaminan kualitas, dan pengelolaan kinerja. Rujukan: Tusi UKI, Slide 11. III benar: Fungsi pencegahan mencakup pembinaan mental, edukasi antikorupsi, pengendalian gratifikasi, dan pemantauan perilaku pegawai. Rujukan: Tusi UKI, Slide 12. Karena itu, jawaban yang tepat adalah I dan III (C)."
+      ],
+      [
+        "III saja",
+        "Keliru. Kunci yang tepat adalah C. I benar: Unit Kepatuhan Internal adalah unit kerja di lingkungan DJBC yang memiliki tugas dan fungsi di bidang penegakan kepatuhan internal. Rujukan: Tusi UKI, Slide 4. II salah. Rumusan tersebut menambahkan “dan”; mengganti “kualitas, dan” menjadi “kualitas tanpa”. Ketentuan yang benar: Fungsi kepatuhan internal terdiri atas pencegahan, pengawasan, penjaminan kualitas, dan pengelolaan kinerja. Rujukan: Tusi UKI, Slide 11. III benar: Fungsi pencegahan mencakup pembinaan mental, edukasi antikorupsi, pengendalian gratifikasi, dan pemantauan perilaku pegawai. Rujukan: Tusi UKI, Slide 12. Karena itu, jawaban yang tepat adalah I dan III (C)."
+      ],
+      [
+        "I dan III",
+        "I benar: Unit Kepatuhan Internal adalah unit kerja di lingkungan DJBC yang memiliki tugas dan fungsi di bidang penegakan kepatuhan internal. Rujukan: Tusi UKI, Slide 4. II salah. Rumusan tersebut menambahkan “dan”; mengganti “kualitas, dan” menjadi “kualitas tanpa”. Ketentuan yang benar: Fungsi kepatuhan internal terdiri atas pencegahan, pengawasan, penjaminan kualitas, dan pengelolaan kinerja. Rujukan: Tusi UKI, Slide 11. III benar: Fungsi pencegahan mencakup pembinaan mental, edukasi antikorupsi, pengendalian gratifikasi, dan pemantauan perilaku pegawai. Rujukan: Tusi UKI, Slide 12. Karena itu, jawaban yang tepat adalah I dan III (C)."
+      ],
+      [
+        "I saja",
+        "Keliru. Kunci yang tepat adalah C. I benar: Unit Kepatuhan Internal adalah unit kerja di lingkungan DJBC yang memiliki tugas dan fungsi di bidang penegakan kepatuhan internal. Rujukan: Tusi UKI, Slide 4. II salah. Rumusan tersebut menambahkan “dan”; mengganti “kualitas, dan” menjadi “kualitas tanpa”. Ketentuan yang benar: Fungsi kepatuhan internal terdiri atas pencegahan, pengawasan, penjaminan kualitas, dan pengelolaan kinerja. Rujukan: Tusi UKI, Slide 11. III benar: Fungsi pencegahan mencakup pembinaan mental, edukasi antikorupsi, pengendalian gratifikasi, dan pemantauan perilaku pegawai. Rujukan: Tusi UKI, Slide 12. Karena itu, jawaban yang tepat adalah I dan III (C)."
+      ]
+    ],
+    "answer": 2,
+    "source": "uki",
+    "reference": "Tusi UKI—Slide 4 | Tusi UKI—Slide 11 | Tusi UKI—Slide 12 · Kasus reviu multi-ketentuan",
+    "originalSource": "Tusi UKI",
+    "originalUrl": "https://docs.google.com/presentation/d/1i0uBbYekqDf2zVSNNqfrgEj864y_Q9PX/edit"
+  },
+  {
+    "bankId": "revisi-audit-22",
+    "topic": "Kepatuhan Internal",
+    "difficulty": "Menjebak",
+    "stem": "Dalam reviu kepatuhan bidang Kepatuhan Internal dan UKI, tiga pernyataan berikut harus dinilai secara kumulatif. Kombinasi pernyataan yang benar adalah: I. Fungsi pengawasan mencakup pembinaan mental, edukasi antikorupsi, dan pengendalian gratifikasi. II. Fungsi penjaminan kualitas mencakup pemantauan penerapan sistem pengendalian intern. III. Evaluasi pengelolaan kinerja meliputi evaluasi internal dan evaluasi eksternal.",
+    "options": [
+      [
+        "II saja",
+        "Keliru. Kunci yang tepat adalah B. I salah. Rumusan tersebut mengganti “PKPT, investigasi internal, pendampingan pegawai, pemeriksaan mendadak,” menjadi “pembinaan mental, edukasi antikorupsi,”; mengganti “surveillance.” menjadi “pengendalian gratifikasi.”. Ketentuan yang benar: Fungsi pengawasan mencakup PKPT, investigasi internal, pendampingan pegawai, pemeriksaan mendadak, dan surveillance. Rujukan: Tusi UKI, Slide 13. II benar: Fungsi penjaminan kualitas mencakup pemantauan penerapan sistem pengendalian intern. Rujukan: Tusi UKI, Slide 14. III benar: Evaluasi pengelolaan kinerja meliputi evaluasi internal dan evaluasi eksternal. Rujukan: Tusi UKI, Slide 15. Karena itu, jawaban yang tepat adalah II dan III (B)."
+      ],
+      [
+        "II dan III",
+        "I salah. Rumusan tersebut mengganti “PKPT, investigasi internal, pendampingan pegawai, pemeriksaan mendadak,” menjadi “pembinaan mental, edukasi antikorupsi,”; mengganti “surveillance.” menjadi “pengendalian gratifikasi.”. Ketentuan yang benar: Fungsi pengawasan mencakup PKPT, investigasi internal, pendampingan pegawai, pemeriksaan mendadak, dan surveillance. Rujukan: Tusi UKI, Slide 13. II benar: Fungsi penjaminan kualitas mencakup pemantauan penerapan sistem pengendalian intern. Rujukan: Tusi UKI, Slide 14. III benar: Evaluasi pengelolaan kinerja meliputi evaluasi internal dan evaluasi eksternal. Rujukan: Tusi UKI, Slide 15. Karena itu, jawaban yang tepat adalah II dan III (B)."
+      ],
+      [
+        "I, II, dan III",
+        "Keliru. Kunci yang tepat adalah B. I salah. Rumusan tersebut mengganti “PKPT, investigasi internal, pendampingan pegawai, pemeriksaan mendadak,” menjadi “pembinaan mental, edukasi antikorupsi,”; mengganti “surveillance.” menjadi “pengendalian gratifikasi.”. Ketentuan yang benar: Fungsi pengawasan mencakup PKPT, investigasi internal, pendampingan pegawai, pemeriksaan mendadak, dan surveillance. Rujukan: Tusi UKI, Slide 13. II benar: Fungsi penjaminan kualitas mencakup pemantauan penerapan sistem pengendalian intern. Rujukan: Tusi UKI, Slide 14. III benar: Evaluasi pengelolaan kinerja meliputi evaluasi internal dan evaluasi eksternal. Rujukan: Tusi UKI, Slide 15. Karena itu, jawaban yang tepat adalah II dan III (B)."
+      ],
+      [
+        "III saja",
+        "Keliru. Kunci yang tepat adalah B. I salah. Rumusan tersebut mengganti “PKPT, investigasi internal, pendampingan pegawai, pemeriksaan mendadak,” menjadi “pembinaan mental, edukasi antikorupsi,”; mengganti “surveillance.” menjadi “pengendalian gratifikasi.”. Ketentuan yang benar: Fungsi pengawasan mencakup PKPT, investigasi internal, pendampingan pegawai, pemeriksaan mendadak, dan surveillance. Rujukan: Tusi UKI, Slide 13. II benar: Fungsi penjaminan kualitas mencakup pemantauan penerapan sistem pengendalian intern. Rujukan: Tusi UKI, Slide 14. III benar: Evaluasi pengelolaan kinerja meliputi evaluasi internal dan evaluasi eksternal. Rujukan: Tusi UKI, Slide 15. Karena itu, jawaban yang tepat adalah II dan III (B)."
+      ]
+    ],
+    "answer": 1,
+    "source": "uki",
+    "reference": "Tusi UKI—Slide 13 | Tusi UKI—Slide 14 | Tusi UKI—Slide 15 · Kasus reviu multi-ketentuan",
+    "originalSource": "Tusi UKI",
+    "originalUrl": "https://docs.google.com/presentation/d/1i0uBbYekqDf2zVSNNqfrgEj864y_Q9PX/edit"
+  },
+  {
+    "bankId": "revisi-audit-23",
+    "topic": "AI dalam Probis",
+    "difficulty": "Menjebak",
+    "stem": "Tim penelaah AI dalam Proses Bisnis Kepabeanan menguji tiga kesimpulan sebelum menyetujui rekomendasi. Kesimpulan yang sesuai dengan sumber adalah: I. Artificial Narrow Intelligence dirancang untuk tugas spesifik dan tidak memiliki kemampuan generalisasi lintas domain. II. Generative AI menghasilkan konten baru, termasuk teks, gambar, video, atau kode, berdasarkan pola yang dipelajari dari data. III. Smart OCR hanya dapat mengekstraksi informasi dari dokumen terstruktur.",
+    "options": [
+      [
+        "I dan II",
+        "I benar: Artificial Narrow Intelligence dirancang untuk tugas spesifik dan tidak memiliki kemampuan generalisasi lintas domain. Rujukan: Sharing Session AI - Transformasi Digital dan Penerapan AI di Lingkungan Kepabeanan, Halaman 3. II benar: Generative AI menghasilkan konten baru, termasuk teks, gambar, video, atau kode, berdasarkan pola yang dipelajari dari data. Rujukan: Sharing Session AI - Transformasi Digital dan Penerapan AI di Lingkungan Kepabeanan, Halaman 3. III salah. Rumusan tersebut mengganti “digunakan untuk” menjadi “hanya dapat”; menghilangkan “terstruktur maupun tidak”. Ketentuan yang benar: Smart OCR digunakan untuk mengekstraksi informasi dari dokumen terstruktur maupun tidak terstruktur. Rujukan: Sharing Session AI - Transformasi Digital dan Penerapan AI di Lingkungan Kepabeanan, Halaman 6. Karena itu, jawaban yang tepat adalah I dan II (A)."
+      ],
+      [
+        "II saja",
+        "Keliru. Kunci yang tepat adalah A. I benar: Artificial Narrow Intelligence dirancang untuk tugas spesifik dan tidak memiliki kemampuan generalisasi lintas domain. Rujukan: Sharing Session AI - Transformasi Digital dan Penerapan AI di Lingkungan Kepabeanan, Halaman 3. II benar: Generative AI menghasilkan konten baru, termasuk teks, gambar, video, atau kode, berdasarkan pola yang dipelajari dari data. Rujukan: Sharing Session AI - Transformasi Digital dan Penerapan AI di Lingkungan Kepabeanan, Halaman 3. III salah. Rumusan tersebut mengganti “digunakan untuk” menjadi “hanya dapat”; menghilangkan “terstruktur maupun tidak”. Ketentuan yang benar: Smart OCR digunakan untuk mengekstraksi informasi dari dokumen terstruktur maupun tidak terstruktur. Rujukan: Sharing Session AI - Transformasi Digital dan Penerapan AI di Lingkungan Kepabeanan, Halaman 6. Karena itu, jawaban yang tepat adalah I dan II (A)."
+      ],
+      [
+        "I saja",
+        "Keliru. Kunci yang tepat adalah A. I benar: Artificial Narrow Intelligence dirancang untuk tugas spesifik dan tidak memiliki kemampuan generalisasi lintas domain. Rujukan: Sharing Session AI - Transformasi Digital dan Penerapan AI di Lingkungan Kepabeanan, Halaman 3. II benar: Generative AI menghasilkan konten baru, termasuk teks, gambar, video, atau kode, berdasarkan pola yang dipelajari dari data. Rujukan: Sharing Session AI - Transformasi Digital dan Penerapan AI di Lingkungan Kepabeanan, Halaman 3. III salah. Rumusan tersebut mengganti “digunakan untuk” menjadi “hanya dapat”; menghilangkan “terstruktur maupun tidak”. Ketentuan yang benar: Smart OCR digunakan untuk mengekstraksi informasi dari dokumen terstruktur maupun tidak terstruktur. Rujukan: Sharing Session AI - Transformasi Digital dan Penerapan AI di Lingkungan Kepabeanan, Halaman 6. Karena itu, jawaban yang tepat adalah I dan II (A)."
+      ],
+      [
+        "I, II, dan III",
+        "Keliru. Kunci yang tepat adalah A. I benar: Artificial Narrow Intelligence dirancang untuk tugas spesifik dan tidak memiliki kemampuan generalisasi lintas domain. Rujukan: Sharing Session AI - Transformasi Digital dan Penerapan AI di Lingkungan Kepabeanan, Halaman 3. II benar: Generative AI menghasilkan konten baru, termasuk teks, gambar, video, atau kode, berdasarkan pola yang dipelajari dari data. Rujukan: Sharing Session AI - Transformasi Digital dan Penerapan AI di Lingkungan Kepabeanan, Halaman 3. III salah. Rumusan tersebut mengganti “digunakan untuk” menjadi “hanya dapat”; menghilangkan “terstruktur maupun tidak”. Ketentuan yang benar: Smart OCR digunakan untuk mengekstraksi informasi dari dokumen terstruktur maupun tidak terstruktur. Rujukan: Sharing Session AI - Transformasi Digital dan Penerapan AI di Lingkungan Kepabeanan, Halaman 6. Karena itu, jawaban yang tepat adalah I dan II (A)."
+      ]
+    ],
+    "answer": 0,
+    "source": "aiProbis",
+    "reference": "Sharing Session AI - Transformasi Digital dan Penerapan AI di Lingkungan Kepabeanan—Halaman 3 | Sharing Session AI - Transformasi Digital dan Penerapan AI di Lingkungan Kepabeanan—Halaman 3 | Sharing Session AI - Transformasi Digital dan Penerapan AI di Lingkungan Kepabeanan—Halaman 6 · Kasus reviu multi-ketentuan",
+    "originalSource": "Sharing Session AI - Transformasi Digital dan Penerapan AI di Lingkungan Kepabeanan",
+    "originalUrl": "https://drive.google.com/file/d/1bYLC1QbM2RKDPpH9QWdCfFaYmeKRqeIt/view"
+  },
+  {
+    "bankId": "revisi-audit-24",
+    "topic": "AI dalam Probis",
+    "difficulty": "Menjebak",
+    "stem": "Dalam reviu kepatuhan bidang AI dalam Proses Bisnis Kepabeanan, tiga pernyataan berikut harus dinilai secara kumulatif. Kombinasi pernyataan yang benar adalah: I. Inspeksi dokumen otomatis dan deteksi anomali kargo merupakan satu fungsi identik dengan objek analisis yang sama. II. Analisis grafik jaringan digunakan untuk memetakan hubungan perusahaan yang tersembunyi dan pola transaksi mencurigakan. III. Trade AI tidak berkaitan dengan risiko under-invoicing dan over-invoicing.",
+    "options": [
+      [
+        "I dan II",
+        "Keliru. Kunci yang tepat adalah D. I salah. Rumusan tersebut mengganti “dua penerapan AI” menjadi “satu fungsi identik dengan objek analisis”; mengganti “dibedakan dalam sistem kepabeanan.” menjadi “sama.”. Ketentuan yang benar: Inspeksi dokumen otomatis dan deteksi anomali kargo merupakan dua penerapan AI yang dibedakan dalam sistem kepabeanan. Rujukan: Sharing Session AI - Transformasi Digital dan Penerapan AI di Lingkungan Kepabeanan, Halaman 6. II benar: Analisis grafik jaringan digunakan untuk memetakan hubungan perusahaan yang tersembunyi dan pola transaksi mencurigakan. Rujukan: Sharing Session AI - Transformasi Digital dan Penerapan AI di Lingkungan Kepabeanan, Halaman 6. III salah. Rumusan tersebut mengganti “diarahkan untuk mengurangi” menjadi “tidak berkaitan dengan”; mengganti “over-invoicing yang dapat menimbulkan kebocoran penerimaan maupun pencucian uang berbasis perdagangan.” menjadi “over-invoicing.”. Ketentuan yang benar: Trade AI diarahkan untuk mengurangi risiko under-invoicing dan over-invoicing yang dapat menimbulkan kebocoran penerimaan maupun pencucian uang berbasis perdagangan. Rujukan: Sharing Session AI - Transformasi Digital dan Penerapan AI di Lingkungan Kepabeanan, Halaman 8. Karena itu, jawaban yang tepat adalah II saja (D)."
+      ],
+      [
+        "I saja",
+        "Keliru. Kunci yang tepat adalah D. I salah. Rumusan tersebut mengganti “dua penerapan AI” menjadi “satu fungsi identik dengan objek analisis”; mengganti “dibedakan dalam sistem kepabeanan.” menjadi “sama.”. Ketentuan yang benar: Inspeksi dokumen otomatis dan deteksi anomali kargo merupakan dua penerapan AI yang dibedakan dalam sistem kepabeanan. Rujukan: Sharing Session AI - Transformasi Digital dan Penerapan AI di Lingkungan Kepabeanan, Halaman 6. II benar: Analisis grafik jaringan digunakan untuk memetakan hubungan perusahaan yang tersembunyi dan pola transaksi mencurigakan. Rujukan: Sharing Session AI - Transformasi Digital dan Penerapan AI di Lingkungan Kepabeanan, Halaman 6. III salah. Rumusan tersebut mengganti “diarahkan untuk mengurangi” menjadi “tidak berkaitan dengan”; mengganti “over-invoicing yang dapat menimbulkan kebocoran penerimaan maupun pencucian uang berbasis perdagangan.” menjadi “over-invoicing.”. Ketentuan yang benar: Trade AI diarahkan untuk mengurangi risiko under-invoicing dan over-invoicing yang dapat menimbulkan kebocoran penerimaan maupun pencucian uang berbasis perdagangan. Rujukan: Sharing Session AI - Transformasi Digital dan Penerapan AI di Lingkungan Kepabeanan, Halaman 8. Karena itu, jawaban yang tepat adalah II saja (D)."
+      ],
+      [
+        "II dan III",
+        "Keliru. Kunci yang tepat adalah D. I salah. Rumusan tersebut mengganti “dua penerapan AI” menjadi “satu fungsi identik dengan objek analisis”; mengganti “dibedakan dalam sistem kepabeanan.” menjadi “sama.”. Ketentuan yang benar: Inspeksi dokumen otomatis dan deteksi anomali kargo merupakan dua penerapan AI yang dibedakan dalam sistem kepabeanan. Rujukan: Sharing Session AI - Transformasi Digital dan Penerapan AI di Lingkungan Kepabeanan, Halaman 6. II benar: Analisis grafik jaringan digunakan untuk memetakan hubungan perusahaan yang tersembunyi dan pola transaksi mencurigakan. Rujukan: Sharing Session AI - Transformasi Digital dan Penerapan AI di Lingkungan Kepabeanan, Halaman 6. III salah. Rumusan tersebut mengganti “diarahkan untuk mengurangi” menjadi “tidak berkaitan dengan”; mengganti “over-invoicing yang dapat menimbulkan kebocoran penerimaan maupun pencucian uang berbasis perdagangan.” menjadi “over-invoicing.”. Ketentuan yang benar: Trade AI diarahkan untuk mengurangi risiko under-invoicing dan over-invoicing yang dapat menimbulkan kebocoran penerimaan maupun pencucian uang berbasis perdagangan. Rujukan: Sharing Session AI - Transformasi Digital dan Penerapan AI di Lingkungan Kepabeanan, Halaman 8. Karena itu, jawaban yang tepat adalah II saja (D)."
+      ],
+      [
+        "II saja",
+        "I salah. Rumusan tersebut mengganti “dua penerapan AI” menjadi “satu fungsi identik dengan objek analisis”; mengganti “dibedakan dalam sistem kepabeanan.” menjadi “sama.”. Ketentuan yang benar: Inspeksi dokumen otomatis dan deteksi anomali kargo merupakan dua penerapan AI yang dibedakan dalam sistem kepabeanan. Rujukan: Sharing Session AI - Transformasi Digital dan Penerapan AI di Lingkungan Kepabeanan, Halaman 6. II benar: Analisis grafik jaringan digunakan untuk memetakan hubungan perusahaan yang tersembunyi dan pola transaksi mencurigakan. Rujukan: Sharing Session AI - Transformasi Digital dan Penerapan AI di Lingkungan Kepabeanan, Halaman 6. III salah. Rumusan tersebut mengganti “diarahkan untuk mengurangi” menjadi “tidak berkaitan dengan”; mengganti “over-invoicing yang dapat menimbulkan kebocoran penerimaan maupun pencucian uang berbasis perdagangan.” menjadi “over-invoicing.”. Ketentuan yang benar: Trade AI diarahkan untuk mengurangi risiko under-invoicing dan over-invoicing yang dapat menimbulkan kebocoran penerimaan maupun pencucian uang berbasis perdagangan. Rujukan: Sharing Session AI - Transformasi Digital dan Penerapan AI di Lingkungan Kepabeanan, Halaman 8. Karena itu, jawaban yang tepat adalah II saja (D)."
+      ]
+    ],
+    "answer": 3,
+    "source": "aiProbis",
+    "reference": "Sharing Session AI - Transformasi Digital dan Penerapan AI di Lingkungan Kepabeanan—Halaman 6 | Sharing Session AI - Transformasi Digital dan Penerapan AI di Lingkungan Kepabeanan—Halaman 6 | Sharing Session AI - Transformasi Digital dan Penerapan AI di Lingkungan Kepabeanan—Halaman 8 · Kasus reviu multi-ketentuan",
+    "originalSource": "Sharing Session AI - Transformasi Digital dan Penerapan AI di Lingkungan Kepabeanan",
+    "originalUrl": "https://drive.google.com/file/d/1bYLC1QbM2RKDPpH9QWdCfFaYmeKRqeIt/view"
+  }
+]

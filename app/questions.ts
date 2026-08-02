@@ -1,7 +1,8 @@
 import { hardOptions } from "./hard-options.ts";
 import { kmk127FlashcardQuestions } from "./kmk127-flashcard-questions.ts";
 import { supplementalQuestions } from "./supplemental-questions.ts";
-import competencyQuestionData from "./generated-competency-questions.json";
+import auditedRevisionData from "./generated-audited-revisions.json";
+import extendedQuestionData from "./generated-extended-questions.json";
 
 export type Topic =
   | "Manajemen Kinerja"
@@ -1676,9 +1677,22 @@ const baseQuestions: Question[] = [
   },
 ];
 
-const competencyQuestions: Question[] = competencyQuestionData.map(
-  (question, index) => ({
-    id: 100_000 + index,
+type GeneratedQuestionData = {
+  topic: string;
+  difficulty: string;
+  stem: string;
+  options: string[][];
+  answer: number;
+  source: string;
+  reference: string;
+};
+
+function mapGeneratedQuestions(
+  data: GeneratedQuestionData[],
+  idOffset: number,
+): Question[] {
+  return data.map((question, index) => ({
+    id: idOffset + index,
     topic: question.topic as Topic,
     difficulty: question.difficulty as Difficulty,
     stem: question.stem,
@@ -1688,8 +1702,17 @@ const competencyQuestions: Question[] = competencyQuestionData.map(
     answer: question.answer,
     source: question.source as keyof typeof sources,
     reference: question.reference,
-  }),
+  }));
+}
+
+const auditedRevisionQuestions = mapGeneratedQuestions(
+  auditedRevisionData,
+  100_000,
 );
+const extendedQuestions = mapGeneratedQuestions(extendedQuestionData, 200_000);
+
+export const quarantinedQuestionCount = 1000;
+export const auditedRevisionCount = auditedRevisionQuestions.length;
 
 const seedQuestions: Question[] = [
   ...baseQuestions.map((question) => ({
@@ -1702,7 +1725,8 @@ const seedQuestions: Question[] = [
   })),
   ...supplementalQuestions,
   ...kmk127FlashcardQuestions,
-  ...competencyQuestions,
+  ...auditedRevisionQuestions,
+  ...extendedQuestions,
 ];
 
 export const uniqueQuestionCount = seedQuestions.length;

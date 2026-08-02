@@ -2,9 +2,10 @@
 
 import { useEffect, useMemo, useState } from "react";
 import {
+  auditedRevisionCount,
   questions,
+  quarantinedQuestionCount,
   sources,
-  uniqueQuestionCount,
   type Question,
   type Topic,
 } from "./questions";
@@ -1099,7 +1100,7 @@ export default function Home() {
 
       <section className="hero">
         <div className="hero-copy">
-          <span className="status-badge"><i /> Bank soal diperbarui 28 Juli 2026</span>
+          <span className="status-badge"><i /> Bank soal diperbarui 3 Agustus 2026</span>
           <h1>
             Berlatih seperti ujian. <em>Memahami</em> seperti ahli.
           </h1>
@@ -1118,12 +1119,18 @@ export default function Home() {
           </div>
           <div className="hero-facts">
             <span><strong>120</strong> menit</span>
-            <span><strong>{questions.length.toLocaleString("id-ID")}</strong> soal unik</span>
-            <span><strong>{uniqueQuestionCount}</strong> soal unik</span>
+            <span><strong>{questions.length.toLocaleString("id-ID")}</strong> bank aktif</span>
+            <span><strong>{auditedRevisionCount}</strong> revisi audit</span>
             <span><strong>{summaryCards.length}</strong> kartu hafalan</span>
             <span><strong>{topics.length}</strong> rumpun materi</span>
             <span><strong>4×</strong> pembahasan per soal</span>
           </div>
+          <p className="audit-status">
+            <strong>Kontrol mutu aktif:</strong>{" "}
+            {quarantinedQuestionCount.toLocaleString("id-ID")} soal berpola
+            dikarantina dari simulasi utama; {auditedRevisionCount} soal revisi
+            multi-ketentuan sudah diaktifkan.
+          </p>
         </div>
 
         <div className="hero-dashboard">
@@ -1170,7 +1177,7 @@ export default function Home() {
         <div className="sprint-plan">
           <article>
             <span>Hari 1 · Peta kemampuan</span>
-            <strong>{summaryCards.length} kartu + Sprint 30</strong>
+            <strong>{summaryCards.length} kartu + Sprint {SPRINT_SIZE}</strong>
             <p>Baca seluruh kartu hafalan, lalu jawab tiga soal dari setiap rumpun dengan pembahasan langsung.</p>
             <button onClick={() => openSummary()}>Buka ringkasan →</button>
           </article>
