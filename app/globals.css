@@ -1681,6 +1681,108 @@ button.brand {
   padding-top: 14px;
 }
 
+.complete-discussion {
+  background: white;
+  border: 1px solid #d9e4e8;
+  margin-top: 18px;
+}
+
+.complete-discussion > header {
+  background: var(--navy-900);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 16px 18px;
+}
+
+.complete-discussion > header span {
+  color: var(--teal);
+  font-size: 8px;
+  font-weight: 900;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.complete-discussion > header strong {
+  font-size: 13px;
+}
+
+.discussion-topics {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.discussion-topics > article {
+  padding: 19px;
+}
+
+.discussion-topics > article + article {
+  border-left: 1px solid var(--line);
+}
+
+.discussion-title {
+  align-items: center;
+  display: flex;
+  gap: 8px;
+  justify-content: space-between;
+}
+
+.discussion-title span {
+  color: var(--teal-dark);
+  font-size: 8px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.discussion-title code {
+  background: var(--yellow-soft);
+  color: #765b1b;
+  font-size: 8px;
+  font-weight: 800;
+  padding: 4px 6px;
+}
+
+.discussion-topics h2 {
+  color: var(--navy-900);
+  font-size: 15px;
+  line-height: 1.25;
+  margin: 10px 0 7px;
+}
+
+.discussion-topics article > p,
+.discussion-topics li {
+  color: #5e6d80;
+  font-size: 9px;
+  line-height: 1.6;
+}
+
+.discussion-topics article > p {
+  margin: 0 0 14px;
+}
+
+.discussion-columns {
+  display: grid;
+  gap: 13px;
+}
+
+.discussion-columns strong {
+  color: var(--navy-800);
+  font-size: 8px;
+  text-transform: uppercase;
+}
+
+.discussion-columns ul {
+  margin: 7px 0 0;
+  padding-left: 16px;
+}
+
+.discussion-traps {
+  background: #fff9e9;
+  border-left: 3px solid var(--yellow);
+  padding: 10px 11px;
+}
+
 .question-actions {
   align-items: center;
   border-top: 1px solid var(--line);
@@ -2672,6 +2774,15 @@ button.brand {
 
   .explanation-list {
     grid-template-columns: 1fr;
+  }
+
+  .discussion-topics {
+    grid-template-columns: 1fr;
+  }
+
+  .discussion-topics > article + article {
+    border-left: 0;
+    border-top: 1px solid var(--line);
   }
 
   .result-hero {

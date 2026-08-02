@@ -2,7 +2,7 @@
 
 import { useEffect, useMemo, useState } from "react";
 import { questions, sources, type Question, type Topic } from "./questions";
-import { summaryCards } from "./summaries";
+import { summaryCards, type SummaryCard } from "./summaries";
 import { KnowledgeChat } from "./knowledge-chat";
 
 type View = "home" | "quiz" | "results" | "summary";
@@ -45,6 +45,49 @@ const topicMeta: Record<Topic, { short: string; icon: string }> = {
 const topics = Object.keys(topicMeta) as Topic[];
 const STORAGE_KEY = "simtalenta-djbc-progress-v1";
 const LAST_RESULT_KEY = "simtalenta-djbc-last-result-v1";
+const DISCUSSION_STOP_WORDS = new Set([
+  "adalah", "atau", "bagi", "dalam", "dapat", "dengan", "dan", "dari",
+  "ini", "itu", "karena", "kepada", "manakah", "menurut", "pada", "paling",
+  "sebagai", "secara", "seorang", "sesuai", "suatu", "yang",
+]);
+
+function discussionTokens(text: string) {
+  return new Set(
+    text
+      .toLowerCase()
+      .replace(/[^a-z0-9]+/g, " ")
+      .split(" ")
+      .filter((token) => token.length >= 4 && !DISCUSSION_STOP_WORDS.has(token)),
+  );
+}
+
+function discussionCardsFor(question: Question): SummaryCard[] {
+  const questionTokens = discussionTokens([
+    question.stem,
+    question.reference,
+    question.options[question.answer]?.[0] ?? "",
+  ].join(" "));
+
+  return summaryCards
+    .filter((card) => card.topic === question.topic)
+    .map((card, order) => {
+      const titleTokens = discussionTokens(`${card.title} ${card.memoryCode}`);
+      const detailTokens = discussionTokens([
+        card.summary,
+        ...card.keyPoints,
+        ...card.traps,
+      ].join(" "));
+      const score = [...questionTokens].reduce(
+        (total, token) =>
+          total + (titleTokens.has(token) ? 4 : detailTokens.has(token) ? 1 : 0),
+        0,
+      );
+      return { card, score, order };
+    })
+    .sort((a, b) => b.score - a.score || a.order - b.order)
+    .slice(0, 2)
+    .map(({ card }) => card);
+}
 
 function shuffle<T>(input: T[]) {
   const next = [...input];
@@ -124,7 +167,7 @@ export default function Home() {
   }, [session]);
 
   const currentQuestion = activeQuestions[currentIndex];
-  const isStudyMode = session?.mode !== "exam";
+  const isStudyMode = Boolean(session);
   const isRevealed = currentQuestion
     ? revealed.includes(currentQuestion.id)
     : false;
@@ -399,6 +442,7 @@ export default function Home() {
 
   if (view === "quiz" && session && currentQuestion) {
     const selected = answers[currentQuestion.id];
+    const discussionCards = discussionCardsFor(currentQuestion);
     const answeredCount = activeQuestions.filter(
       (question) => answers[question.id] !== undefined,
     ).length;
@@ -540,6 +584,38 @@ export default function Home() {
                   <strong>Rujukan:</strong> {currentQuestion.reference} ·{" "}
                   {sources[currentQuestion.source].label}
                 </p>
+                <section className="complete-discussion">
+                  <header>
+                    <span>Pembahasan lengkap</span>
+                    <strong>Pahami konsep, bukan sekadar menghafal kunci</strong>
+                  </header>
+                  <div className="discussion-topics">
+                    {discussionCards.map((card, cardIndex) => (
+                      <article key={card.id}>
+                        <div className="discussion-title">
+                          <span>{cardIndex === 0 ? "Fokus soal" : "Konteks terkait"}</span>
+                          <code>{card.memoryCode}</code>
+                        </div>
+                        <h2>{card.title}</h2>
+                        <p>{card.summary}</p>
+                        <div className="discussion-columns">
+                          <div>
+                            <strong>Pokok yang wajib dipahami</strong>
+                            <ul>
+                              {card.keyPoints.map((point) => <li key={point}>{point}</li>)}
+                            </ul>
+                          </div>
+                          <div className="discussion-traps">
+                            <strong>Jebakan yang perlu dihindari</strong>
+                            <ul>
+                              {card.traps.map((trap) => <li key={trap}>{trap}</li>)}
+                            </ul>
+                          </div>
+                        </div>
+                      </article>
+                    ))}
+                  </div>
+                </section>
               </section>
             )}
 
@@ -1094,8 +1170,8 @@ export default function Home() {
             <div className="mode-icon">100</div>
             <span className="mode-label">Kondisi ujian</span>
             <h3>Simulasi Penuh</h3>
-            <p>100 soal ditarik acak dari bank 1.000, 120 menit, tanpa pembahasan sebelum dikumpulkan.</p>
-            <footer><span>Estimasi 2 jam</span><b>Mulai →</b></footer>
+            <p>100 soal ditarik acak dari bank 1.000 dengan alasan setiap opsi dan pembahasan topik langsung setelah menjawab.</p>
+            <footer><span>120 menit · pembahasan aktif</span><b>Mulai →</b></footer>
           </button>
           <button className="mode-card" onClick={() => startSession("adaptive")}>
             <span className="mode-index">03</span>

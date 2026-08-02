@@ -75,6 +75,11 @@ test("production source replaces all starter preview artifacts", async () => {
   assert.match(page, /topics\.flatMap/);
   assert.match(page, /Mengapa benar/);
   assert.match(page, /Mengapa bukan/);
+  assert.match(page, /Pembahasan lengkap/);
+  assert.match(page, /Pokok yang wajib dipahami/);
+  assert.match(page, /Jebakan yang perlu dihindari/);
+  assert.match(page, /const isStudyMode = Boolean\(session\)/);
+  assert.doesNotMatch(page, /tanpa pembahasan sebelum dikumpulkan/);
   assert.match(page, /localStorage/);
   assert.match(page, /optionOrders/);
   assert.match(page, /Ringkasan Hafalan/);
