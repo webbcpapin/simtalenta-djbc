@@ -1,0 +1,862 @@
+[
+  {
+    "id": "DM-LI-0151",
+    "version": 1,
+    "status": "active",
+    "domain": "layanan_informasi",
+    "subdomain": "peran_contact_center",
+    "competency": "Mengelola fungsi contact center",
+    "indicator": "Menghubungkan layanan dengan data perbaikan organisasi",
+    "questionType": "monitoring_evaluation",
+    "cognitiveLevel": "analyze",
+    "difficulty": "easy",
+    "stem": "Agent menyelesaikan kontak namun tidak mencatat jenis masalah. Nilai perubahan kondisi setelah tindak lanjut. Tindak lanjut mana yang paling tepat setelah kondisi itu ditemukan?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Tindak lanjut yang tepat adalah jawab kebutuhan pengguna, catat interaksi, perbarui basis pengetahuan, dan sampaikan pola masalah untuk perbaikan sebelum keputusan akhir ditetapkan.",
+        "rationale": "Benar untuk kasus ini. Contact center memberi informasi dan menerima pengaduan, mengelola basis pengetahuan, menganalisis profil serta pertanyaan, dan memberi masukan perbaikan kepada organisasi. Karena itu, tindakan yang tepat adalah jawab kebutuhan pengguna, catat interaksi, perbarui basis pengetahuan, dan sampaikan pola masalah untuk perbaikan. Batas pentingnya: Contact center bukan hanya loket jawaban satu kali.",
+        "misconception": null,
+        "validWhen": "ketika kondisi sama dengan kasus dan seluruh prasyarat pada Peran contact center DJBC terpenuhi"
+      },
+      {
+        "id": "B",
+        "text": "Tindak lanjut yang tepat adalah menghapus riwayat setelah pertanyaan dijawab sebelum keputusan akhir ditetapkan.",
+        "rationale": "Tidak tepat untuk kasus ini karena data interaksi diperlukan untuk mutu, tren, dan perbaikan. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: masa retensi telah berakhir dan penghapusan mengikuti kebijakan data. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Contact center bukan hanya loket jawaban satu kali.",
+        "misconception": "data interaksi diperlukan untuk mutu, tren, dan perbaikan",
+        "validWhen": "masa retensi telah berakhir dan penghapusan mengikuti kebijakan data"
+      },
+      {
+        "id": "C",
+        "text": "Tindak lanjut yang tepat adalah membuat jawaban baru tanpa memperbarui basis pengetahuan sebelum keputusan akhir ditetapkan.",
+        "rationale": "Tidak tepat untuk kasus ini karena jawaban akan tidak konsisten antar-agent. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: kasus sangat khusus dan jawaban tetap didokumentasikan setelah diverifikasi. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Contact center bukan hanya loket jawaban satu kali.",
+        "misconception": "jawaban akan tidak konsisten antar-agent",
+        "validWhen": "kasus sangat khusus dan jawaban tetap didokumentasikan setelah diverifikasi"
+      },
+      {
+        "id": "D",
+        "text": "Tindak lanjut yang tepat adalah mengukur keberhasilan hanya dari jumlah kontak sebelum keputusan akhir ditetapkan.",
+        "rationale": "Tidak tepat untuk kasus ini karena volume tidak menunjukkan resolusi, kualitas, atau kepuasan. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: tujuan analisis khusus adalah perencanaan kapasitas kanal. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Contact center bukan hanya loket jawaban satu kali.",
+        "misconception": "volume tidak menunjukkan resolusi, kualitas, atau kepuasan",
+        "validWhen": "tujuan analisis khusus adalah perencanaan kapasitas kanal"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "Jawaban paling tepat adalah A. Kasus yang diuji: Agent menyelesaikan kontak namun tidak mencatat jenis masalah. Fokus pertanyaan: Tindak lanjut mana yang paling tepat setelah kondisi itu ditemukan? Uraian topik: Contact center memberi informasi dan menerima pengaduan, mengelola basis pengetahuan, menganalisis profil serta pertanyaan, dan memberi masukan perbaikan kepada organisasi. Pada kasus ini, keputusan harus jawab kebutuhan pengguna, catat interaksi, perbarui basis pengetahuan, dan sampaikan pola masalah untuk perbaikan. Batas penerapan: Contact center bukan hanya loket jawaban satu kali. Tiga pilihan lain bukan jawaban terbaik untuk kondisi ini. Tindakan sejenis baru dapat digunakan setelah redaksinya disesuaikan dan syarat berikut terpenuhi: menghapus riwayat setelah pertanyaan dijawab — kondisi terkait: masa retensi telah berakhir dan penghapusan mengikuti kebijakan data; membuat jawaban baru tanpa memperbarui basis pengetahuan — kondisi terkait: kasus sangat khusus dan jawaban tetap didokumentasikan setelah diverifikasi; mengukur keberhasilan hanya dari jumlah kontak — kondisi terkait: tujuan analisis khusus adalah perencanaan kapasitas kanal. Dengan demikian, pembeda utamanya bukan kata yang terdengar paling tegas, melainkan kesesuaian kondisi, kewenangan, bukti, dan urutan proses. Sumber Layanan Informasi Contact Center Bravo Bea Cukai, bagian Peran contact center DJBC, berstatus non_normative dan diverifikasi 2026-08-03. Rincian sesuai huruf pilihan yang tampil: A — BENAR: Benar untuk kasus ini. Contact center memberi informasi dan menerima pengaduan, mengelola basis pengetahuan, menganalisis profil serta pertanyaan, dan memberi masukan perbaikan kepada organisasi. Karena itu, tindakan yang tepat adalah jawab kebutuhan pengguna, catat interaksi, perbarui basis pengetahuan, dan sampaikan pola masalah untuk perbaikan. Batas pentingnya: Contact center bukan hanya loket jawaban satu kali. B — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena data interaksi diperlukan untuk mutu, tren, dan perbaikan. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: masa retensi telah berakhir dan penghapusan mengikuti kebijakan data. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Contact center bukan hanya loket jawaban satu kali. C — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena jawaban akan tidak konsisten antar-agent. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: kasus sangat khusus dan jawaban tetap didokumentasikan setelah diverifikasi. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Contact center bukan hanya loket jawaban satu kali. D — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena volume tidak menunjukkan resolusi, kualitas, atau kepuasan. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: tujuan analisis khusus adalah perencanaan kapasitas kanal. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Contact center bukan hanya loket jawaban satu kali.",
+    "keyTakeaway": "Ingat pembeda kondisi: jawab kebutuhan pengguna, catat interaksi, perbarui basis pengetahuan, dan sampaikan pola masalah untuk perbaikan; jangan terapkan alternatif sebelum syarat khususnya terpenuhi.",
+    "sourceRefs": [
+      {
+        "sourceId": "SRC-LAYANAN-BRAVO",
+        "title": "Layanan Informasi Contact Center Bravo Bea Cukai",
+        "driveFileId": "1-OPoTQL--obpWy__a-bUW8Dw7pjGmOKn",
+        "section": "Peran contact center DJBC",
+        "pageOrSlide": null,
+        "regulationStatus": "non_normative",
+        "lastVerified": "2026-08-03"
+      }
+    ],
+    "tags": [
+      "layanan_informasi",
+      "peran_contact_center",
+      "monitoring_evaluation",
+      "analyze",
+      "medium"
+    ],
+    "review": {
+      "contentAccuracy": 25,
+      "sourceTraceability": 15,
+      "stemClarity": 9,
+      "distractorQuality": 9,
+      "singleBestAnswer": 10,
+      "competencyRelevance": 10,
+      "explanationQuality": 9,
+      "originality": 4,
+      "languageQuality": 3,
+      "difficultyFit": 2,
+      "total": 96,
+      "method": "rubrik_terotomasi_berbasis_unit_terverifikasi_v1"
+    },
+    "similarityGroup": "CONCEPT-047",
+    "knowledgeUnitId": "KU-DM-LI-047-2-8",
+    "questionFocus": "monitoring_evaluation",
+    "generationBatch": "2026.08.drive-categories-v2",
+    "createdAt": "2026-08-03",
+    "lastReviewedAt": "2026-08-03",
+    "runtimeId": 861,
+    "selectedFromCandidateId": "CAND-DM-LI-0192"
+  },
+  {
+    "id": "DM-LI-0152",
+    "version": 1,
+    "status": "active",
+    "domain": "layanan_informasi",
+    "subdomain": "permintaan_ppid",
+    "competency": "Memproses permintaan informasi publik",
+    "indicator": "Memeriksa identitas, objek, pencatatan, dan tenggat",
+    "questionType": "situational_judgment",
+    "cognitiveLevel": "evaluate",
+    "difficulty": "medium",
+    "stem": "Permintaan melalui surat biasa jelas ditujukan kepada PPID tetapi tidak memakai formulir internal. Uji kesesuaian keputusan dengan ketentuan sumber. Keputusan mana yang paling sesuai dengan materi?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Keputusan yang sesuai adalah langsung menjanjikan seluruh dokumen tersedia.",
+        "rationale": "Tidak tepat untuk kasus ini karena status penguasaan dan pengecualian belum diuji. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: dokumen telah diverifikasi terbuka dan berada dalam penguasaan badan publik. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Permintaan yang belum jelas perlu diklarifikasi, bukan langsung ditolak tanpa bantuan.",
+        "misconception": "status penguasaan dan pengecualian belum diuji",
+        "validWhen": "dokumen telah diverifikasi terbuka dan berada dalam penguasaan badan publik"
+      },
+      {
+        "id": "B",
+        "text": "Keputusan yang sesuai adalah mengabaikan permintaan karena tidak memakai format internal.",
+        "rationale": "Tidak tepat untuk kasus ini karena hak informasi tidak boleh gugur hanya karena format bila substansi dapat dipahami. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: persyaratan esensial tetap tidak dipenuhi setelah pemohon dibantu melengkapinya. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Permintaan yang belum jelas perlu diklarifikasi, bukan langsung ditolak tanpa bantuan.",
+        "misconception": "hak informasi tidak boleh gugur hanya karena format bila substansi dapat dipahami",
+        "validWhen": "persyaratan esensial tetap tidak dipenuhi setelah pemohon dibantu melengkapinya"
+      },
+      {
+        "id": "C",
+        "text": "Keputusan yang sesuai adalah registrasikan permintaan, verifikasi identitas dan objek, koordinasikan pemilik informasi, lalu jawab dalam tenggat.",
+        "rationale": "Benar untuk kasus ini. Permintaan informasi publik kepada PPID dicatat, diverifikasi persyaratannya, ditelusuri penguasaan informasinya, dan dijawab melalui pemberitahuan tertulis atau keputusan yang sesuai tenggat. Karena itu, tindakan yang tepat adalah registrasikan permintaan, verifikasi identitas dan objek, koordinasikan pemilik informasi, lalu jawab dalam tenggat. Batas pentingnya: Permintaan yang belum jelas perlu diklarifikasi, bukan langsung ditolak tanpa bantuan.",
+        "misconception": null,
+        "validWhen": "ketika kondisi sama dengan kasus dan seluruh prasyarat pada Alur permintaan informasi publik terpenuhi"
+      },
+      {
+        "id": "D",
+        "text": "Keputusan yang sesuai adalah menunggu unit pemilik tanpa mencatat tanggal masuk.",
+        "rationale": "Tidak tepat untuk kasus ini karena tenggat dan jejak layanan dapat hilang. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: surat belum merupakan permintaan yang sah dan masih berada pada tahap konsultasi awal. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Permintaan yang belum jelas perlu diklarifikasi, bukan langsung ditolak tanpa bantuan.",
+        "misconception": "tenggat dan jejak layanan dapat hilang",
+        "validWhen": "surat belum merupakan permintaan yang sah dan masih berada pada tahap konsultasi awal"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "Jawaban paling tepat adalah C. Kasus yang diuji: Permintaan melalui surat biasa jelas ditujukan kepada PPID tetapi tidak memakai formulir internal. Fokus pertanyaan: Keputusan mana yang paling sesuai dengan materi? Uraian topik: Permintaan informasi publik kepada PPID dicatat, diverifikasi persyaratannya, ditelusuri penguasaan informasinya, dan dijawab melalui pemberitahuan tertulis atau keputusan yang sesuai tenggat. Pada kasus ini, keputusan harus registrasikan permintaan, verifikasi identitas dan objek, koordinasikan pemilik informasi, lalu jawab dalam tenggat. Batas penerapan: Permintaan yang belum jelas perlu diklarifikasi, bukan langsung ditolak tanpa bantuan. Tiga pilihan lain bukan jawaban terbaik untuk kondisi ini. Tindakan sejenis baru dapat digunakan setelah redaksinya disesuaikan dan syarat berikut terpenuhi: mengabaikan permintaan karena tidak memakai format internal — kondisi terkait: persyaratan esensial tetap tidak dipenuhi setelah pemohon dibantu melengkapinya; langsung menjanjikan seluruh dokumen tersedia — kondisi terkait: dokumen telah diverifikasi terbuka dan berada dalam penguasaan badan publik; menunggu unit pemilik tanpa mencatat tanggal masuk — kondisi terkait: surat belum merupakan permintaan yang sah dan masih berada pada tahap konsultasi awal. Dengan demikian, pembeda utamanya bukan kata yang terdengar paling tegas, melainkan kesesuaian kondisi, kewenangan, bukti, dan urutan proses. Sumber PMK 110/PMK.01/2022 tentang Pedoman Layanan Informasi Publik PPID Kementerian Keuangan, bagian Alur permintaan informasi publik, berstatus current dan diverifikasi 2026-08-03. Rincian sesuai huruf pilihan yang tampil: A — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena status penguasaan dan pengecualian belum diuji. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: dokumen telah diverifikasi terbuka dan berada dalam penguasaan badan publik. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Permintaan yang belum jelas perlu diklarifikasi, bukan langsung ditolak tanpa bantuan. B — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena hak informasi tidak boleh gugur hanya karena format bila substansi dapat dipahami. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: persyaratan esensial tetap tidak dipenuhi setelah pemohon dibantu melengkapinya. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Permintaan yang belum jelas perlu diklarifikasi, bukan langsung ditolak tanpa bantuan. C — BENAR: Benar untuk kasus ini. Permintaan informasi publik kepada PPID dicatat, diverifikasi persyaratannya, ditelusuri penguasaan informasinya, dan dijawab melalui pemberitahuan tertulis atau keputusan yang sesuai tenggat. Karena itu, tindakan yang tepat adalah registrasikan permintaan, verifikasi identitas dan objek, koordinasikan pemilik informasi, lalu jawab dalam tenggat. Batas pentingnya: Permintaan yang belum jelas perlu diklarifikasi, bukan langsung ditolak tanpa bantuan. D — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena tenggat dan jejak layanan dapat hilang. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: surat belum merupakan permintaan yang sah dan masih berada pada tahap konsultasi awal. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Permintaan yang belum jelas perlu diklarifikasi, bukan langsung ditolak tanpa bantuan.",
+    "keyTakeaway": "Ingat pembeda kondisi: registrasikan permintaan, verifikasi identitas dan objek, koordinasikan pemilik informasi, lalu jawab dalam tenggat; jangan terapkan alternatif sebelum syarat khususnya terpenuhi.",
+    "sourceRefs": [
+      {
+        "sourceId": "SRC-PPID",
+        "title": "PMK 110/PMK.01/2022 tentang Pedoman Layanan Informasi Publik PPID Kementerian Keuangan",
+        "driveFileId": "1fuzKMZW1ICj1kt3enpcVP4kweN7XS1G3",
+        "section": "Alur permintaan informasi publik",
+        "pageOrSlide": null,
+        "regulationStatus": "current",
+        "lastVerified": "2026-08-03"
+      }
+    ],
+    "tags": [
+      "layanan_informasi",
+      "permintaan_ppid",
+      "decision_quality",
+      "analyze",
+      "medium"
+    ],
+    "review": {
+      "contentAccuracy": 25,
+      "sourceTraceability": 15,
+      "stemClarity": 9,
+      "distractorQuality": 9,
+      "singleBestAnswer": 10,
+      "competencyRelevance": 10,
+      "explanationQuality": 9,
+      "originality": 4,
+      "languageQuality": 3,
+      "difficultyFit": 2,
+      "total": 96,
+      "method": "rubrik_terotomasi_berbasis_unit_terverifikasi_v1"
+    },
+    "similarityGroup": "CONCEPT-050",
+    "knowledgeUnitId": "KU-DM-LI-050-1-2",
+    "questionFocus": "decision_quality",
+    "generationBatch": "2026.08.drive-categories-v2",
+    "createdAt": "2026-08-03",
+    "lastReviewedAt": "2026-08-03",
+    "runtimeId": 862,
+    "selectedFromCandidateId": "CAND-DM-LI-0194"
+  },
+  {
+    "id": "DM-LI-0153",
+    "version": 1,
+    "status": "active",
+    "domain": "layanan_informasi",
+    "subdomain": "informasi_dikecualikan",
+    "competency": "Menguji pengecualian informasi",
+    "indicator": "Membedakan kerahasiaan yang sah dari kebiasaan menutup informasi",
+    "questionType": "case_based_mcq",
+    "cognitiveLevel": "analyze",
+    "difficulty": "medium",
+    "stem": "Satu halaman dokumen memuat data pribadi sedangkan bagian lain bersifat umum. Gunakan definisi operasional yang paling presisi. Pernyataan operasional mana yang paling tepat?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Rumusan operasional yang tepat adalah identifikasi dasar pengecualian, lakukan uji konsekuensi, pertimbangkan akses sebagian, dan dokumentasikan hasil.",
+        "rationale": "Benar untuk kasus ini. Informasi publik pada dasarnya terbuka, sedangkan pengecualian harus memiliki dasar, diuji konsekuensinya, dan dibatasi pada bagian serta jangka waktu yang diperlukan. Karena itu, tindakan yang tepat adalah identifikasi dasar pengecualian, lakukan uji konsekuensi, pertimbangkan akses sebagian, dan dokumentasikan hasil. Batas pentingnya: Label rahasia internal tidak otomatis memenuhi uji pengecualian.",
+        "misconception": null,
+        "validWhen": "ketika kondisi sama dengan kasus dan seluruh prasyarat pada Informasi dikecualikan dan uji konsekuensi terpenuhi"
+      },
+      {
+        "id": "B",
+        "text": "Rumusan operasional yang tepat adalah menolak seluruh dokumen karena satu lampiran sensitif.",
+        "rationale": "Tidak tepat untuk kasus ini karena bagian terbuka dapat diberikan melalui penghitaman atau pemisahan. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: substansi dokumen tidak dapat dipisahkan dan seluruhnya memenuhi dasar pengecualian. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Label rahasia internal tidak otomatis memenuhi uji pengecualian.",
+        "misconception": "bagian terbuka dapat diberikan melalui penghitaman atau pemisahan",
+        "validWhen": "substansi dokumen tidak dapat dipisahkan dan seluruhnya memenuhi dasar pengecualian"
+      },
+      {
+        "id": "C",
+        "text": "Rumusan operasional yang tepat adalah membuka informasi karena masyarakat penasaran.",
+        "rationale": "Tidak tepat untuk kasus ini karena kepentingan publik tetap harus ditimbang dengan dasar pengecualian yang sah. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: uji konsekuensi menunjukkan manfaat membuka lebih besar dan dasar hukumnya memungkinkan. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Label rahasia internal tidak otomatis memenuhi uji pengecualian.",
+        "misconception": "kepentingan publik tetap harus ditimbang dengan dasar pengecualian yang sah",
+        "validWhen": "uji konsekuensi menunjukkan manfaat membuka lebih besar dan dasar hukumnya memungkinkan"
+      },
+      {
+        "id": "D",
+        "text": "Rumusan operasional yang tepat adalah mengikuti cap rahasia tanpa pengujian.",
+        "rationale": "Tidak tepat untuk kasus ini karena cap administratif bukan pengganti uji konsekuensi. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: klasifikasi telah ditetapkan melalui pengujian sah dan masih berlaku. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Label rahasia internal tidak otomatis memenuhi uji pengecualian.",
+        "misconception": "cap administratif bukan pengganti uji konsekuensi",
+        "validWhen": "klasifikasi telah ditetapkan melalui pengujian sah dan masih berlaku"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "Jawaban paling tepat adalah A. Kasus yang diuji: Satu halaman dokumen memuat data pribadi sedangkan bagian lain bersifat umum. Fokus pertanyaan: Pernyataan operasional mana yang paling tepat? Uraian topik: Informasi publik pada dasarnya terbuka, sedangkan pengecualian harus memiliki dasar, diuji konsekuensinya, dan dibatasi pada bagian serta jangka waktu yang diperlukan. Pada kasus ini, keputusan harus identifikasi dasar pengecualian, lakukan uji konsekuensi, pertimbangkan akses sebagian, dan dokumentasikan hasil. Batas penerapan: Label rahasia internal tidak otomatis memenuhi uji pengecualian. Tiga pilihan lain bukan jawaban terbaik untuk kondisi ini. Tindakan sejenis baru dapat digunakan setelah redaksinya disesuaikan dan syarat berikut terpenuhi: menolak seluruh dokumen karena satu lampiran sensitif — kondisi terkait: substansi dokumen tidak dapat dipisahkan dan seluruhnya memenuhi dasar pengecualian; membuka informasi karena masyarakat penasaran — kondisi terkait: uji konsekuensi menunjukkan manfaat membuka lebih besar dan dasar hukumnya memungkinkan; mengikuti cap rahasia tanpa pengujian — kondisi terkait: klasifikasi telah ditetapkan melalui pengujian sah dan masih berlaku. Dengan demikian, pembeda utamanya bukan kata yang terdengar paling tegas, melainkan kesesuaian kondisi, kewenangan, bukti, dan urutan proses. Sumber PMK 110/PMK.01/2022 tentang Pedoman Layanan Informasi Publik PPID Kementerian Keuangan, bagian Informasi dikecualikan dan uji konsekuensi, berstatus current dan diverifikasi 2026-08-03. Rincian sesuai huruf pilihan yang tampil: A — BENAR: Benar untuk kasus ini. Informasi publik pada dasarnya terbuka, sedangkan pengecualian harus memiliki dasar, diuji konsekuensinya, dan dibatasi pada bagian serta jangka waktu yang diperlukan. Karena itu, tindakan yang tepat adalah identifikasi dasar pengecualian, lakukan uji konsekuensi, pertimbangkan akses sebagian, dan dokumentasikan hasil. Batas pentingnya: Label rahasia internal tidak otomatis memenuhi uji pengecualian. B — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena bagian terbuka dapat diberikan melalui penghitaman atau pemisahan. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: substansi dokumen tidak dapat dipisahkan dan seluruhnya memenuhi dasar pengecualian. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Label rahasia internal tidak otomatis memenuhi uji pengecualian. C — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena kepentingan publik tetap harus ditimbang dengan dasar pengecualian yang sah. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: uji konsekuensi menunjukkan manfaat membuka lebih besar dan dasar hukumnya memungkinkan. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Label rahasia internal tidak otomatis memenuhi uji pengecualian. D — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena cap administratif bukan pengganti uji konsekuensi. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: klasifikasi telah ditetapkan melalui pengujian sah dan masih berlaku. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Label rahasia internal tidak otomatis memenuhi uji pengecualian.",
+    "keyTakeaway": "Ingat pembeda kondisi: identifikasi dasar pengecualian, lakukan uji konsekuensi, pertimbangkan akses sebagian, dan dokumentasikan hasil; jangan terapkan alternatif sebelum syarat khususnya terpenuhi.",
+    "sourceRefs": [
+      {
+        "sourceId": "SRC-PPID",
+        "title": "PMK 110/PMK.01/2022 tentang Pedoman Layanan Informasi Publik PPID Kementerian Keuangan",
+        "driveFileId": "1fuzKMZW1ICj1kt3enpcVP4kweN7XS1G3",
+        "section": "Informasi dikecualikan dan uji konsekuensi",
+        "pageOrSlide": null,
+        "regulationStatus": "current",
+        "lastVerified": "2026-08-03"
+      }
+    ],
+    "tags": [
+      "layanan_informasi",
+      "informasi_dikecualikan",
+      "conceptual_mcq",
+      "remember",
+      "medium"
+    ],
+    "review": {
+      "contentAccuracy": 25,
+      "sourceTraceability": 15,
+      "stemClarity": 9,
+      "distractorQuality": 9,
+      "singleBestAnswer": 10,
+      "competencyRelevance": 10,
+      "explanationQuality": 9,
+      "originality": 4,
+      "languageQuality": 3,
+      "difficultyFit": 2,
+      "total": 96,
+      "method": "rubrik_terotomasi_berbasis_unit_terverifikasi_v1"
+    },
+    "similarityGroup": "CONCEPT-051",
+    "knowledgeUnitId": "KU-DM-LI-051-1-9",
+    "questionFocus": "conceptual_mcq",
+    "generationBatch": "2026.08.drive-categories-v2",
+    "createdAt": "2026-08-03",
+    "lastReviewedAt": "2026-08-03",
+    "runtimeId": 863,
+    "selectedFromCandidateId": "CAND-DM-LI-0195"
+  },
+  {
+    "id": "DM-LI-0154",
+    "version": 1,
+    "status": "active",
+    "domain": "layanan_informasi",
+    "subdomain": "tenggat_ppid",
+    "competency": "Menjaga tenggat layanan informasi",
+    "indicator": "Mengelola jawaban dan perpanjangan secara sah",
+    "questionType": "control_design",
+    "cognitiveLevel": "analyze",
+    "difficulty": "hard",
+    "stem": "Petugas menghitung tenggat termasuk akhir pekan dan hari libur. Pilih kontrol pencegahan yang relevan dengan risiko. Pengendalian mana yang paling tepat untuk mencegah kekeliruan?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pengendalian perlu memastikan petugas menghitung tenggat dalam hari kalender sebelum keputusan akhir ditetapkan.",
+        "rationale": "Tidak tepat untuk kasus ini karena ketentuan menggunakan hari kerja. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: ketentuan khusus pada layanan lain memang menggunakan hari kalender. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Perpanjangan bukan tambahan waktu otomatis dan harus diberitahukan sebelum tenggat awal berakhir.",
+        "misconception": "ketentuan menggunakan hari kerja",
+        "validWhen": "ketentuan khusus pada layanan lain memang menggunakan hari kalender"
+      },
+      {
+        "id": "B",
+        "text": "Pengendalian perlu memastikan petugas menambah tujuh hari tanpa pemberitahuan sebelum keputusan akhir ditetapkan.",
+        "rationale": "Tidak tepat untuk kasus ini karena perpanjangan harus diberi alasan tertulis kepada pemohon. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: pemberitahuan sah telah dikirim sebelum tenggat dan hanya pencatatan internal yang terlambat. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Perpanjangan bukan tambahan waktu otomatis dan harus diberitahukan sebelum tenggat awal berakhir.",
+        "misconception": "perpanjangan harus diberi alasan tertulis kepada pemohon",
+        "validWhen": "pemberitahuan sah telah dikirim sebelum tenggat dan hanya pencatatan internal yang terlambat"
+      },
+      {
+        "id": "C",
+        "text": "Pengendalian perlu memastikan petugas menunggu dokumen lengkap tanpa memberi respons sebelum keputusan akhir ditetapkan.",
+        "rationale": "Tidak tepat untuk kasus ini karena diam melewati tenggat dapat menjadi alasan keberatan. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: permohonan belum sah dan pemohon sedang diminta melengkapi persyaratan melalui pemberitahuan. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Perpanjangan bukan tambahan waktu otomatis dan harus diberitahukan sebelum tenggat awal berakhir.",
+        "misconception": "diam melewati tenggat dapat menjadi alasan keberatan",
+        "validWhen": "permohonan belum sah dan pemohon sedang diminta melengkapi persyaratan melalui pemberitahuan"
+      },
+      {
+        "id": "D",
+        "text": "Pengendalian perlu memastikan petugas catat tanggal, pantau 10 hari kerja, dan bila perlu kirim perpanjangan 7 hari kerja beserta alasannya sebelum keputusan akhir ditetapkan.",
+        "rationale": "Benar untuk kasus ini. PPID memberi tanggapan paling lambat 10 hari kerja dan dapat memperpanjang paling lama 7 hari kerja dengan alasan tertulis sesuai ketentuan. Karena itu, tindakan yang tepat adalah catat tanggal, pantau 10 hari kerja, dan bila perlu kirim perpanjangan 7 hari kerja beserta alasannya. Batas pentingnya: Perpanjangan bukan tambahan waktu otomatis dan harus diberitahukan sebelum tenggat awal berakhir.",
+        "misconception": null,
+        "validWhen": "ketika kondisi sama dengan kasus dan seluruh prasyarat pada Tenggat 10 + 7 hari kerja terpenuhi"
+      }
+    ],
+    "correctOptionId": "D",
+    "explanation": "Jawaban paling tepat adalah D. Kasus yang diuji: Petugas menghitung tenggat termasuk akhir pekan dan hari libur. Fokus pertanyaan: Pengendalian mana yang paling tepat untuk mencegah kekeliruan? Uraian topik: PPID memberi tanggapan paling lambat 10 hari kerja dan dapat memperpanjang paling lama 7 hari kerja dengan alasan tertulis sesuai ketentuan. Pada kasus ini, keputusan harus catat tanggal, pantau 10 hari kerja, dan bila perlu kirim perpanjangan 7 hari kerja beserta alasannya. Batas penerapan: Perpanjangan bukan tambahan waktu otomatis dan harus diberitahukan sebelum tenggat awal berakhir. Tiga pilihan lain bukan jawaban terbaik untuk kondisi ini. Tindakan sejenis baru dapat digunakan setelah redaksinya disesuaikan dan syarat berikut terpenuhi: menambah tujuh hari tanpa pemberitahuan — kondisi terkait: pemberitahuan sah telah dikirim sebelum tenggat dan hanya pencatatan internal yang terlambat; menghitung tenggat dalam hari kalender — kondisi terkait: ketentuan khusus pada layanan lain memang menggunakan hari kalender; menunggu dokumen lengkap tanpa memberi respons — kondisi terkait: permohonan belum sah dan pemohon sedang diminta melengkapi persyaratan melalui pemberitahuan. Dengan demikian, pembeda utamanya bukan kata yang terdengar paling tegas, melainkan kesesuaian kondisi, kewenangan, bukti, dan urutan proses. Sumber PMK 110/PMK.01/2022 tentang Pedoman Layanan Informasi Publik PPID Kementerian Keuangan, bagian Tenggat 10 + 7 hari kerja, berstatus current dan diverifikasi 2026-08-03. Rincian sesuai huruf pilihan yang tampil: A — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena ketentuan menggunakan hari kerja. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: ketentuan khusus pada layanan lain memang menggunakan hari kalender. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Perpanjangan bukan tambahan waktu otomatis dan harus diberitahukan sebelum tenggat awal berakhir. B — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena perpanjangan harus diberi alasan tertulis kepada pemohon. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: pemberitahuan sah telah dikirim sebelum tenggat dan hanya pencatatan internal yang terlambat. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Perpanjangan bukan tambahan waktu otomatis dan harus diberitahukan sebelum tenggat awal berakhir. C — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena diam melewati tenggat dapat menjadi alasan keberatan. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: permohonan belum sah dan pemohon sedang diminta melengkapi persyaratan melalui pemberitahuan. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Perpanjangan bukan tambahan waktu otomatis dan harus diberitahukan sebelum tenggat awal berakhir. D — BENAR: Benar untuk kasus ini. PPID memberi tanggapan paling lambat 10 hari kerja dan dapat memperpanjang paling lama 7 hari kerja dengan alasan tertulis sesuai ketentuan. Karena itu, tindakan yang tepat adalah catat tanggal, pantau 10 hari kerja, dan bila perlu kirim perpanjangan 7 hari kerja beserta alasannya. Batas pentingnya: Perpanjangan bukan tambahan waktu otomatis dan harus diberitahukan sebelum tenggat awal berakhir.",
+    "keyTakeaway": "Ingat pembeda kondisi: catat tanggal, pantau 10 hari kerja, dan bila perlu kirim perpanjangan 7 hari kerja beserta alasannya; jangan terapkan alternatif sebelum syarat khususnya terpenuhi.",
+    "sourceRefs": [
+      {
+        "sourceId": "SRC-PPID",
+        "title": "PMK 110/PMK.01/2022 tentang Pedoman Layanan Informasi Publik PPID Kementerian Keuangan",
+        "driveFileId": "1fuzKMZW1ICj1kt3enpcVP4kweN7XS1G3",
+        "section": "Tenggat 10 + 7 hari kerja",
+        "pageOrSlide": null,
+        "regulationStatus": "current",
+        "lastVerified": "2026-08-03"
+      }
+    ],
+    "tags": [
+      "layanan_informasi",
+      "tenggat_ppid",
+      "control_design",
+      "analyze",
+      "medium"
+    ],
+    "review": {
+      "contentAccuracy": 25,
+      "sourceTraceability": 15,
+      "stemClarity": 9,
+      "distractorQuality": 9,
+      "singleBestAnswer": 10,
+      "competencyRelevance": 10,
+      "explanationQuality": 9,
+      "originality": 4,
+      "languageQuality": 3,
+      "difficultyFit": 2,
+      "total": 96,
+      "method": "rubrik_terotomasi_berbasis_unit_terverifikasi_v1"
+    },
+    "similarityGroup": "CONCEPT-052",
+    "knowledgeUnitId": "KU-DM-LI-052-2-6",
+    "questionFocus": "control_design",
+    "generationBatch": "2026.08.drive-categories-v2",
+    "createdAt": "2026-08-03",
+    "lastReviewedAt": "2026-08-03",
+    "runtimeId": 864,
+    "selectedFromCandidateId": "CAND-DM-LI-0196"
+  },
+  {
+    "id": "DM-LI-0155",
+    "version": 1,
+    "status": "active",
+    "domain": "layanan_informasi",
+    "subdomain": "sengketa_informasi",
+    "competency": "Menangani sengketa informasi publik",
+    "indicator": "Membedakan mediasi dan ajudikasi nonlitigasi",
+    "questionType": "implementation_planning",
+    "cognitiveLevel": "analyze",
+    "difficulty": "easy",
+    "stem": "Para pihak setuju membahas sengketa keterlambatan melalui mediasi. Pastikan pembagian peran, keluaran, dan tenggat jelas. Rencana pelaksanaan mana yang paling tepat?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Rencana pelaksanaan perlu menetapkan petugas untuk memaksakan mediasi untuk sengketa pengecualian dan mendokumentasikan hasilnya.",
+        "rationale": "Tidak tepat untuk kasus ini karena pokok pengecualian tertentu perlu diputus melalui ajudikasi. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: pokok sengketa termasuk kategori yang dapat dimediasi dan kedua pihak setuju. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Tidak semua sengketa dapat diselesaikan melalui mediasi.",
+        "misconception": "pokok pengecualian tertentu perlu diputus melalui ajudikasi",
+        "validWhen": "pokok sengketa termasuk kategori yang dapat dimediasi dan kedua pihak setuju"
+      },
+      {
+        "id": "B",
+        "text": "Rencana pelaksanaan perlu menetapkan petugas untuk siapkan kronologi dan bukti, periksa ruang mediasi, dan ikuti proses Komisi Informasi melalui kuasa berwenang dan mendokumentasikan hasilnya.",
+        "rationale": "Benar untuk kasus ini. Sengketa informasi dapat berlanjut ke Komisi Informasi; mediasi bersifat sukarela untuk pokok tertentu, sedangkan ajudikasi nonlitigasi memeriksa kewenangan, kedudukan, tenggat, bukti, dan pokok sengketa. Karena itu, tindakan yang tepat adalah siapkan kronologi dan bukti, periksa ruang mediasi, dan ikuti proses Komisi Informasi melalui kuasa berwenang. Batas pentingnya: Tidak semua sengketa dapat diselesaikan melalui mediasi.",
+        "misconception": null,
+        "validWhen": "ketika kondisi sama dengan kasus dan seluruh prasyarat pada Sengketa, mediasi, dan ajudikasi nonlitigasi terpenuhi"
+      },
+      {
+        "id": "C",
+        "text": "Rencana pelaksanaan perlu menetapkan petugas untuk mengabaikan panggilan karena informasi dianggap milik internal dan mendokumentasikan hasilnya.",
+        "rationale": "Tidak tepat untuk kasus ini karena Komisi Informasi berwenang memeriksa sengketa sesuai ketentuan. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: panggilan terbukti tidak sah dan keberatan prosedural diajukan melalui jalur resmi. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Tidak semua sengketa dapat diselesaikan melalui mediasi.",
+        "misconception": "Komisi Informasi berwenang memeriksa sengketa sesuai ketentuan",
+        "validWhen": "panggilan terbukti tidak sah dan keberatan prosedural diajukan melalui jalur resmi"
+      },
+      {
+        "id": "D",
+        "text": "Rencana pelaksanaan perlu menetapkan petugas untuk membawa dokumen tanpa kronologi pelayanan dan mendokumentasikan hasilnya.",
+        "rationale": "Tidak tepat untuk kasus ini karena tenggat, jawaban, dan alasan keputusan sulit dibuktikan. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: kronologi telah tersedia pada berkas resmi dan dokumen dibawa sebagai pelengkap. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Tidak semua sengketa dapat diselesaikan melalui mediasi.",
+        "misconception": "tenggat, jawaban, dan alasan keputusan sulit dibuktikan",
+        "validWhen": "kronologi telah tersedia pada berkas resmi dan dokumen dibawa sebagai pelengkap"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "Jawaban paling tepat adalah B. Kasus yang diuji: Para pihak setuju membahas sengketa keterlambatan melalui mediasi. Fokus pertanyaan: Rencana pelaksanaan mana yang paling tepat? Uraian topik: Sengketa informasi dapat berlanjut ke Komisi Informasi; mediasi bersifat sukarela untuk pokok tertentu, sedangkan ajudikasi nonlitigasi memeriksa kewenangan, kedudukan, tenggat, bukti, dan pokok sengketa. Pada kasus ini, keputusan harus siapkan kronologi dan bukti, periksa ruang mediasi, dan ikuti proses Komisi Informasi melalui kuasa berwenang. Batas penerapan: Tidak semua sengketa dapat diselesaikan melalui mediasi. Tiga pilihan lain bukan jawaban terbaik untuk kondisi ini. Tindakan sejenis baru dapat digunakan setelah redaksinya disesuaikan dan syarat berikut terpenuhi: memaksakan mediasi untuk sengketa pengecualian — kondisi terkait: pokok sengketa termasuk kategori yang dapat dimediasi dan kedua pihak setuju; mengabaikan panggilan karena informasi dianggap milik internal — kondisi terkait: panggilan terbukti tidak sah dan keberatan prosedural diajukan melalui jalur resmi; membawa dokumen tanpa kronologi pelayanan — kondisi terkait: kronologi telah tersedia pada berkas resmi dan dokumen dibawa sebagai pelengkap. Dengan demikian, pembeda utamanya bukan kata yang terdengar paling tegas, melainkan kesesuaian kondisi, kewenangan, bukti, dan urutan proses. Sumber PMK 110/PMK.01/2022 tentang Pedoman Layanan Informasi Publik PPID Kementerian Keuangan, bagian Sengketa, mediasi, dan ajudikasi nonlitigasi, berstatus current dan diverifikasi 2026-08-03. Rincian sesuai huruf pilihan yang tampil: A — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena pokok pengecualian tertentu perlu diputus melalui ajudikasi. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: pokok sengketa termasuk kategori yang dapat dimediasi dan kedua pihak setuju. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Tidak semua sengketa dapat diselesaikan melalui mediasi. B — BENAR: Benar untuk kasus ini. Sengketa informasi dapat berlanjut ke Komisi Informasi; mediasi bersifat sukarela untuk pokok tertentu, sedangkan ajudikasi nonlitigasi memeriksa kewenangan, kedudukan, tenggat, bukti, dan pokok sengketa. Karena itu, tindakan yang tepat adalah siapkan kronologi dan bukti, periksa ruang mediasi, dan ikuti proses Komisi Informasi melalui kuasa berwenang. Batas pentingnya: Tidak semua sengketa dapat diselesaikan melalui mediasi. C — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena Komisi Informasi berwenang memeriksa sengketa sesuai ketentuan. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: panggilan terbukti tidak sah dan keberatan prosedural diajukan melalui jalur resmi. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Tidak semua sengketa dapat diselesaikan melalui mediasi. D — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena tenggat, jawaban, dan alasan keputusan sulit dibuktikan. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: kronologi telah tersedia pada berkas resmi dan dokumen dibawa sebagai pelengkap. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Tidak semua sengketa dapat diselesaikan melalui mediasi.",
+    "keyTakeaway": "Ingat pembeda kondisi: siapkan kronologi dan bukti, periksa ruang mediasi, dan ikuti proses Komisi Informasi melalui kuasa berwenang; jangan terapkan alternatif sebelum syarat khususnya terpenuhi.",
+    "sourceRefs": [
+      {
+        "sourceId": "SRC-PPID",
+        "title": "PMK 110/PMK.01/2022 tentang Pedoman Layanan Informasi Publik PPID Kementerian Keuangan",
+        "driveFileId": "1fuzKMZW1ICj1kt3enpcVP4kweN7XS1G3",
+        "section": "Sengketa, mediasi, dan ajudikasi nonlitigasi",
+        "pageOrSlide": null,
+        "regulationStatus": "current",
+        "lastVerified": "2026-08-03"
+      }
+    ],
+    "tags": [
+      "layanan_informasi",
+      "sengketa_informasi",
+      "implementation_planning",
+      "apply",
+      "medium"
+    ],
+    "review": {
+      "contentAccuracy": 25,
+      "sourceTraceability": 15,
+      "stemClarity": 9,
+      "distractorQuality": 9,
+      "singleBestAnswer": 10,
+      "competencyRelevance": 10,
+      "explanationQuality": 9,
+      "originality": 4,
+      "languageQuality": 3,
+      "difficultyFit": 2,
+      "total": 96,
+      "method": "rubrik_terotomasi_berbasis_unit_terverifikasi_v1"
+    },
+    "similarityGroup": "CONCEPT-054",
+    "knowledgeUnitId": "KU-DM-LI-054-3-10",
+    "questionFocus": "implementation_planning",
+    "generationBatch": "2026.08.drive-categories-v2",
+    "createdAt": "2026-08-03",
+    "lastReviewedAt": "2026-08-03",
+    "runtimeId": 865,
+    "selectedFromCandidateId": "CAND-DM-LI-0198"
+  },
+  {
+    "id": "DM-LI-0156",
+    "version": 1,
+    "status": "active",
+    "domain": "layanan_informasi",
+    "subdomain": "ekspektasi_layanan",
+    "competency": "Memenuhi ekspektasi pengguna layanan",
+    "indicator": "Menyeimbangkan cepat, responsif, profesional, dan akurat",
+    "questionType": "situational_judgment",
+    "cognitiveLevel": "analyze",
+    "difficulty": "medium",
+    "stem": "Pengguna menerima salinan regulasi panjang tetapi tidak tahu bagian yang menjawab masalahnya. Perhatikan tanggung jawab dan kewenangan pimpinan. Jika Anda memimpin proses tersebut, arahan apa yang seharusnya diberikan?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pimpinan perlu mengarahkan tim untuk memberi salinan regulasi tanpa menjelaskan bagian relevan sebelum keputusan akhir ditetapkan.",
+        "rationale": "Tidak tepat untuk kasus ini karena pengguna belum tentu memperoleh jawaban yang dapat dipakai. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: pemohon memang meminta dokumen mentah dan petugas tetap menunjukkan bagian terkait. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Kecepatan tidak membenarkan jawaban menebak dan akurasi tidak membenarkan sikap yang buruk.",
+        "misconception": "pengguna belum tentu memperoleh jawaban yang dapat dipakai",
+        "validWhen": "pemohon memang meminta dokumen mentah dan petugas tetap menunjukkan bagian terkait"
+      },
+      {
+        "id": "B",
+        "text": "Pimpinan perlu mengarahkan tim untuk menjawab secepatnya meski belum yakin sebelum keputusan akhir ditetapkan.",
+        "rationale": "Tidak tepat untuk kasus ini karena jawaban salah menimbulkan risiko lebih besar. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: informasi telah diverifikasi dan respons cepat dapat diberikan. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Kecepatan tidak membenarkan jawaban menebak dan akurasi tidak membenarkan sikap yang buruk.",
+        "misconception": "jawaban salah menimbulkan risiko lebih besar",
+        "validWhen": "informasi telah diverifikasi dan respons cepat dapat diberikan"
+      },
+      {
+        "id": "C",
+        "text": "Pimpinan perlu mengarahkan tim untuk menahan jawaban sederhana untuk eskalasi berlapis sebelum keputusan akhir ditetapkan.",
+        "rationale": "Tidak tepat untuk kasus ini karena respons tidak proporsional dan memperlambat layanan. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: substansi di luar kewenangan agent atau berisiko tinggi sehingga eskalasi wajib. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Kecepatan tidak membenarkan jawaban menebak dan akurasi tidak membenarkan sikap yang buruk.",
+        "misconception": "respons tidak proporsional dan memperlambat layanan",
+        "validWhen": "substansi di luar kewenangan agent atau berisiko tinggi sehingga eskalasi wajib"
+      },
+      {
+        "id": "D",
+        "text": "Pimpinan perlu mengarahkan tim untuk klarifikasi kebutuhan, gunakan sumber valid, jawab jelas dan sopan, lalu jelaskan tindak lanjut bila belum selesai sebelum keputusan akhir ditetapkan.",
+        "rationale": "Benar untuk kasus ini. Pengguna mengharapkan akses cepat, respons yang sesuai kebutuhan, sikap profesional, dan informasi akurat berdasarkan ketentuan. Karena itu, tindakan yang tepat adalah klarifikasi kebutuhan, gunakan sumber valid, jawab jelas dan sopan, lalu jelaskan tindak lanjut bila belum selesai. Batas pentingnya: Kecepatan tidak membenarkan jawaban menebak dan akurasi tidak membenarkan sikap yang buruk.",
+        "misconception": null,
+        "validWhen": "ketika kondisi sama dengan kasus dan seluruh prasyarat pada Ekspektasi utama pengguna layanan terpenuhi"
+      }
+    ],
+    "correctOptionId": "D",
+    "explanation": "Jawaban paling tepat adalah D. Kasus yang diuji: Pengguna menerima salinan regulasi panjang tetapi tidak tahu bagian yang menjawab masalahnya. Fokus pertanyaan: Jika Anda memimpin proses tersebut, arahan apa yang seharusnya diberikan? Uraian topik: Pengguna mengharapkan akses cepat, respons yang sesuai kebutuhan, sikap profesional, dan informasi akurat berdasarkan ketentuan. Pada kasus ini, keputusan harus klarifikasi kebutuhan, gunakan sumber valid, jawab jelas dan sopan, lalu jelaskan tindak lanjut bila belum selesai. Batas penerapan: Kecepatan tidak membenarkan jawaban menebak dan akurasi tidak membenarkan sikap yang buruk. Tiga pilihan lain bukan jawaban terbaik untuk kondisi ini. Tindakan sejenis baru dapat digunakan setelah redaksinya disesuaikan dan syarat berikut terpenuhi: menjawab secepatnya meski belum yakin — kondisi terkait: informasi telah diverifikasi dan respons cepat dapat diberikan; memberi salinan regulasi tanpa menjelaskan bagian relevan — kondisi terkait: pemohon memang meminta dokumen mentah dan petugas tetap menunjukkan bagian terkait; menahan jawaban sederhana untuk eskalasi berlapis — kondisi terkait: substansi di luar kewenangan agent atau berisiko tinggi sehingga eskalasi wajib. Dengan demikian, pembeda utamanya bukan kata yang terdengar paling tegas, melainkan kesesuaian kondisi, kewenangan, bukti, dan urutan proses. Sumber Layanan Informasi Contact Center Bravo Bea Cukai, bagian Ekspektasi utama pengguna layanan, berstatus non_normative dan diverifikasi 2026-08-03. Rincian sesuai huruf pilihan yang tampil: A — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena pengguna belum tentu memperoleh jawaban yang dapat dipakai. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: pemohon memang meminta dokumen mentah dan petugas tetap menunjukkan bagian terkait. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Kecepatan tidak membenarkan jawaban menebak dan akurasi tidak membenarkan sikap yang buruk. B — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena jawaban salah menimbulkan risiko lebih besar. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: informasi telah diverifikasi dan respons cepat dapat diberikan. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Kecepatan tidak membenarkan jawaban menebak dan akurasi tidak membenarkan sikap yang buruk. C — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena respons tidak proporsional dan memperlambat layanan. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: substansi di luar kewenangan agent atau berisiko tinggi sehingga eskalasi wajib. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Kecepatan tidak membenarkan jawaban menebak dan akurasi tidak membenarkan sikap yang buruk. D — BENAR: Benar untuk kasus ini. Pengguna mengharapkan akses cepat, respons yang sesuai kebutuhan, sikap profesional, dan informasi akurat berdasarkan ketentuan. Karena itu, tindakan yang tepat adalah klarifikasi kebutuhan, gunakan sumber valid, jawab jelas dan sopan, lalu jelaskan tindak lanjut bila belum selesai. Batas pentingnya: Kecepatan tidak membenarkan jawaban menebak dan akurasi tidak membenarkan sikap yang buruk.",
+    "keyTakeaway": "Ingat pembeda kondisi: klarifikasi kebutuhan, gunakan sumber valid, jawab jelas dan sopan, lalu jelaskan tindak lanjut bila belum selesai; jangan terapkan alternatif sebelum syarat khususnya terpenuhi.",
+    "sourceRefs": [
+      {
+        "sourceId": "SRC-LAYANAN-BRAVO",
+        "title": "Layanan Informasi Contact Center Bravo Bea Cukai",
+        "driveFileId": "1-OPoTQL--obpWy__a-bUW8Dw7pjGmOKn",
+        "section": "Ekspektasi utama pengguna layanan",
+        "pageOrSlide": null,
+        "regulationStatus": "non_normative",
+        "lastVerified": "2026-08-03"
+      }
+    ],
+    "tags": [
+      "layanan_informasi",
+      "ekspektasi_layanan",
+      "situational_judgment",
+      "evaluate",
+      "easy"
+    ],
+    "review": {
+      "contentAccuracy": 25,
+      "sourceTraceability": 15,
+      "stemClarity": 9,
+      "distractorQuality": 9,
+      "singleBestAnswer": 10,
+      "competencyRelevance": 10,
+      "explanationQuality": 9,
+      "originality": 4,
+      "languageQuality": 3,
+      "difficultyFit": 2,
+      "total": 96,
+      "method": "rubrik_terotomasi_berbasis_unit_terverifikasi_v1"
+    },
+    "similarityGroup": "CONCEPT-048",
+    "knowledgeUnitId": "KU-DM-LI-048-2-4",
+    "questionFocus": "situational_judgment",
+    "generationBatch": "2026.08.drive-categories-v2",
+    "createdAt": "2026-08-03",
+    "lastReviewedAt": "2026-08-03",
+    "runtimeId": 866,
+    "selectedFromCandidateId": "CAND-DM-LI-0200"
+  },
+  {
+    "id": "DM-LI-0157",
+    "version": 1,
+    "status": "active",
+    "domain": "layanan_informasi",
+    "subdomain": "kinerja_agent",
+    "competency": "Mengukur kualitas layanan agent",
+    "indicator": "Membedakan attitude, skill, knowledge, dan ukuran kanal",
+    "questionType": "case_based_mcq",
+    "cognitiveLevel": "analyze",
+    "difficulty": "medium",
+    "stem": "Pimpinan ingin menghapus audit kualitas karena nilai kepuasan tinggi. Tentukan urutan tindakan awal yang aman. Apa tindakan yang paling tepat?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sebagai langkah awal, menilai agent hanya dari response time dan mendokumentasikan hasilnya.",
+        "rationale": "Tidak tepat untuk kasus ini karena jawaban cepat dapat salah atau tidak menyelesaikan kebutuhan. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: analisis khusus sedang menilai kapasitas respons dan mutu dinilai terpisah. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Satu metrik tidak boleh mewakili seluruh mutu.",
+        "misconception": "jawaban cepat dapat salah atau tidak menyelesaikan kebutuhan",
+        "validWhen": "analisis khusus sedang menilai kapasitas respons dan mutu dinilai terpisah"
+      },
+      {
+        "id": "B",
+        "text": "Sebagai langkah awal, menganggap first contact resolution selalu baik dan mendokumentasikan hasilnya.",
+        "rationale": "Tidak tepat untuk kasus ini karena resolusi semu dapat terjadi bila kontak ditutup tanpa solusi. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: definisi resolusi memastikan kebutuhan benar-benar selesai pada kontak pertama. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Satu metrik tidak boleh mewakili seluruh mutu.",
+        "misconception": "resolusi semu dapat terjadi bila kontak ditutup tanpa solusi",
+        "validWhen": "definisi resolusi memastikan kebutuhan benar-benar selesai pada kontak pertama"
+      },
+      {
+        "id": "C",
+        "text": "Sebagai langkah awal, gunakan kombinasi ukuran proses, resolusi, kualitas isi, perilaku, dan kepuasan sesuai tujuan dan mendokumentasikan hasilnya.",
+        "rationale": "Benar untuk kasus ini. Kualitas agent dinilai dari etika komunikasi, keterampilan pelayanan, dan pengetahuan, sementara indikator seperti service level, first contact resolution, response time, dan kepuasan mengukur aspek layanan yang berbeda. Karena itu, tindakan yang tepat adalah gunakan kombinasi ukuran proses, resolusi, kualitas isi, perilaku, dan kepuasan sesuai tujuan. Batas pentingnya: Satu metrik tidak boleh mewakili seluruh mutu.",
+        "misconception": null,
+        "validWhen": "ketika kondisi sama dengan kasus dan seluruh prasyarat pada KPI dan penilaian kualitas agent terpenuhi"
+      },
+      {
+        "id": "D",
+        "text": "Sebagai langkah awal, mengganti audit kualitas dengan survei kepuasan dan mendokumentasikan hasilnya.",
+        "rationale": "Tidak tepat untuk kasus ini karena kepuasan tidak selalu membuktikan akurasi dan kepatuhan. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: tujuan pengukuran memang pengalaman pengguna dan audit substansi tetap berjalan terpisah. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Satu metrik tidak boleh mewakili seluruh mutu.",
+        "misconception": "kepuasan tidak selalu membuktikan akurasi dan kepatuhan",
+        "validWhen": "tujuan pengukuran memang pengalaman pengguna dan audit substansi tetap berjalan terpisah"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "Jawaban paling tepat adalah C. Kasus yang diuji: Pimpinan ingin menghapus audit kualitas karena nilai kepuasan tinggi. Fokus pertanyaan: Apa tindakan yang paling tepat? Uraian topik: Kualitas agent dinilai dari etika komunikasi, keterampilan pelayanan, dan pengetahuan, sementara indikator seperti service level, first contact resolution, response time, dan kepuasan mengukur aspek layanan yang berbeda. Pada kasus ini, keputusan harus gunakan kombinasi ukuran proses, resolusi, kualitas isi, perilaku, dan kepuasan sesuai tujuan. Batas penerapan: Satu metrik tidak boleh mewakili seluruh mutu. Tiga pilihan lain bukan jawaban terbaik untuk kondisi ini. Tindakan sejenis baru dapat digunakan setelah redaksinya disesuaikan dan syarat berikut terpenuhi: menilai agent hanya dari response time — kondisi terkait: analisis khusus sedang menilai kapasitas respons dan mutu dinilai terpisah; menganggap first contact resolution selalu baik — kondisi terkait: definisi resolusi memastikan kebutuhan benar-benar selesai pada kontak pertama; mengganti audit kualitas dengan survei kepuasan — kondisi terkait: tujuan pengukuran memang pengalaman pengguna dan audit substansi tetap berjalan terpisah. Dengan demikian, pembeda utamanya bukan kata yang terdengar paling tegas, melainkan kesesuaian kondisi, kewenangan, bukti, dan urutan proses. Sumber Layanan Informasi Contact Center Bravo Bea Cukai, bagian KPI dan penilaian kualitas agent, berstatus non_normative dan diverifikasi 2026-08-03. Rincian sesuai huruf pilihan yang tampil: A — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena jawaban cepat dapat salah atau tidak menyelesaikan kebutuhan. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: analisis khusus sedang menilai kapasitas respons dan mutu dinilai terpisah. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Satu metrik tidak boleh mewakili seluruh mutu. B — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena resolusi semu dapat terjadi bila kontak ditutup tanpa solusi. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: definisi resolusi memastikan kebutuhan benar-benar selesai pada kontak pertama. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Satu metrik tidak boleh mewakili seluruh mutu. C — BENAR: Benar untuk kasus ini. Kualitas agent dinilai dari etika komunikasi, keterampilan pelayanan, dan pengetahuan, sementara indikator seperti service level, first contact resolution, response time, dan kepuasan mengukur aspek layanan yang berbeda. Karena itu, tindakan yang tepat adalah gunakan kombinasi ukuran proses, resolusi, kualitas isi, perilaku, dan kepuasan sesuai tujuan. Batas pentingnya: Satu metrik tidak boleh mewakili seluruh mutu. D — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena kepuasan tidak selalu membuktikan akurasi dan kepatuhan. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: tujuan pengukuran memang pengalaman pengguna dan audit substansi tetap berjalan terpisah. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Satu metrik tidak boleh mewakili seluruh mutu.",
+    "keyTakeaway": "Ingat pembeda kondisi: gunakan kombinasi ukuran proses, resolusi, kualitas isi, perilaku, dan kepuasan sesuai tujuan; jangan terapkan alternatif sebelum syarat khususnya terpenuhi.",
+    "sourceRefs": [
+      {
+        "sourceId": "SRC-LAYANAN-BRAVO",
+        "title": "Layanan Informasi Contact Center Bravo Bea Cukai",
+        "driveFileId": "1-OPoTQL--obpWy__a-bUW8Dw7pjGmOKn",
+        "section": "KPI dan penilaian kualitas agent",
+        "pageOrSlide": null,
+        "regulationStatus": "non_normative",
+        "lastVerified": "2026-08-03"
+      }
+    ],
+    "tags": [
+      "layanan_informasi",
+      "kinerja_agent",
+      "case_based_mcq",
+      "apply",
+      "easy"
+    ],
+    "review": {
+      "contentAccuracy": 25,
+      "sourceTraceability": 15,
+      "stemClarity": 9,
+      "distractorQuality": 9,
+      "singleBestAnswer": 10,
+      "competencyRelevance": 10,
+      "explanationQuality": 9,
+      "originality": 4,
+      "languageQuality": 3,
+      "difficultyFit": 2,
+      "total": 96,
+      "method": "rubrik_terotomasi_berbasis_unit_terverifikasi_v1"
+    },
+    "similarityGroup": "CONCEPT-049",
+    "knowledgeUnitId": "KU-DM-LI-049-3-1",
+    "questionFocus": "case_based_mcq",
+    "generationBatch": "2026.08.drive-categories-v2",
+    "createdAt": "2026-08-03",
+    "lastReviewedAt": "2026-08-03",
+    "runtimeId": 867,
+    "selectedFromCandidateId": "CAND-DM-LI-0201"
+  },
+  {
+    "id": "DM-LI-0158",
+    "version": 1,
+    "status": "active",
+    "domain": "layanan_informasi",
+    "subdomain": "permintaan_ppid",
+    "competency": "Memproses permintaan informasi publik",
+    "indicator": "Memeriksa identitas, objek, pencatatan, dan tenggat",
+    "questionType": "monitoring_evaluation",
+    "cognitiveLevel": "analyze",
+    "difficulty": "hard",
+    "stem": "Permintaan diteruskan ke unit pemilik tanpa diregistrasi. Nilai perubahan kondisi setelah tindak lanjut. Tindak lanjut mana yang paling tepat setelah kondisi itu ditemukan?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Tindak lanjut yang tepat adalah menunggu unit pemilik tanpa mencatat tanggal masuk dan mendokumentasikan hasilnya.",
+        "rationale": "Tidak tepat untuk kasus ini karena tenggat dan jejak layanan dapat hilang. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: surat belum merupakan permintaan yang sah dan masih berada pada tahap konsultasi awal. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Permintaan yang belum jelas perlu diklarifikasi, bukan langsung ditolak tanpa bantuan.",
+        "misconception": "tenggat dan jejak layanan dapat hilang",
+        "validWhen": "surat belum merupakan permintaan yang sah dan masih berada pada tahap konsultasi awal"
+      },
+      {
+        "id": "B",
+        "text": "Tindak lanjut yang tepat adalah mengabaikan permintaan karena tidak memakai format internal dan mendokumentasikan hasilnya.",
+        "rationale": "Tidak tepat untuk kasus ini karena hak informasi tidak boleh gugur hanya karena format bila substansi dapat dipahami. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: persyaratan esensial tetap tidak dipenuhi setelah pemohon dibantu melengkapinya. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Permintaan yang belum jelas perlu diklarifikasi, bukan langsung ditolak tanpa bantuan.",
+        "misconception": "hak informasi tidak boleh gugur hanya karena format bila substansi dapat dipahami",
+        "validWhen": "persyaratan esensial tetap tidak dipenuhi setelah pemohon dibantu melengkapinya"
+      },
+      {
+        "id": "C",
+        "text": "Tindak lanjut yang tepat adalah langsung menjanjikan seluruh dokumen tersedia dan mendokumentasikan hasilnya.",
+        "rationale": "Tidak tepat untuk kasus ini karena status penguasaan dan pengecualian belum diuji. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: dokumen telah diverifikasi terbuka dan berada dalam penguasaan badan publik. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Permintaan yang belum jelas perlu diklarifikasi, bukan langsung ditolak tanpa bantuan.",
+        "misconception": "status penguasaan dan pengecualian belum diuji",
+        "validWhen": "dokumen telah diverifikasi terbuka dan berada dalam penguasaan badan publik"
+      },
+      {
+        "id": "D",
+        "text": "Tindak lanjut yang tepat adalah registrasikan permintaan, verifikasi identitas dan objek, koordinasikan pemilik informasi, lalu jawab dalam tenggat dan mendokumentasikan hasilnya.",
+        "rationale": "Benar untuk kasus ini. Permintaan informasi publik kepada PPID dicatat, diverifikasi persyaratannya, ditelusuri penguasaan informasinya, dan dijawab melalui pemberitahuan tertulis atau keputusan yang sesuai tenggat. Karena itu, tindakan yang tepat adalah registrasikan permintaan, verifikasi identitas dan objek, koordinasikan pemilik informasi, lalu jawab dalam tenggat. Batas pentingnya: Permintaan yang belum jelas perlu diklarifikasi, bukan langsung ditolak tanpa bantuan.",
+        "misconception": null,
+        "validWhen": "ketika kondisi sama dengan kasus dan seluruh prasyarat pada Alur permintaan informasi publik terpenuhi"
+      }
+    ],
+    "correctOptionId": "D",
+    "explanation": "Jawaban paling tepat adalah D. Kasus yang diuji: Permintaan diteruskan ke unit pemilik tanpa diregistrasi. Fokus pertanyaan: Tindak lanjut mana yang paling tepat setelah kondisi itu ditemukan? Uraian topik: Permintaan informasi publik kepada PPID dicatat, diverifikasi persyaratannya, ditelusuri penguasaan informasinya, dan dijawab melalui pemberitahuan tertulis atau keputusan yang sesuai tenggat. Pada kasus ini, keputusan harus registrasikan permintaan, verifikasi identitas dan objek, koordinasikan pemilik informasi, lalu jawab dalam tenggat. Batas penerapan: Permintaan yang belum jelas perlu diklarifikasi, bukan langsung ditolak tanpa bantuan. Tiga pilihan lain bukan jawaban terbaik untuk kondisi ini. Tindakan sejenis baru dapat digunakan setelah redaksinya disesuaikan dan syarat berikut terpenuhi: mengabaikan permintaan karena tidak memakai format internal — kondisi terkait: persyaratan esensial tetap tidak dipenuhi setelah pemohon dibantu melengkapinya; langsung menjanjikan seluruh dokumen tersedia — kondisi terkait: dokumen telah diverifikasi terbuka dan berada dalam penguasaan badan publik; menunggu unit pemilik tanpa mencatat tanggal masuk — kondisi terkait: surat belum merupakan permintaan yang sah dan masih berada pada tahap konsultasi awal. Dengan demikian, pembeda utamanya bukan kata yang terdengar paling tegas, melainkan kesesuaian kondisi, kewenangan, bukti, dan urutan proses. Sumber PMK 110/PMK.01/2022 tentang Pedoman Layanan Informasi Publik PPID Kementerian Keuangan, bagian Alur permintaan informasi publik, berstatus current dan diverifikasi 2026-08-03. Rincian sesuai huruf pilihan yang tampil: A — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena tenggat dan jejak layanan dapat hilang. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: surat belum merupakan permintaan yang sah dan masih berada pada tahap konsultasi awal. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Permintaan yang belum jelas perlu diklarifikasi, bukan langsung ditolak tanpa bantuan. B — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena hak informasi tidak boleh gugur hanya karena format bila substansi dapat dipahami. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: persyaratan esensial tetap tidak dipenuhi setelah pemohon dibantu melengkapinya. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Permintaan yang belum jelas perlu diklarifikasi, bukan langsung ditolak tanpa bantuan. C — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena status penguasaan dan pengecualian belum diuji. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: dokumen telah diverifikasi terbuka dan berada dalam penguasaan badan publik. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Permintaan yang belum jelas perlu diklarifikasi, bukan langsung ditolak tanpa bantuan. D — BENAR: Benar untuk kasus ini. Permintaan informasi publik kepada PPID dicatat, diverifikasi persyaratannya, ditelusuri penguasaan informasinya, dan dijawab melalui pemberitahuan tertulis atau keputusan yang sesuai tenggat. Karena itu, tindakan yang tepat adalah registrasikan permintaan, verifikasi identitas dan objek, koordinasikan pemilik informasi, lalu jawab dalam tenggat. Batas pentingnya: Permintaan yang belum jelas perlu diklarifikasi, bukan langsung ditolak tanpa bantuan.",
+    "keyTakeaway": "Ingat pembeda kondisi: registrasikan permintaan, verifikasi identitas dan objek, koordinasikan pemilik informasi, lalu jawab dalam tenggat; jangan terapkan alternatif sebelum syarat khususnya terpenuhi.",
+    "sourceRefs": [
+      {
+        "sourceId": "SRC-PPID",
+        "title": "PMK 110/PMK.01/2022 tentang Pedoman Layanan Informasi Publik PPID Kementerian Keuangan",
+        "driveFileId": "1fuzKMZW1ICj1kt3enpcVP4kweN7XS1G3",
+        "section": "Alur permintaan informasi publik",
+        "pageOrSlide": null,
+        "regulationStatus": "current",
+        "lastVerified": "2026-08-03"
+      }
+    ],
+    "tags": [
+      "layanan_informasi",
+      "permintaan_ppid",
+      "monitoring_evaluation",
+      "analyze",
+      "easy"
+    ],
+    "review": {
+      "contentAccuracy": 25,
+      "sourceTraceability": 15,
+      "stemClarity": 9,
+      "distractorQuality": 9,
+      "singleBestAnswer": 10,
+      "competencyRelevance": 10,
+      "explanationQuality": 9,
+      "originality": 4,
+      "languageQuality": 3,
+      "difficultyFit": 2,
+      "total": 96,
+      "method": "rubrik_terotomasi_berbasis_unit_terverifikasi_v1"
+    },
+    "similarityGroup": "CONCEPT-050",
+    "knowledgeUnitId": "KU-DM-LI-050-3-8",
+    "questionFocus": "monitoring_evaluation",
+    "generationBatch": "2026.08.drive-categories-v2",
+    "createdAt": "2026-08-03",
+    "lastReviewedAt": "2026-08-03",
+    "runtimeId": 868,
+    "selectedFromCandidateId": "CAND-DM-LI-0202"
+  },
+  {
+    "id": "DM-LI-0159",
+    "version": 1,
+    "status": "active",
+    "domain": "layanan_informasi",
+    "subdomain": "tenggat_ppid",
+    "competency": "Menjaga tenggat layanan informasi",
+    "indicator": "Mengelola jawaban dan perpanjangan secara sah",
+    "questionType": "corrective_action",
+    "cognitiveLevel": "analyze",
+    "difficulty": "easy",
+    "stem": "Hari kesepuluh mendekat dan unit pemilik belum menyelesaikan penelusuran dokumen. Sasar akar kekeliruan sebelum memperbaiki hasil. Perbaikan apa yang harus dilakukan terlebih dahulu?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Perbaikan harus dimulai dengan menunggu dokumen lengkap tanpa memberi respons.",
+        "rationale": "Tidak tepat untuk kasus ini karena diam melewati tenggat dapat menjadi alasan keberatan. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: permohonan belum sah dan pemohon sedang diminta melengkapi persyaratan melalui pemberitahuan. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Perpanjangan bukan tambahan waktu otomatis dan harus diberitahukan sebelum tenggat awal berakhir.",
+        "misconception": "diam melewati tenggat dapat menjadi alasan keberatan",
+        "validWhen": "permohonan belum sah dan pemohon sedang diminta melengkapi persyaratan melalui pemberitahuan"
+      },
+      {
+        "id": "B",
+        "text": "Perbaikan harus dimulai dengan catat tanggal, pantau 10 hari kerja, dan bila perlu kirim perpanjangan 7 hari kerja beserta alasannya.",
+        "rationale": "Benar untuk kasus ini. PPID memberi tanggapan paling lambat 10 hari kerja dan dapat memperpanjang paling lama 7 hari kerja dengan alasan tertulis sesuai ketentuan. Karena itu, tindakan yang tepat adalah catat tanggal, pantau 10 hari kerja, dan bila perlu kirim perpanjangan 7 hari kerja beserta alasannya. Batas pentingnya: Perpanjangan bukan tambahan waktu otomatis dan harus diberitahukan sebelum tenggat awal berakhir.",
+        "misconception": null,
+        "validWhen": "ketika kondisi sama dengan kasus dan seluruh prasyarat pada Tenggat 10 + 7 hari kerja terpenuhi"
+      },
+      {
+        "id": "C",
+        "text": "Perbaikan harus dimulai dengan menghitung tenggat dalam hari kalender.",
+        "rationale": "Tidak tepat untuk kasus ini karena ketentuan menggunakan hari kerja. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: ketentuan khusus pada layanan lain memang menggunakan hari kalender. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Perpanjangan bukan tambahan waktu otomatis dan harus diberitahukan sebelum tenggat awal berakhir.",
+        "misconception": "ketentuan menggunakan hari kerja",
+        "validWhen": "ketentuan khusus pada layanan lain memang menggunakan hari kalender"
+      },
+      {
+        "id": "D",
+        "text": "Perbaikan harus dimulai dengan menambah tujuh hari tanpa pemberitahuan.",
+        "rationale": "Tidak tepat untuk kasus ini karena perpanjangan harus diberi alasan tertulis kepada pemohon. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: pemberitahuan sah telah dikirim sebelum tenggat dan hanya pencatatan internal yang terlambat. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Perpanjangan bukan tambahan waktu otomatis dan harus diberitahukan sebelum tenggat awal berakhir.",
+        "misconception": "perpanjangan harus diberi alasan tertulis kepada pemohon",
+        "validWhen": "pemberitahuan sah telah dikirim sebelum tenggat dan hanya pencatatan internal yang terlambat"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "Jawaban paling tepat adalah B. Kasus yang diuji: Hari kesepuluh mendekat dan unit pemilik belum menyelesaikan penelusuran dokumen. Fokus pertanyaan: Perbaikan apa yang harus dilakukan terlebih dahulu? Uraian topik: PPID memberi tanggapan paling lambat 10 hari kerja dan dapat memperpanjang paling lama 7 hari kerja dengan alasan tertulis sesuai ketentuan. Pada kasus ini, keputusan harus catat tanggal, pantau 10 hari kerja, dan bila perlu kirim perpanjangan 7 hari kerja beserta alasannya. Batas penerapan: Perpanjangan bukan tambahan waktu otomatis dan harus diberitahukan sebelum tenggat awal berakhir. Tiga pilihan lain bukan jawaban terbaik untuk kondisi ini. Tindakan sejenis baru dapat digunakan setelah redaksinya disesuaikan dan syarat berikut terpenuhi: menambah tujuh hari tanpa pemberitahuan — kondisi terkait: pemberitahuan sah telah dikirim sebelum tenggat dan hanya pencatatan internal yang terlambat; menghitung tenggat dalam hari kalender — kondisi terkait: ketentuan khusus pada layanan lain memang menggunakan hari kalender; menunggu dokumen lengkap tanpa memberi respons — kondisi terkait: permohonan belum sah dan pemohon sedang diminta melengkapi persyaratan melalui pemberitahuan. Dengan demikian, pembeda utamanya bukan kata yang terdengar paling tegas, melainkan kesesuaian kondisi, kewenangan, bukti, dan urutan proses. Sumber PMK 110/PMK.01/2022 tentang Pedoman Layanan Informasi Publik PPID Kementerian Keuangan, bagian Tenggat 10 + 7 hari kerja, berstatus current dan diverifikasi 2026-08-03. Rincian sesuai huruf pilihan yang tampil: A — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena diam melewati tenggat dapat menjadi alasan keberatan. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: permohonan belum sah dan pemohon sedang diminta melengkapi persyaratan melalui pemberitahuan. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Perpanjangan bukan tambahan waktu otomatis dan harus diberitahukan sebelum tenggat awal berakhir. B — BENAR: Benar untuk kasus ini. PPID memberi tanggapan paling lambat 10 hari kerja dan dapat memperpanjang paling lama 7 hari kerja dengan alasan tertulis sesuai ketentuan. Karena itu, tindakan yang tepat adalah catat tanggal, pantau 10 hari kerja, dan bila perlu kirim perpanjangan 7 hari kerja beserta alasannya. Batas pentingnya: Perpanjangan bukan tambahan waktu otomatis dan harus diberitahukan sebelum tenggat awal berakhir. C — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena ketentuan menggunakan hari kerja. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: ketentuan khusus pada layanan lain memang menggunakan hari kalender. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Perpanjangan bukan tambahan waktu otomatis dan harus diberitahukan sebelum tenggat awal berakhir. D — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena perpanjangan harus diberi alasan tertulis kepada pemohon. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: pemberitahuan sah telah dikirim sebelum tenggat dan hanya pencatatan internal yang terlambat. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Perpanjangan bukan tambahan waktu otomatis dan harus diberitahukan sebelum tenggat awal berakhir.",
+    "keyTakeaway": "Ingat pembeda kondisi: catat tanggal, pantau 10 hari kerja, dan bila perlu kirim perpanjangan 7 hari kerja beserta alasannya; jangan terapkan alternatif sebelum syarat khususnya terpenuhi.",
+    "sourceRefs": [
+      {
+        "sourceId": "SRC-PPID",
+        "title": "PMK 110/PMK.01/2022 tentang Pedoman Layanan Informasi Publik PPID Kementerian Keuangan",
+        "driveFileId": "1fuzKMZW1ICj1kt3enpcVP4kweN7XS1G3",
+        "section": "Tenggat 10 + 7 hari kerja",
+        "pageOrSlide": null,
+        "regulationStatus": "current",
+        "lastVerified": "2026-08-03"
+      }
+    ],
+    "tags": [
+      "layanan_informasi",
+      "tenggat_ppid",
+      "corrective_action",
+      "apply",
+      "easy"
+    ],
+    "review": {
+      "contentAccuracy": 25,
+      "sourceTraceability": 15,
+      "stemClarity": 9,
+      "distractorQuality": 9,
+      "singleBestAnswer": 10,
+      "competencyRelevance": 10,
+      "explanationQuality": 9,
+      "originality": 4,
+      "languageQuality": 3,
+      "difficultyFit": 2,
+      "total": 96,
+      "method": "rubrik_terotomasi_berbasis_unit_terverifikasi_v1"
+    },
+    "similarityGroup": "CONCEPT-052",
+    "knowledgeUnitId": "KU-DM-LI-052-1-5",
+    "questionFocus": "corrective_action",
+    "generationBatch": "2026.08.drive-categories-v2",
+    "createdAt": "2026-08-03",
+    "lastReviewedAt": "2026-08-03",
+    "runtimeId": 869,
+    "selectedFromCandidateId": "CAND-DM-LI-0203"
+  },
+  {
+    "id": "DM-LI-0160",
+    "version": 1,
+    "status": "active",
+    "domain": "layanan_informasi",
+    "subdomain": "keberatan_ppid",
+    "competency": "Menangani keberatan informasi",
+    "indicator": "Membedakan keberatan dari permintaan awal",
+    "questionType": "decision_quality",
+    "cognitiveLevel": "apply",
+    "difficulty": "medium",
+    "stem": "Petugas mendaftarkan keberatan sebagai permintaan baru dengan nomor baru tanpa riwayat. Uji kesesuaian keputusan dengan ketentuan sumber. Keputusan mana yang paling sesuai dengan materi?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Keputusan yang sesuai adalah menyerahkan keberatan kepada petugas yang membuat jawaban awal untuk memutus sendiri sebelum keputusan akhir ditetapkan.",
+        "rationale": "Tidak tepat untuk kasus ini karena keberatan ditujukan kepada Atasan PPID. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: petugas hanya menyiapkan kronologi dan bahan tanpa mengambil keputusan. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Keberatan bukan permintaan baru sehingga riwayat dan alasan keputusan sebelumnya harus ditelaah.",
+        "misconception": "keberatan ditujukan kepada Atasan PPID",
+        "validWhen": "petugas hanya menyiapkan kronologi dan bahan tanpa mengambil keputusan"
+      },
+      {
+        "id": "B",
+        "text": "Keputusan yang sesuai adalah registrasikan sebagai keberatan, identifikasi alasannya, serahkan kepada Atasan PPID, dan siapkan tanggapan dalam tenggat sebelum keputusan akhir ditetapkan.",
+        "rationale": "Benar untuk kasus ini. Keberatan diajukan kepada Atasan PPID atas alasan yang ditentukan, diregistrasi, dan ditanggapi paling lama 30 hari kerja. Karena itu, tindakan yang tepat adalah registrasikan sebagai keberatan, identifikasi alasannya, serahkan kepada Atasan PPID, dan siapkan tanggapan dalam tenggat. Batas pentingnya: Keberatan bukan permintaan baru sehingga riwayat dan alasan keputusan sebelumnya harus ditelaah.",
+        "misconception": null,
+        "validWhen": "ketika kondisi sama dengan kasus dan seluruh prasyarat pada Keberatan kepada Atasan PPID terpenuhi"
+      },
+      {
+        "id": "C",
+        "text": "Keputusan yang sesuai adalah mengulang proses sebagai permintaan baru sebelum keputusan akhir ditetapkan.",
+        "rationale": "Tidak tepat untuk kasus ini karena hak pemohon pada tahap keberatan dan tenggatnya terabaikan. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: pemohon mengajukan objek informasi berbeda yang memang menjadi permintaan baru. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Keberatan bukan permintaan baru sehingga riwayat dan alasan keputusan sebelumnya harus ditelaah.",
+        "misconception": "hak pemohon pada tahap keberatan dan tenggatnya terabaikan",
+        "validWhen": "pemohon mengajukan objek informasi berbeda yang memang menjadi permintaan baru"
+      },
+      {
+        "id": "D",
+        "text": "Keputusan yang sesuai adalah menolak karena pemohon tidak setuju dengan substansi kebijakan sebelum keputusan akhir ditetapkan.",
+        "rationale": "Tidak tepat untuk kasus ini karena keberatan menilai layanan informasi, bukan persetujuan atas kebijakan, sehingga alasannya harus dipetakan. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: yang dipersoalkan murni isi kebijakan dan seluruh kewajiban informasi telah dipenuhi. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Keberatan bukan permintaan baru sehingga riwayat dan alasan keputusan sebelumnya harus ditelaah.",
+        "misconception": "keberatan menilai layanan informasi, bukan persetujuan atas kebijakan, sehingga alasannya harus dipetakan",
+        "validWhen": "yang dipersoalkan murni isi kebijakan dan seluruh kewajiban informasi telah dipenuhi"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "Jawaban paling tepat adalah B. Kasus yang diuji: Petugas mendaftarkan keberatan sebagai permintaan baru dengan nomor baru tanpa riwayat. Fokus pertanyaan: Keputusan mana yang paling sesuai dengan materi? Uraian topik: Keberatan diajukan kepada Atasan PPID atas alasan yang ditentukan, diregistrasi, dan ditanggapi paling lama 30 hari kerja. Pada kasus ini, keputusan harus registrasikan sebagai keberatan, identifikasi alasannya, serahkan kepada Atasan PPID, dan siapkan tanggapan dalam tenggat. Batas penerapan: Keberatan bukan permintaan baru sehingga riwayat dan alasan keputusan sebelumnya harus ditelaah. Tiga pilihan lain bukan jawaban terbaik untuk kondisi ini. Tindakan sejenis baru dapat digunakan setelah redaksinya disesuaikan dan syarat berikut terpenuhi: mengulang proses sebagai permintaan baru — kondisi terkait: pemohon mengajukan objek informasi berbeda yang memang menjadi permintaan baru; menyerahkan keberatan kepada petugas yang membuat jawaban awal untuk memutus sendiri — kondisi terkait: petugas hanya menyiapkan kronologi dan bahan tanpa mengambil keputusan; menolak karena pemohon tidak setuju dengan substansi kebijakan — kondisi terkait: yang dipersoalkan murni isi kebijakan dan seluruh kewajiban informasi telah dipenuhi. Dengan demikian, pembeda utamanya bukan kata yang terdengar paling tegas, melainkan kesesuaian kondisi, kewenangan, bukti, dan urutan proses. Sumber PMK 110/PMK.01/2022 tentang Pedoman Layanan Informasi Publik PPID Kementerian Keuangan, bagian Keberatan kepada Atasan PPID, berstatus current dan diverifikasi 2026-08-03. Rincian sesuai huruf pilihan yang tampil: A — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena keberatan ditujukan kepada Atasan PPID. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: petugas hanya menyiapkan kronologi dan bahan tanpa mengambil keputusan. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Keberatan bukan permintaan baru sehingga riwayat dan alasan keputusan sebelumnya harus ditelaah. B — BENAR: Benar untuk kasus ini. Keberatan diajukan kepada Atasan PPID atas alasan yang ditentukan, diregistrasi, dan ditanggapi paling lama 30 hari kerja. Karena itu, tindakan yang tepat adalah registrasikan sebagai keberatan, identifikasi alasannya, serahkan kepada Atasan PPID, dan siapkan tanggapan dalam tenggat. Batas pentingnya: Keberatan bukan permintaan baru sehingga riwayat dan alasan keputusan sebelumnya harus ditelaah. C — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena hak pemohon pada tahap keberatan dan tenggatnya terabaikan. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: pemohon mengajukan objek informasi berbeda yang memang menjadi permintaan baru. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Keberatan bukan permintaan baru sehingga riwayat dan alasan keputusan sebelumnya harus ditelaah. D — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena keberatan menilai layanan informasi, bukan persetujuan atas kebijakan, sehingga alasannya harus dipetakan. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: yang dipersoalkan murni isi kebijakan dan seluruh kewajiban informasi telah dipenuhi. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Keberatan bukan permintaan baru sehingga riwayat dan alasan keputusan sebelumnya harus ditelaah.",
+    "keyTakeaway": "Ingat pembeda kondisi: registrasikan sebagai keberatan, identifikasi alasannya, serahkan kepada Atasan PPID, dan siapkan tanggapan dalam tenggat; jangan terapkan alternatif sebelum syarat khususnya terpenuhi.",
+    "sourceRefs": [
+      {
+        "sourceId": "SRC-PPID",
+        "title": "PMK 110/PMK.01/2022 tentang Pedoman Layanan Informasi Publik PPID Kementerian Keuangan",
+        "driveFileId": "1fuzKMZW1ICj1kt3enpcVP4kweN7XS1G3",
+        "section": "Keberatan kepada Atasan PPID",
+        "pageOrSlide": null,
+        "regulationStatus": "current",
+        "lastVerified": "2026-08-03"
+      }
+    ],
+    "tags": [
+      "layanan_informasi",
+      "keberatan_ppid",
+      "decision_quality",
+      "analyze",
+      "easy"
+    ],
+    "review": {
+      "contentAccuracy": 25,
+      "sourceTraceability": 15,
+      "stemClarity": 9,
+      "distractorQuality": 9,
+      "singleBestAnswer": 10,
+      "competencyRelevance": 10,
+      "explanationQuality": 9,
+      "originality": 4,
+      "languageQuality": 3,
+      "difficultyFit": 2,
+      "total": 96,
+      "method": "rubrik_terotomasi_berbasis_unit_terverifikasi_v1"
+    },
+    "similarityGroup": "CONCEPT-053",
+    "knowledgeUnitId": "KU-DM-LI-053-2-2",
+    "questionFocus": "decision_quality",
+    "generationBatch": "2026.08.drive-categories-v2",
+    "createdAt": "2026-08-03",
+    "lastReviewedAt": "2026-08-03",
+    "runtimeId": 870,
+    "selectedFromCandidateId": "CAND-DM-LI-0204"
+  }
+]

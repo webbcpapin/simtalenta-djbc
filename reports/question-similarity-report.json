@@ -6,27 +6,13 @@
     "combined": 0.88
   },
   "corpusStopWords": [
-    "atas",
-    "berbeda",
-    "bukti",
-    "dasar",
-    "data",
-    "evaluasi",
-    "fokuskan",
-    "kemampuan",
-    "kepentingan",
-    "memilih",
-    "menjawab",
-    "menunjukkan",
-    "organisasi",
-    "penilaian",
-    "perbaikan",
-    "prinsip",
+    "kekeliruan",
+    "nilai",
     "risiko",
+    "tanpa",
     "tepat",
-    "tersebut",
-    "tujuan"
+    "tersebut"
   ],
-  "comparedPairs": 499500,
+  "comparedPairs": 1216020,
   "pairs": []
 }

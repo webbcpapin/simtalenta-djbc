@@ -1,0 +1,1722 @@
+[
+  {
+    "id": "DM-HM-0101",
+    "version": 1,
+    "status": "active",
+    "domain": "kehumasan",
+    "subdomain": "tingkat_analisis",
+    "competency": "Memilih jenis analisis media",
+    "indicator": "Membedakan deskriptif, diagnostik, prediktif, dan preskriptif",
+    "questionType": "situational_judgment",
+    "cognitiveLevel": "evaluate",
+    "difficulty": "easy",
+    "stem": "Tim hanya perlu mengetahui media mana yang paling banyak memberitakan isu. Nilai kecukupan bukti dan jejak auditnya. Pilihan mana yang paling dapat dipertanggungjawabkan saat bukti diuji?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pilihan yang dapat dipertanggungjawabkan adalah menggunakan analisis deskriptif untuk memastikan penyebab sebelum keputusan akhir ditetapkan.",
+        "rationale": "Tidak tepat untuk kasus ini karena deskripsi pola tidak membuktikan sebab. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: tujuannya memang hanya memetakan volume, kanal, waktu, atau sentimen yang terjadi. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Jenis analisis harus sesuai pertanyaan keputusan dan kualitas data.",
+        "misconception": "deskripsi pola tidak membuktikan sebab",
+        "validWhen": "tujuannya memang hanya memetakan volume, kanal, waktu, atau sentimen yang terjadi"
+      },
+      {
+        "id": "B",
+        "text": "Pilihan yang dapat dipertanggungjawabkan adalah memberi prediksi tanpa pola historis atau indikator sebelum keputusan akhir ditetapkan.",
+        "rationale": "Tidak tepat untuk kasus ini karena prediksi memerlukan dasar data dan asumsi yang dapat diuji. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: terdapat data memadai, model/asumsi dijelaskan, dan ketidakpastian disampaikan. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Jenis analisis harus sesuai pertanyaan keputusan dan kualitas data.",
+        "misconception": "prediksi memerlukan dasar data dan asumsi yang dapat diuji",
+        "validWhen": "terdapat data memadai, model/asumsi dijelaskan, dan ketidakpastian disampaikan"
+      },
+      {
+        "id": "C",
+        "text": "Pilihan yang dapat dipertanggungjawabkan adalah nyatakan pertanyaan analisis, pilih tingkat analisis yang sesuai, dan batasi kesimpulan pada data sebelum keputusan akhir ditetapkan.",
+        "rationale": "Benar untuk kasus ini. Analisis deskriptif menjelaskan apa yang terjadi, diagnostik mengapa terjadi, prediktif apa yang mungkin terjadi, dan preskriptif tindakan apa yang sebaiknya diambil. Karena itu, tindakan yang tepat adalah nyatakan pertanyaan analisis, pilih tingkat analisis yang sesuai, dan batasi kesimpulan pada data. Batas pentingnya: Jenis analisis harus sesuai pertanyaan keputusan dan kualitas data.",
+        "misconception": null,
+        "validWhen": "ketika kondisi sama dengan kasus dan seluruh prasyarat pada Pendekatan analisis media terpenuhi"
+      },
+      {
+        "id": "D",
+        "text": "Pilihan yang dapat dipertanggungjawabkan adalah memberi rekomendasi sebelum diagnosis sebelum keputusan akhir ditetapkan.",
+        "rationale": "Tidak tepat untuk kasus ini karena tindakan preskriptif berisiko tidak menyasar penyebab. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: situasi darurat memerlukan tindakan pengamanan sementara sambil diagnosis dilanjutkan. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Jenis analisis harus sesuai pertanyaan keputusan dan kualitas data.",
+        "misconception": "tindakan preskriptif berisiko tidak menyasar penyebab",
+        "validWhen": "situasi darurat memerlukan tindakan pengamanan sementara sambil diagnosis dilanjutkan"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "Jawaban paling tepat adalah C. Kasus yang diuji: Tim hanya perlu mengetahui media mana yang paling banyak memberitakan isu. Fokus pertanyaan: Pilihan mana yang paling dapat dipertanggungjawabkan saat bukti diuji? Uraian topik: Analisis deskriptif menjelaskan apa yang terjadi, diagnostik mengapa terjadi, prediktif apa yang mungkin terjadi, dan preskriptif tindakan apa yang sebaiknya diambil. Pada kasus ini, keputusan harus nyatakan pertanyaan analisis, pilih tingkat analisis yang sesuai, dan batasi kesimpulan pada data. Batas penerapan: Jenis analisis harus sesuai pertanyaan keputusan dan kualitas data. Tiga pilihan lain bukan jawaban terbaik untuk kondisi ini. Tindakan sejenis baru dapat digunakan setelah redaksinya disesuaikan dan syarat berikut terpenuhi: menggunakan analisis deskriptif untuk memastikan penyebab — kondisi terkait: tujuannya memang hanya memetakan volume, kanal, waktu, atau sentimen yang terjadi; memberi prediksi tanpa pola historis atau indikator — kondisi terkait: terdapat data memadai, model/asumsi dijelaskan, dan ketidakpastian disampaikan; memberi rekomendasi sebelum diagnosis — kondisi terkait: situasi darurat memerlukan tindakan pengamanan sementara sambil diagnosis dilanjutkan. Dengan demikian, pembeda utamanya bukan kata yang terdengar paling tegas, melainkan kesesuaian kondisi, kewenangan, bukti, dan urutan proses. Sumber Analisis Media Massa dan Media Sosial DJBC, bagian Pendekatan analisis media, berstatus non_normative dan diverifikasi 2026-08-03. Rincian sesuai huruf pilihan yang tampil: A — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena deskripsi pola tidak membuktikan sebab. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: tujuannya memang hanya memetakan volume, kanal, waktu, atau sentimen yang terjadi. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Jenis analisis harus sesuai pertanyaan keputusan dan kualitas data. B — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena prediksi memerlukan dasar data dan asumsi yang dapat diuji. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: terdapat data memadai, model/asumsi dijelaskan, dan ketidakpastian disampaikan. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Jenis analisis harus sesuai pertanyaan keputusan dan kualitas data. C — BENAR: Benar untuk kasus ini. Analisis deskriptif menjelaskan apa yang terjadi, diagnostik mengapa terjadi, prediktif apa yang mungkin terjadi, dan preskriptif tindakan apa yang sebaiknya diambil. Karena itu, tindakan yang tepat adalah nyatakan pertanyaan analisis, pilih tingkat analisis yang sesuai, dan batasi kesimpulan pada data. Batas pentingnya: Jenis analisis harus sesuai pertanyaan keputusan dan kualitas data. D — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena tindakan preskriptif berisiko tidak menyasar penyebab. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: situasi darurat memerlukan tindakan pengamanan sementara sambil diagnosis dilanjutkan. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Jenis analisis harus sesuai pertanyaan keputusan dan kualitas data.",
+    "keyTakeaway": "Ingat pembeda kondisi: nyatakan pertanyaan analisis, pilih tingkat analisis yang sesuai, dan batasi kesimpulan pada data; jangan terapkan alternatif sebelum syarat khususnya terpenuhi.",
+    "sourceRefs": [
+      {
+        "sourceId": "SRC-HUMAS-MEDIA",
+        "title": "Analisis Media Massa dan Media Sosial DJBC",
+        "driveFileId": "1WLNpQmQTzGjv8Cx7LDhzu60IEgjOmOxv",
+        "section": "Pendekatan analisis media",
+        "pageOrSlide": null,
+        "regulationStatus": "non_normative",
+        "lastVerified": "2026-08-03"
+      }
+    ],
+    "tags": [
+      "kehumasan",
+      "tingkat_analisis",
+      "evidence_analysis",
+      "analyze",
+      "easy"
+    ],
+    "review": {
+      "contentAccuracy": 25,
+      "sourceTraceability": 15,
+      "stemClarity": 9,
+      "distractorQuality": 9,
+      "singleBestAnswer": 10,
+      "competencyRelevance": 10,
+      "explanationQuality": 9,
+      "originality": 4,
+      "languageQuality": 3,
+      "difficultyFit": 2,
+      "total": 96,
+      "method": "rubrik_terotomasi_berbasis_unit_terverifikasi_v1"
+    },
+    "similarityGroup": "CONCEPT-012",
+    "knowledgeUnitId": "KU-DM-HM-012-2-3",
+    "questionFocus": "evidence_analysis",
+    "generationBatch": "2026.08.drive-categories-v2",
+    "createdAt": "2026-08-03",
+    "lastReviewedAt": "2026-08-03",
+    "runtimeId": 241,
+    "selectedFromCandidateId": "CAND-DM-HM-0127"
+  },
+  {
+    "id": "DM-HM-0102",
+    "version": 1,
+    "status": "active",
+    "domain": "kehumasan",
+    "subdomain": "framing_media",
+    "competency": "Menganalisis bingkai pemberitaan",
+    "indicator": "Menggunakan unsur framing untuk memahami narasi",
+    "questionType": "implementation_planning",
+    "cognitiveLevel": "analyze",
+    "difficulty": "medium",
+    "stem": "Pimpinan meminta tim menyatakan sebuah berita bias hanya karena judulnya keras. Pastikan pembagian peran, keluaran, dan tenggat jelas. Rencana pelaksanaan mana yang paling tepat?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Rencana pelaksanaan perlu menetapkan petugas untuk menyebut semua kritik sebagai framing negatif sebelum keputusan akhir ditetapkan.",
+        "rationale": "Tidak tepat untuk kasus ini karena kritik dapat berbasis fakta dan harus dinilai unsur narasinya. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: analisis menunjukkan pemilihan fakta yang konsisten membentuk bingkai tertentu. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Framing bukan alasan untuk menuduh media tidak objektif tanpa analisis teks.",
+        "misconception": "kritik dapat berbasis fakta dan harus dinilai unsur narasinya",
+        "validWhen": "analisis menunjukkan pemilihan fakta yang konsisten membentuk bingkai tertentu"
+      },
+      {
+        "id": "B",
+        "text": "Rencana pelaksanaan perlu menetapkan petugas untuk menilai bingkai hanya dari judul sebelum keputusan akhir ditetapkan.",
+        "rationale": "Tidak tepat untuk kasus ini karena judul penting tetapi tidak memuat seluruh konstruksi masalah dan rekomendasi. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: analisis secara eksplisit dibatasi pada praktik penulisan judul dan batas itu dinyatakan. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Framing bukan alasan untuk menuduh media tidak objektif tanpa analisis teks.",
+        "misconception": "judul penting tetapi tidak memuat seluruh konstruksi masalah dan rekomendasi",
+        "validWhen": "analisis secara eksplisit dibatasi pada praktik penulisan judul dan batas itu dinyatakan"
+      },
+      {
+        "id": "C",
+        "text": "Rencana pelaksanaan perlu menetapkan petugas untuk identifikasi empat unsur bingkai pada isi pemberitaan dan bandingkan antar-media sebelum merespons sebelum keputusan akhir ditetapkan.",
+        "rationale": "Benar untuk kasus ini. Analisis framing membantu melihat bagaimana masalah didefinisikan, penyebab dipilih, penilaian moral dibentuk, dan penanganan direkomendasikan. Karena itu, tindakan yang tepat adalah identifikasi empat unsur bingkai pada isi pemberitaan dan bandingkan antar-media sebelum merespons. Batas pentingnya: Framing bukan alasan untuk menuduh media tidak objektif tanpa analisis teks.",
+        "misconception": null,
+        "validWhen": "ketika kondisi sama dengan kasus dan seluruh prasyarat pada Framing Entman terpenuhi"
+      },
+      {
+        "id": "D",
+        "text": "Rencana pelaksanaan perlu menetapkan petugas untuk membalas media dengan membantah motifnya sebelum keputusan akhir ditetapkan.",
+        "rationale": "Tidak tepat untuk kasus ini karena menyerang motif tidak mengoreksi definisi masalah atau fakta. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: terdapat bukti pelanggaran etik yang ditangani melalui kanal pengaduan yang tepat. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Framing bukan alasan untuk menuduh media tidak objektif tanpa analisis teks.",
+        "misconception": "menyerang motif tidak mengoreksi definisi masalah atau fakta",
+        "validWhen": "terdapat bukti pelanggaran etik yang ditangani melalui kanal pengaduan yang tepat"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "Jawaban paling tepat adalah C. Kasus yang diuji: Pimpinan meminta tim menyatakan sebuah berita bias hanya karena judulnya keras. Fokus pertanyaan: Rencana pelaksanaan mana yang paling tepat? Uraian topik: Analisis framing membantu melihat bagaimana masalah didefinisikan, penyebab dipilih, penilaian moral dibentuk, dan penanganan direkomendasikan. Pada kasus ini, keputusan harus identifikasi empat unsur bingkai pada isi pemberitaan dan bandingkan antar-media sebelum merespons. Batas penerapan: Framing bukan alasan untuk menuduh media tidak objektif tanpa analisis teks. Tiga pilihan lain bukan jawaban terbaik untuk kondisi ini. Tindakan sejenis baru dapat digunakan setelah redaksinya disesuaikan dan syarat berikut terpenuhi: menilai bingkai hanya dari judul — kondisi terkait: analisis secara eksplisit dibatasi pada praktik penulisan judul dan batas itu dinyatakan; menyebut semua kritik sebagai framing negatif — kondisi terkait: analisis menunjukkan pemilihan fakta yang konsisten membentuk bingkai tertentu; membalas media dengan membantah motifnya — kondisi terkait: terdapat bukti pelanggaran etik yang ditangani melalui kanal pengaduan yang tepat. Dengan demikian, pembeda utamanya bukan kata yang terdengar paling tegas, melainkan kesesuaian kondisi, kewenangan, bukti, dan urutan proses. Sumber Analisis Media Massa dan Media Sosial DJBC, bagian Framing Entman, berstatus non_normative dan diverifikasi 2026-08-03. Rincian sesuai huruf pilihan yang tampil: A — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena kritik dapat berbasis fakta dan harus dinilai unsur narasinya. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: analisis menunjukkan pemilihan fakta yang konsisten membentuk bingkai tertentu. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Framing bukan alasan untuk menuduh media tidak objektif tanpa analisis teks. B — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena judul penting tetapi tidak memuat seluruh konstruksi masalah dan rekomendasi. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: analisis secara eksplisit dibatasi pada praktik penulisan judul dan batas itu dinyatakan. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Framing bukan alasan untuk menuduh media tidak objektif tanpa analisis teks. C — BENAR: Benar untuk kasus ini. Analisis framing membantu melihat bagaimana masalah didefinisikan, penyebab dipilih, penilaian moral dibentuk, dan penanganan direkomendasikan. Karena itu, tindakan yang tepat adalah identifikasi empat unsur bingkai pada isi pemberitaan dan bandingkan antar-media sebelum merespons. Batas pentingnya: Framing bukan alasan untuk menuduh media tidak objektif tanpa analisis teks. D — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena menyerang motif tidak mengoreksi definisi masalah atau fakta. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: terdapat bukti pelanggaran etik yang ditangani melalui kanal pengaduan yang tepat. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Framing bukan alasan untuk menuduh media tidak objektif tanpa analisis teks.",
+    "keyTakeaway": "Ingat pembeda kondisi: identifikasi empat unsur bingkai pada isi pemberitaan dan bandingkan antar-media sebelum merespons; jangan terapkan alternatif sebelum syarat khususnya terpenuhi.",
+    "sourceRefs": [
+      {
+        "sourceId": "SRC-HUMAS-MEDIA",
+        "title": "Analisis Media Massa dan Media Sosial DJBC",
+        "driveFileId": "1WLNpQmQTzGjv8Cx7LDhzu60IEgjOmOxv",
+        "section": "Framing Entman",
+        "pageOrSlide": null,
+        "regulationStatus": "non_normative",
+        "lastVerified": "2026-08-03"
+      }
+    ],
+    "tags": [
+      "kehumasan",
+      "framing_media",
+      "implementation_planning",
+      "apply",
+      "easy"
+    ],
+    "review": {
+      "contentAccuracy": 25,
+      "sourceTraceability": 15,
+      "stemClarity": 9,
+      "distractorQuality": 9,
+      "singleBestAnswer": 10,
+      "competencyRelevance": 10,
+      "explanationQuality": 9,
+      "originality": 4,
+      "languageQuality": 3,
+      "difficultyFit": 2,
+      "total": 96,
+      "method": "rubrik_terotomasi_berbasis_unit_terverifikasi_v1"
+    },
+    "similarityGroup": "CONCEPT-013",
+    "knowledgeUnitId": "KU-DM-HM-013-2-10",
+    "questionFocus": "implementation_planning",
+    "generationBatch": "2026.08.drive-categories-v2",
+    "createdAt": "2026-08-03",
+    "lastReviewedAt": "2026-08-03",
+    "runtimeId": 242,
+    "selectedFromCandidateId": "CAND-DM-HM-0128"
+  },
+  {
+    "id": "DM-HM-0103",
+    "version": 1,
+    "status": "active",
+    "domain": "kehumasan",
+    "subdomain": "penulisan_berita",
+    "competency": "Menulis berita organisasi",
+    "indicator": "Menerapkan 5W1H dan piramida terbalik",
+    "questionType": "situational_judgment",
+    "cognitiveLevel": "apply",
+    "difficulty": "medium",
+    "stem": "Naskah berita kegiatan baru menjelaskan inti acara pada paragraf keenam. Perhatikan tanggung jawab dan kewenangan pimpinan. Jika Anda memimpin proses tersebut, arahan apa yang seharusnya diberikan?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pimpinan perlu mengarahkan tim untuk menggunakan klaim paling sukses tanpa ukuran.",
+        "rationale": "Tidak tepat untuk kasus ini karena superlatif tanpa bukti mengaburkan fakta. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: klaim didukung ukuran yang terverifikasi dan atribusi yang jelas. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Bahasa promosi dan opini penulis tidak boleh menggantikan fakta.",
+        "misconception": "superlatif tanpa bukti mengaburkan fakta",
+        "validWhen": "klaim didukung ukuran yang terverifikasi dan atribusi yang jelas"
+      },
+      {
+        "id": "B",
+        "text": "Pimpinan perlu mengarahkan tim untuk membuka berita dengan sejarah panjang kegiatan.",
+        "rationale": "Tidak tepat untuk kasus ini karena informasi utama tertunda dan pembaca tidak segera memahami nilai berita. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: artikel yang ditulis memang feature sejarah, bukan berita langsung. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Bahasa promosi dan opini penulis tidak boleh menggantikan fakta.",
+        "misconception": "informasi utama tertunda dan pembaca tidak segera memahami nilai berita",
+        "validWhen": "artikel yang ditulis memang feature sejarah, bukan berita langsung"
+      },
+      {
+        "id": "C",
+        "text": "Pimpinan perlu mengarahkan tim untuk verifikasi 5W1H, tulis lead berisi fakta terpenting, lalu susun detail dari paling penting.",
+        "rationale": "Benar untuk kasus ini. Berita menyajikan fakta terpenting terlebih dahulu melalui unsur 5W1H, judul yang akurat, lead yang kuat, dan detail pendukung secara berurutan. Karena itu, tindakan yang tepat adalah verifikasi 5W1H, tulis lead berisi fakta terpenting, lalu susun detail dari paling penting. Batas pentingnya: Bahasa promosi dan opini penulis tidak boleh menggantikan fakta.",
+        "misconception": null,
+        "validWhen": "ketika kondisi sama dengan kasus dan seluruh prasyarat pada Penulisan berita dan 5W1H terpenuhi"
+      },
+      {
+        "id": "D",
+        "text": "Pimpinan perlu mengarahkan tim untuk menyalin seluruh sambutan sebagai isi berita.",
+        "rationale": "Tidak tepat untuk kasus ini karena kutipan tidak menggantikan struktur fakta dan konteks. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: transkrip sambutan memang artefak yang diminta terpisah dari naskah berita. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Bahasa promosi dan opini penulis tidak boleh menggantikan fakta.",
+        "misconception": "kutipan tidak menggantikan struktur fakta dan konteks",
+        "validWhen": "transkrip sambutan memang artefak yang diminta terpisah dari naskah berita"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "Jawaban paling tepat adalah C. Kasus yang diuji: Naskah berita kegiatan baru menjelaskan inti acara pada paragraf keenam. Fokus pertanyaan: Jika Anda memimpin proses tersebut, arahan apa yang seharusnya diberikan? Uraian topik: Berita menyajikan fakta terpenting terlebih dahulu melalui unsur 5W1H, judul yang akurat, lead yang kuat, dan detail pendukung secara berurutan. Pada kasus ini, keputusan harus verifikasi 5W1H, tulis lead berisi fakta terpenting, lalu susun detail dari paling penting. Batas penerapan: Bahasa promosi dan opini penulis tidak boleh menggantikan fakta. Tiga pilihan lain bukan jawaban terbaik untuk kondisi ini. Tindakan sejenis baru dapat digunakan setelah redaksinya disesuaikan dan syarat berikut terpenuhi: membuka berita dengan sejarah panjang kegiatan — kondisi terkait: artikel yang ditulis memang feature sejarah, bukan berita langsung; menggunakan klaim paling sukses tanpa ukuran — kondisi terkait: klaim didukung ukuran yang terverifikasi dan atribusi yang jelas; menyalin seluruh sambutan sebagai isi berita — kondisi terkait: transkrip sambutan memang artefak yang diminta terpisah dari naskah berita. Dengan demikian, pembeda utamanya bukan kata yang terdengar paling tegas, melainkan kesesuaian kondisi, kewenangan, bukti, dan urutan proses. Sumber Menulis Berita Itu Mudah, bagian Penulisan berita dan 5W1H, berstatus non_normative dan diverifikasi 2026-08-03. Rincian sesuai huruf pilihan yang tampil: A — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena superlatif tanpa bukti mengaburkan fakta. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: klaim didukung ukuran yang terverifikasi dan atribusi yang jelas. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Bahasa promosi dan opini penulis tidak boleh menggantikan fakta. B — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena informasi utama tertunda dan pembaca tidak segera memahami nilai berita. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: artikel yang ditulis memang feature sejarah, bukan berita langsung. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Bahasa promosi dan opini penulis tidak boleh menggantikan fakta. C — BENAR: Benar untuk kasus ini. Berita menyajikan fakta terpenting terlebih dahulu melalui unsur 5W1H, judul yang akurat, lead yang kuat, dan detail pendukung secara berurutan. Karena itu, tindakan yang tepat adalah verifikasi 5W1H, tulis lead berisi fakta terpenting, lalu susun detail dari paling penting. Batas pentingnya: Bahasa promosi dan opini penulis tidak boleh menggantikan fakta. D — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena kutipan tidak menggantikan struktur fakta dan konteks. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: transkrip sambutan memang artefak yang diminta terpisah dari naskah berita. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Bahasa promosi dan opini penulis tidak boleh menggantikan fakta.",
+    "keyTakeaway": "Ingat pembeda kondisi: verifikasi 5W1H, tulis lead berisi fakta terpenting, lalu susun detail dari paling penting; jangan terapkan alternatif sebelum syarat khususnya terpenuhi.",
+    "sourceRefs": [
+      {
+        "sourceId": "SRC-HUMAS-WRITING",
+        "title": "Menulis Berita Itu Mudah",
+        "driveFileId": "1__-82PkI0CbaqUvqLqnRAIiFaOS7zGjR",
+        "section": "Penulisan berita dan 5W1H",
+        "pageOrSlide": null,
+        "regulationStatus": "non_normative",
+        "lastVerified": "2026-08-03"
+      }
+    ],
+    "tags": [
+      "kehumasan",
+      "penulisan_berita",
+      "situational_judgment",
+      "evaluate",
+      "easy"
+    ],
+    "review": {
+      "contentAccuracy": 25,
+      "sourceTraceability": 15,
+      "stemClarity": 9,
+      "distractorQuality": 9,
+      "singleBestAnswer": 10,
+      "competencyRelevance": 10,
+      "explanationQuality": 9,
+      "originality": 4,
+      "languageQuality": 3,
+      "difficultyFit": 2,
+      "total": 96,
+      "method": "rubrik_terotomasi_berbasis_unit_terverifikasi_v1"
+    },
+    "similarityGroup": "CONCEPT-016",
+    "knowledgeUnitId": "KU-DM-HM-016-1-4",
+    "questionFocus": "situational_judgment",
+    "generationBatch": "2026.08.drive-categories-v2",
+    "createdAt": "2026-08-03",
+    "lastReviewedAt": "2026-08-03",
+    "runtimeId": 243,
+    "selectedFromCandidateId": "CAND-DM-HM-0130"
+  },
+  {
+    "id": "DM-HM-0104",
+    "version": 1,
+    "status": "active",
+    "domain": "kehumasan",
+    "subdomain": "komunikasi_krisis",
+    "competency": "Mengelola komunikasi krisis",
+    "indicator": "Membedakan tahap pra-krisis, respons krisis, dan pascakrisis",
+    "questionType": "case_based_mcq",
+    "cognitiveLevel": "analyze",
+    "difficulty": "hard",
+    "stem": "Tim ingin diam sampai penyebab teknis ditemukan sepenuhnya. Tentukan urutan tindakan awal yang aman. Apa tindakan yang paling tepat?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sebagai langkah awal, menunggu seluruh fakta sempurna sebelum berkata apa pun sebelum keputusan akhir ditetapkan.",
+        "rationale": "Tidak tepat untuk kasus ini karena kekosongan informasi dapat diisi spekulasi. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: risiko keselamatan atau hukum mengharuskan penundaan terbatas dan alasan penundaan dikomunikasikan. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Diam tanpa penjelasan dapat memperbesar ruang spekulasi, tetapi informasi yang belum pasti harus diberi batas.",
+        "misconception": "kekosongan informasi dapat diisi spekulasi",
+        "validWhen": "risiko keselamatan atau hukum mengharuskan penundaan terbatas dan alasan penundaan dikomunikasikan"
+      },
+      {
+        "id": "B",
+        "text": "Sebagai langkah awal, segera membantah semua kritik sebelum keputusan akhir ditetapkan.",
+        "rationale": "Tidak tepat untuk kasus ini karena respons defensif sebelum verifikasi dapat memperburuk krisis. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: klaim tertentu telah diverifikasi salah dan bantahan disampaikan dengan bukti serta empati. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Diam tanpa penjelasan dapat memperbesar ruang spekulasi, tetapi informasi yang belum pasti harus diberi batas.",
+        "misconception": "respons defensif sebelum verifikasi dapat memperburuk krisis",
+        "validWhen": "klaim tertentu telah diverifikasi salah dan bantahan disampaikan dengan bukti serta empati"
+      },
+      {
+        "id": "C",
+        "text": "Sebagai langkah awal, aktifkan tim krisis, verifikasi fakta, sampaikan holding statement yang empatik, lalu perbarui dan evaluasi sebelum keputusan akhir ditetapkan.",
+        "rationale": "Benar untuk kasus ini. Komunikasi krisis mencakup kesiapan dan posisi awal sebelum krisis, respons cepat-akurat-empatik selama krisis, serta evaluasi dan pemulihan kepercayaan setelahnya. Karena itu, tindakan yang tepat adalah aktifkan tim krisis, verifikasi fakta, sampaikan holding statement yang empatik, lalu perbarui dan evaluasi. Batas pentingnya: Diam tanpa penjelasan dapat memperbesar ruang spekulasi, tetapi informasi yang belum pasti harus diberi batas.",
+        "misconception": null,
+        "validWhen": "ketika kondisi sama dengan kasus dan seluruh prasyarat pada Pre-crisis, crisis, dan post-crisis treatment terpenuhi"
+      },
+      {
+        "id": "D",
+        "text": "Sebagai langkah awal, menghapus seluruh unggahan lama setelah krisis sebelum keputusan akhir ditetapkan.",
+        "rationale": "Tidak tepat untuk kasus ini karena penghapusan massal tidak sama dengan pemulihan dan dapat menghilangkan jejak. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: unggahan tertentu terbukti salah, melanggar ketentuan, atau membahayakan sehingga perlu diturunkan. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Diam tanpa penjelasan dapat memperbesar ruang spekulasi, tetapi informasi yang belum pasti harus diberi batas.",
+        "misconception": "penghapusan massal tidak sama dengan pemulihan dan dapat menghilangkan jejak",
+        "validWhen": "unggahan tertentu terbukti salah, melanggar ketentuan, atau membahayakan sehingga perlu diturunkan"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "Jawaban paling tepat adalah C. Kasus yang diuji: Tim ingin diam sampai penyebab teknis ditemukan sepenuhnya. Fokus pertanyaan: Apa tindakan yang paling tepat? Uraian topik: Komunikasi krisis mencakup kesiapan dan posisi awal sebelum krisis, respons cepat-akurat-empatik selama krisis, serta evaluasi dan pemulihan kepercayaan setelahnya. Pada kasus ini, keputusan harus aktifkan tim krisis, verifikasi fakta, sampaikan holding statement yang empatik, lalu perbarui dan evaluasi. Batas penerapan: Diam tanpa penjelasan dapat memperbesar ruang spekulasi, tetapi informasi yang belum pasti harus diberi batas. Tiga pilihan lain bukan jawaban terbaik untuk kondisi ini. Tindakan sejenis baru dapat digunakan setelah redaksinya disesuaikan dan syarat berikut terpenuhi: menunggu seluruh fakta sempurna sebelum berkata apa pun — kondisi terkait: risiko keselamatan atau hukum mengharuskan penundaan terbatas dan alasan penundaan dikomunikasikan; segera membantah semua kritik — kondisi terkait: klaim tertentu telah diverifikasi salah dan bantahan disampaikan dengan bukti serta empati; menghapus seluruh unggahan lama setelah krisis — kondisi terkait: unggahan tertentu terbukti salah, melanggar ketentuan, atau membahayakan sehingga perlu diturunkan. Dengan demikian, pembeda utamanya bukan kata yang terdengar paling tegas, melainkan kesesuaian kondisi, kewenangan, bukti, dan urutan proses. Sumber Komunikasi Krisis, bagian Pre-crisis, crisis, dan post-crisis treatment, berstatus non_normative dan diverifikasi 2026-08-03. Rincian sesuai huruf pilihan yang tampil: A — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena kekosongan informasi dapat diisi spekulasi. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: risiko keselamatan atau hukum mengharuskan penundaan terbatas dan alasan penundaan dikomunikasikan. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Diam tanpa penjelasan dapat memperbesar ruang spekulasi, tetapi informasi yang belum pasti harus diberi batas. B — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena respons defensif sebelum verifikasi dapat memperburuk krisis. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: klaim tertentu telah diverifikasi salah dan bantahan disampaikan dengan bukti serta empati. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Diam tanpa penjelasan dapat memperbesar ruang spekulasi, tetapi informasi yang belum pasti harus diberi batas. C — BENAR: Benar untuk kasus ini. Komunikasi krisis mencakup kesiapan dan posisi awal sebelum krisis, respons cepat-akurat-empatik selama krisis, serta evaluasi dan pemulihan kepercayaan setelahnya. Karena itu, tindakan yang tepat adalah aktifkan tim krisis, verifikasi fakta, sampaikan holding statement yang empatik, lalu perbarui dan evaluasi. Batas pentingnya: Diam tanpa penjelasan dapat memperbesar ruang spekulasi, tetapi informasi yang belum pasti harus diberi batas. D — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena penghapusan massal tidak sama dengan pemulihan dan dapat menghilangkan jejak. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: unggahan tertentu terbukti salah, melanggar ketentuan, atau membahayakan sehingga perlu diturunkan. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Diam tanpa penjelasan dapat memperbesar ruang spekulasi, tetapi informasi yang belum pasti harus diberi batas.",
+    "keyTakeaway": "Ingat pembeda kondisi: aktifkan tim krisis, verifikasi fakta, sampaikan holding statement yang empatik, lalu perbarui dan evaluasi; jangan terapkan alternatif sebelum syarat khususnya terpenuhi.",
+    "sourceRefs": [
+      {
+        "sourceId": "SRC-HUMAS-CRISIS",
+        "title": "Komunikasi Krisis",
+        "driveFileId": "1lp4O61DIHGKG2APM8fIOF0h7SCOzP2o5",
+        "section": "Pre-crisis, crisis, dan post-crisis treatment",
+        "pageOrSlide": null,
+        "regulationStatus": "non_normative",
+        "lastVerified": "2026-08-03"
+      }
+    ],
+    "tags": [
+      "kehumasan",
+      "komunikasi_krisis",
+      "case_based_mcq",
+      "apply",
+      "easy"
+    ],
+    "review": {
+      "contentAccuracy": 25,
+      "sourceTraceability": 15,
+      "stemClarity": 9,
+      "distractorQuality": 9,
+      "singleBestAnswer": 10,
+      "competencyRelevance": 10,
+      "explanationQuality": 9,
+      "originality": 4,
+      "languageQuality": 3,
+      "difficultyFit": 2,
+      "total": 96,
+      "method": "rubrik_terotomasi_berbasis_unit_terverifikasi_v1"
+    },
+    "similarityGroup": "CONCEPT-017",
+    "knowledgeUnitId": "KU-DM-HM-017-2-1",
+    "questionFocus": "case_based_mcq",
+    "generationBatch": "2026.08.drive-categories-v2",
+    "createdAt": "2026-08-03",
+    "lastReviewedAt": "2026-08-03",
+    "runtimeId": 244,
+    "selectedFromCandidateId": "CAND-DM-HM-0131"
+  },
+  {
+    "id": "DM-HM-0105",
+    "version": 1,
+    "status": "active",
+    "domain": "kehumasan",
+    "subdomain": "media_sosial",
+    "competency": "Mengelola akun media sosial resmi",
+    "indicator": "Menjaga akurasi, visual, keamanan, dan interaksi",
+    "questionType": "monitoring_evaluation",
+    "cognitiveLevel": "apply",
+    "difficulty": "easy",
+    "stem": "Pengguna memancing perdebatan di kolom komentar akun resmi. Nilai perubahan kondisi setelah tindak lanjut. Tindak lanjut mana yang paling tepat setelah kondisi itu ditemukan?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Tindak lanjut yang tepat adalah berdebat panjang untuk memenangkan komentar sebelum keputusan akhir ditetapkan.",
+        "rationale": "Tidak tepat untuk kasus ini karena perdebatan publik meningkatkan risiko eskalasi dan keluar dari layanan informasi. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: klarifikasi singkat berbasis fakta diperlukan sebelum percakapan diarahkan ke kanal layanan. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Gaya komunikatif diperbolehkan, tetapi admin harus menghindari perdebatan dan tetap merujuk ketentuan.",
+        "misconception": "perdebatan publik meningkatkan risiko eskalasi dan keluar dari layanan informasi",
+        "validWhen": "klarifikasi singkat berbasis fakta diperlukan sebelum percakapan diarahkan ke kanal layanan"
+      },
+      {
+        "id": "B",
+        "text": "Tindak lanjut yang tepat adalah mempertahankan konten lama karena pernah benar sebelum keputusan akhir ditetapkan.",
+        "rationale": "Tidak tepat untuk kasus ini karena perubahan regulasi dapat membuat konten menyesatkan. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: konten diberi konteks arsip yang jelas dan tidak mungkin dianggap sebagai ketentuan aktif. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Gaya komunikatif diperbolehkan, tetapi admin harus menghindari perdebatan dan tetap merujuk ketentuan.",
+        "misconception": "perubahan regulasi dapat membuat konten menyesatkan",
+        "validWhen": "konten diberi konteks arsip yang jelas dan tidak mungkin dianggap sebagai ketentuan aktif"
+      },
+      {
+        "id": "C",
+        "text": "Tindak lanjut yang tepat adalah verifikasi substansi dan sensitivitas, gunakan identitas resmi, jawab secara proporsional, dan koreksi konten usang sebelum keputusan akhir ditetapkan.",
+        "rationale": "Benar untuk kasus ini. Akun resmi digunakan untuk edukasi dan kehumasan; konten teknis dikonsultasikan, visual mengikuti pedoman, informasi sensitif tidak dipublikasikan, dan konten usang diturunkan pada kesempatan pertama. Karena itu, tindakan yang tepat adalah verifikasi substansi dan sensitivitas, gunakan identitas resmi, jawab secara proporsional, dan koreksi konten usang. Batas pentingnya: Gaya komunikatif diperbolehkan, tetapi admin harus menghindari perdebatan dan tetap merujuk ketentuan.",
+        "misconception": null,
+        "validWhen": "ketika kondisi sama dengan kasus dan seluruh prasyarat pada KEP-189/BC/2025 Pedoman Media Sosial terpenuhi"
+      },
+      {
+        "id": "D",
+        "text": "Tindak lanjut yang tepat adalah mengunggah naskah dinas agar terlihat transparan sebelum keputusan akhir ditetapkan.",
+        "rationale": "Tidak tepat untuk kasus ini karena dokumen sensitif atau terbatas tidak boleh dipublikasikan. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: dokumen telah ditetapkan sebagai informasi publik dan versi yang dipublikasikan telah melalui pemeriksaan. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Gaya komunikatif diperbolehkan, tetapi admin harus menghindari perdebatan dan tetap merujuk ketentuan.",
+        "misconception": "dokumen sensitif atau terbatas tidak boleh dipublikasikan",
+        "validWhen": "dokumen telah ditetapkan sebagai informasi publik dan versi yang dipublikasikan telah melalui pemeriksaan"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "Jawaban paling tepat adalah C. Kasus yang diuji: Pengguna memancing perdebatan di kolom komentar akun resmi. Fokus pertanyaan: Tindak lanjut mana yang paling tepat setelah kondisi itu ditemukan? Uraian topik: Akun resmi digunakan untuk edukasi dan kehumasan; konten teknis dikonsultasikan, visual mengikuti pedoman, informasi sensitif tidak dipublikasikan, dan konten usang diturunkan pada kesempatan pertama. Pada kasus ini, keputusan harus verifikasi substansi dan sensitivitas, gunakan identitas resmi, jawab secara proporsional, dan koreksi konten usang. Batas penerapan: Gaya komunikatif diperbolehkan, tetapi admin harus menghindari perdebatan dan tetap merujuk ketentuan. Tiga pilihan lain bukan jawaban terbaik untuk kondisi ini. Tindakan sejenis baru dapat digunakan setelah redaksinya disesuaikan dan syarat berikut terpenuhi: mempertahankan konten lama karena pernah benar — kondisi terkait: konten diberi konteks arsip yang jelas dan tidak mungkin dianggap sebagai ketentuan aktif; berdebat panjang untuk memenangkan komentar — kondisi terkait: klarifikasi singkat berbasis fakta diperlukan sebelum percakapan diarahkan ke kanal layanan; mengunggah naskah dinas agar terlihat transparan — kondisi terkait: dokumen telah ditetapkan sebagai informasi publik dan versi yang dipublikasikan telah melalui pemeriksaan. Dengan demikian, pembeda utamanya bukan kata yang terdengar paling tegas, melainkan kesesuaian kondisi, kewenangan, bukti, dan urutan proses. Sumber KEP-189/BC/2025 Pedoman Pengelolaan Media Sosial DJBC, bagian KEP-189/BC/2025 Pedoman Media Sosial, berstatus current dan diverifikasi 2026-08-03. Rincian sesuai huruf pilihan yang tampil: A — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena perdebatan publik meningkatkan risiko eskalasi dan keluar dari layanan informasi. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: klarifikasi singkat berbasis fakta diperlukan sebelum percakapan diarahkan ke kanal layanan. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Gaya komunikatif diperbolehkan, tetapi admin harus menghindari perdebatan dan tetap merujuk ketentuan. B — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena perubahan regulasi dapat membuat konten menyesatkan. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: konten diberi konteks arsip yang jelas dan tidak mungkin dianggap sebagai ketentuan aktif. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Gaya komunikatif diperbolehkan, tetapi admin harus menghindari perdebatan dan tetap merujuk ketentuan. C — BENAR: Benar untuk kasus ini. Akun resmi digunakan untuk edukasi dan kehumasan; konten teknis dikonsultasikan, visual mengikuti pedoman, informasi sensitif tidak dipublikasikan, dan konten usang diturunkan pada kesempatan pertama. Karena itu, tindakan yang tepat adalah verifikasi substansi dan sensitivitas, gunakan identitas resmi, jawab secara proporsional, dan koreksi konten usang. Batas pentingnya: Gaya komunikatif diperbolehkan, tetapi admin harus menghindari perdebatan dan tetap merujuk ketentuan. D — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena dokumen sensitif atau terbatas tidak boleh dipublikasikan. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: dokumen telah ditetapkan sebagai informasi publik dan versi yang dipublikasikan telah melalui pemeriksaan. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Gaya komunikatif diperbolehkan, tetapi admin harus menghindari perdebatan dan tetap merujuk ketentuan.",
+    "keyTakeaway": "Ingat pembeda kondisi: verifikasi substansi dan sensitivitas, gunakan identitas resmi, jawab secara proporsional, dan koreksi konten usang; jangan terapkan alternatif sebelum syarat khususnya terpenuhi.",
+    "sourceRefs": [
+      {
+        "sourceId": "SRC-HUMAS-SOCIAL",
+        "title": "KEP-189/BC/2025 Pedoman Pengelolaan Media Sosial DJBC",
+        "driveFileId": "1Bl3r_WVVVybOLNKqjOobBGMzyCGdA9HT",
+        "section": "KEP-189/BC/2025 Pedoman Media Sosial",
+        "pageOrSlide": null,
+        "regulationStatus": "current",
+        "lastVerified": "2026-08-03"
+      }
+    ],
+    "tags": [
+      "kehumasan",
+      "media_sosial",
+      "monitoring_evaluation",
+      "analyze",
+      "easy"
+    ],
+    "review": {
+      "contentAccuracy": 25,
+      "sourceTraceability": 15,
+      "stemClarity": 9,
+      "distractorQuality": 9,
+      "singleBestAnswer": 10,
+      "competencyRelevance": 10,
+      "explanationQuality": 9,
+      "originality": 4,
+      "languageQuality": 3,
+      "difficultyFit": 2,
+      "total": 96,
+      "method": "rubrik_terotomasi_berbasis_unit_terverifikasi_v1"
+    },
+    "similarityGroup": "CONCEPT-018",
+    "knowledgeUnitId": "KU-DM-HM-018-2-8",
+    "questionFocus": "monitoring_evaluation",
+    "generationBatch": "2026.08.drive-categories-v2",
+    "createdAt": "2026-08-03",
+    "lastReviewedAt": "2026-08-03",
+    "runtimeId": 245,
+    "selectedFromCandidateId": "CAND-DM-HM-0132"
+  },
+  {
+    "id": "DM-HM-0106",
+    "version": 1,
+    "status": "active",
+    "domain": "kehumasan",
+    "subdomain": "strategi_komunikasi",
+    "competency": "Menyusun strategi komunikasi",
+    "indicator": "Menghubungkan kondisi awal, tujuan, audiens, pesan, dan tindakan",
+    "questionType": "corrective_action",
+    "cognitiveLevel": "analyze",
+    "difficulty": "medium",
+    "stem": "Tim memilih platform baru sebelum menyepakati audiens dan tujuan komunikasi. Sasar akar kekeliruan sebelum memperbaiki hasil. Perbaikan apa yang harus dilakukan terlebih dahulu?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Perbaikan harus dimulai dengan menilai strategi dari jumlah tayangan saja dan mendokumentasikan hasilnya.",
+        "rationale": "Tidak tepat untuk kasus ini karena tayangan mengukur paparan, bukan selalu pemahaman atau perubahan sikap. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: tujuan kampanye memang terbatas pada peningkatan awareness dan metrik paparan telah didefinisikan. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Ramainya publikasi bukan ukuran keberhasilan bila tidak mengubah pengetahuan, sikap, atau perilaku yang dituju.",
+        "misconception": "tayangan mengukur paparan, bukan selalu pemahaman atau perubahan sikap",
+        "validWhen": "tujuan kampanye memang terbatas pada peningkatan awareness dan metrik paparan telah didefinisikan"
+      },
+      {
+        "id": "B",
+        "text": "Perbaikan harus dimulai dengan langsung membuat sebanyak mungkin konten dan mendokumentasikan hasilnya.",
+        "rationale": "Tidak tepat untuk kasus ini karena volume tanpa tujuan dan audiens tidak membentuk strategi. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: tujuan, audiens, pesan, dan ukuran hasil telah ditetapkan sehingga penambahan volume memang diperlukan. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Ramainya publikasi bukan ukuran keberhasilan bila tidak mengubah pengetahuan, sikap, atau perilaku yang dituju.",
+        "misconception": "volume tanpa tujuan dan audiens tidak membentuk strategi",
+        "validWhen": "tujuan, audiens, pesan, dan ukuran hasil telah ditetapkan sehingga penambahan volume memang diperlukan"
+      },
+      {
+        "id": "C",
+        "text": "Perbaikan harus dimulai dengan memilih kanal hanya karena sedang populer dan mendokumentasikan hasilnya.",
+        "rationale": "Tidak tepat untuk kasus ini karena popularitas kanal belum menjamin audiens sasaran ada di sana. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: data menunjukkan audiens sasaran dominan memakai kanal tersebut dan formatnya sesuai. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Ramainya publikasi bukan ukuran keberhasilan bila tidak mengubah pengetahuan, sikap, atau perilaku yang dituju.",
+        "misconception": "popularitas kanal belum menjamin audiens sasaran ada di sana",
+        "validWhen": "data menunjukkan audiens sasaran dominan memakai kanal tersebut dan formatnya sesuai"
+      },
+      {
+        "id": "D",
+        "text": "Perbaikan harus dimulai dengan tetapkan tujuan dan audiens, rumuskan pesan, pilih saluran, lalu ukur perubahan yang diharapkan dan mendokumentasikan hasilnya.",
+        "rationale": "Benar untuk kasus ini. Strategi komunikasi adalah pilihan sadar yang menjembatani posisi saat ini dengan tujuan komunikasi melalui audiens, pesan, saluran, dan tindakan yang terarah. Karena itu, tindakan yang tepat adalah tetapkan tujuan dan audiens, rumuskan pesan, pilih saluran, lalu ukur perubahan yang diharapkan. Batas pentingnya: Ramainya publikasi bukan ukuran keberhasilan bila tidak mengubah pengetahuan, sikap, atau perilaku yang dituju.",
+        "misconception": null,
+        "validWhen": "ketika kondisi sama dengan kasus dan seluruh prasyarat pada Strategi komunikasi terpenuhi"
+      }
+    ],
+    "correctOptionId": "D",
+    "explanation": "Jawaban paling tepat adalah D. Kasus yang diuji: Tim memilih platform baru sebelum menyepakati audiens dan tujuan komunikasi. Fokus pertanyaan: Perbaikan apa yang harus dilakukan terlebih dahulu? Uraian topik: Strategi komunikasi adalah pilihan sadar yang menjembatani posisi saat ini dengan tujuan komunikasi melalui audiens, pesan, saluran, dan tindakan yang terarah. Pada kasus ini, keputusan harus tetapkan tujuan dan audiens, rumuskan pesan, pilih saluran, lalu ukur perubahan yang diharapkan. Batas penerapan: Ramainya publikasi bukan ukuran keberhasilan bila tidak mengubah pengetahuan, sikap, atau perilaku yang dituju. Tiga pilihan lain bukan jawaban terbaik untuk kondisi ini. Tindakan sejenis baru dapat digunakan setelah redaksinya disesuaikan dan syarat berikut terpenuhi: langsung membuat sebanyak mungkin konten — kondisi terkait: tujuan, audiens, pesan, dan ukuran hasil telah ditetapkan sehingga penambahan volume memang diperlukan; memilih kanal hanya karena sedang populer — kondisi terkait: data menunjukkan audiens sasaran dominan memakai kanal tersebut dan formatnya sesuai; menilai strategi dari jumlah tayangan saja — kondisi terkait: tujuan kampanye memang terbatas pada peningkatan awareness dan metrik paparan telah didefinisikan. Dengan demikian, pembeda utamanya bukan kata yang terdengar paling tegas, melainkan kesesuaian kondisi, kewenangan, bukti, dan urutan proses. Sumber Strategi Komunikasi DJBC, bagian Strategi komunikasi, berstatus non_normative dan diverifikasi 2026-08-03. Rincian sesuai huruf pilihan yang tampil: A — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena tayangan mengukur paparan, bukan selalu pemahaman atau perubahan sikap. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: tujuan kampanye memang terbatas pada peningkatan awareness dan metrik paparan telah didefinisikan. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Ramainya publikasi bukan ukuran keberhasilan bila tidak mengubah pengetahuan, sikap, atau perilaku yang dituju. B — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena volume tanpa tujuan dan audiens tidak membentuk strategi. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: tujuan, audiens, pesan, dan ukuran hasil telah ditetapkan sehingga penambahan volume memang diperlukan. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Ramainya publikasi bukan ukuran keberhasilan bila tidak mengubah pengetahuan, sikap, atau perilaku yang dituju. C — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena popularitas kanal belum menjamin audiens sasaran ada di sana. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: data menunjukkan audiens sasaran dominan memakai kanal tersebut dan formatnya sesuai. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Ramainya publikasi bukan ukuran keberhasilan bila tidak mengubah pengetahuan, sikap, atau perilaku yang dituju. D — BENAR: Benar untuk kasus ini. Strategi komunikasi adalah pilihan sadar yang menjembatani posisi saat ini dengan tujuan komunikasi melalui audiens, pesan, saluran, dan tindakan yang terarah. Karena itu, tindakan yang tepat adalah tetapkan tujuan dan audiens, rumuskan pesan, pilih saluran, lalu ukur perubahan yang diharapkan. Batas pentingnya: Ramainya publikasi bukan ukuran keberhasilan bila tidak mengubah pengetahuan, sikap, atau perilaku yang dituju.",
+    "keyTakeaway": "Ingat pembeda kondisi: tetapkan tujuan dan audiens, rumuskan pesan, pilih saluran, lalu ukur perubahan yang diharapkan; jangan terapkan alternatif sebelum syarat khususnya terpenuhi.",
+    "sourceRefs": [
+      {
+        "sourceId": "SRC-HUMAS-STRATEGY",
+        "title": "Strategi Komunikasi DJBC",
+        "driveFileId": "1LVCvtEAufBpT9o6yC_Ot7IpWIXmH8Tde",
+        "section": "Strategi komunikasi",
+        "pageOrSlide": null,
+        "regulationStatus": "non_normative",
+        "lastVerified": "2026-08-03"
+      }
+    ],
+    "tags": [
+      "kehumasan",
+      "strategi_komunikasi",
+      "corrective_action",
+      "apply",
+      "medium"
+    ],
+    "review": {
+      "contentAccuracy": 25,
+      "sourceTraceability": 15,
+      "stemClarity": 9,
+      "distractorQuality": 9,
+      "singleBestAnswer": 10,
+      "competencyRelevance": 10,
+      "explanationQuality": 9,
+      "originality": 4,
+      "languageQuality": 3,
+      "difficultyFit": 2,
+      "total": 96,
+      "method": "rubrik_terotomasi_berbasis_unit_terverifikasi_v1"
+    },
+    "similarityGroup": "CONCEPT-010",
+    "knowledgeUnitId": "KU-DM-HM-010-3-5",
+    "questionFocus": "corrective_action",
+    "generationBatch": "2026.08.drive-categories-v2",
+    "createdAt": "2026-08-03",
+    "lastReviewedAt": "2026-08-03",
+    "runtimeId": 246,
+    "selectedFromCandidateId": "CAND-DM-HM-0133"
+  },
+  {
+    "id": "DM-HM-0107",
+    "version": 1,
+    "status": "active",
+    "domain": "kehumasan",
+    "subdomain": "media_handling",
+    "competency": "Menyiapkan interaksi dengan media",
+    "indicator": "Menjaga konsistensi pesan, fakta, dan juru bicara",
+    "questionType": "control_design",
+    "cognitiveLevel": "apply",
+    "difficulty": "medium",
+    "stem": "Tiga pejabat memberi versi berbeda mengenai kebijakan yang sama. Pilih kontrol pencegahan yang relevan dengan risiko. Pengendalian mana yang paling tepat untuk mencegah kekeliruan?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pengendalian perlu memastikan petugas siapkan fakta dan pesan kunci, tetapkan juru bicara, antisipasi pertanyaan, lalu catat tindak lanjut sebelum keputusan akhir ditetapkan.",
+        "rationale": "Benar untuk kasus ini. Media handling memerlukan tujuan, pesan kunci, data terverifikasi, juru bicara berwenang, latihan tanya-jawab, dan tindak lanjut. Karena itu, tindakan yang tepat adalah siapkan fakta dan pesan kunci, tetapkan juru bicara, antisipasi pertanyaan, lalu catat tindak lanjut. Batas pentingnya: Kecepatan respons tidak boleh mengorbankan akurasi atau kewenangan.",
+        "misconception": null,
+        "validWhen": "ketika kondisi sama dengan kasus dan seluruh prasyarat pada Persiapan media dan juru bicara terpenuhi"
+      },
+      {
+        "id": "B",
+        "text": "Pengendalian perlu memastikan petugas membiarkan setiap pegawai menjawab media sebelum keputusan akhir ditetapkan.",
+        "rationale": "Tidak tepat untuk kasus ini karena jawaban yang tidak terkoordinasi dapat tidak konsisten dan melampaui kewenangan. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: pegawai tersebut memang juru bicara yang ditunjuk untuk substansi yang dikuasainya. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Kecepatan respons tidak boleh mengorbankan akurasi atau kewenangan.",
+        "misconception": "jawaban yang tidak terkoordinasi dapat tidak konsisten dan melampaui kewenangan",
+        "validWhen": "pegawai tersebut memang juru bicara yang ditunjuk untuk substansi yang dikuasainya"
+      },
+      {
+        "id": "C",
+        "text": "Pengendalian perlu memastikan petugas menghafal naskah dan menolak pertanyaan lanjutan sebelum keputusan akhir ditetapkan.",
+        "rationale": "Tidak tepat untuk kasus ini karena media handling membutuhkan respons atas kebutuhan informasi, bukan pembacaan naskah semata. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: format acara memang berupa pernyataan resmi tanpa sesi tanya-jawab dan batasnya diumumkan. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Kecepatan respons tidak boleh mengorbankan akurasi atau kewenangan.",
+        "misconception": "media handling membutuhkan respons atas kebutuhan informasi, bukan pembacaan naskah semata",
+        "validWhen": "format acara memang berupa pernyataan resmi tanpa sesi tanya-jawab dan batasnya diumumkan"
+      },
+      {
+        "id": "D",
+        "text": "Pengendalian perlu memastikan petugas menjawab cepat dengan angka sementara seolah final sebelum keputusan akhir ditetapkan.",
+        "rationale": "Tidak tepat untuk kasus ini karena status data harus dijelaskan agar tidak menyesatkan. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: angka telah diverifikasi atau secara jelas diberi label sementara beserta waktu pembaruan. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Kecepatan respons tidak boleh mengorbankan akurasi atau kewenangan.",
+        "misconception": "status data harus dijelaskan agar tidak menyesatkan",
+        "validWhen": "angka telah diverifikasi atau secara jelas diberi label sementara beserta waktu pembaruan"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "Jawaban paling tepat adalah A. Kasus yang diuji: Tiga pejabat memberi versi berbeda mengenai kebijakan yang sama. Fokus pertanyaan: Pengendalian mana yang paling tepat untuk mencegah kekeliruan? Uraian topik: Media handling memerlukan tujuan, pesan kunci, data terverifikasi, juru bicara berwenang, latihan tanya-jawab, dan tindak lanjut. Pada kasus ini, keputusan harus siapkan fakta dan pesan kunci, tetapkan juru bicara, antisipasi pertanyaan, lalu catat tindak lanjut. Batas penerapan: Kecepatan respons tidak boleh mengorbankan akurasi atau kewenangan. Tiga pilihan lain bukan jawaban terbaik untuk kondisi ini. Tindakan sejenis baru dapat digunakan setelah redaksinya disesuaikan dan syarat berikut terpenuhi: membiarkan setiap pegawai menjawab media — kondisi terkait: pegawai tersebut memang juru bicara yang ditunjuk untuk substansi yang dikuasainya; menghafal naskah dan menolak pertanyaan lanjutan — kondisi terkait: format acara memang berupa pernyataan resmi tanpa sesi tanya-jawab dan batasnya diumumkan; menjawab cepat dengan angka sementara seolah final — kondisi terkait: angka telah diverifikasi atau secara jelas diberi label sementara beserta waktu pembaruan. Dengan demikian, pembeda utamanya bukan kata yang terdengar paling tegas, melainkan kesesuaian kondisi, kewenangan, bukti, dan urutan proses. Sumber Media Handling DJBC, bagian Persiapan media dan juru bicara, berstatus non_normative dan diverifikasi 2026-08-03. Rincian sesuai huruf pilihan yang tampil: A — BENAR: Benar untuk kasus ini. Media handling memerlukan tujuan, pesan kunci, data terverifikasi, juru bicara berwenang, latihan tanya-jawab, dan tindak lanjut. Karena itu, tindakan yang tepat adalah siapkan fakta dan pesan kunci, tetapkan juru bicara, antisipasi pertanyaan, lalu catat tindak lanjut. Batas pentingnya: Kecepatan respons tidak boleh mengorbankan akurasi atau kewenangan. B — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena jawaban yang tidak terkoordinasi dapat tidak konsisten dan melampaui kewenangan. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: pegawai tersebut memang juru bicara yang ditunjuk untuk substansi yang dikuasainya. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Kecepatan respons tidak boleh mengorbankan akurasi atau kewenangan. C — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena media handling membutuhkan respons atas kebutuhan informasi, bukan pembacaan naskah semata. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: format acara memang berupa pernyataan resmi tanpa sesi tanya-jawab dan batasnya diumumkan. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Kecepatan respons tidak boleh mengorbankan akurasi atau kewenangan. D — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena status data harus dijelaskan agar tidak menyesatkan. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: angka telah diverifikasi atau secara jelas diberi label sementara beserta waktu pembaruan. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Kecepatan respons tidak boleh mengorbankan akurasi atau kewenangan.",
+    "keyTakeaway": "Ingat pembeda kondisi: siapkan fakta dan pesan kunci, tetapkan juru bicara, antisipasi pertanyaan, lalu catat tindak lanjut; jangan terapkan alternatif sebelum syarat khususnya terpenuhi.",
+    "sourceRefs": [
+      {
+        "sourceId": "SRC-HUMAS-HANDLING",
+        "title": "Media Handling DJBC",
+        "driveFileId": "1KC2KaaVRrQAwwyeFiWQg216VtCOqhnXq",
+        "section": "Persiapan media dan juru bicara",
+        "pageOrSlide": null,
+        "regulationStatus": "non_normative",
+        "lastVerified": "2026-08-03"
+      }
+    ],
+    "tags": [
+      "kehumasan",
+      "media_handling",
+      "control_design",
+      "analyze",
+      "medium"
+    ],
+    "review": {
+      "contentAccuracy": 25,
+      "sourceTraceability": 15,
+      "stemClarity": 9,
+      "distractorQuality": 9,
+      "singleBestAnswer": 10,
+      "competencyRelevance": 10,
+      "explanationQuality": 9,
+      "originality": 4,
+      "languageQuality": 3,
+      "difficultyFit": 2,
+      "total": 96,
+      "method": "rubrik_terotomasi_berbasis_unit_terverifikasi_v1"
+    },
+    "similarityGroup": "CONCEPT-014",
+    "knowledgeUnitId": "KU-DM-HM-014-2-6",
+    "questionFocus": "control_design",
+    "generationBatch": "2026.08.drive-categories-v2",
+    "createdAt": "2026-08-03",
+    "lastReviewedAt": "2026-08-03",
+    "runtimeId": 247,
+    "selectedFromCandidateId": "CAND-DM-HM-0136"
+  },
+  {
+    "id": "DM-HM-0108",
+    "version": 1,
+    "status": "active",
+    "domain": "kehumasan",
+    "subdomain": "siaran_pers",
+    "competency": "Membedakan konferensi dan siaran pers",
+    "indicator": "Memilih format publikasi sesuai kebutuhan",
+    "questionType": "evidence_analysis",
+    "cognitiveLevel": "analyze",
+    "difficulty": "hard",
+    "stem": "Siaran pers berisi agenda seremonial tetapi tidak menjelaskan nilai berita bagi masyarakat. Nilai kecukupan bukti dan jejak auditnya. Pilihan mana yang paling dapat dipertanggungjawabkan saat bukti diuji?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pilihan yang dapat dipertanggungjawabkan adalah membuat konferensi tanpa bahan tertulis dan mendokumentasikan hasilnya.",
+        "rationale": "Tidak tepat untuk kasus ini karena risiko salah kutip dan ketidakkonsistenan meningkat. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: situasi sangat mendesak sehingga pernyataan awal lisan diperlukan dan bahan tertulis segera menyusul. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Tidak semua isu memerlukan konferensi pers dan siaran pers tetap harus akurat, bernilai berita, serta memiliki kontak.",
+        "misconception": "risiko salah kutip dan ketidakkonsistenan meningkat",
+        "validWhen": "situasi sangat mendesak sehingga pernyataan awal lisan diperlukan dan bahan tertulis segera menyusul"
+      },
+      {
+        "id": "B",
+        "text": "Pilihan yang dapat dipertanggungjawabkan adalah selalu mengadakan konferensi pers untuk setiap informasi dan mendokumentasikan hasilnya.",
+        "rationale": "Tidak tepat untuk kasus ini karena biaya dan risiko interaksi tidak sebanding untuk informasi rutin sederhana. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: isu kompleks, berdampak luas, dan publik memerlukan klarifikasi langsung. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Tidak semua isu memerlukan konferensi pers dan siaran pers tetap harus akurat, bernilai berita, serta memiliki kontak.",
+        "misconception": "biaya dan risiko interaksi tidak sebanding untuk informasi rutin sederhana",
+        "validWhen": "isu kompleks, berdampak luas, dan publik memerlukan klarifikasi langsung"
+      },
+      {
+        "id": "C",
+        "text": "Pilihan yang dapat dipertanggungjawabkan adalah mengirim siaran pers tanpa sudut berita dan mendokumentasikan hasilnya.",
+        "rationale": "Tidak tepat untuk kasus ini karena media sulit menggunakan materi yang tidak menunjukkan apa yang baru dan penting. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: dokumen tersebut hanya bahan latar untuk media yang telah meminta data lengkap. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Tidak semua isu memerlukan konferensi pers dan siaran pers tetap harus akurat, bernilai berita, serta memiliki kontak.",
+        "misconception": "media sulit menggunakan materi yang tidak menunjukkan apa yang baru dan penting",
+        "validWhen": "dokumen tersebut hanya bahan latar untuk media yang telah meminta data lengkap"
+      },
+      {
+        "id": "D",
+        "text": "Pilihan yang dapat dipertanggungjawabkan adalah pilih format berdasarkan kompleksitas dan kebutuhan interaksi, lalu siapkan pesan serta data yang konsisten dan mendokumentasikan hasilnya.",
+        "rationale": "Benar untuk kasus ini. Siaran pers menyajikan informasi tertulis yang siap digunakan media; konferensi pers diperlukan ketika penjelasan langsung dan tanya-jawab memberi nilai tambah. Karena itu, tindakan yang tepat adalah pilih format berdasarkan kompleksitas dan kebutuhan interaksi, lalu siapkan pesan serta data yang konsisten. Batas pentingnya: Tidak semua isu memerlukan konferensi pers dan siaran pers tetap harus akurat, bernilai berita, serta memiliki kontak.",
+        "misconception": null,
+        "validWhen": "ketika kondisi sama dengan kasus dan seluruh prasyarat pada Konferensi pers dan siaran pers terpenuhi"
+      }
+    ],
+    "correctOptionId": "D",
+    "explanation": "Jawaban paling tepat adalah D. Kasus yang diuji: Siaran pers berisi agenda seremonial tetapi tidak menjelaskan nilai berita bagi masyarakat. Fokus pertanyaan: Pilihan mana yang paling dapat dipertanggungjawabkan saat bukti diuji? Uraian topik: Siaran pers menyajikan informasi tertulis yang siap digunakan media; konferensi pers diperlukan ketika penjelasan langsung dan tanya-jawab memberi nilai tambah. Pada kasus ini, keputusan harus pilih format berdasarkan kompleksitas dan kebutuhan interaksi, lalu siapkan pesan serta data yang konsisten. Batas penerapan: Tidak semua isu memerlukan konferensi pers dan siaran pers tetap harus akurat, bernilai berita, serta memiliki kontak. Tiga pilihan lain bukan jawaban terbaik untuk kondisi ini. Tindakan sejenis baru dapat digunakan setelah redaksinya disesuaikan dan syarat berikut terpenuhi: selalu mengadakan konferensi pers untuk setiap informasi — kondisi terkait: isu kompleks, berdampak luas, dan publik memerlukan klarifikasi langsung; mengirim siaran pers tanpa sudut berita — kondisi terkait: dokumen tersebut hanya bahan latar untuk media yang telah meminta data lengkap; membuat konferensi tanpa bahan tertulis — kondisi terkait: situasi sangat mendesak sehingga pernyataan awal lisan diperlukan dan bahan tertulis segera menyusul. Dengan demikian, pembeda utamanya bukan kata yang terdengar paling tegas, melainkan kesesuaian kondisi, kewenangan, bukti, dan urutan proses. Sumber Penyelenggaraan Konferensi Pers dan Penulisan Siaran Pers, bagian Konferensi pers dan siaran pers, berstatus non_normative dan diverifikasi 2026-08-03. Rincian sesuai huruf pilihan yang tampil: A — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena risiko salah kutip dan ketidakkonsistenan meningkat. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: situasi sangat mendesak sehingga pernyataan awal lisan diperlukan dan bahan tertulis segera menyusul. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Tidak semua isu memerlukan konferensi pers dan siaran pers tetap harus akurat, bernilai berita, serta memiliki kontak. B — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena biaya dan risiko interaksi tidak sebanding untuk informasi rutin sederhana. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: isu kompleks, berdampak luas, dan publik memerlukan klarifikasi langsung. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Tidak semua isu memerlukan konferensi pers dan siaran pers tetap harus akurat, bernilai berita, serta memiliki kontak. C — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena media sulit menggunakan materi yang tidak menunjukkan apa yang baru dan penting. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: dokumen tersebut hanya bahan latar untuk media yang telah meminta data lengkap. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Tidak semua isu memerlukan konferensi pers dan siaran pers tetap harus akurat, bernilai berita, serta memiliki kontak. D — BENAR: Benar untuk kasus ini. Siaran pers menyajikan informasi tertulis yang siap digunakan media; konferensi pers diperlukan ketika penjelasan langsung dan tanya-jawab memberi nilai tambah. Karena itu, tindakan yang tepat adalah pilih format berdasarkan kompleksitas dan kebutuhan interaksi, lalu siapkan pesan serta data yang konsisten. Batas pentingnya: Tidak semua isu memerlukan konferensi pers dan siaran pers tetap harus akurat, bernilai berita, serta memiliki kontak.",
+    "keyTakeaway": "Ingat pembeda kondisi: pilih format berdasarkan kompleksitas dan kebutuhan interaksi, lalu siapkan pesan serta data yang konsisten; jangan terapkan alternatif sebelum syarat khususnya terpenuhi.",
+    "sourceRefs": [
+      {
+        "sourceId": "SRC-HUMAS-PRESS",
+        "title": "Penyelenggaraan Konferensi Pers dan Penulisan Siaran Pers",
+        "driveFileId": "1NW_TK_dg811j7tV8LCs9j2ZtdtziwFpf",
+        "section": "Konferensi pers dan siaran pers",
+        "pageOrSlide": null,
+        "regulationStatus": "non_normative",
+        "lastVerified": "2026-08-03"
+      }
+    ],
+    "tags": [
+      "kehumasan",
+      "siaran_pers",
+      "evidence_analysis",
+      "analyze",
+      "medium"
+    ],
+    "review": {
+      "contentAccuracy": 25,
+      "sourceTraceability": 15,
+      "stemClarity": 9,
+      "distractorQuality": 9,
+      "singleBestAnswer": 10,
+      "competencyRelevance": 10,
+      "explanationQuality": 9,
+      "originality": 4,
+      "languageQuality": 3,
+      "difficultyFit": 2,
+      "total": 96,
+      "method": "rubrik_terotomasi_berbasis_unit_terverifikasi_v1"
+    },
+    "similarityGroup": "CONCEPT-015",
+    "knowledgeUnitId": "KU-DM-HM-015-3-3",
+    "questionFocus": "evidence_analysis",
+    "generationBatch": "2026.08.drive-categories-v2",
+    "createdAt": "2026-08-03",
+    "lastReviewedAt": "2026-08-03",
+    "runtimeId": 248,
+    "selectedFromCandidateId": "CAND-DM-HM-0137"
+  },
+  {
+    "id": "DM-HM-0109",
+    "version": 1,
+    "status": "active",
+    "domain": "kehumasan",
+    "subdomain": "penulisan_berita",
+    "competency": "Menulis berita organisasi",
+    "indicator": "Menerapkan 5W1H dan piramida terbalik",
+    "questionType": "conceptual_mcq",
+    "cognitiveLevel": "remember",
+    "difficulty": "easy",
+    "stem": "Tim memiliki data hasil, kutipan narasumber, dan latar belakang kegiatan yang telah diverifikasi. Pastikan pembagian peran, keluaran, dan tenggat jelas. Rencana pelaksanaan mana yang paling tepat?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Rencana pelaksanaan perlu menetapkan petugas untuk menggunakan klaim paling sukses tanpa ukuran dan mendokumentasikan hasilnya.",
+        "rationale": "Tidak tepat untuk kasus ini karena superlatif tanpa bukti mengaburkan fakta. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: klaim didukung ukuran yang terverifikasi dan atribusi yang jelas. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Bahasa promosi dan opini penulis tidak boleh menggantikan fakta.",
+        "misconception": "superlatif tanpa bukti mengaburkan fakta",
+        "validWhen": "klaim didukung ukuran yang terverifikasi dan atribusi yang jelas"
+      },
+      {
+        "id": "B",
+        "text": "Rencana pelaksanaan perlu menetapkan petugas untuk membuka berita dengan sejarah panjang kegiatan dan mendokumentasikan hasilnya.",
+        "rationale": "Tidak tepat untuk kasus ini karena informasi utama tertunda dan pembaca tidak segera memahami nilai berita. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: artikel yang ditulis memang feature sejarah, bukan berita langsung. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Bahasa promosi dan opini penulis tidak boleh menggantikan fakta.",
+        "misconception": "informasi utama tertunda dan pembaca tidak segera memahami nilai berita",
+        "validWhen": "artikel yang ditulis memang feature sejarah, bukan berita langsung"
+      },
+      {
+        "id": "C",
+        "text": "Rencana pelaksanaan perlu menetapkan petugas untuk verifikasi 5W1H, tulis lead berisi fakta terpenting, lalu susun detail dari paling penting dan mendokumentasikan hasilnya.",
+        "rationale": "Benar untuk kasus ini. Berita menyajikan fakta terpenting terlebih dahulu melalui unsur 5W1H, judul yang akurat, lead yang kuat, dan detail pendukung secara berurutan. Karena itu, tindakan yang tepat adalah verifikasi 5W1H, tulis lead berisi fakta terpenting, lalu susun detail dari paling penting. Batas pentingnya: Bahasa promosi dan opini penulis tidak boleh menggantikan fakta.",
+        "misconception": null,
+        "validWhen": "ketika kondisi sama dengan kasus dan seluruh prasyarat pada Penulisan berita dan 5W1H terpenuhi"
+      },
+      {
+        "id": "D",
+        "text": "Rencana pelaksanaan perlu menetapkan petugas untuk menyalin seluruh sambutan sebagai isi berita dan mendokumentasikan hasilnya.",
+        "rationale": "Tidak tepat untuk kasus ini karena kutipan tidak menggantikan struktur fakta dan konteks. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: transkrip sambutan memang artefak yang diminta terpisah dari naskah berita. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Bahasa promosi dan opini penulis tidak boleh menggantikan fakta.",
+        "misconception": "kutipan tidak menggantikan struktur fakta dan konteks",
+        "validWhen": "transkrip sambutan memang artefak yang diminta terpisah dari naskah berita"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "Jawaban paling tepat adalah C. Kasus yang diuji: Tim memiliki data hasil, kutipan narasumber, dan latar belakang kegiatan yang telah diverifikasi. Fokus pertanyaan: Rencana pelaksanaan mana yang paling tepat? Uraian topik: Berita menyajikan fakta terpenting terlebih dahulu melalui unsur 5W1H, judul yang akurat, lead yang kuat, dan detail pendukung secara berurutan. Pada kasus ini, keputusan harus verifikasi 5W1H, tulis lead berisi fakta terpenting, lalu susun detail dari paling penting. Batas penerapan: Bahasa promosi dan opini penulis tidak boleh menggantikan fakta. Tiga pilihan lain bukan jawaban terbaik untuk kondisi ini. Tindakan sejenis baru dapat digunakan setelah redaksinya disesuaikan dan syarat berikut terpenuhi: membuka berita dengan sejarah panjang kegiatan — kondisi terkait: artikel yang ditulis memang feature sejarah, bukan berita langsung; menggunakan klaim paling sukses tanpa ukuran — kondisi terkait: klaim didukung ukuran yang terverifikasi dan atribusi yang jelas; menyalin seluruh sambutan sebagai isi berita — kondisi terkait: transkrip sambutan memang artefak yang diminta terpisah dari naskah berita. Dengan demikian, pembeda utamanya bukan kata yang terdengar paling tegas, melainkan kesesuaian kondisi, kewenangan, bukti, dan urutan proses. Sumber Menulis Berita Itu Mudah, bagian Penulisan berita dan 5W1H, berstatus non_normative dan diverifikasi 2026-08-03. Rincian sesuai huruf pilihan yang tampil: A — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena superlatif tanpa bukti mengaburkan fakta. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: klaim didukung ukuran yang terverifikasi dan atribusi yang jelas. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Bahasa promosi dan opini penulis tidak boleh menggantikan fakta. B — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena informasi utama tertunda dan pembaca tidak segera memahami nilai berita. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: artikel yang ditulis memang feature sejarah, bukan berita langsung. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Bahasa promosi dan opini penulis tidak boleh menggantikan fakta. C — BENAR: Benar untuk kasus ini. Berita menyajikan fakta terpenting terlebih dahulu melalui unsur 5W1H, judul yang akurat, lead yang kuat, dan detail pendukung secara berurutan. Karena itu, tindakan yang tepat adalah verifikasi 5W1H, tulis lead berisi fakta terpenting, lalu susun detail dari paling penting. Batas pentingnya: Bahasa promosi dan opini penulis tidak boleh menggantikan fakta. D — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena kutipan tidak menggantikan struktur fakta dan konteks. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: transkrip sambutan memang artefak yang diminta terpisah dari naskah berita. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Bahasa promosi dan opini penulis tidak boleh menggantikan fakta.",
+    "keyTakeaway": "Ingat pembeda kondisi: verifikasi 5W1H, tulis lead berisi fakta terpenting, lalu susun detail dari paling penting; jangan terapkan alternatif sebelum syarat khususnya terpenuhi.",
+    "sourceRefs": [
+      {
+        "sourceId": "SRC-HUMAS-WRITING",
+        "title": "Menulis Berita Itu Mudah",
+        "driveFileId": "1__-82PkI0CbaqUvqLqnRAIiFaOS7zGjR",
+        "section": "Penulisan berita dan 5W1H",
+        "pageOrSlide": null,
+        "regulationStatus": "non_normative",
+        "lastVerified": "2026-08-03"
+      }
+    ],
+    "tags": [
+      "kehumasan",
+      "penulisan_berita",
+      "implementation_planning",
+      "apply",
+      "medium"
+    ],
+    "review": {
+      "contentAccuracy": 25,
+      "sourceTraceability": 15,
+      "stemClarity": 9,
+      "distractorQuality": 9,
+      "singleBestAnswer": 10,
+      "competencyRelevance": 10,
+      "explanationQuality": 9,
+      "originality": 4,
+      "languageQuality": 3,
+      "difficultyFit": 2,
+      "total": 96,
+      "method": "rubrik_terotomasi_berbasis_unit_terverifikasi_v1"
+    },
+    "similarityGroup": "CONCEPT-016",
+    "knowledgeUnitId": "KU-DM-HM-016-3-10",
+    "questionFocus": "implementation_planning",
+    "generationBatch": "2026.08.drive-categories-v2",
+    "createdAt": "2026-08-03",
+    "lastReviewedAt": "2026-08-03",
+    "runtimeId": 249,
+    "selectedFromCandidateId": "CAND-DM-HM-0138"
+  },
+  {
+    "id": "DM-HM-0110",
+    "version": 1,
+    "status": "active",
+    "domain": "kehumasan",
+    "subdomain": "media_sosial",
+    "competency": "Mengelola akun media sosial resmi",
+    "indicator": "Menjaga akurasi, visual, keamanan, dan interaksi",
+    "questionType": "exception_handling",
+    "cognitiveLevel": "apply",
+    "difficulty": "medium",
+    "stem": "Admin menemukan unggahan edukasi tahun lalu tidak lagi sesuai regulasi terbaru. Bedakan aturan umum dari syarat pengecualiannya. Bagaimana kasus tersebut harus ditangani tanpa salah menerapkan pengecualian?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sebelum menerapkan pengecualian, petugas perlu mempertahankan konten lama karena pernah benar.",
+        "rationale": "Tidak tepat untuk kasus ini karena perubahan regulasi dapat membuat konten menyesatkan. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: konten diberi konteks arsip yang jelas dan tidak mungkin dianggap sebagai ketentuan aktif. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Gaya komunikatif diperbolehkan, tetapi admin harus menghindari perdebatan dan tetap merujuk ketentuan.",
+        "misconception": "perubahan regulasi dapat membuat konten menyesatkan",
+        "validWhen": "konten diberi konteks arsip yang jelas dan tidak mungkin dianggap sebagai ketentuan aktif"
+      },
+      {
+        "id": "B",
+        "text": "Sebelum menerapkan pengecualian, petugas perlu mengunggah naskah dinas agar terlihat transparan.",
+        "rationale": "Tidak tepat untuk kasus ini karena dokumen sensitif atau terbatas tidak boleh dipublikasikan. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: dokumen telah ditetapkan sebagai informasi publik dan versi yang dipublikasikan telah melalui pemeriksaan. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Gaya komunikatif diperbolehkan, tetapi admin harus menghindari perdebatan dan tetap merujuk ketentuan.",
+        "misconception": "dokumen sensitif atau terbatas tidak boleh dipublikasikan",
+        "validWhen": "dokumen telah ditetapkan sebagai informasi publik dan versi yang dipublikasikan telah melalui pemeriksaan"
+      },
+      {
+        "id": "C",
+        "text": "Sebelum menerapkan pengecualian, petugas perlu berdebat panjang untuk memenangkan komentar.",
+        "rationale": "Tidak tepat untuk kasus ini karena perdebatan publik meningkatkan risiko eskalasi dan keluar dari layanan informasi. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: klarifikasi singkat berbasis fakta diperlukan sebelum percakapan diarahkan ke kanal layanan. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Gaya komunikatif diperbolehkan, tetapi admin harus menghindari perdebatan dan tetap merujuk ketentuan.",
+        "misconception": "perdebatan publik meningkatkan risiko eskalasi dan keluar dari layanan informasi",
+        "validWhen": "klarifikasi singkat berbasis fakta diperlukan sebelum percakapan diarahkan ke kanal layanan"
+      },
+      {
+        "id": "D",
+        "text": "Sebelum menerapkan pengecualian, petugas perlu verifikasi substansi dan sensitivitas, gunakan identitas resmi, jawab secara proporsional, dan koreksi konten usang.",
+        "rationale": "Benar untuk kasus ini. Akun resmi digunakan untuk edukasi dan kehumasan; konten teknis dikonsultasikan, visual mengikuti pedoman, informasi sensitif tidak dipublikasikan, dan konten usang diturunkan pada kesempatan pertama. Karena itu, tindakan yang tepat adalah verifikasi substansi dan sensitivitas, gunakan identitas resmi, jawab secara proporsional, dan koreksi konten usang. Batas pentingnya: Gaya komunikatif diperbolehkan, tetapi admin harus menghindari perdebatan dan tetap merujuk ketentuan.",
+        "misconception": null,
+        "validWhen": "ketika kondisi sama dengan kasus dan seluruh prasyarat pada KEP-189/BC/2025 Pedoman Media Sosial terpenuhi"
+      }
+    ],
+    "correctOptionId": "D",
+    "explanation": "Jawaban paling tepat adalah D. Kasus yang diuji: Admin menemukan unggahan edukasi tahun lalu tidak lagi sesuai regulasi terbaru. Fokus pertanyaan: Bagaimana kasus tersebut harus ditangani tanpa salah menerapkan pengecualian? Uraian topik: Akun resmi digunakan untuk edukasi dan kehumasan; konten teknis dikonsultasikan, visual mengikuti pedoman, informasi sensitif tidak dipublikasikan, dan konten usang diturunkan pada kesempatan pertama. Pada kasus ini, keputusan harus verifikasi substansi dan sensitivitas, gunakan identitas resmi, jawab secara proporsional, dan koreksi konten usang. Batas penerapan: Gaya komunikatif diperbolehkan, tetapi admin harus menghindari perdebatan dan tetap merujuk ketentuan. Tiga pilihan lain bukan jawaban terbaik untuk kondisi ini. Tindakan sejenis baru dapat digunakan setelah redaksinya disesuaikan dan syarat berikut terpenuhi: mempertahankan konten lama karena pernah benar — kondisi terkait: konten diberi konteks arsip yang jelas dan tidak mungkin dianggap sebagai ketentuan aktif; berdebat panjang untuk memenangkan komentar — kondisi terkait: klarifikasi singkat berbasis fakta diperlukan sebelum percakapan diarahkan ke kanal layanan; mengunggah naskah dinas agar terlihat transparan — kondisi terkait: dokumen telah ditetapkan sebagai informasi publik dan versi yang dipublikasikan telah melalui pemeriksaan. Dengan demikian, pembeda utamanya bukan kata yang terdengar paling tegas, melainkan kesesuaian kondisi, kewenangan, bukti, dan urutan proses. Sumber KEP-189/BC/2025 Pedoman Pengelolaan Media Sosial DJBC, bagian KEP-189/BC/2025 Pedoman Media Sosial, berstatus current dan diverifikasi 2026-08-03. Rincian sesuai huruf pilihan yang tampil: A — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena perubahan regulasi dapat membuat konten menyesatkan. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: konten diberi konteks arsip yang jelas dan tidak mungkin dianggap sebagai ketentuan aktif. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Gaya komunikatif diperbolehkan, tetapi admin harus menghindari perdebatan dan tetap merujuk ketentuan. B — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena dokumen sensitif atau terbatas tidak boleh dipublikasikan. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: dokumen telah ditetapkan sebagai informasi publik dan versi yang dipublikasikan telah melalui pemeriksaan. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Gaya komunikatif diperbolehkan, tetapi admin harus menghindari perdebatan dan tetap merujuk ketentuan. C — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena perdebatan publik meningkatkan risiko eskalasi dan keluar dari layanan informasi. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: klarifikasi singkat berbasis fakta diperlukan sebelum percakapan diarahkan ke kanal layanan. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Gaya komunikatif diperbolehkan, tetapi admin harus menghindari perdebatan dan tetap merujuk ketentuan. D — BENAR: Benar untuk kasus ini. Akun resmi digunakan untuk edukasi dan kehumasan; konten teknis dikonsultasikan, visual mengikuti pedoman, informasi sensitif tidak dipublikasikan, dan konten usang diturunkan pada kesempatan pertama. Karena itu, tindakan yang tepat adalah verifikasi substansi dan sensitivitas, gunakan identitas resmi, jawab secara proporsional, dan koreksi konten usang. Batas pentingnya: Gaya komunikatif diperbolehkan, tetapi admin harus menghindari perdebatan dan tetap merujuk ketentuan.",
+    "keyTakeaway": "Ingat pembeda kondisi: verifikasi substansi dan sensitivitas, gunakan identitas resmi, jawab secara proporsional, dan koreksi konten usang; jangan terapkan alternatif sebelum syarat khususnya terpenuhi.",
+    "sourceRefs": [
+      {
+        "sourceId": "SRC-HUMAS-SOCIAL",
+        "title": "KEP-189/BC/2025 Pedoman Pengelolaan Media Sosial DJBC",
+        "driveFileId": "1Bl3r_WVVVybOLNKqjOobBGMzyCGdA9HT",
+        "section": "KEP-189/BC/2025 Pedoman Media Sosial",
+        "pageOrSlide": null,
+        "regulationStatus": "current",
+        "lastVerified": "2026-08-03"
+      }
+    ],
+    "tags": [
+      "kehumasan",
+      "media_sosial",
+      "exception_handling",
+      "evaluate",
+      "medium"
+    ],
+    "review": {
+      "contentAccuracy": 25,
+      "sourceTraceability": 15,
+      "stemClarity": 9,
+      "distractorQuality": 9,
+      "singleBestAnswer": 10,
+      "competencyRelevance": 10,
+      "explanationQuality": 9,
+      "originality": 4,
+      "languageQuality": 3,
+      "difficultyFit": 2,
+      "total": 96,
+      "method": "rubrik_terotomasi_berbasis_unit_terverifikasi_v1"
+    },
+    "similarityGroup": "CONCEPT-018",
+    "knowledgeUnitId": "KU-DM-HM-018-1-7",
+    "questionFocus": "exception_handling",
+    "generationBatch": "2026.08.drive-categories-v2",
+    "createdAt": "2026-08-03",
+    "lastReviewedAt": "2026-08-03",
+    "runtimeId": 250,
+    "selectedFromCandidateId": "CAND-DM-HM-0139"
+  },
+  {
+    "id": "DM-HM-0111",
+    "version": 1,
+    "status": "active",
+    "domain": "kehumasan",
+    "subdomain": "strategi_komunikasi",
+    "competency": "Menyusun strategi komunikasi",
+    "indicator": "Menghubungkan kondisi awal, tujuan, audiens, pesan, dan tindakan",
+    "questionType": "conceptual_mcq",
+    "cognitiveLevel": "remember",
+    "difficulty": "medium",
+    "stem": "Konten unit memperoleh banyak tayangan, tetapi pertanyaan keliru dari publik tidak berkurang. Perhatikan tanggung jawab dan kewenangan pimpinan. Jika Anda memimpin proses tersebut, arahan apa yang seharusnya diberikan?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pimpinan perlu mengarahkan tim untuk menilai strategi dari jumlah tayangan saja sebelum keputusan akhir ditetapkan.",
+        "rationale": "Tidak tepat untuk kasus ini karena tayangan mengukur paparan, bukan selalu pemahaman atau perubahan sikap. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: tujuan kampanye memang terbatas pada peningkatan awareness dan metrik paparan telah didefinisikan. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Ramainya publikasi bukan ukuran keberhasilan bila tidak mengubah pengetahuan, sikap, atau perilaku yang dituju.",
+        "misconception": "tayangan mengukur paparan, bukan selalu pemahaman atau perubahan sikap",
+        "validWhen": "tujuan kampanye memang terbatas pada peningkatan awareness dan metrik paparan telah didefinisikan"
+      },
+      {
+        "id": "B",
+        "text": "Pimpinan perlu mengarahkan tim untuk langsung membuat sebanyak mungkin konten sebelum keputusan akhir ditetapkan.",
+        "rationale": "Tidak tepat untuk kasus ini karena volume tanpa tujuan dan audiens tidak membentuk strategi. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: tujuan, audiens, pesan, dan ukuran hasil telah ditetapkan sehingga penambahan volume memang diperlukan. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Ramainya publikasi bukan ukuran keberhasilan bila tidak mengubah pengetahuan, sikap, atau perilaku yang dituju.",
+        "misconception": "volume tanpa tujuan dan audiens tidak membentuk strategi",
+        "validWhen": "tujuan, audiens, pesan, dan ukuran hasil telah ditetapkan sehingga penambahan volume memang diperlukan"
+      },
+      {
+        "id": "C",
+        "text": "Pimpinan perlu mengarahkan tim untuk memilih kanal hanya karena sedang populer sebelum keputusan akhir ditetapkan.",
+        "rationale": "Tidak tepat untuk kasus ini karena popularitas kanal belum menjamin audiens sasaran ada di sana. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: data menunjukkan audiens sasaran dominan memakai kanal tersebut dan formatnya sesuai. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Ramainya publikasi bukan ukuran keberhasilan bila tidak mengubah pengetahuan, sikap, atau perilaku yang dituju.",
+        "misconception": "popularitas kanal belum menjamin audiens sasaran ada di sana",
+        "validWhen": "data menunjukkan audiens sasaran dominan memakai kanal tersebut dan formatnya sesuai"
+      },
+      {
+        "id": "D",
+        "text": "Pimpinan perlu mengarahkan tim untuk tetapkan tujuan dan audiens, rumuskan pesan, pilih saluran, lalu ukur perubahan yang diharapkan sebelum keputusan akhir ditetapkan.",
+        "rationale": "Benar untuk kasus ini. Strategi komunikasi adalah pilihan sadar yang menjembatani posisi saat ini dengan tujuan komunikasi melalui audiens, pesan, saluran, dan tindakan yang terarah. Karena itu, tindakan yang tepat adalah tetapkan tujuan dan audiens, rumuskan pesan, pilih saluran, lalu ukur perubahan yang diharapkan. Batas pentingnya: Ramainya publikasi bukan ukuran keberhasilan bila tidak mengubah pengetahuan, sikap, atau perilaku yang dituju.",
+        "misconception": null,
+        "validWhen": "ketika kondisi sama dengan kasus dan seluruh prasyarat pada Strategi komunikasi terpenuhi"
+      }
+    ],
+    "correctOptionId": "D",
+    "explanation": "Jawaban paling tepat adalah D. Kasus yang diuji: Konten unit memperoleh banyak tayangan, tetapi pertanyaan keliru dari publik tidak berkurang. Fokus pertanyaan: Jika Anda memimpin proses tersebut, arahan apa yang seharusnya diberikan? Uraian topik: Strategi komunikasi adalah pilihan sadar yang menjembatani posisi saat ini dengan tujuan komunikasi melalui audiens, pesan, saluran, dan tindakan yang terarah. Pada kasus ini, keputusan harus tetapkan tujuan dan audiens, rumuskan pesan, pilih saluran, lalu ukur perubahan yang diharapkan. Batas penerapan: Ramainya publikasi bukan ukuran keberhasilan bila tidak mengubah pengetahuan, sikap, atau perilaku yang dituju. Tiga pilihan lain bukan jawaban terbaik untuk kondisi ini. Tindakan sejenis baru dapat digunakan setelah redaksinya disesuaikan dan syarat berikut terpenuhi: langsung membuat sebanyak mungkin konten — kondisi terkait: tujuan, audiens, pesan, dan ukuran hasil telah ditetapkan sehingga penambahan volume memang diperlukan; memilih kanal hanya karena sedang populer — kondisi terkait: data menunjukkan audiens sasaran dominan memakai kanal tersebut dan formatnya sesuai; menilai strategi dari jumlah tayangan saja — kondisi terkait: tujuan kampanye memang terbatas pada peningkatan awareness dan metrik paparan telah didefinisikan. Dengan demikian, pembeda utamanya bukan kata yang terdengar paling tegas, melainkan kesesuaian kondisi, kewenangan, bukti, dan urutan proses. Sumber Strategi Komunikasi DJBC, bagian Strategi komunikasi, berstatus non_normative dan diverifikasi 2026-08-03. Rincian sesuai huruf pilihan yang tampil: A — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena tayangan mengukur paparan, bukan selalu pemahaman atau perubahan sikap. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: tujuan kampanye memang terbatas pada peningkatan awareness dan metrik paparan telah didefinisikan. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Ramainya publikasi bukan ukuran keberhasilan bila tidak mengubah pengetahuan, sikap, atau perilaku yang dituju. B — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena volume tanpa tujuan dan audiens tidak membentuk strategi. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: tujuan, audiens, pesan, dan ukuran hasil telah ditetapkan sehingga penambahan volume memang diperlukan. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Ramainya publikasi bukan ukuran keberhasilan bila tidak mengubah pengetahuan, sikap, atau perilaku yang dituju. C — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena popularitas kanal belum menjamin audiens sasaran ada di sana. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: data menunjukkan audiens sasaran dominan memakai kanal tersebut dan formatnya sesuai. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Ramainya publikasi bukan ukuran keberhasilan bila tidak mengubah pengetahuan, sikap, atau perilaku yang dituju. D — BENAR: Benar untuk kasus ini. Strategi komunikasi adalah pilihan sadar yang menjembatani posisi saat ini dengan tujuan komunikasi melalui audiens, pesan, saluran, dan tindakan yang terarah. Karena itu, tindakan yang tepat adalah tetapkan tujuan dan audiens, rumuskan pesan, pilih saluran, lalu ukur perubahan yang diharapkan. Batas pentingnya: Ramainya publikasi bukan ukuran keberhasilan bila tidak mengubah pengetahuan, sikap, atau perilaku yang dituju.",
+    "keyTakeaway": "Ingat pembeda kondisi: tetapkan tujuan dan audiens, rumuskan pesan, pilih saluran, lalu ukur perubahan yang diharapkan; jangan terapkan alternatif sebelum syarat khususnya terpenuhi.",
+    "sourceRefs": [
+      {
+        "sourceId": "SRC-HUMAS-STRATEGY",
+        "title": "Strategi Komunikasi DJBC",
+        "driveFileId": "1LVCvtEAufBpT9o6yC_Ot7IpWIXmH8Tde",
+        "section": "Strategi komunikasi",
+        "pageOrSlide": null,
+        "regulationStatus": "non_normative",
+        "lastVerified": "2026-08-03"
+      }
+    ],
+    "tags": [
+      "kehumasan",
+      "strategi_komunikasi",
+      "situational_judgment",
+      "evaluate",
+      "easy"
+    ],
+    "review": {
+      "contentAccuracy": 25,
+      "sourceTraceability": 15,
+      "stemClarity": 9,
+      "distractorQuality": 9,
+      "singleBestAnswer": 10,
+      "competencyRelevance": 10,
+      "explanationQuality": 9,
+      "originality": 4,
+      "languageQuality": 3,
+      "difficultyFit": 2,
+      "total": 96,
+      "method": "rubrik_terotomasi_berbasis_unit_terverifikasi_v1"
+    },
+    "similarityGroup": "CONCEPT-010",
+    "knowledgeUnitId": "KU-DM-HM-010-2-4",
+    "questionFocus": "situational_judgment",
+    "generationBatch": "2026.08.drive-categories-v2",
+    "createdAt": "2026-08-03",
+    "lastReviewedAt": "2026-08-03",
+    "runtimeId": 251,
+    "selectedFromCandidateId": "CAND-DM-HM-0140"
+  },
+  {
+    "id": "DM-HM-0112",
+    "version": 1,
+    "status": "active",
+    "domain": "kehumasan",
+    "subdomain": "tingkat_analisis",
+    "competency": "Memilih jenis analisis media",
+    "indicator": "Membedakan deskriptif, diagnostik, prediktif, dan preskriptif",
+    "questionType": "monitoring_evaluation",
+    "cognitiveLevel": "apply",
+    "difficulty": "hard",
+    "stem": "Unit meminta skenario perkembangan isu dan pilihan respons untuk dua hari berikutnya. Nilai perubahan kondisi setelah tindak lanjut. Tindak lanjut mana yang paling tepat setelah kondisi itu ditemukan?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Tindak lanjut yang tepat adalah nyatakan pertanyaan analisis, pilih tingkat analisis yang sesuai, dan batasi kesimpulan pada data dan mendokumentasikan hasilnya.",
+        "rationale": "Benar untuk kasus ini. Analisis deskriptif menjelaskan apa yang terjadi, diagnostik mengapa terjadi, prediktif apa yang mungkin terjadi, dan preskriptif tindakan apa yang sebaiknya diambil. Karena itu, tindakan yang tepat adalah nyatakan pertanyaan analisis, pilih tingkat analisis yang sesuai, dan batasi kesimpulan pada data. Batas pentingnya: Jenis analisis harus sesuai pertanyaan keputusan dan kualitas data.",
+        "misconception": null,
+        "validWhen": "ketika kondisi sama dengan kasus dan seluruh prasyarat pada Pendekatan analisis media terpenuhi"
+      },
+      {
+        "id": "B",
+        "text": "Tindak lanjut yang tepat adalah menggunakan analisis deskriptif untuk memastikan penyebab dan mendokumentasikan hasilnya.",
+        "rationale": "Tidak tepat untuk kasus ini karena deskripsi pola tidak membuktikan sebab. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: tujuannya memang hanya memetakan volume, kanal, waktu, atau sentimen yang terjadi. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Jenis analisis harus sesuai pertanyaan keputusan dan kualitas data.",
+        "misconception": "deskripsi pola tidak membuktikan sebab",
+        "validWhen": "tujuannya memang hanya memetakan volume, kanal, waktu, atau sentimen yang terjadi"
+      },
+      {
+        "id": "C",
+        "text": "Tindak lanjut yang tepat adalah memberi prediksi tanpa pola historis atau indikator dan mendokumentasikan hasilnya.",
+        "rationale": "Tidak tepat untuk kasus ini karena prediksi memerlukan dasar data dan asumsi yang dapat diuji. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: terdapat data memadai, model/asumsi dijelaskan, dan ketidakpastian disampaikan. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Jenis analisis harus sesuai pertanyaan keputusan dan kualitas data.",
+        "misconception": "prediksi memerlukan dasar data dan asumsi yang dapat diuji",
+        "validWhen": "terdapat data memadai, model/asumsi dijelaskan, dan ketidakpastian disampaikan"
+      },
+      {
+        "id": "D",
+        "text": "Tindak lanjut yang tepat adalah memberi rekomendasi sebelum diagnosis dan mendokumentasikan hasilnya.",
+        "rationale": "Tidak tepat untuk kasus ini karena tindakan preskriptif berisiko tidak menyasar penyebab. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: situasi darurat memerlukan tindakan pengamanan sementara sambil diagnosis dilanjutkan. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Jenis analisis harus sesuai pertanyaan keputusan dan kualitas data.",
+        "misconception": "tindakan preskriptif berisiko tidak menyasar penyebab",
+        "validWhen": "situasi darurat memerlukan tindakan pengamanan sementara sambil diagnosis dilanjutkan"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "Jawaban paling tepat adalah A. Kasus yang diuji: Unit meminta skenario perkembangan isu dan pilihan respons untuk dua hari berikutnya. Fokus pertanyaan: Tindak lanjut mana yang paling tepat setelah kondisi itu ditemukan? Uraian topik: Analisis deskriptif menjelaskan apa yang terjadi, diagnostik mengapa terjadi, prediktif apa yang mungkin terjadi, dan preskriptif tindakan apa yang sebaiknya diambil. Pada kasus ini, keputusan harus nyatakan pertanyaan analisis, pilih tingkat analisis yang sesuai, dan batasi kesimpulan pada data. Batas penerapan: Jenis analisis harus sesuai pertanyaan keputusan dan kualitas data. Tiga pilihan lain bukan jawaban terbaik untuk kondisi ini. Tindakan sejenis baru dapat digunakan setelah redaksinya disesuaikan dan syarat berikut terpenuhi: menggunakan analisis deskriptif untuk memastikan penyebab — kondisi terkait: tujuannya memang hanya memetakan volume, kanal, waktu, atau sentimen yang terjadi; memberi prediksi tanpa pola historis atau indikator — kondisi terkait: terdapat data memadai, model/asumsi dijelaskan, dan ketidakpastian disampaikan; memberi rekomendasi sebelum diagnosis — kondisi terkait: situasi darurat memerlukan tindakan pengamanan sementara sambil diagnosis dilanjutkan. Dengan demikian, pembeda utamanya bukan kata yang terdengar paling tegas, melainkan kesesuaian kondisi, kewenangan, bukti, dan urutan proses. Sumber Analisis Media Massa dan Media Sosial DJBC, bagian Pendekatan analisis media, berstatus non_normative dan diverifikasi 2026-08-03. Rincian sesuai huruf pilihan yang tampil: A — BENAR: Benar untuk kasus ini. Analisis deskriptif menjelaskan apa yang terjadi, diagnostik mengapa terjadi, prediktif apa yang mungkin terjadi, dan preskriptif tindakan apa yang sebaiknya diambil. Karena itu, tindakan yang tepat adalah nyatakan pertanyaan analisis, pilih tingkat analisis yang sesuai, dan batasi kesimpulan pada data. Batas pentingnya: Jenis analisis harus sesuai pertanyaan keputusan dan kualitas data. B — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena deskripsi pola tidak membuktikan sebab. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: tujuannya memang hanya memetakan volume, kanal, waktu, atau sentimen yang terjadi. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Jenis analisis harus sesuai pertanyaan keputusan dan kualitas data. C — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena prediksi memerlukan dasar data dan asumsi yang dapat diuji. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: terdapat data memadai, model/asumsi dijelaskan, dan ketidakpastian disampaikan. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Jenis analisis harus sesuai pertanyaan keputusan dan kualitas data. D — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena tindakan preskriptif berisiko tidak menyasar penyebab. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: situasi darurat memerlukan tindakan pengamanan sementara sambil diagnosis dilanjutkan. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Jenis analisis harus sesuai pertanyaan keputusan dan kualitas data.",
+    "keyTakeaway": "Ingat pembeda kondisi: nyatakan pertanyaan analisis, pilih tingkat analisis yang sesuai, dan batasi kesimpulan pada data; jangan terapkan alternatif sebelum syarat khususnya terpenuhi.",
+    "sourceRefs": [
+      {
+        "sourceId": "SRC-HUMAS-MEDIA",
+        "title": "Analisis Media Massa dan Media Sosial DJBC",
+        "driveFileId": "1WLNpQmQTzGjv8Cx7LDhzu60IEgjOmOxv",
+        "section": "Pendekatan analisis media",
+        "pageOrSlide": null,
+        "regulationStatus": "non_normative",
+        "lastVerified": "2026-08-03"
+      }
+    ],
+    "tags": [
+      "kehumasan",
+      "tingkat_analisis",
+      "monitoring_evaluation",
+      "analyze",
+      "easy"
+    ],
+    "review": {
+      "contentAccuracy": 25,
+      "sourceTraceability": 15,
+      "stemClarity": 9,
+      "distractorQuality": 9,
+      "singleBestAnswer": 10,
+      "competencyRelevance": 10,
+      "explanationQuality": 9,
+      "originality": 4,
+      "languageQuality": 3,
+      "difficultyFit": 2,
+      "total": 96,
+      "method": "rubrik_terotomasi_berbasis_unit_terverifikasi_v1"
+    },
+    "similarityGroup": "CONCEPT-012",
+    "knowledgeUnitId": "KU-DM-HM-012-3-8",
+    "questionFocus": "monitoring_evaluation",
+    "generationBatch": "2026.08.drive-categories-v2",
+    "createdAt": "2026-08-03",
+    "lastReviewedAt": "2026-08-03",
+    "runtimeId": 252,
+    "selectedFromCandidateId": "CAND-DM-HM-0142"
+  },
+  {
+    "id": "DM-HM-0113",
+    "version": 1,
+    "status": "active",
+    "domain": "kehumasan",
+    "subdomain": "media_handling",
+    "competency": "Menyiapkan interaksi dengan media",
+    "indicator": "Menjaga konsistensi pesan, fakta, dan juru bicara",
+    "questionType": "corrective_action",
+    "cognitiveLevel": "analyze",
+    "difficulty": "easy",
+    "stem": "Wartawan meminta konfirmasi ketika data operasional masih direkonsiliasi. Sasar akar kekeliruan sebelum memperbaiki hasil. Perbaikan apa yang harus dilakukan terlebih dahulu?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Perbaikan harus dimulai dengan siapkan fakta dan pesan kunci, tetapkan juru bicara, antisipasi pertanyaan, lalu catat tindak lanjut.",
+        "rationale": "Benar untuk kasus ini. Media handling memerlukan tujuan, pesan kunci, data terverifikasi, juru bicara berwenang, latihan tanya-jawab, dan tindak lanjut. Karena itu, tindakan yang tepat adalah siapkan fakta dan pesan kunci, tetapkan juru bicara, antisipasi pertanyaan, lalu catat tindak lanjut. Batas pentingnya: Kecepatan respons tidak boleh mengorbankan akurasi atau kewenangan.",
+        "misconception": null,
+        "validWhen": "ketika kondisi sama dengan kasus dan seluruh prasyarat pada Persiapan media dan juru bicara terpenuhi"
+      },
+      {
+        "id": "B",
+        "text": "Perbaikan harus dimulai dengan membiarkan setiap pegawai menjawab media.",
+        "rationale": "Tidak tepat untuk kasus ini karena jawaban yang tidak terkoordinasi dapat tidak konsisten dan melampaui kewenangan. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: pegawai tersebut memang juru bicara yang ditunjuk untuk substansi yang dikuasainya. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Kecepatan respons tidak boleh mengorbankan akurasi atau kewenangan.",
+        "misconception": "jawaban yang tidak terkoordinasi dapat tidak konsisten dan melampaui kewenangan",
+        "validWhen": "pegawai tersebut memang juru bicara yang ditunjuk untuk substansi yang dikuasainya"
+      },
+      {
+        "id": "C",
+        "text": "Perbaikan harus dimulai dengan menghafal naskah dan menolak pertanyaan lanjutan.",
+        "rationale": "Tidak tepat untuk kasus ini karena media handling membutuhkan respons atas kebutuhan informasi, bukan pembacaan naskah semata. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: format acara memang berupa pernyataan resmi tanpa sesi tanya-jawab dan batasnya diumumkan. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Kecepatan respons tidak boleh mengorbankan akurasi atau kewenangan.",
+        "misconception": "media handling membutuhkan respons atas kebutuhan informasi, bukan pembacaan naskah semata",
+        "validWhen": "format acara memang berupa pernyataan resmi tanpa sesi tanya-jawab dan batasnya diumumkan"
+      },
+      {
+        "id": "D",
+        "text": "Perbaikan harus dimulai dengan menjawab cepat dengan angka sementara seolah final.",
+        "rationale": "Tidak tepat untuk kasus ini karena status data harus dijelaskan agar tidak menyesatkan. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: angka telah diverifikasi atau secara jelas diberi label sementara beserta waktu pembaruan. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Kecepatan respons tidak boleh mengorbankan akurasi atau kewenangan.",
+        "misconception": "status data harus dijelaskan agar tidak menyesatkan",
+        "validWhen": "angka telah diverifikasi atau secara jelas diberi label sementara beserta waktu pembaruan"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "Jawaban paling tepat adalah A. Kasus yang diuji: Wartawan meminta konfirmasi ketika data operasional masih direkonsiliasi. Fokus pertanyaan: Perbaikan apa yang harus dilakukan terlebih dahulu? Uraian topik: Media handling memerlukan tujuan, pesan kunci, data terverifikasi, juru bicara berwenang, latihan tanya-jawab, dan tindak lanjut. Pada kasus ini, keputusan harus siapkan fakta dan pesan kunci, tetapkan juru bicara, antisipasi pertanyaan, lalu catat tindak lanjut. Batas penerapan: Kecepatan respons tidak boleh mengorbankan akurasi atau kewenangan. Tiga pilihan lain bukan jawaban terbaik untuk kondisi ini. Tindakan sejenis baru dapat digunakan setelah redaksinya disesuaikan dan syarat berikut terpenuhi: membiarkan setiap pegawai menjawab media — kondisi terkait: pegawai tersebut memang juru bicara yang ditunjuk untuk substansi yang dikuasainya; menghafal naskah dan menolak pertanyaan lanjutan — kondisi terkait: format acara memang berupa pernyataan resmi tanpa sesi tanya-jawab dan batasnya diumumkan; menjawab cepat dengan angka sementara seolah final — kondisi terkait: angka telah diverifikasi atau secara jelas diberi label sementara beserta waktu pembaruan. Dengan demikian, pembeda utamanya bukan kata yang terdengar paling tegas, melainkan kesesuaian kondisi, kewenangan, bukti, dan urutan proses. Sumber Media Handling DJBC, bagian Persiapan media dan juru bicara, berstatus non_normative dan diverifikasi 2026-08-03. Rincian sesuai huruf pilihan yang tampil: A — BENAR: Benar untuk kasus ini. Media handling memerlukan tujuan, pesan kunci, data terverifikasi, juru bicara berwenang, latihan tanya-jawab, dan tindak lanjut. Karena itu, tindakan yang tepat adalah siapkan fakta dan pesan kunci, tetapkan juru bicara, antisipasi pertanyaan, lalu catat tindak lanjut. Batas pentingnya: Kecepatan respons tidak boleh mengorbankan akurasi atau kewenangan. B — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena jawaban yang tidak terkoordinasi dapat tidak konsisten dan melampaui kewenangan. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: pegawai tersebut memang juru bicara yang ditunjuk untuk substansi yang dikuasainya. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Kecepatan respons tidak boleh mengorbankan akurasi atau kewenangan. C — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena media handling membutuhkan respons atas kebutuhan informasi, bukan pembacaan naskah semata. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: format acara memang berupa pernyataan resmi tanpa sesi tanya-jawab dan batasnya diumumkan. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Kecepatan respons tidak boleh mengorbankan akurasi atau kewenangan. D — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena status data harus dijelaskan agar tidak menyesatkan. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: angka telah diverifikasi atau secara jelas diberi label sementara beserta waktu pembaruan. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Kecepatan respons tidak boleh mengorbankan akurasi atau kewenangan.",
+    "keyTakeaway": "Ingat pembeda kondisi: siapkan fakta dan pesan kunci, tetapkan juru bicara, antisipasi pertanyaan, lalu catat tindak lanjut; jangan terapkan alternatif sebelum syarat khususnya terpenuhi.",
+    "sourceRefs": [
+      {
+        "sourceId": "SRC-HUMAS-HANDLING",
+        "title": "Media Handling DJBC",
+        "driveFileId": "1KC2KaaVRrQAwwyeFiWQg216VtCOqhnXq",
+        "section": "Persiapan media dan juru bicara",
+        "pageOrSlide": null,
+        "regulationStatus": "non_normative",
+        "lastVerified": "2026-08-03"
+      }
+    ],
+    "tags": [
+      "kehumasan",
+      "media_handling",
+      "corrective_action",
+      "apply",
+      "easy"
+    ],
+    "review": {
+      "contentAccuracy": 25,
+      "sourceTraceability": 15,
+      "stemClarity": 9,
+      "distractorQuality": 9,
+      "singleBestAnswer": 10,
+      "competencyRelevance": 10,
+      "explanationQuality": 9,
+      "originality": 4,
+      "languageQuality": 3,
+      "difficultyFit": 2,
+      "total": 96,
+      "method": "rubrik_terotomasi_berbasis_unit_terverifikasi_v1"
+    },
+    "similarityGroup": "CONCEPT-014",
+    "knowledgeUnitId": "KU-DM-HM-014-1-5",
+    "questionFocus": "corrective_action",
+    "generationBatch": "2026.08.drive-categories-v2",
+    "createdAt": "2026-08-03",
+    "lastReviewedAt": "2026-08-03",
+    "runtimeId": 253,
+    "selectedFromCandidateId": "CAND-DM-HM-0143"
+  },
+  {
+    "id": "DM-HM-0114",
+    "version": 1,
+    "status": "active",
+    "domain": "kehumasan",
+    "subdomain": "siaran_pers",
+    "competency": "Membedakan konferensi dan siaran pers",
+    "indicator": "Memilih format publikasi sesuai kebutuhan",
+    "questionType": "decision_quality",
+    "cognitiveLevel": "analyze",
+    "difficulty": "medium",
+    "stem": "Krisis layanan menimbulkan banyak pertanyaan teknis serta spekulasi publik. Uji kesesuaian keputusan dengan ketentuan sumber. Keputusan mana yang paling sesuai dengan materi?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Keputusan yang sesuai adalah membuat konferensi tanpa bahan tertulis sebelum keputusan akhir ditetapkan.",
+        "rationale": "Tidak tepat untuk kasus ini karena risiko salah kutip dan ketidakkonsistenan meningkat. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: situasi sangat mendesak sehingga pernyataan awal lisan diperlukan dan bahan tertulis segera menyusul. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Tidak semua isu memerlukan konferensi pers dan siaran pers tetap harus akurat, bernilai berita, serta memiliki kontak.",
+        "misconception": "risiko salah kutip dan ketidakkonsistenan meningkat",
+        "validWhen": "situasi sangat mendesak sehingga pernyataan awal lisan diperlukan dan bahan tertulis segera menyusul"
+      },
+      {
+        "id": "B",
+        "text": "Keputusan yang sesuai adalah selalu mengadakan konferensi pers untuk setiap informasi sebelum keputusan akhir ditetapkan.",
+        "rationale": "Tidak tepat untuk kasus ini karena biaya dan risiko interaksi tidak sebanding untuk informasi rutin sederhana. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: isu kompleks, berdampak luas, dan publik memerlukan klarifikasi langsung. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Tidak semua isu memerlukan konferensi pers dan siaran pers tetap harus akurat, bernilai berita, serta memiliki kontak.",
+        "misconception": "biaya dan risiko interaksi tidak sebanding untuk informasi rutin sederhana",
+        "validWhen": "isu kompleks, berdampak luas, dan publik memerlukan klarifikasi langsung"
+      },
+      {
+        "id": "C",
+        "text": "Keputusan yang sesuai adalah mengirim siaran pers tanpa sudut berita sebelum keputusan akhir ditetapkan.",
+        "rationale": "Tidak tepat untuk kasus ini karena media sulit menggunakan materi yang tidak menunjukkan apa yang baru dan penting. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: dokumen tersebut hanya bahan latar untuk media yang telah meminta data lengkap. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Tidak semua isu memerlukan konferensi pers dan siaran pers tetap harus akurat, bernilai berita, serta memiliki kontak.",
+        "misconception": "media sulit menggunakan materi yang tidak menunjukkan apa yang baru dan penting",
+        "validWhen": "dokumen tersebut hanya bahan latar untuk media yang telah meminta data lengkap"
+      },
+      {
+        "id": "D",
+        "text": "Keputusan yang sesuai adalah pilih format berdasarkan kompleksitas dan kebutuhan interaksi, lalu siapkan pesan serta data yang konsisten sebelum keputusan akhir ditetapkan.",
+        "rationale": "Benar untuk kasus ini. Siaran pers menyajikan informasi tertulis yang siap digunakan media; konferensi pers diperlukan ketika penjelasan langsung dan tanya-jawab memberi nilai tambah. Karena itu, tindakan yang tepat adalah pilih format berdasarkan kompleksitas dan kebutuhan interaksi, lalu siapkan pesan serta data yang konsisten. Batas pentingnya: Tidak semua isu memerlukan konferensi pers dan siaran pers tetap harus akurat, bernilai berita, serta memiliki kontak.",
+        "misconception": null,
+        "validWhen": "ketika kondisi sama dengan kasus dan seluruh prasyarat pada Konferensi pers dan siaran pers terpenuhi"
+      }
+    ],
+    "correctOptionId": "D",
+    "explanation": "Jawaban paling tepat adalah D. Kasus yang diuji: Krisis layanan menimbulkan banyak pertanyaan teknis serta spekulasi publik. Fokus pertanyaan: Keputusan mana yang paling sesuai dengan materi? Uraian topik: Siaran pers menyajikan informasi tertulis yang siap digunakan media; konferensi pers diperlukan ketika penjelasan langsung dan tanya-jawab memberi nilai tambah. Pada kasus ini, keputusan harus pilih format berdasarkan kompleksitas dan kebutuhan interaksi, lalu siapkan pesan serta data yang konsisten. Batas penerapan: Tidak semua isu memerlukan konferensi pers dan siaran pers tetap harus akurat, bernilai berita, serta memiliki kontak. Tiga pilihan lain bukan jawaban terbaik untuk kondisi ini. Tindakan sejenis baru dapat digunakan setelah redaksinya disesuaikan dan syarat berikut terpenuhi: selalu mengadakan konferensi pers untuk setiap informasi — kondisi terkait: isu kompleks, berdampak luas, dan publik memerlukan klarifikasi langsung; mengirim siaran pers tanpa sudut berita — kondisi terkait: dokumen tersebut hanya bahan latar untuk media yang telah meminta data lengkap; membuat konferensi tanpa bahan tertulis — kondisi terkait: situasi sangat mendesak sehingga pernyataan awal lisan diperlukan dan bahan tertulis segera menyusul. Dengan demikian, pembeda utamanya bukan kata yang terdengar paling tegas, melainkan kesesuaian kondisi, kewenangan, bukti, dan urutan proses. Sumber Penyelenggaraan Konferensi Pers dan Penulisan Siaran Pers, bagian Konferensi pers dan siaran pers, berstatus non_normative dan diverifikasi 2026-08-03. Rincian sesuai huruf pilihan yang tampil: A — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena risiko salah kutip dan ketidakkonsistenan meningkat. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: situasi sangat mendesak sehingga pernyataan awal lisan diperlukan dan bahan tertulis segera menyusul. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Tidak semua isu memerlukan konferensi pers dan siaran pers tetap harus akurat, bernilai berita, serta memiliki kontak. B — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena biaya dan risiko interaksi tidak sebanding untuk informasi rutin sederhana. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: isu kompleks, berdampak luas, dan publik memerlukan klarifikasi langsung. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Tidak semua isu memerlukan konferensi pers dan siaran pers tetap harus akurat, bernilai berita, serta memiliki kontak. C — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena media sulit menggunakan materi yang tidak menunjukkan apa yang baru dan penting. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: dokumen tersebut hanya bahan latar untuk media yang telah meminta data lengkap. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Tidak semua isu memerlukan konferensi pers dan siaran pers tetap harus akurat, bernilai berita, serta memiliki kontak. D — BENAR: Benar untuk kasus ini. Siaran pers menyajikan informasi tertulis yang siap digunakan media; konferensi pers diperlukan ketika penjelasan langsung dan tanya-jawab memberi nilai tambah. Karena itu, tindakan yang tepat adalah pilih format berdasarkan kompleksitas dan kebutuhan interaksi, lalu siapkan pesan serta data yang konsisten. Batas pentingnya: Tidak semua isu memerlukan konferensi pers dan siaran pers tetap harus akurat, bernilai berita, serta memiliki kontak.",
+    "keyTakeaway": "Ingat pembeda kondisi: pilih format berdasarkan kompleksitas dan kebutuhan interaksi, lalu siapkan pesan serta data yang konsisten; jangan terapkan alternatif sebelum syarat khususnya terpenuhi.",
+    "sourceRefs": [
+      {
+        "sourceId": "SRC-HUMAS-PRESS",
+        "title": "Penyelenggaraan Konferensi Pers dan Penulisan Siaran Pers",
+        "driveFileId": "1NW_TK_dg811j7tV8LCs9j2ZtdtziwFpf",
+        "section": "Konferensi pers dan siaran pers",
+        "pageOrSlide": null,
+        "regulationStatus": "non_normative",
+        "lastVerified": "2026-08-03"
+      }
+    ],
+    "tags": [
+      "kehumasan",
+      "siaran_pers",
+      "decision_quality",
+      "analyze",
+      "easy"
+    ],
+    "review": {
+      "contentAccuracy": 25,
+      "sourceTraceability": 15,
+      "stemClarity": 9,
+      "distractorQuality": 9,
+      "singleBestAnswer": 10,
+      "competencyRelevance": 10,
+      "explanationQuality": 9,
+      "originality": 4,
+      "languageQuality": 3,
+      "difficultyFit": 2,
+      "total": 96,
+      "method": "rubrik_terotomasi_berbasis_unit_terverifikasi_v1"
+    },
+    "similarityGroup": "CONCEPT-015",
+    "knowledgeUnitId": "KU-DM-HM-015-2-2",
+    "questionFocus": "decision_quality",
+    "generationBatch": "2026.08.drive-categories-v2",
+    "createdAt": "2026-08-03",
+    "lastReviewedAt": "2026-08-03",
+    "runtimeId": 254,
+    "selectedFromCandidateId": "CAND-DM-HM-0144"
+  },
+  {
+    "id": "DM-HM-0115",
+    "version": 1,
+    "status": "active",
+    "domain": "kehumasan",
+    "subdomain": "penulisan_berita",
+    "competency": "Menulis berita organisasi",
+    "indicator": "Menerapkan 5W1H dan piramida terbalik",
+    "questionType": "situational_judgment",
+    "cognitiveLevel": "evaluate",
+    "difficulty": "medium",
+    "stem": "Penulis memakai frasa paling sukses tetapi tidak memiliki data pembanding. Gunakan definisi operasional yang paling presisi. Pernyataan operasional mana yang paling tepat?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Rumusan operasional yang tepat adalah verifikasi 5W1H, tulis lead berisi fakta terpenting, lalu susun detail dari paling penting sebelum keputusan akhir ditetapkan.",
+        "rationale": "Benar untuk kasus ini. Berita menyajikan fakta terpenting terlebih dahulu melalui unsur 5W1H, judul yang akurat, lead yang kuat, dan detail pendukung secara berurutan. Karena itu, tindakan yang tepat adalah verifikasi 5W1H, tulis lead berisi fakta terpenting, lalu susun detail dari paling penting. Batas pentingnya: Bahasa promosi dan opini penulis tidak boleh menggantikan fakta.",
+        "misconception": null,
+        "validWhen": "ketika kondisi sama dengan kasus dan seluruh prasyarat pada Penulisan berita dan 5W1H terpenuhi"
+      },
+      {
+        "id": "B",
+        "text": "Rumusan operasional yang tepat adalah membuka berita dengan sejarah panjang kegiatan sebelum keputusan akhir ditetapkan.",
+        "rationale": "Tidak tepat untuk kasus ini karena informasi utama tertunda dan pembaca tidak segera memahami nilai berita. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: artikel yang ditulis memang feature sejarah, bukan berita langsung. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Bahasa promosi dan opini penulis tidak boleh menggantikan fakta.",
+        "misconception": "informasi utama tertunda dan pembaca tidak segera memahami nilai berita",
+        "validWhen": "artikel yang ditulis memang feature sejarah, bukan berita langsung"
+      },
+      {
+        "id": "C",
+        "text": "Rumusan operasional yang tepat adalah menggunakan klaim paling sukses tanpa ukuran sebelum keputusan akhir ditetapkan.",
+        "rationale": "Tidak tepat untuk kasus ini karena superlatif tanpa bukti mengaburkan fakta. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: klaim didukung ukuran yang terverifikasi dan atribusi yang jelas. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Bahasa promosi dan opini penulis tidak boleh menggantikan fakta.",
+        "misconception": "superlatif tanpa bukti mengaburkan fakta",
+        "validWhen": "klaim didukung ukuran yang terverifikasi dan atribusi yang jelas"
+      },
+      {
+        "id": "D",
+        "text": "Rumusan operasional yang tepat adalah menyalin seluruh sambutan sebagai isi berita sebelum keputusan akhir ditetapkan.",
+        "rationale": "Tidak tepat untuk kasus ini karena kutipan tidak menggantikan struktur fakta dan konteks. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: transkrip sambutan memang artefak yang diminta terpisah dari naskah berita. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Bahasa promosi dan opini penulis tidak boleh menggantikan fakta.",
+        "misconception": "kutipan tidak menggantikan struktur fakta dan konteks",
+        "validWhen": "transkrip sambutan memang artefak yang diminta terpisah dari naskah berita"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "Jawaban paling tepat adalah A. Kasus yang diuji: Penulis memakai frasa paling sukses tetapi tidak memiliki data pembanding. Fokus pertanyaan: Pernyataan operasional mana yang paling tepat? Uraian topik: Berita menyajikan fakta terpenting terlebih dahulu melalui unsur 5W1H, judul yang akurat, lead yang kuat, dan detail pendukung secara berurutan. Pada kasus ini, keputusan harus verifikasi 5W1H, tulis lead berisi fakta terpenting, lalu susun detail dari paling penting. Batas penerapan: Bahasa promosi dan opini penulis tidak boleh menggantikan fakta. Tiga pilihan lain bukan jawaban terbaik untuk kondisi ini. Tindakan sejenis baru dapat digunakan setelah redaksinya disesuaikan dan syarat berikut terpenuhi: membuka berita dengan sejarah panjang kegiatan — kondisi terkait: artikel yang ditulis memang feature sejarah, bukan berita langsung; menggunakan klaim paling sukses tanpa ukuran — kondisi terkait: klaim didukung ukuran yang terverifikasi dan atribusi yang jelas; menyalin seluruh sambutan sebagai isi berita — kondisi terkait: transkrip sambutan memang artefak yang diminta terpisah dari naskah berita. Dengan demikian, pembeda utamanya bukan kata yang terdengar paling tegas, melainkan kesesuaian kondisi, kewenangan, bukti, dan urutan proses. Sumber Menulis Berita Itu Mudah, bagian Penulisan berita dan 5W1H, berstatus non_normative dan diverifikasi 2026-08-03. Rincian sesuai huruf pilihan yang tampil: A — BENAR: Benar untuk kasus ini. Berita menyajikan fakta terpenting terlebih dahulu melalui unsur 5W1H, judul yang akurat, lead yang kuat, dan detail pendukung secara berurutan. Karena itu, tindakan yang tepat adalah verifikasi 5W1H, tulis lead berisi fakta terpenting, lalu susun detail dari paling penting. Batas pentingnya: Bahasa promosi dan opini penulis tidak boleh menggantikan fakta. B — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena informasi utama tertunda dan pembaca tidak segera memahami nilai berita. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: artikel yang ditulis memang feature sejarah, bukan berita langsung. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Bahasa promosi dan opini penulis tidak boleh menggantikan fakta. C — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena superlatif tanpa bukti mengaburkan fakta. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: klaim didukung ukuran yang terverifikasi dan atribusi yang jelas. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Bahasa promosi dan opini penulis tidak boleh menggantikan fakta. D — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena kutipan tidak menggantikan struktur fakta dan konteks. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: transkrip sambutan memang artefak yang diminta terpisah dari naskah berita. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Bahasa promosi dan opini penulis tidak boleh menggantikan fakta.",
+    "keyTakeaway": "Ingat pembeda kondisi: verifikasi 5W1H, tulis lead berisi fakta terpenting, lalu susun detail dari paling penting; jangan terapkan alternatif sebelum syarat khususnya terpenuhi.",
+    "sourceRefs": [
+      {
+        "sourceId": "SRC-HUMAS-WRITING",
+        "title": "Menulis Berita Itu Mudah",
+        "driveFileId": "1__-82PkI0CbaqUvqLqnRAIiFaOS7zGjR",
+        "section": "Penulisan berita dan 5W1H",
+        "pageOrSlide": null,
+        "regulationStatus": "non_normative",
+        "lastVerified": "2026-08-03"
+      }
+    ],
+    "tags": [
+      "kehumasan",
+      "penulisan_berita",
+      "conceptual_mcq",
+      "remember",
+      "easy"
+    ],
+    "review": {
+      "contentAccuracy": 25,
+      "sourceTraceability": 15,
+      "stemClarity": 9,
+      "distractorQuality": 9,
+      "singleBestAnswer": 10,
+      "competencyRelevance": 10,
+      "explanationQuality": 9,
+      "originality": 4,
+      "languageQuality": 3,
+      "difficultyFit": 2,
+      "total": 96,
+      "method": "rubrik_terotomasi_berbasis_unit_terverifikasi_v1"
+    },
+    "similarityGroup": "CONCEPT-016",
+    "knowledgeUnitId": "KU-DM-HM-016-2-9",
+    "questionFocus": "conceptual_mcq",
+    "generationBatch": "2026.08.drive-categories-v2",
+    "createdAt": "2026-08-03",
+    "lastReviewedAt": "2026-08-03",
+    "runtimeId": 255,
+    "selectedFromCandidateId": "CAND-DM-HM-0145"
+  },
+  {
+    "id": "DM-HM-0116",
+    "version": 1,
+    "status": "active",
+    "domain": "kehumasan",
+    "subdomain": "komunikasi_krisis",
+    "competency": "Mengelola komunikasi krisis",
+    "indicator": "Membedakan tahap pra-krisis, respons krisis, dan pascakrisis",
+    "questionType": "control_design",
+    "cognitiveLevel": "apply",
+    "difficulty": "hard",
+    "stem": "Krisis telah berakhir tetapi keluhan dan informasi keliru masih beredar. Pilih kontrol pencegahan yang relevan dengan risiko. Pengendalian mana yang paling tepat untuk mencegah kekeliruan?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pengendalian perlu memastikan petugas aktifkan tim krisis, verifikasi fakta, sampaikan holding statement yang empatik, lalu perbarui dan evaluasi dan mendokumentasikan hasilnya.",
+        "rationale": "Benar untuk kasus ini. Komunikasi krisis mencakup kesiapan dan posisi awal sebelum krisis, respons cepat-akurat-empatik selama krisis, serta evaluasi dan pemulihan kepercayaan setelahnya. Karena itu, tindakan yang tepat adalah aktifkan tim krisis, verifikasi fakta, sampaikan holding statement yang empatik, lalu perbarui dan evaluasi. Batas pentingnya: Diam tanpa penjelasan dapat memperbesar ruang spekulasi, tetapi informasi yang belum pasti harus diberi batas.",
+        "misconception": null,
+        "validWhen": "ketika kondisi sama dengan kasus dan seluruh prasyarat pada Pre-crisis, crisis, dan post-crisis treatment terpenuhi"
+      },
+      {
+        "id": "B",
+        "text": "Pengendalian perlu memastikan petugas menunggu seluruh fakta sempurna sebelum berkata apa pun dan mendokumentasikan hasilnya.",
+        "rationale": "Tidak tepat untuk kasus ini karena kekosongan informasi dapat diisi spekulasi. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: risiko keselamatan atau hukum mengharuskan penundaan terbatas dan alasan penundaan dikomunikasikan. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Diam tanpa penjelasan dapat memperbesar ruang spekulasi, tetapi informasi yang belum pasti harus diberi batas.",
+        "misconception": "kekosongan informasi dapat diisi spekulasi",
+        "validWhen": "risiko keselamatan atau hukum mengharuskan penundaan terbatas dan alasan penundaan dikomunikasikan"
+      },
+      {
+        "id": "C",
+        "text": "Pengendalian perlu memastikan petugas segera membantah semua kritik dan mendokumentasikan hasilnya.",
+        "rationale": "Tidak tepat untuk kasus ini karena respons defensif sebelum verifikasi dapat memperburuk krisis. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: klaim tertentu telah diverifikasi salah dan bantahan disampaikan dengan bukti serta empati. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Diam tanpa penjelasan dapat memperbesar ruang spekulasi, tetapi informasi yang belum pasti harus diberi batas.",
+        "misconception": "respons defensif sebelum verifikasi dapat memperburuk krisis",
+        "validWhen": "klaim tertentu telah diverifikasi salah dan bantahan disampaikan dengan bukti serta empati"
+      },
+      {
+        "id": "D",
+        "text": "Pengendalian perlu memastikan petugas menghapus seluruh unggahan lama setelah krisis dan mendokumentasikan hasilnya.",
+        "rationale": "Tidak tepat untuk kasus ini karena penghapusan massal tidak sama dengan pemulihan dan dapat menghilangkan jejak. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: unggahan tertentu terbukti salah, melanggar ketentuan, atau membahayakan sehingga perlu diturunkan. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Diam tanpa penjelasan dapat memperbesar ruang spekulasi, tetapi informasi yang belum pasti harus diberi batas.",
+        "misconception": "penghapusan massal tidak sama dengan pemulihan dan dapat menghilangkan jejak",
+        "validWhen": "unggahan tertentu terbukti salah, melanggar ketentuan, atau membahayakan sehingga perlu diturunkan"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "Jawaban paling tepat adalah A. Kasus yang diuji: Krisis telah berakhir tetapi keluhan dan informasi keliru masih beredar. Fokus pertanyaan: Pengendalian mana yang paling tepat untuk mencegah kekeliruan? Uraian topik: Komunikasi krisis mencakup kesiapan dan posisi awal sebelum krisis, respons cepat-akurat-empatik selama krisis, serta evaluasi dan pemulihan kepercayaan setelahnya. Pada kasus ini, keputusan harus aktifkan tim krisis, verifikasi fakta, sampaikan holding statement yang empatik, lalu perbarui dan evaluasi. Batas penerapan: Diam tanpa penjelasan dapat memperbesar ruang spekulasi, tetapi informasi yang belum pasti harus diberi batas. Tiga pilihan lain bukan jawaban terbaik untuk kondisi ini. Tindakan sejenis baru dapat digunakan setelah redaksinya disesuaikan dan syarat berikut terpenuhi: menunggu seluruh fakta sempurna sebelum berkata apa pun — kondisi terkait: risiko keselamatan atau hukum mengharuskan penundaan terbatas dan alasan penundaan dikomunikasikan; segera membantah semua kritik — kondisi terkait: klaim tertentu telah diverifikasi salah dan bantahan disampaikan dengan bukti serta empati; menghapus seluruh unggahan lama setelah krisis — kondisi terkait: unggahan tertentu terbukti salah, melanggar ketentuan, atau membahayakan sehingga perlu diturunkan. Dengan demikian, pembeda utamanya bukan kata yang terdengar paling tegas, melainkan kesesuaian kondisi, kewenangan, bukti, dan urutan proses. Sumber Komunikasi Krisis, bagian Pre-crisis, crisis, dan post-crisis treatment, berstatus non_normative dan diverifikasi 2026-08-03. Rincian sesuai huruf pilihan yang tampil: A — BENAR: Benar untuk kasus ini. Komunikasi krisis mencakup kesiapan dan posisi awal sebelum krisis, respons cepat-akurat-empatik selama krisis, serta evaluasi dan pemulihan kepercayaan setelahnya. Karena itu, tindakan yang tepat adalah aktifkan tim krisis, verifikasi fakta, sampaikan holding statement yang empatik, lalu perbarui dan evaluasi. Batas pentingnya: Diam tanpa penjelasan dapat memperbesar ruang spekulasi, tetapi informasi yang belum pasti harus diberi batas. B — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena kekosongan informasi dapat diisi spekulasi. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: risiko keselamatan atau hukum mengharuskan penundaan terbatas dan alasan penundaan dikomunikasikan. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Diam tanpa penjelasan dapat memperbesar ruang spekulasi, tetapi informasi yang belum pasti harus diberi batas. C — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena respons defensif sebelum verifikasi dapat memperburuk krisis. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: klaim tertentu telah diverifikasi salah dan bantahan disampaikan dengan bukti serta empati. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Diam tanpa penjelasan dapat memperbesar ruang spekulasi, tetapi informasi yang belum pasti harus diberi batas. D — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena penghapusan massal tidak sama dengan pemulihan dan dapat menghilangkan jejak. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: unggahan tertentu terbukti salah, melanggar ketentuan, atau membahayakan sehingga perlu diturunkan. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Diam tanpa penjelasan dapat memperbesar ruang spekulasi, tetapi informasi yang belum pasti harus diberi batas.",
+    "keyTakeaway": "Ingat pembeda kondisi: aktifkan tim krisis, verifikasi fakta, sampaikan holding statement yang empatik, lalu perbarui dan evaluasi; jangan terapkan alternatif sebelum syarat khususnya terpenuhi.",
+    "sourceRefs": [
+      {
+        "sourceId": "SRC-HUMAS-CRISIS",
+        "title": "Komunikasi Krisis",
+        "driveFileId": "1lp4O61DIHGKG2APM8fIOF0h7SCOzP2o5",
+        "section": "Pre-crisis, crisis, dan post-crisis treatment",
+        "pageOrSlide": null,
+        "regulationStatus": "non_normative",
+        "lastVerified": "2026-08-03"
+      }
+    ],
+    "tags": [
+      "kehumasan",
+      "komunikasi_krisis",
+      "control_design",
+      "analyze",
+      "easy"
+    ],
+    "review": {
+      "contentAccuracy": 25,
+      "sourceTraceability": 15,
+      "stemClarity": 9,
+      "distractorQuality": 9,
+      "singleBestAnswer": 10,
+      "competencyRelevance": 10,
+      "explanationQuality": 9,
+      "originality": 4,
+      "languageQuality": 3,
+      "difficultyFit": 2,
+      "total": 96,
+      "method": "rubrik_terotomasi_berbasis_unit_terverifikasi_v1"
+    },
+    "similarityGroup": "CONCEPT-017",
+    "knowledgeUnitId": "KU-DM-HM-017-3-6",
+    "questionFocus": "control_design",
+    "generationBatch": "2026.08.drive-categories-v2",
+    "createdAt": "2026-08-03",
+    "lastReviewedAt": "2026-08-03",
+    "runtimeId": 256,
+    "selectedFromCandidateId": "CAND-DM-HM-0146"
+  },
+  {
+    "id": "DM-HM-0117",
+    "version": 1,
+    "status": "active",
+    "domain": "kehumasan",
+    "subdomain": "monitoring_media",
+    "competency": "Membedakan monitoring dan analisis media",
+    "indicator": "Menentukan keluaran pemantauan yang berguna",
+    "questionType": "implementation_planning",
+    "cognitiveLevel": "apply",
+    "difficulty": "easy",
+    "stem": "Pimpinan menerima 200 tautan berita tanpa penjelasan pola dan dampaknya. Pastikan pembagian peran, keluaran, dan tenggat jelas. Rencana pelaksanaan mana yang paling tepat?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Rencana pelaksanaan perlu menetapkan petugas untuk menyimpulkan sentimen dari satu unggahan viral.",
+        "rationale": "Tidak tepat untuk kasus ini karena satu contoh tidak mewakili sebaran percakapan. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: unggahan tersebut merupakan objek kasus tunggal dan kesimpulan dibatasi pada unggahan itu. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Kliping yang lengkap belum otomatis menjadi analisis.",
+        "misconception": "satu contoh tidak mewakili sebaran percakapan",
+        "validWhen": "unggahan tersebut merupakan objek kasus tunggal dan kesimpulan dibatasi pada unggahan itu"
+      },
+      {
+        "id": "B",
+        "text": "Rencana pelaksanaan perlu menetapkan petugas untuk mengirim seluruh tautan tanpa sintesis.",
+        "rationale": "Tidak tepat untuk kasus ini karena daftar tautan belum menjelaskan pola atau tindakan yang diperlukan. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: penerima hanya meminta bukti mentah untuk verifikasi setelah analisis tersedia. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Kliping yang lengkap belum otomatis menjadi analisis.",
+        "misconception": "daftar tautan belum menjelaskan pola atau tindakan yang diperlukan",
+        "validWhen": "penerima hanya meminta bukti mentah untuk verifikasi setelah analisis tersedia"
+      },
+      {
+        "id": "C",
+        "text": "Rencana pelaksanaan perlu menetapkan petugas untuk kumpulkan data secara konsisten, klasifikasikan isu dan sentimen, lalu tarik implikasi serta rekomendasi.",
+        "rationale": "Benar untuk kasus ini. Monitoring mengumpulkan dan mencatat pemberitaan atau percakapan; analisis menafsirkan pola, penyebab, risiko, dan rekomendasi untuk keputusan. Karena itu, tindakan yang tepat adalah kumpulkan data secara konsisten, klasifikasikan isu dan sentimen, lalu tarik implikasi serta rekomendasi. Batas pentingnya: Kliping yang lengkap belum otomatis menjadi analisis.",
+        "misconception": null,
+        "validWhen": "ketika kondisi sama dengan kasus dan seluruh prasyarat pada Monitoring dan analisis media terpenuhi"
+      },
+      {
+        "id": "D",
+        "text": "Rencana pelaksanaan perlu menetapkan petugas untuk menghapus pemberitaan negatif dari laporan.",
+        "rationale": "Tidak tepat untuk kasus ini karena penghilangan data merusak gambaran risiko dan bias analisis. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: item terbukti duplikat atau tidak relevan berdasarkan kriteria yang telah ditetapkan. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Kliping yang lengkap belum otomatis menjadi analisis.",
+        "misconception": "penghilangan data merusak gambaran risiko dan bias analisis",
+        "validWhen": "item terbukti duplikat atau tidak relevan berdasarkan kriteria yang telah ditetapkan"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "Jawaban paling tepat adalah C. Kasus yang diuji: Pimpinan menerima 200 tautan berita tanpa penjelasan pola dan dampaknya. Fokus pertanyaan: Rencana pelaksanaan mana yang paling tepat? Uraian topik: Monitoring mengumpulkan dan mencatat pemberitaan atau percakapan; analisis menafsirkan pola, penyebab, risiko, dan rekomendasi untuk keputusan. Pada kasus ini, keputusan harus kumpulkan data secara konsisten, klasifikasikan isu dan sentimen, lalu tarik implikasi serta rekomendasi. Batas penerapan: Kliping yang lengkap belum otomatis menjadi analisis. Tiga pilihan lain bukan jawaban terbaik untuk kondisi ini. Tindakan sejenis baru dapat digunakan setelah redaksinya disesuaikan dan syarat berikut terpenuhi: mengirim seluruh tautan tanpa sintesis — kondisi terkait: penerima hanya meminta bukti mentah untuk verifikasi setelah analisis tersedia; menyimpulkan sentimen dari satu unggahan viral — kondisi terkait: unggahan tersebut merupakan objek kasus tunggal dan kesimpulan dibatasi pada unggahan itu; menghapus pemberitaan negatif dari laporan — kondisi terkait: item terbukti duplikat atau tidak relevan berdasarkan kriteria yang telah ditetapkan. Dengan demikian, pembeda utamanya bukan kata yang terdengar paling tegas, melainkan kesesuaian kondisi, kewenangan, bukti, dan urutan proses. Sumber Analisis Media Massa dan Media Sosial DJBC, bagian Monitoring dan analisis media, berstatus non_normative dan diverifikasi 2026-08-03. Rincian sesuai huruf pilihan yang tampil: A — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena satu contoh tidak mewakili sebaran percakapan. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: unggahan tersebut merupakan objek kasus tunggal dan kesimpulan dibatasi pada unggahan itu. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Kliping yang lengkap belum otomatis menjadi analisis. B — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena daftar tautan belum menjelaskan pola atau tindakan yang diperlukan. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: penerima hanya meminta bukti mentah untuk verifikasi setelah analisis tersedia. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Kliping yang lengkap belum otomatis menjadi analisis. C — BENAR: Benar untuk kasus ini. Monitoring mengumpulkan dan mencatat pemberitaan atau percakapan; analisis menafsirkan pola, penyebab, risiko, dan rekomendasi untuk keputusan. Karena itu, tindakan yang tepat adalah kumpulkan data secara konsisten, klasifikasikan isu dan sentimen, lalu tarik implikasi serta rekomendasi. Batas pentingnya: Kliping yang lengkap belum otomatis menjadi analisis. D — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena penghilangan data merusak gambaran risiko dan bias analisis. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: item terbukti duplikat atau tidak relevan berdasarkan kriteria yang telah ditetapkan. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Kliping yang lengkap belum otomatis menjadi analisis.",
+    "keyTakeaway": "Ingat pembeda kondisi: kumpulkan data secara konsisten, klasifikasikan isu dan sentimen, lalu tarik implikasi serta rekomendasi; jangan terapkan alternatif sebelum syarat khususnya terpenuhi.",
+    "sourceRefs": [
+      {
+        "sourceId": "SRC-HUMAS-MEDIA",
+        "title": "Analisis Media Massa dan Media Sosial DJBC",
+        "driveFileId": "1WLNpQmQTzGjv8Cx7LDhzu60IEgjOmOxv",
+        "section": "Monitoring dan analisis media",
+        "pageOrSlide": null,
+        "regulationStatus": "non_normative",
+        "lastVerified": "2026-08-03"
+      }
+    ],
+    "tags": [
+      "kehumasan",
+      "monitoring_media",
+      "implementation_planning",
+      "apply",
+      "medium"
+    ],
+    "review": {
+      "contentAccuracy": 25,
+      "sourceTraceability": 15,
+      "stemClarity": 9,
+      "distractorQuality": 9,
+      "singleBestAnswer": 10,
+      "competencyRelevance": 10,
+      "explanationQuality": 9,
+      "originality": 4,
+      "languageQuality": 3,
+      "difficultyFit": 2,
+      "total": 96,
+      "method": "rubrik_terotomasi_berbasis_unit_terverifikasi_v1"
+    },
+    "similarityGroup": "CONCEPT-011",
+    "knowledgeUnitId": "KU-DM-HM-011-1-10",
+    "questionFocus": "implementation_planning",
+    "generationBatch": "2026.08.drive-categories-v2",
+    "createdAt": "2026-08-03",
+    "lastReviewedAt": "2026-08-03",
+    "runtimeId": 257,
+    "selectedFromCandidateId": "CAND-DM-HM-0148"
+  },
+  {
+    "id": "DM-HM-0118",
+    "version": 1,
+    "status": "active",
+    "domain": "kehumasan",
+    "subdomain": "tingkat_analisis",
+    "competency": "Memilih jenis analisis media",
+    "indicator": "Membedakan deskriptif, diagnostik, prediktif, dan preskriptif",
+    "questionType": "exception_handling",
+    "cognitiveLevel": "analyze",
+    "difficulty": "medium",
+    "stem": "Tim hanya perlu mengetahui media mana yang paling banyak memberitakan isu. Bedakan aturan umum dari syarat pengecualiannya. Bagaimana kasus tersebut harus ditangani tanpa salah menerapkan pengecualian?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sebelum menerapkan pengecualian, petugas perlu memberi rekomendasi sebelum diagnosis sebelum keputusan akhir ditetapkan.",
+        "rationale": "Tidak tepat untuk kasus ini karena tindakan preskriptif berisiko tidak menyasar penyebab. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: situasi darurat memerlukan tindakan pengamanan sementara sambil diagnosis dilanjutkan. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Jenis analisis harus sesuai pertanyaan keputusan dan kualitas data.",
+        "misconception": "tindakan preskriptif berisiko tidak menyasar penyebab",
+        "validWhen": "situasi darurat memerlukan tindakan pengamanan sementara sambil diagnosis dilanjutkan"
+      },
+      {
+        "id": "B",
+        "text": "Sebelum menerapkan pengecualian, petugas perlu menggunakan analisis deskriptif untuk memastikan penyebab sebelum keputusan akhir ditetapkan.",
+        "rationale": "Tidak tepat untuk kasus ini karena deskripsi pola tidak membuktikan sebab. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: tujuannya memang hanya memetakan volume, kanal, waktu, atau sentimen yang terjadi. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Jenis analisis harus sesuai pertanyaan keputusan dan kualitas data.",
+        "misconception": "deskripsi pola tidak membuktikan sebab",
+        "validWhen": "tujuannya memang hanya memetakan volume, kanal, waktu, atau sentimen yang terjadi"
+      },
+      {
+        "id": "C",
+        "text": "Sebelum menerapkan pengecualian, petugas perlu memberi prediksi tanpa pola historis atau indikator sebelum keputusan akhir ditetapkan.",
+        "rationale": "Tidak tepat untuk kasus ini karena prediksi memerlukan dasar data dan asumsi yang dapat diuji. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: terdapat data memadai, model/asumsi dijelaskan, dan ketidakpastian disampaikan. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Jenis analisis harus sesuai pertanyaan keputusan dan kualitas data.",
+        "misconception": "prediksi memerlukan dasar data dan asumsi yang dapat diuji",
+        "validWhen": "terdapat data memadai, model/asumsi dijelaskan, dan ketidakpastian disampaikan"
+      },
+      {
+        "id": "D",
+        "text": "Sebelum menerapkan pengecualian, petugas perlu nyatakan pertanyaan analisis, pilih tingkat analisis yang sesuai, dan batasi kesimpulan pada data sebelum keputusan akhir ditetapkan.",
+        "rationale": "Benar untuk kasus ini. Analisis deskriptif menjelaskan apa yang terjadi, diagnostik mengapa terjadi, prediktif apa yang mungkin terjadi, dan preskriptif tindakan apa yang sebaiknya diambil. Karena itu, tindakan yang tepat adalah nyatakan pertanyaan analisis, pilih tingkat analisis yang sesuai, dan batasi kesimpulan pada data. Batas pentingnya: Jenis analisis harus sesuai pertanyaan keputusan dan kualitas data.",
+        "misconception": null,
+        "validWhen": "ketika kondisi sama dengan kasus dan seluruh prasyarat pada Pendekatan analisis media terpenuhi"
+      }
+    ],
+    "correctOptionId": "D",
+    "explanation": "Jawaban paling tepat adalah D. Kasus yang diuji: Tim hanya perlu mengetahui media mana yang paling banyak memberitakan isu. Fokus pertanyaan: Bagaimana kasus tersebut harus ditangani tanpa salah menerapkan pengecualian? Uraian topik: Analisis deskriptif menjelaskan apa yang terjadi, diagnostik mengapa terjadi, prediktif apa yang mungkin terjadi, dan preskriptif tindakan apa yang sebaiknya diambil. Pada kasus ini, keputusan harus nyatakan pertanyaan analisis, pilih tingkat analisis yang sesuai, dan batasi kesimpulan pada data. Batas penerapan: Jenis analisis harus sesuai pertanyaan keputusan dan kualitas data. Tiga pilihan lain bukan jawaban terbaik untuk kondisi ini. Tindakan sejenis baru dapat digunakan setelah redaksinya disesuaikan dan syarat berikut terpenuhi: menggunakan analisis deskriptif untuk memastikan penyebab — kondisi terkait: tujuannya memang hanya memetakan volume, kanal, waktu, atau sentimen yang terjadi; memberi prediksi tanpa pola historis atau indikator — kondisi terkait: terdapat data memadai, model/asumsi dijelaskan, dan ketidakpastian disampaikan; memberi rekomendasi sebelum diagnosis — kondisi terkait: situasi darurat memerlukan tindakan pengamanan sementara sambil diagnosis dilanjutkan. Dengan demikian, pembeda utamanya bukan kata yang terdengar paling tegas, melainkan kesesuaian kondisi, kewenangan, bukti, dan urutan proses. Sumber Analisis Media Massa dan Media Sosial DJBC, bagian Pendekatan analisis media, berstatus non_normative dan diverifikasi 2026-08-03. Rincian sesuai huruf pilihan yang tampil: A — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena tindakan preskriptif berisiko tidak menyasar penyebab. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: situasi darurat memerlukan tindakan pengamanan sementara sambil diagnosis dilanjutkan. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Jenis analisis harus sesuai pertanyaan keputusan dan kualitas data. B — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena deskripsi pola tidak membuktikan sebab. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: tujuannya memang hanya memetakan volume, kanal, waktu, atau sentimen yang terjadi. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Jenis analisis harus sesuai pertanyaan keputusan dan kualitas data. C — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena prediksi memerlukan dasar data dan asumsi yang dapat diuji. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: terdapat data memadai, model/asumsi dijelaskan, dan ketidakpastian disampaikan. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Jenis analisis harus sesuai pertanyaan keputusan dan kualitas data. D — BENAR: Benar untuk kasus ini. Analisis deskriptif menjelaskan apa yang terjadi, diagnostik mengapa terjadi, prediktif apa yang mungkin terjadi, dan preskriptif tindakan apa yang sebaiknya diambil. Karena itu, tindakan yang tepat adalah nyatakan pertanyaan analisis, pilih tingkat analisis yang sesuai, dan batasi kesimpulan pada data. Batas pentingnya: Jenis analisis harus sesuai pertanyaan keputusan dan kualitas data.",
+    "keyTakeaway": "Ingat pembeda kondisi: nyatakan pertanyaan analisis, pilih tingkat analisis yang sesuai, dan batasi kesimpulan pada data; jangan terapkan alternatif sebelum syarat khususnya terpenuhi.",
+    "sourceRefs": [
+      {
+        "sourceId": "SRC-HUMAS-MEDIA",
+        "title": "Analisis Media Massa dan Media Sosial DJBC",
+        "driveFileId": "1WLNpQmQTzGjv8Cx7LDhzu60IEgjOmOxv",
+        "section": "Pendekatan analisis media",
+        "pageOrSlide": null,
+        "regulationStatus": "non_normative",
+        "lastVerified": "2026-08-03"
+      }
+    ],
+    "tags": [
+      "kehumasan",
+      "tingkat_analisis",
+      "exception_handling",
+      "evaluate",
+      "medium"
+    ],
+    "review": {
+      "contentAccuracy": 25,
+      "sourceTraceability": 15,
+      "stemClarity": 9,
+      "distractorQuality": 9,
+      "singleBestAnswer": 10,
+      "competencyRelevance": 10,
+      "explanationQuality": 9,
+      "originality": 4,
+      "languageQuality": 3,
+      "difficultyFit": 2,
+      "total": 96,
+      "method": "rubrik_terotomasi_berbasis_unit_terverifikasi_v1"
+    },
+    "similarityGroup": "CONCEPT-012",
+    "knowledgeUnitId": "KU-DM-HM-012-2-7",
+    "questionFocus": "exception_handling",
+    "generationBatch": "2026.08.drive-categories-v2",
+    "createdAt": "2026-08-03",
+    "lastReviewedAt": "2026-08-03",
+    "runtimeId": 258,
+    "selectedFromCandidateId": "CAND-DM-HM-0149"
+  },
+  {
+    "id": "DM-HM-0119",
+    "version": 1,
+    "status": "active",
+    "domain": "kehumasan",
+    "subdomain": "framing_media",
+    "competency": "Menganalisis bingkai pemberitaan",
+    "indicator": "Menggunakan unsur framing untuk memahami narasi",
+    "questionType": "situational_judgment",
+    "cognitiveLevel": "apply",
+    "difficulty": "medium",
+    "stem": "Pemberitaan mendefinisikan masalah sebagai kegagalan layanan dan menuntut perbaikan proses. Perhatikan tanggung jawab dan kewenangan pimpinan. Jika Anda memimpin proses tersebut, arahan apa yang seharusnya diberikan?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pimpinan perlu mengarahkan tim untuk identifikasi empat unsur bingkai pada isi pemberitaan dan bandingkan antar-media sebelum merespons dan mendokumentasikan hasilnya.",
+        "rationale": "Benar untuk kasus ini. Analisis framing membantu melihat bagaimana masalah didefinisikan, penyebab dipilih, penilaian moral dibentuk, dan penanganan direkomendasikan. Karena itu, tindakan yang tepat adalah identifikasi empat unsur bingkai pada isi pemberitaan dan bandingkan antar-media sebelum merespons. Batas pentingnya: Framing bukan alasan untuk menuduh media tidak objektif tanpa analisis teks.",
+        "misconception": null,
+        "validWhen": "ketika kondisi sama dengan kasus dan seluruh prasyarat pada Framing Entman terpenuhi"
+      },
+      {
+        "id": "B",
+        "text": "Pimpinan perlu mengarahkan tim untuk menilai bingkai hanya dari judul dan mendokumentasikan hasilnya.",
+        "rationale": "Tidak tepat untuk kasus ini karena judul penting tetapi tidak memuat seluruh konstruksi masalah dan rekomendasi. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: analisis secara eksplisit dibatasi pada praktik penulisan judul dan batas itu dinyatakan. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Framing bukan alasan untuk menuduh media tidak objektif tanpa analisis teks.",
+        "misconception": "judul penting tetapi tidak memuat seluruh konstruksi masalah dan rekomendasi",
+        "validWhen": "analisis secara eksplisit dibatasi pada praktik penulisan judul dan batas itu dinyatakan"
+      },
+      {
+        "id": "C",
+        "text": "Pimpinan perlu mengarahkan tim untuk menyebut semua kritik sebagai framing negatif dan mendokumentasikan hasilnya.",
+        "rationale": "Tidak tepat untuk kasus ini karena kritik dapat berbasis fakta dan harus dinilai unsur narasinya. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: analisis menunjukkan pemilihan fakta yang konsisten membentuk bingkai tertentu. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Framing bukan alasan untuk menuduh media tidak objektif tanpa analisis teks.",
+        "misconception": "kritik dapat berbasis fakta dan harus dinilai unsur narasinya",
+        "validWhen": "analisis menunjukkan pemilihan fakta yang konsisten membentuk bingkai tertentu"
+      },
+      {
+        "id": "D",
+        "text": "Pimpinan perlu mengarahkan tim untuk membalas media dengan membantah motifnya dan mendokumentasikan hasilnya.",
+        "rationale": "Tidak tepat untuk kasus ini karena menyerang motif tidak mengoreksi definisi masalah atau fakta. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: terdapat bukti pelanggaran etik yang ditangani melalui kanal pengaduan yang tepat. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Framing bukan alasan untuk menuduh media tidak objektif tanpa analisis teks.",
+        "misconception": "menyerang motif tidak mengoreksi definisi masalah atau fakta",
+        "validWhen": "terdapat bukti pelanggaran etik yang ditangani melalui kanal pengaduan yang tepat"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "Jawaban paling tepat adalah A. Kasus yang diuji: Pemberitaan mendefinisikan masalah sebagai kegagalan layanan dan menuntut perbaikan proses. Fokus pertanyaan: Jika Anda memimpin proses tersebut, arahan apa yang seharusnya diberikan? Uraian topik: Analisis framing membantu melihat bagaimana masalah didefinisikan, penyebab dipilih, penilaian moral dibentuk, dan penanganan direkomendasikan. Pada kasus ini, keputusan harus identifikasi empat unsur bingkai pada isi pemberitaan dan bandingkan antar-media sebelum merespons. Batas penerapan: Framing bukan alasan untuk menuduh media tidak objektif tanpa analisis teks. Tiga pilihan lain bukan jawaban terbaik untuk kondisi ini. Tindakan sejenis baru dapat digunakan setelah redaksinya disesuaikan dan syarat berikut terpenuhi: menilai bingkai hanya dari judul — kondisi terkait: analisis secara eksplisit dibatasi pada praktik penulisan judul dan batas itu dinyatakan; menyebut semua kritik sebagai framing negatif — kondisi terkait: analisis menunjukkan pemilihan fakta yang konsisten membentuk bingkai tertentu; membalas media dengan membantah motifnya — kondisi terkait: terdapat bukti pelanggaran etik yang ditangani melalui kanal pengaduan yang tepat. Dengan demikian, pembeda utamanya bukan kata yang terdengar paling tegas, melainkan kesesuaian kondisi, kewenangan, bukti, dan urutan proses. Sumber Analisis Media Massa dan Media Sosial DJBC, bagian Framing Entman, berstatus non_normative dan diverifikasi 2026-08-03. Rincian sesuai huruf pilihan yang tampil: A — BENAR: Benar untuk kasus ini. Analisis framing membantu melihat bagaimana masalah didefinisikan, penyebab dipilih, penilaian moral dibentuk, dan penanganan direkomendasikan. Karena itu, tindakan yang tepat adalah identifikasi empat unsur bingkai pada isi pemberitaan dan bandingkan antar-media sebelum merespons. Batas pentingnya: Framing bukan alasan untuk menuduh media tidak objektif tanpa analisis teks. B — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena judul penting tetapi tidak memuat seluruh konstruksi masalah dan rekomendasi. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: analisis secara eksplisit dibatasi pada praktik penulisan judul dan batas itu dinyatakan. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Framing bukan alasan untuk menuduh media tidak objektif tanpa analisis teks. C — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena kritik dapat berbasis fakta dan harus dinilai unsur narasinya. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: analisis menunjukkan pemilihan fakta yang konsisten membentuk bingkai tertentu. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Framing bukan alasan untuk menuduh media tidak objektif tanpa analisis teks. D — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena menyerang motif tidak mengoreksi definisi masalah atau fakta. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: terdapat bukti pelanggaran etik yang ditangani melalui kanal pengaduan yang tepat. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Framing bukan alasan untuk menuduh media tidak objektif tanpa analisis teks.",
+    "keyTakeaway": "Ingat pembeda kondisi: identifikasi empat unsur bingkai pada isi pemberitaan dan bandingkan antar-media sebelum merespons; jangan terapkan alternatif sebelum syarat khususnya terpenuhi.",
+    "sourceRefs": [
+      {
+        "sourceId": "SRC-HUMAS-MEDIA",
+        "title": "Analisis Media Massa dan Media Sosial DJBC",
+        "driveFileId": "1WLNpQmQTzGjv8Cx7LDhzu60IEgjOmOxv",
+        "section": "Framing Entman",
+        "pageOrSlide": null,
+        "regulationStatus": "non_normative",
+        "lastVerified": "2026-08-03"
+      }
+    ],
+    "tags": [
+      "kehumasan",
+      "framing_media",
+      "situational_judgment",
+      "evaluate",
+      "medium"
+    ],
+    "review": {
+      "contentAccuracy": 25,
+      "sourceTraceability": 15,
+      "stemClarity": 9,
+      "distractorQuality": 9,
+      "singleBestAnswer": 10,
+      "competencyRelevance": 10,
+      "explanationQuality": 9,
+      "originality": 4,
+      "languageQuality": 3,
+      "difficultyFit": 2,
+      "total": 96,
+      "method": "rubrik_terotomasi_berbasis_unit_terverifikasi_v1"
+    },
+    "similarityGroup": "CONCEPT-013",
+    "knowledgeUnitId": "KU-DM-HM-013-3-4",
+    "questionFocus": "situational_judgment",
+    "generationBatch": "2026.08.drive-categories-v2",
+    "createdAt": "2026-08-03",
+    "lastReviewedAt": "2026-08-03",
+    "runtimeId": 259,
+    "selectedFromCandidateId": "CAND-DM-HM-0150"
+  },
+  {
+    "id": "DM-HM-0120",
+    "version": 1,
+    "status": "active",
+    "domain": "kehumasan",
+    "subdomain": "penulisan_berita",
+    "competency": "Menulis berita organisasi",
+    "indicator": "Menerapkan 5W1H dan piramida terbalik",
+    "questionType": "conceptual_mcq",
+    "cognitiveLevel": "remember",
+    "difficulty": "hard",
+    "stem": "Naskah berita kegiatan baru menjelaskan inti acara pada paragraf keenam. Nilai perubahan kondisi setelah tindak lanjut. Tindak lanjut mana yang paling tepat setelah kondisi itu ditemukan?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Tindak lanjut yang tepat adalah verifikasi 5W1H, tulis lead berisi fakta terpenting, lalu susun detail dari paling penting.",
+        "rationale": "Benar untuk kasus ini. Berita menyajikan fakta terpenting terlebih dahulu melalui unsur 5W1H, judul yang akurat, lead yang kuat, dan detail pendukung secara berurutan. Karena itu, tindakan yang tepat adalah verifikasi 5W1H, tulis lead berisi fakta terpenting, lalu susun detail dari paling penting. Batas pentingnya: Bahasa promosi dan opini penulis tidak boleh menggantikan fakta.",
+        "misconception": null,
+        "validWhen": "ketika kondisi sama dengan kasus dan seluruh prasyarat pada Penulisan berita dan 5W1H terpenuhi"
+      },
+      {
+        "id": "B",
+        "text": "Tindak lanjut yang tepat adalah membuka berita dengan sejarah panjang kegiatan.",
+        "rationale": "Tidak tepat untuk kasus ini karena informasi utama tertunda dan pembaca tidak segera memahami nilai berita. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: artikel yang ditulis memang feature sejarah, bukan berita langsung. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Bahasa promosi dan opini penulis tidak boleh menggantikan fakta.",
+        "misconception": "informasi utama tertunda dan pembaca tidak segera memahami nilai berita",
+        "validWhen": "artikel yang ditulis memang feature sejarah, bukan berita langsung"
+      },
+      {
+        "id": "C",
+        "text": "Tindak lanjut yang tepat adalah menggunakan klaim paling sukses tanpa ukuran.",
+        "rationale": "Tidak tepat untuk kasus ini karena superlatif tanpa bukti mengaburkan fakta. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: klaim didukung ukuran yang terverifikasi dan atribusi yang jelas. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Bahasa promosi dan opini penulis tidak boleh menggantikan fakta.",
+        "misconception": "superlatif tanpa bukti mengaburkan fakta",
+        "validWhen": "klaim didukung ukuran yang terverifikasi dan atribusi yang jelas"
+      },
+      {
+        "id": "D",
+        "text": "Tindak lanjut yang tepat adalah menyalin seluruh sambutan sebagai isi berita.",
+        "rationale": "Tidak tepat untuk kasus ini karena kutipan tidak menggantikan struktur fakta dan konteks. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: transkrip sambutan memang artefak yang diminta terpisah dari naskah berita. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Bahasa promosi dan opini penulis tidak boleh menggantikan fakta.",
+        "misconception": "kutipan tidak menggantikan struktur fakta dan konteks",
+        "validWhen": "transkrip sambutan memang artefak yang diminta terpisah dari naskah berita"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "Jawaban paling tepat adalah A. Kasus yang diuji: Naskah berita kegiatan baru menjelaskan inti acara pada paragraf keenam. Fokus pertanyaan: Tindak lanjut mana yang paling tepat setelah kondisi itu ditemukan? Uraian topik: Berita menyajikan fakta terpenting terlebih dahulu melalui unsur 5W1H, judul yang akurat, lead yang kuat, dan detail pendukung secara berurutan. Pada kasus ini, keputusan harus verifikasi 5W1H, tulis lead berisi fakta terpenting, lalu susun detail dari paling penting. Batas penerapan: Bahasa promosi dan opini penulis tidak boleh menggantikan fakta. Tiga pilihan lain bukan jawaban terbaik untuk kondisi ini. Tindakan sejenis baru dapat digunakan setelah redaksinya disesuaikan dan syarat berikut terpenuhi: membuka berita dengan sejarah panjang kegiatan — kondisi terkait: artikel yang ditulis memang feature sejarah, bukan berita langsung; menggunakan klaim paling sukses tanpa ukuran — kondisi terkait: klaim didukung ukuran yang terverifikasi dan atribusi yang jelas; menyalin seluruh sambutan sebagai isi berita — kondisi terkait: transkrip sambutan memang artefak yang diminta terpisah dari naskah berita. Dengan demikian, pembeda utamanya bukan kata yang terdengar paling tegas, melainkan kesesuaian kondisi, kewenangan, bukti, dan urutan proses. Sumber Menulis Berita Itu Mudah, bagian Penulisan berita dan 5W1H, berstatus non_normative dan diverifikasi 2026-08-03. Rincian sesuai huruf pilihan yang tampil: A — BENAR: Benar untuk kasus ini. Berita menyajikan fakta terpenting terlebih dahulu melalui unsur 5W1H, judul yang akurat, lead yang kuat, dan detail pendukung secara berurutan. Karena itu, tindakan yang tepat adalah verifikasi 5W1H, tulis lead berisi fakta terpenting, lalu susun detail dari paling penting. Batas pentingnya: Bahasa promosi dan opini penulis tidak boleh menggantikan fakta. B — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena informasi utama tertunda dan pembaca tidak segera memahami nilai berita. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: artikel yang ditulis memang feature sejarah, bukan berita langsung. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Bahasa promosi dan opini penulis tidak boleh menggantikan fakta. C — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena superlatif tanpa bukti mengaburkan fakta. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: klaim didukung ukuran yang terverifikasi dan atribusi yang jelas. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Bahasa promosi dan opini penulis tidak boleh menggantikan fakta. D — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena kutipan tidak menggantikan struktur fakta dan konteks. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: transkrip sambutan memang artefak yang diminta terpisah dari naskah berita. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Bahasa promosi dan opini penulis tidak boleh menggantikan fakta.",
+    "keyTakeaway": "Ingat pembeda kondisi: verifikasi 5W1H, tulis lead berisi fakta terpenting, lalu susun detail dari paling penting; jangan terapkan alternatif sebelum syarat khususnya terpenuhi.",
+    "sourceRefs": [
+      {
+        "sourceId": "SRC-HUMAS-WRITING",
+        "title": "Menulis Berita Itu Mudah",
+        "driveFileId": "1__-82PkI0CbaqUvqLqnRAIiFaOS7zGjR",
+        "section": "Penulisan berita dan 5W1H",
+        "pageOrSlide": null,
+        "regulationStatus": "non_normative",
+        "lastVerified": "2026-08-03"
+      }
+    ],
+    "tags": [
+      "kehumasan",
+      "penulisan_berita",
+      "monitoring_evaluation",
+      "analyze",
+      "medium"
+    ],
+    "review": {
+      "contentAccuracy": 25,
+      "sourceTraceability": 15,
+      "stemClarity": 9,
+      "distractorQuality": 9,
+      "singleBestAnswer": 10,
+      "competencyRelevance": 10,
+      "explanationQuality": 9,
+      "originality": 4,
+      "languageQuality": 3,
+      "difficultyFit": 2,
+      "total": 96,
+      "method": "rubrik_terotomasi_berbasis_unit_terverifikasi_v1"
+    },
+    "similarityGroup": "CONCEPT-016",
+    "knowledgeUnitId": "KU-DM-HM-016-1-8",
+    "questionFocus": "monitoring_evaluation",
+    "generationBatch": "2026.08.drive-categories-v2",
+    "createdAt": "2026-08-03",
+    "lastReviewedAt": "2026-08-03",
+    "runtimeId": 260,
+    "selectedFromCandidateId": "CAND-DM-HM-0152"
+  }
+]

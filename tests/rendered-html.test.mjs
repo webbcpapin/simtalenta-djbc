@@ -16,12 +16,12 @@ test("server-renders the production landing page", async () => {
   assert.equal(response.status, 200);
   const html = await response.text();
   assert.match(html, /SIMTALENTA DJBC/i);
-  assert.match(html, /1\.000/);
-  assert.match(html, /1\.354/);
+  assert.match(html, /1\.560/);
+  assert.match(html, /2\.107/);
   assert.match(html, /Simulasi penuh/);
   assert.match(html, /Sprint 3 Hari/);
-  assert.match(html, /Manajemen Talenta/);
-  assert.match(html, /Statement of Purpose/);
+  assert.match(html, /Disiplin Pegawai/);
+  assert.match(html, /Rumah Tangga/);
   assert.match(html, /manifest\.webmanifest/);
   assert.match(html, /© 2026 agung3956/);
   assert.match(html, /Semoga setiap ikhtiar belajar diberi kemudahan/);
@@ -37,8 +37,8 @@ test("runtime uses lazy shards, versioned sessions, filters, history, and favori
     readFile(new URL("../public/data/questions/manifest.json", import.meta.url), "utf8"),
     readFile(new URL("../app/generated-bank-index.json", import.meta.url), "utf8"),
   ]);
-  assert.equal(JSON.parse(manifest).activeCount, 1000);
-  assert.equal(JSON.parse(index).length, 1000);
+  assert.equal(JSON.parse(manifest).activeCount, 1560);
+  assert.equal(JSON.parse(index).length, 1560);
   assert.match(bank, /loadQuestionsByIds/);
   assert.match(bank, /shardCache/);
   assert.match(page, /buildBalancedPackage/);

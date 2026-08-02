@@ -1,0 +1,75 @@
+{
+  "bankVersion": "2026.08.drive-categories-v2",
+  "generatedAt": "2026-08-03",
+  "activeCount": 1560,
+  "candidateCount": 2107,
+  "categoryCount": 11,
+  "categories": [
+    {
+      "id": "disiplin_pegawai",
+      "label": "Disiplin Pegawai",
+      "topic": "Disiplin Pegawai",
+      "target": 140
+    },
+    {
+      "id": "kehumasan",
+      "label": "Kehumasan",
+      "topic": "Kehumasan",
+      "target": 120
+    },
+    {
+      "id": "kepatuhan_internal",
+      "label": "Kepatuhan Internal",
+      "topic": "Kepatuhan Internal",
+      "target": 120
+    },
+    {
+      "id": "kepegawaian",
+      "label": "Kepegawaian",
+      "topic": "Kepegawaian",
+      "target": 180
+    },
+    {
+      "id": "keuangan",
+      "label": "Keuangan",
+      "topic": "Keuangan",
+      "target": 150
+    },
+    {
+      "id": "layanan_informasi",
+      "label": "Layanan Informasi",
+      "topic": "Layanan Informasi",
+      "target": 160
+    },
+    {
+      "id": "manajemen_risiko",
+      "label": "Manajemen Risiko",
+      "topic": "Manajemen Risiko",
+      "target": 160
+    },
+    {
+      "id": "organisasi",
+      "label": "Organisasi",
+      "topic": "Organisasi",
+      "target": 110
+    },
+    {
+      "id": "pengelolaan_kinerja",
+      "label": "Pengelolaan Kinerja",
+      "topic": "Pengelolaan Kinerja",
+      "target": 180
+    },
+    {
+      "id": "ringkasan",
+      "label": "Ringkasan",
+      "topic": "Ringkasan",
+      "target": 100
+    },
+    {
+      "id": "rumah_tangga",
+      "label": "Rumah Tangga",
+      "topic": "Rumah Tangga",
+      "target": 140
+    }
+  ]
+}

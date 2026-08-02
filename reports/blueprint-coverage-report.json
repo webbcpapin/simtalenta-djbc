@@ -1,37 +1,41 @@
 {
   "generatedAt": "2026-08-03",
   "expected": {
-    "manajemen_talenta": 180,
-    "karier_bidang_penugasan": 110,
-    "pengembangan_sdm": 130,
-    "manajemen_kinerja": 120,
-    "kepatuhan_integritas_disiplin": 140,
-    "kompetensi_kepemimpinan": 150,
-    "tata_kelola_risiko": 90,
-    "learning_knowledge": 50,
-    "sop_kesiapan": 30
+    "disiplin_pegawai": 140,
+    "kehumasan": 120,
+    "kepatuhan_internal": 120,
+    "kepegawaian": 180,
+    "keuangan": 150,
+    "layanan_informasi": 160,
+    "manajemen_risiko": 160,
+    "organisasi": 110,
+    "pengelolaan_kinerja": 180,
+    "ringkasan": 100,
+    "rumah_tangga": 140
   },
   "actual": {
-    "karier_bidang_penugasan": 110,
-    "kepatuhan_integritas_disiplin": 140,
-    "kompetensi_kepemimpinan": 150,
-    "learning_knowledge": 50,
-    "manajemen_kinerja": 120,
-    "manajemen_talenta": 180,
-    "pengembangan_sdm": 130,
-    "sop_kesiapan": 30,
-    "tata_kelola_risiko": 90
+    "disiplin_pegawai": 140,
+    "kehumasan": 120,
+    "kepatuhan_internal": 120,
+    "kepegawaian": 180,
+    "keuangan": 150,
+    "layanan_informasi": 160,
+    "manajemen_risiko": 160,
+    "organisasi": 110,
+    "pengelolaan_kinerja": 180,
+    "ringkasan": 100,
+    "rumah_tangga": 140
   },
   "cognitive": {
-    "analyze": 350,
-    "apply": 350,
-    "evaluate": 150,
-    "remember": 150
+    "analyze": 546,
+    "apply": 546,
+    "evaluate": 234,
+    "remember": 234
   },
   "difficulty": {
-    "easy": 250,
-    "hard": 250,
-    "medium": 500
+    "easy": 390,
+    "hard": 390,
+    "medium": 780
   },
-  "caseAndApplicationCount": 850
+  "caseAndApplicationCount": 1326
 }

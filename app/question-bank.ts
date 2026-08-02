@@ -1,18 +1,21 @@
 import bankIndexData from "./generated-bank-index.json";
+import bankMetaData from "./generated-bank-meta.json";
 import sourceRegistryData from "../src/data/sources/source-registry.json";
 
-export const BANK_VERSION = "2026.08.1000-v1";
+export const BANK_VERSION = "2026.08.drive-categories-v2";
 
 export const BANK_TOPICS = [
-  "Manajemen Talenta",
-  "Manajemen Karier & Bidang Penugasan",
-  "Pengelolaan & Pengembangan SDM",
-  "Manajemen Kinerja",
-  "Kepatuhan, Integritas & Disiplin",
-  "Kompetensi Manajerial & Kepemimpinan",
-  "Organisasi, Tata Kelola & Risiko",
-  "Learning Organization & Knowledge Management",
-  "Statement of Purpose & Kesiapan Talenta",
+  "Disiplin Pegawai",
+  "Kehumasan",
+  "Kepatuhan Internal",
+  "Kepegawaian",
+  "Keuangan",
+  "Layanan Informasi",
+  "Manajemen Risiko",
+  "Organisasi",
+  "Pengelolaan Kinerja",
+  "Ringkasan",
+  "Rumah Tangga",
 ] as const;
 
 export type BankTopic = typeof BANK_TOPICS[number];
@@ -109,6 +112,8 @@ export type SourceRegistryItem = {
 
 export const questionIndex = bankIndexData as QuestionIndexItem[];
 export const activeQuestionCount = questionIndex.length;
+export const candidateQuestionCount = bankMetaData.candidateCount;
+export const bankCategoryCount = bankMetaData.categoryCount;
 export const publicSourceRegistry = (sourceRegistryData as SourceRegistryItem[])
   .filter((source) => !source.containsPersonalData);
 

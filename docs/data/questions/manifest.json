@@ -1,147 +1,225 @@
 {
-  "bankVersion": "2026.08.1000-v1",
+  "bankVersion": "2026.08.drive-categories-v2",
   "generatedAt": "2026-08-03",
-  "activeCount": 1000,
-  "candidateCount": 1354,
+  "activeCount": 1560,
+  "candidateCount": 2107,
   "shardSize": 50,
   "files": [
     {
-      "file": "manajemen_talenta/questions-001.json",
-      "domain": "manajemen_talenta",
+      "file": "disiplin_pegawai/questions-001.json",
+      "domain": "disiplin_pegawai",
       "count": 50,
-      "sha256": "126a8afe498fd61753b86f14783f7f87a5bb487249bc543c512d4bef657aad74"
+      "sha256": "3efac104c392d8e4532eeffeb41fcc019b4c3bee83f96d29026be11d9494a81f"
     },
     {
-      "file": "manajemen_talenta/questions-002.json",
-      "domain": "manajemen_talenta",
+      "file": "disiplin_pegawai/questions-002.json",
+      "domain": "disiplin_pegawai",
       "count": 50,
-      "sha256": "58117d5c90db472f7301d8df6b271f162cf6e49d2731aeb2b790c48b3c793d71"
+      "sha256": "df70c3a56f88e17da215370806daaed4603ae7d7a6e0b389d958729b6f76d07e"
     },
     {
-      "file": "manajemen_talenta/questions-003.json",
-      "domain": "manajemen_talenta",
+      "file": "disiplin_pegawai/questions-003.json",
+      "domain": "disiplin_pegawai",
+      "count": 40,
+      "sha256": "ce36315219f2e25b08863c55516b3b2adf7f933af1ba1cf3c0b1fd10c064e3b8"
+    },
+    {
+      "file": "kehumasan/questions-001.json",
+      "domain": "kehumasan",
       "count": 50,
-      "sha256": "4147ff36203918ac68bf906fd3ba74d802d01cce2b8880e1136082e95378923f"
+      "sha256": "8131b0325dea6ca63f2b247b31ef4fe133cb354cb3224fd4ea466fca77504b4f"
     },
     {
-      "file": "manajemen_talenta/questions-004.json",
-      "domain": "manajemen_talenta",
-      "count": 30,
-      "sha256": "abe783b017eac12e3d857e598b4113ddf7b29e161819af712956bd68870e0703"
-    },
-    {
-      "file": "karier_bidang_penugasan/questions-001.json",
-      "domain": "karier_bidang_penugasan",
+      "file": "kehumasan/questions-002.json",
+      "domain": "kehumasan",
       "count": 50,
-      "sha256": "636f3e3d8134587a113d473784186725e5b004ce70be5b7cc40628ad9bcb5755"
+      "sha256": "2607ae7570725afd9016ee15d934c31b247fe6645abc4e86f570ae9c653d508c"
     },
     {
-      "file": "karier_bidang_penugasan/questions-002.json",
-      "domain": "karier_bidang_penugasan",
-      "count": 50,
-      "sha256": "88ca0ba41cc14eeb911c81b2c4bf4d822abdf39d44d9c0cabaa3ccbbac2143c6"
-    },
-    {
-      "file": "karier_bidang_penugasan/questions-003.json",
-      "domain": "karier_bidang_penugasan",
-      "count": 10,
-      "sha256": "ac80de77b226c4a4c12754fcfb29f902ae3b9484bc87fedccf8f02f03ce54005"
-    },
-    {
-      "file": "pengembangan_sdm/questions-001.json",
-      "domain": "pengembangan_sdm",
-      "count": 50,
-      "sha256": "d976253ec6cd54d232a86d55d19d737f1f166eadea6306402040f604c700a694"
-    },
-    {
-      "file": "pengembangan_sdm/questions-002.json",
-      "domain": "pengembangan_sdm",
-      "count": 50,
-      "sha256": "4046665af4e6617fba06de5bf1237e0928eb6e0e0a9bd87f5ad5bea493196f53"
-    },
-    {
-      "file": "pengembangan_sdm/questions-003.json",
-      "domain": "pengembangan_sdm",
-      "count": 30,
-      "sha256": "589a45e4e90bb1b7ea6b06b0a55f53efa8f3348b5292dd4acb8776d9f94f5993"
-    },
-    {
-      "file": "manajemen_kinerja/questions-001.json",
-      "domain": "manajemen_kinerja",
-      "count": 50,
-      "sha256": "7dec0262700aefc13395acb1a94f4d874c49494f6983c6487e0e5fbbc10a20e6"
-    },
-    {
-      "file": "manajemen_kinerja/questions-002.json",
-      "domain": "manajemen_kinerja",
-      "count": 50,
-      "sha256": "d33433968fdc46a681e3dcd582f72dad66f96f61b4f172b98365a51acad9b69b"
-    },
-    {
-      "file": "manajemen_kinerja/questions-003.json",
-      "domain": "manajemen_kinerja",
+      "file": "kehumasan/questions-003.json",
+      "domain": "kehumasan",
       "count": 20,
-      "sha256": "2e4d071441f4d2569fe47db79337a166016c818ea1a15798e84391557079e33d"
+      "sha256": "e99ae8e0220be359d0c20016be9edfcbbed86c5443eacd85dea01c7fc7aaa3ec"
     },
     {
-      "file": "kepatuhan_integritas_disiplin/questions-001.json",
-      "domain": "kepatuhan_integritas_disiplin",
+      "file": "kepatuhan_internal/questions-001.json",
+      "domain": "kepatuhan_internal",
       "count": 50,
-      "sha256": "2186997da43ac5bad79db2120b1b255d58278df79f7d72329c6a5f85e3405914"
+      "sha256": "de22e3726688795d4f3624c3a30681bbeb3d2bdbecbb91d1526d0bec24ca6ecf"
     },
     {
-      "file": "kepatuhan_integritas_disiplin/questions-002.json",
-      "domain": "kepatuhan_integritas_disiplin",
+      "file": "kepatuhan_internal/questions-002.json",
+      "domain": "kepatuhan_internal",
       "count": 50,
-      "sha256": "9570bd7b859e91195dae8cbaa9ee51b7f7e4fe802330a5d5dcbe206054f42782"
+      "sha256": "b0430dd281a067aa68dfe67c6100c529c437e7c0c28664ac81b7d3efbb33a9f1"
     },
     {
-      "file": "kepatuhan_integritas_disiplin/questions-003.json",
-      "domain": "kepatuhan_integritas_disiplin",
-      "count": 40,
-      "sha256": "7f1701104eed30613770e2742e4cb41eb1149cc462bb8b16f49e1c877815aec2"
+      "file": "kepatuhan_internal/questions-003.json",
+      "domain": "kepatuhan_internal",
+      "count": 20,
+      "sha256": "38c178c18c84fbfba1184b3f3ad2b9b73984432539cfe8d5def95ed3ddd704ab"
     },
     {
-      "file": "kompetensi_kepemimpinan/questions-001.json",
-      "domain": "kompetensi_kepemimpinan",
+      "file": "kepegawaian/questions-001.json",
+      "domain": "kepegawaian",
       "count": 50,
-      "sha256": "07ee781a1d517679c3d0420e4addc31fcf24037e7c72f72384d21b9d78d18a5a"
+      "sha256": "6c1388316fcfaa0da6279df9e49dafb6d5d0445ce15756325536d5d8a9e66dfe"
     },
     {
-      "file": "kompetensi_kepemimpinan/questions-002.json",
-      "domain": "kompetensi_kepemimpinan",
+      "file": "kepegawaian/questions-002.json",
+      "domain": "kepegawaian",
       "count": 50,
-      "sha256": "c32577ff91ebf7821d9e803a508fa73b1676b31d93d861359f54048e58b93fae"
+      "sha256": "5de678d1f0de0ddb9e00dbc98d734969af058e911bf6e3c04023ee94e940eb5d"
     },
     {
-      "file": "kompetensi_kepemimpinan/questions-003.json",
-      "domain": "kompetensi_kepemimpinan",
+      "file": "kepegawaian/questions-003.json",
+      "domain": "kepegawaian",
       "count": 50,
-      "sha256": "7321c92cf29c0e5e1bd644b914f38eedef12678d4b8be0d1fad51920e419f3a1"
+      "sha256": "7d1bcdef4e783871aa1e6b1a249a0592dfdb61f261d5c2106c5ea9dbc4f50ff3"
     },
     {
-      "file": "tata_kelola_risiko/questions-001.json",
-      "domain": "tata_kelola_risiko",
-      "count": 50,
-      "sha256": "cda3fb230bd23df678e2e7f6f4c6c177de3bc976055b4d9c46b044be95d60016"
-    },
-    {
-      "file": "tata_kelola_risiko/questions-002.json",
-      "domain": "tata_kelola_risiko",
-      "count": 40,
-      "sha256": "b170770edd18324e435eb6eb06b4b731766ab4b9cf1af591f77bdf42b66f8dc5"
-    },
-    {
-      "file": "learning_knowledge/questions-001.json",
-      "domain": "learning_knowledge",
-      "count": 50,
-      "sha256": "fa4d2f873682480b24c77e67f4e781e9d21f3c582aae96abf51ceb125498c1cf"
-    },
-    {
-      "file": "sop_kesiapan/questions-001.json",
-      "domain": "sop_kesiapan",
+      "file": "kepegawaian/questions-004.json",
+      "domain": "kepegawaian",
       "count": 30,
-      "sha256": "eccc9c548b38e55c7cc7e67aab6549fca945ddcaadae5885ae7f4c22aa444aae"
+      "sha256": "dcc06688b3fb413521c728c4ae1feb2c7d5d8b62aaf0000e780fc6b8c8c4f78c"
+    },
+    {
+      "file": "keuangan/questions-001.json",
+      "domain": "keuangan",
+      "count": 50,
+      "sha256": "fad1187aecaef5fc525e64861b6c5ff90fa0997aeb59ee963bd3bbf11f97eeb9"
+    },
+    {
+      "file": "keuangan/questions-002.json",
+      "domain": "keuangan",
+      "count": 50,
+      "sha256": "61ebd13344f9167fa0fa8bcda4f889c07f34e1342b6d1c80cb05967f0677e19d"
+    },
+    {
+      "file": "keuangan/questions-003.json",
+      "domain": "keuangan",
+      "count": 50,
+      "sha256": "e4ddfe58dc778eb6bee31d0b1609ad681c911b04c56807fb59ca071fb2d86b39"
+    },
+    {
+      "file": "layanan_informasi/questions-001.json",
+      "domain": "layanan_informasi",
+      "count": 50,
+      "sha256": "c090c18d4a61cb2a35c87b68bed74f9e0ccea02011cdb87aee4a42550ce405f7"
+    },
+    {
+      "file": "layanan_informasi/questions-002.json",
+      "domain": "layanan_informasi",
+      "count": 50,
+      "sha256": "451f50da69256972ee13397e0296d5ff802ddee3c070f660d3d03ba64fc58b05"
+    },
+    {
+      "file": "layanan_informasi/questions-003.json",
+      "domain": "layanan_informasi",
+      "count": 50,
+      "sha256": "f0877de1155a2b6befce8fe9291e99da80911dfe7bf5a282589818ce5e184e37"
+    },
+    {
+      "file": "layanan_informasi/questions-004.json",
+      "domain": "layanan_informasi",
+      "count": 10,
+      "sha256": "af4af37dde6bd030653d95c830f70fd633db8d1f8744341edcfc91ba577f3829"
+    },
+    {
+      "file": "manajemen_risiko/questions-001.json",
+      "domain": "manajemen_risiko",
+      "count": 50,
+      "sha256": "dba3c075f57471490c8011a1a1485497a93201d511795bc2895a6e5ce8918e22"
+    },
+    {
+      "file": "manajemen_risiko/questions-002.json",
+      "domain": "manajemen_risiko",
+      "count": 50,
+      "sha256": "1000b5b6831fcaceecff24c9fb6c22c36fe4cb23bca917dce56f54be85a217b7"
+    },
+    {
+      "file": "manajemen_risiko/questions-003.json",
+      "domain": "manajemen_risiko",
+      "count": 50,
+      "sha256": "c22282e0817644a3ab5d5e448da22e71ffa8c30172fad4c8d37db66bf1c564e1"
+    },
+    {
+      "file": "manajemen_risiko/questions-004.json",
+      "domain": "manajemen_risiko",
+      "count": 10,
+      "sha256": "2dac39135c8eed7f636ee6b685d2d53e349e5060ffcc3530146bcefd7cbe2d83"
+    },
+    {
+      "file": "organisasi/questions-001.json",
+      "domain": "organisasi",
+      "count": 50,
+      "sha256": "6108aab617bcb58e55e51756f5d700ab23b4c50c1f10b4e36d883efa34e4b847"
+    },
+    {
+      "file": "organisasi/questions-002.json",
+      "domain": "organisasi",
+      "count": 50,
+      "sha256": "a63e296567af921b54a13dd1f5396859e06c5c5f33b4e73b69fdfcbe19a5f43d"
+    },
+    {
+      "file": "organisasi/questions-003.json",
+      "domain": "organisasi",
+      "count": 10,
+      "sha256": "d1692fde517bc9d25939745f00c9be339181db93caa192ec6050a07806aa3fc5"
+    },
+    {
+      "file": "pengelolaan_kinerja/questions-001.json",
+      "domain": "pengelolaan_kinerja",
+      "count": 50,
+      "sha256": "6eb4da7a8b4bd092040ed84faf46f59055144078d11207fe9cf1d189e4a429dc"
+    },
+    {
+      "file": "pengelolaan_kinerja/questions-002.json",
+      "domain": "pengelolaan_kinerja",
+      "count": 50,
+      "sha256": "e4fd881f1709fbb53385b8661093ac9542ae9759374c08752f9f67f832e81dd1"
+    },
+    {
+      "file": "pengelolaan_kinerja/questions-003.json",
+      "domain": "pengelolaan_kinerja",
+      "count": 50,
+      "sha256": "0101c7a9ff58ba473daa2403bdd6f0411fad92098126c6cd38592093feccc309"
+    },
+    {
+      "file": "pengelolaan_kinerja/questions-004.json",
+      "domain": "pengelolaan_kinerja",
+      "count": 30,
+      "sha256": "4236e789f0171cea29691f9089d71db21439990d79bc35784d98b804a23ae16f"
+    },
+    {
+      "file": "ringkasan/questions-001.json",
+      "domain": "ringkasan",
+      "count": 50,
+      "sha256": "fc2cdbe737411dbc5cd6a1e009c44cc18281bfc96daf5acefbd1c3f8e2e5cdb5"
+    },
+    {
+      "file": "ringkasan/questions-002.json",
+      "domain": "ringkasan",
+      "count": 50,
+      "sha256": "e00ae932a007141dbe1477f814bf4d5930df119b00eda80422b1670a657f331d"
+    },
+    {
+      "file": "rumah_tangga/questions-001.json",
+      "domain": "rumah_tangga",
+      "count": 50,
+      "sha256": "1f653666d1ec5fb66573cfb6f148e5cba8a42b1056e5ed2e85ad4b4df5914f08"
+    },
+    {
+      "file": "rumah_tangga/questions-002.json",
+      "domain": "rumah_tangga",
+      "count": 50,
+      "sha256": "023d89909ede8fcf536534bde48d577dc9137e8eee67e5efe09e9856a8f74a29"
+    },
+    {
+      "file": "rumah_tangga/questions-003.json",
+      "domain": "rumah_tangga",
+      "count": 40,
+      "sha256": "55d359d4f8125165e37440dccae63685171f28f5c6ac28ca3232e5b463c27ac3"
     }
   ]
 }

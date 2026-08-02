@@ -1,0 +1,862 @@
+[
+  {
+    "id": "DM-MR-0151",
+    "version": 1,
+    "status": "active",
+    "domain": "manajemen_risiko",
+    "subdomain": "evaluasi_risiko",
+    "competency": "Mengevaluasi prioritas risiko",
+    "indicator": "Menggunakan selera risiko dan risiko utama",
+    "questionType": "monitoring_evaluation",
+    "cognitiveLevel": "apply",
+    "difficulty": "easy",
+    "stem": "Risiko di bawah selera dihapus dari register agar daftar lebih singkat. Nilai perubahan kondisi setelah tindak lanjut. Tindak lanjut mana yang paling tepat setelah kondisi itu ditemukan?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Tindak lanjut yang tepat adalah bandingkan residual dengan selera, tetapkan prioritas, dan dokumentasikan alasan penanganan atau penerimaan sebelum keputusan akhir ditetapkan.",
+        "rationale": "Benar untuk kasus ini. Evaluasi membandingkan level residual dengan selera risiko untuk menentukan prioritas, risiko utama, dan kebutuhan penanganan. Karena itu, tindakan yang tepat adalah bandingkan residual dengan selera, tetapkan prioritas, dan dokumentasikan alasan penanganan atau penerimaan. Batas pentingnya: Risiko di bawah selera tidak berarti diabaikan; tetap dipantau sesuai proporsi.",
+        "misconception": null,
+        "validWhen": "ketika kondisi sama dengan kasus dan seluruh prasyarat pada Evaluasi, selera, dan prioritas risiko terpenuhi"
+      },
+      {
+        "id": "B",
+        "text": "Tindak lanjut yang tepat adalah memitigasi semua risiko dengan intensitas sama sebelum keputusan akhir ditetapkan.",
+        "rationale": "Tidak tepat untuk kasus ini karena sumber daya tidak diarahkan berdasarkan prioritas. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: seluruh risiko memiliki level dan urgensi setara setelah dievaluasi. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Risiko di bawah selera tidak berarti diabaikan; tetap dipantau sesuai proporsi.",
+        "misconception": "sumber daya tidak diarahkan berdasarkan prioritas",
+        "validWhen": "seluruh risiko memiliki level dan urgensi setara setelah dievaluasi"
+      },
+      {
+        "id": "C",
+        "text": "Tindak lanjut yang tepat adalah menghapus risiko di bawah selera dari register sebelum keputusan akhir ditetapkan.",
+        "rationale": "Tidak tepat untuk kasus ini karena penerimaan tidak menghapus kebutuhan pencatatan dan pemantauan. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: risiko tidak lagi relevan karena sasaran atau proses telah berakhir. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Risiko di bawah selera tidak berarti diabaikan; tetap dipantau sesuai proporsi.",
+        "misconception": "penerimaan tidak menghapus kebutuhan pencatatan dan pemantauan",
+        "validWhen": "risiko tidak lagi relevan karena sasaran atau proses telah berakhir"
+      },
+      {
+        "id": "D",
+        "text": "Tindak lanjut yang tepat adalah menetapkan prioritas hanya dari dampak sebelum keputusan akhir ditetapkan.",
+        "rationale": "Tidak tepat untuk kasus ini karena kemungkinan dan kriteria lain juga membentuk level serta urgensi. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: ketentuan khusus menetapkan dampak tertentu sebagai prioritas tanpa melihat level. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Risiko di bawah selera tidak berarti diabaikan; tetap dipantau sesuai proporsi.",
+        "misconception": "kemungkinan dan kriteria lain juga membentuk level serta urgensi",
+        "validWhen": "ketentuan khusus menetapkan dampak tertentu sebagai prioritas tanpa melihat level"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "Jawaban paling tepat adalah A. Kasus yang diuji: Risiko di bawah selera dihapus dari register agar daftar lebih singkat. Fokus pertanyaan: Tindak lanjut mana yang paling tepat setelah kondisi itu ditemukan? Uraian topik: Evaluasi membandingkan level residual dengan selera risiko untuk menentukan prioritas, risiko utama, dan kebutuhan penanganan. Pada kasus ini, keputusan harus bandingkan residual dengan selera, tetapkan prioritas, dan dokumentasikan alasan penanganan atau penerimaan. Batas penerapan: Risiko di bawah selera tidak berarti diabaikan; tetap dipantau sesuai proporsi. Tiga pilihan lain bukan jawaban terbaik untuk kondisi ini. Tindakan sejenis baru dapat digunakan setelah redaksinya disesuaikan dan syarat berikut terpenuhi: memitigasi semua risiko dengan intensitas sama — kondisi terkait: seluruh risiko memiliki level dan urgensi setara setelah dievaluasi; menghapus risiko di bawah selera dari register — kondisi terkait: risiko tidak lagi relevan karena sasaran atau proses telah berakhir; menetapkan prioritas hanya dari dampak — kondisi terkait: ketentuan khusus menetapkan dampak tertentu sebagai prioritas tanpa melihat level. Dengan demikian, pembeda utamanya bukan kata yang terdengar paling tegas, melainkan kesesuaian kondisi, kewenangan, bukti, dan urutan proses. Sumber Seri Modul Pengenalan Manajemen Risiko Kementerian Keuangan, bagian Evaluasi, selera, dan prioritas risiko, berstatus non_normative dan diverifikasi 2026-08-03. Rincian sesuai huruf pilihan yang tampil: A — BENAR: Benar untuk kasus ini. Evaluasi membandingkan level residual dengan selera risiko untuk menentukan prioritas, risiko utama, dan kebutuhan penanganan. Karena itu, tindakan yang tepat adalah bandingkan residual dengan selera, tetapkan prioritas, dan dokumentasikan alasan penanganan atau penerimaan. Batas pentingnya: Risiko di bawah selera tidak berarti diabaikan; tetap dipantau sesuai proporsi. B — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena sumber daya tidak diarahkan berdasarkan prioritas. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: seluruh risiko memiliki level dan urgensi setara setelah dievaluasi. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Risiko di bawah selera tidak berarti diabaikan; tetap dipantau sesuai proporsi. C — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena penerimaan tidak menghapus kebutuhan pencatatan dan pemantauan. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: risiko tidak lagi relevan karena sasaran atau proses telah berakhir. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Risiko di bawah selera tidak berarti diabaikan; tetap dipantau sesuai proporsi. D — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena kemungkinan dan kriteria lain juga membentuk level serta urgensi. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: ketentuan khusus menetapkan dampak tertentu sebagai prioritas tanpa melihat level. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Risiko di bawah selera tidak berarti diabaikan; tetap dipantau sesuai proporsi.",
+    "keyTakeaway": "Ingat pembeda kondisi: bandingkan residual dengan selera, tetapkan prioritas, dan dokumentasikan alasan penanganan atau penerimaan; jangan terapkan alternatif sebelum syarat khususnya terpenuhi.",
+    "sourceRefs": [
+      {
+        "sourceId": "SRC-RISK-MODULES",
+        "title": "Seri Modul Pengenalan Manajemen Risiko Kementerian Keuangan",
+        "driveFileId": "1ViE8MGnR5qA9BhM1rl3PN6ye313wh08D",
+        "section": "Evaluasi, selera, dan prioritas risiko",
+        "pageOrSlide": null,
+        "regulationStatus": "non_normative",
+        "lastVerified": "2026-08-03"
+      }
+    ],
+    "tags": [
+      "manajemen_risiko",
+      "evaluasi_risiko",
+      "monitoring_evaluation",
+      "analyze",
+      "easy"
+    ],
+    "review": {
+      "contentAccuracy": 25,
+      "sourceTraceability": 15,
+      "stemClarity": 9,
+      "distractorQuality": 9,
+      "singleBestAnswer": 10,
+      "competencyRelevance": 10,
+      "explanationQuality": 9,
+      "originality": 4,
+      "languageQuality": 3,
+      "difficultyFit": 2,
+      "total": 96,
+      "method": "rubrik_terotomasi_berbasis_unit_terverifikasi_v1"
+    },
+    "similarityGroup": "CONCEPT-060",
+    "knowledgeUnitId": "KU-DM-MR-060-2-8",
+    "questionFocus": "monitoring_evaluation",
+    "generationBatch": "2026.08.drive-categories-v2",
+    "createdAt": "2026-08-03",
+    "lastReviewedAt": "2026-08-03",
+    "runtimeId": 1021,
+    "selectedFromCandidateId": "CAND-DM-MR-0192"
+  },
+  {
+    "id": "DM-MR-0152",
+    "version": 1,
+    "status": "active",
+    "domain": "manajemen_risiko",
+    "subdomain": "pemantauan_reviu",
+    "competency": "Melaksanakan pemantauan dan reviu risiko",
+    "indicator": "Membedakan pemantauan rutin dari reviu menyeluruh",
+    "questionType": "decision_quality",
+    "cognitiveLevel": "apply",
+    "difficulty": "medium",
+    "stem": "Seluruh aksi ditandai selesai tetapi indikator risiko tetap memburuk. Uji kesesuaian keputusan dengan ketentuan sumber. Keputusan mana yang paling sesuai dengan materi?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Keputusan yang sesuai adalah menutup risiko saat semua aksi berstatus selesai.",
+        "rationale": "Tidak tepat untuk kasus ini karena hasil aksi dan level residual masih harus dinilai. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: pengujian menunjukkan sasaran selesai atau risiko tidak lagi relevan. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Persentase aksi selesai tidak membuktikan risiko menurun.",
+        "misconception": "hasil aksi dan level residual masih harus dinilai",
+        "validWhen": "pengujian menunjukkan sasaran selesai atau risiko tidak lagi relevan"
+      },
+      {
+        "id": "B",
+        "text": "Keputusan yang sesuai adalah mempertahankan profil setahun penuh tanpa pembaruan.",
+        "rationale": "Tidak tepat untuk kasus ini karena perubahan lingkungan dapat mengubah risiko dan kontrol. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: lingkungan stabil dan pemantauan berkala mengonfirmasi profil masih valid. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Persentase aksi selesai tidak membuktikan risiko menurun.",
+        "misconception": "perubahan lingkungan dapat mengubah risiko dan kontrol",
+        "validWhen": "lingkungan stabil dan pemantauan berkala mengonfirmasi profil masih valid"
+      },
+      {
+        "id": "C",
+        "text": "Keputusan yang sesuai adalah pantau aksi dan indikator, nilai perubahan level, reviu asumsi, lalu perbarui profil serta keputusan.",
+        "rationale": "Benar untuk kasus ini. Pemantauan dan reviu memastikan seluruh tahapan manajemen risiko berjalan efektif, memperbarui profil, menilai aksi mitigasi, serta memberi umpan balik untuk perbaikan. Karena itu, tindakan yang tepat adalah pantau aksi dan indikator, nilai perubahan level, reviu asumsi, lalu perbarui profil serta keputusan. Batas pentingnya: Persentase aksi selesai tidak membuktikan risiko menurun.",
+        "misconception": null,
+        "validWhen": "ketika kondisi sama dengan kasus dan seluruh prasyarat pada Pemantauan dan reviu terpenuhi"
+      },
+      {
+        "id": "D",
+        "text": "Keputusan yang sesuai adalah menilai keberhasilan dari serapan anggaran mitigasi.",
+        "rationale": "Tidak tepat untuk kasus ini karena biaya yang terserap tidak menunjukkan penurunan eksposur. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: analisis khusus hanya menilai pelaksanaan anggaran dan efektivitas dinilai terpisah. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Persentase aksi selesai tidak membuktikan risiko menurun.",
+        "misconception": "biaya yang terserap tidak menunjukkan penurunan eksposur",
+        "validWhen": "analisis khusus hanya menilai pelaksanaan anggaran dan efektivitas dinilai terpisah"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "Jawaban paling tepat adalah C. Kasus yang diuji: Seluruh aksi ditandai selesai tetapi indikator risiko tetap memburuk. Fokus pertanyaan: Keputusan mana yang paling sesuai dengan materi? Uraian topik: Pemantauan dan reviu memastikan seluruh tahapan manajemen risiko berjalan efektif, memperbarui profil, menilai aksi mitigasi, serta memberi umpan balik untuk perbaikan. Pada kasus ini, keputusan harus pantau aksi dan indikator, nilai perubahan level, reviu asumsi, lalu perbarui profil serta keputusan. Batas penerapan: Persentase aksi selesai tidak membuktikan risiko menurun. Tiga pilihan lain bukan jawaban terbaik untuk kondisi ini. Tindakan sejenis baru dapat digunakan setelah redaksinya disesuaikan dan syarat berikut terpenuhi: menutup risiko saat semua aksi berstatus selesai — kondisi terkait: pengujian menunjukkan sasaran selesai atau risiko tidak lagi relevan; mempertahankan profil setahun penuh tanpa pembaruan — kondisi terkait: lingkungan stabil dan pemantauan berkala mengonfirmasi profil masih valid; menilai keberhasilan dari serapan anggaran mitigasi — kondisi terkait: analisis khusus hanya menilai pelaksanaan anggaran dan efektivitas dinilai terpisah. Dengan demikian, pembeda utamanya bukan kata yang terdengar paling tegas, melainkan kesesuaian kondisi, kewenangan, bukti, dan urutan proses. Sumber Seri Modul Pengenalan Manajemen Risiko Kementerian Keuangan, bagian Pemantauan dan reviu, berstatus non_normative dan diverifikasi 2026-08-03. Rincian sesuai huruf pilihan yang tampil: A — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena hasil aksi dan level residual masih harus dinilai. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: pengujian menunjukkan sasaran selesai atau risiko tidak lagi relevan. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Persentase aksi selesai tidak membuktikan risiko menurun. B — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena perubahan lingkungan dapat mengubah risiko dan kontrol. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: lingkungan stabil dan pemantauan berkala mengonfirmasi profil masih valid. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Persentase aksi selesai tidak membuktikan risiko menurun. C — BENAR: Benar untuk kasus ini. Pemantauan dan reviu memastikan seluruh tahapan manajemen risiko berjalan efektif, memperbarui profil, menilai aksi mitigasi, serta memberi umpan balik untuk perbaikan. Karena itu, tindakan yang tepat adalah pantau aksi dan indikator, nilai perubahan level, reviu asumsi, lalu perbarui profil serta keputusan. Batas pentingnya: Persentase aksi selesai tidak membuktikan risiko menurun. D — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena biaya yang terserap tidak menunjukkan penurunan eksposur. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: analisis khusus hanya menilai pelaksanaan anggaran dan efektivitas dinilai terpisah. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Persentase aksi selesai tidak membuktikan risiko menurun.",
+    "keyTakeaway": "Ingat pembeda kondisi: pantau aksi dan indikator, nilai perubahan level, reviu asumsi, lalu perbarui profil serta keputusan; jangan terapkan alternatif sebelum syarat khususnya terpenuhi.",
+    "sourceRefs": [
+      {
+        "sourceId": "SRC-RISK-MODULES",
+        "title": "Seri Modul Pengenalan Manajemen Risiko Kementerian Keuangan",
+        "driveFileId": "1ViE8MGnR5qA9BhM1rl3PN6ye313wh08D",
+        "section": "Pemantauan dan reviu",
+        "pageOrSlide": null,
+        "regulationStatus": "non_normative",
+        "lastVerified": "2026-08-03"
+      }
+    ],
+    "tags": [
+      "manajemen_risiko",
+      "pemantauan_reviu",
+      "decision_quality",
+      "analyze",
+      "easy"
+    ],
+    "review": {
+      "contentAccuracy": 25,
+      "sourceTraceability": 15,
+      "stemClarity": 9,
+      "distractorQuality": 9,
+      "singleBestAnswer": 10,
+      "competencyRelevance": 10,
+      "explanationQuality": 9,
+      "originality": 4,
+      "languageQuality": 3,
+      "difficultyFit": 2,
+      "total": 96,
+      "method": "rubrik_terotomasi_berbasis_unit_terverifikasi_v1"
+    },
+    "similarityGroup": "CONCEPT-063",
+    "knowledgeUnitId": "KU-DM-MR-063-1-2",
+    "questionFocus": "decision_quality",
+    "generationBatch": "2026.08.drive-categories-v2",
+    "createdAt": "2026-08-03",
+    "lastReviewedAt": "2026-08-03",
+    "runtimeId": 1022,
+    "selectedFromCandidateId": "CAND-DM-MR-0194"
+  },
+  {
+    "id": "DM-MR-0153",
+    "version": 1,
+    "status": "active",
+    "domain": "manajemen_risiko",
+    "subdomain": "incrima_kematangan",
+    "competency": "Menggunakan sistem dan menilai kematangan risiko",
+    "indicator": "Membedakan administrasi aplikasi dari kematangan penerapan",
+    "questionType": "case_based_mcq",
+    "cognitiveLevel": "analyze",
+    "difficulty": "medium",
+    "stem": "Unit memperoleh nilai tinggi hanya dari kelengkapan kolom aplikasi. Gunakan definisi operasional yang paling presisi. Pernyataan operasional mana yang paling tepat?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Rumusan operasional yang tepat adalah mengubah data setelah persetujuan tanpa jejak.",
+        "rationale": "Tidak tepat untuk kasus ini karena integritas dan akuntabilitas data hilang. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: perubahan dilakukan melalui versi dan persetujuan yang tercatat. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Aplikasi adalah alat; keputusan dan kualitas data tetap menjadi tanggung jawab pengelola risiko.",
+        "misconception": "integritas dan akuntabilitas data hilang",
+        "validWhen": "perubahan dilakukan melalui versi dan persetujuan yang tercatat"
+      },
+      {
+        "id": "B",
+        "text": "Rumusan operasional yang tepat adalah menyatakan matang karena seluruh kolom terisi.",
+        "rationale": "Tidak tepat untuk kasus ini karena kelengkapan data belum membuktikan proses dipakai dalam keputusan. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: isi telah diverifikasi dan bukti menunjukkan proses tertanam serta efektif. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Aplikasi adalah alat; keputusan dan kualitas data tetap menjadi tanggung jawab pengelola risiko.",
+        "misconception": "kelengkapan data belum membuktikan proses dipakai dalam keputusan",
+        "validWhen": "isi telah diverifikasi dan bukti menunjukkan proses tertanam serta efektif"
+      },
+      {
+        "id": "C",
+        "text": "Rumusan operasional yang tepat adalah menyerahkan seluruh analisis kepada operator aplikasi.",
+        "rationale": "Tidak tepat untuk kasus ini karena operator tidak menggantikan pemilik risiko dan pengambil keputusan. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: operator membantu administrasi sementara penilaian tetap disahkan pemilik risiko. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Aplikasi adalah alat; keputusan dan kualitas data tetap menjadi tanggung jawab pengelola risiko.",
+        "misconception": "operator tidak menggantikan pemilik risiko dan pengambil keputusan",
+        "validWhen": "operator membantu administrasi sementara penilaian tetap disahkan pemilik risiko"
+      },
+      {
+        "id": "D",
+        "text": "Rumusan operasional yang tepat adalah jaga kualitas data dan alur persetujuan di INCRIMA, lalu nilai kematangan dari bukti penerapan serta hasil.",
+        "rationale": "Benar untuk kasus ini. INCRIMA mendukung dokumentasi dan integrasi proses, sedangkan kematangan menilai kualitas penerapan, budaya, kapabilitas, proses, dan hasil—bukan sekadar kelengkapan input. Karena itu, tindakan yang tepat adalah jaga kualitas data dan alur persetujuan di INCRIMA, lalu nilai kematangan dari bukti penerapan serta hasil. Batas pentingnya: Aplikasi adalah alat; keputusan dan kualitas data tetap menjadi tanggung jawab pengelola risiko.",
+        "misconception": null,
+        "validWhen": "ketika kondisi sama dengan kasus dan seluruh prasyarat pada INCRIMA dan tingkat kematangan terpenuhi"
+      }
+    ],
+    "correctOptionId": "D",
+    "explanation": "Jawaban paling tepat adalah D. Kasus yang diuji: Unit memperoleh nilai tinggi hanya dari kelengkapan kolom aplikasi. Fokus pertanyaan: Pernyataan operasional mana yang paling tepat? Uraian topik: INCRIMA mendukung dokumentasi dan integrasi proses, sedangkan kematangan menilai kualitas penerapan, budaya, kapabilitas, proses, dan hasil—bukan sekadar kelengkapan input. Pada kasus ini, keputusan harus jaga kualitas data dan alur persetujuan di INCRIMA, lalu nilai kematangan dari bukti penerapan serta hasil. Batas penerapan: Aplikasi adalah alat; keputusan dan kualitas data tetap menjadi tanggung jawab pengelola risiko. Tiga pilihan lain bukan jawaban terbaik untuk kondisi ini. Tindakan sejenis baru dapat digunakan setelah redaksinya disesuaikan dan syarat berikut terpenuhi: menyatakan matang karena seluruh kolom terisi — kondisi terkait: isi telah diverifikasi dan bukti menunjukkan proses tertanam serta efektif; menyerahkan seluruh analisis kepada operator aplikasi — kondisi terkait: operator membantu administrasi sementara penilaian tetap disahkan pemilik risiko; mengubah data setelah persetujuan tanpa jejak — kondisi terkait: perubahan dilakukan melalui versi dan persetujuan yang tercatat. Dengan demikian, pembeda utamanya bukan kata yang terdengar paling tegas, melainkan kesesuaian kondisi, kewenangan, bukti, dan urutan proses. Sumber Seri Modul Pengenalan Manajemen Risiko Kementerian Keuangan, bagian INCRIMA dan tingkat kematangan, berstatus non_normative dan diverifikasi 2026-08-03. Rincian sesuai huruf pilihan yang tampil: A — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena integritas dan akuntabilitas data hilang. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: perubahan dilakukan melalui versi dan persetujuan yang tercatat. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Aplikasi adalah alat; keputusan dan kualitas data tetap menjadi tanggung jawab pengelola risiko. B — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena kelengkapan data belum membuktikan proses dipakai dalam keputusan. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: isi telah diverifikasi dan bukti menunjukkan proses tertanam serta efektif. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Aplikasi adalah alat; keputusan dan kualitas data tetap menjadi tanggung jawab pengelola risiko. C — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena operator tidak menggantikan pemilik risiko dan pengambil keputusan. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: operator membantu administrasi sementara penilaian tetap disahkan pemilik risiko. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Aplikasi adalah alat; keputusan dan kualitas data tetap menjadi tanggung jawab pengelola risiko. D — BENAR: Benar untuk kasus ini. INCRIMA mendukung dokumentasi dan integrasi proses, sedangkan kematangan menilai kualitas penerapan, budaya, kapabilitas, proses, dan hasil—bukan sekadar kelengkapan input. Karena itu, tindakan yang tepat adalah jaga kualitas data dan alur persetujuan di INCRIMA, lalu nilai kematangan dari bukti penerapan serta hasil. Batas pentingnya: Aplikasi adalah alat; keputusan dan kualitas data tetap menjadi tanggung jawab pengelola risiko.",
+    "keyTakeaway": "Ingat pembeda kondisi: jaga kualitas data dan alur persetujuan di INCRIMA, lalu nilai kematangan dari bukti penerapan serta hasil; jangan terapkan alternatif sebelum syarat khususnya terpenuhi.",
+    "sourceRefs": [
+      {
+        "sourceId": "SRC-RISK-MODULES",
+        "title": "Seri Modul Pengenalan Manajemen Risiko Kementerian Keuangan",
+        "driveFileId": "1ViE8MGnR5qA9BhM1rl3PN6ye313wh08D",
+        "section": "INCRIMA dan tingkat kematangan",
+        "pageOrSlide": null,
+        "regulationStatus": "non_normative",
+        "lastVerified": "2026-08-03"
+      }
+    ],
+    "tags": [
+      "manajemen_risiko",
+      "incrima_kematangan",
+      "conceptual_mcq",
+      "remember",
+      "easy"
+    ],
+    "review": {
+      "contentAccuracy": 25,
+      "sourceTraceability": 15,
+      "stemClarity": 9,
+      "distractorQuality": 9,
+      "singleBestAnswer": 10,
+      "competencyRelevance": 10,
+      "explanationQuality": 9,
+      "originality": 4,
+      "languageQuality": 3,
+      "difficultyFit": 2,
+      "total": 96,
+      "method": "rubrik_terotomasi_berbasis_unit_terverifikasi_v1"
+    },
+    "similarityGroup": "CONCEPT-064",
+    "knowledgeUnitId": "KU-DM-MR-064-1-9",
+    "questionFocus": "conceptual_mcq",
+    "generationBatch": "2026.08.drive-categories-v2",
+    "createdAt": "2026-08-03",
+    "lastReviewedAt": "2026-08-03",
+    "runtimeId": 1023,
+    "selectedFromCandidateId": "CAND-DM-MR-0195"
+  },
+  {
+    "id": "DM-MR-0154",
+    "version": 1,
+    "status": "active",
+    "domain": "manajemen_risiko",
+    "subdomain": "konsep_risiko",
+    "competency": "Menerapkan konsep risiko pada sasaran",
+    "indicator": "Menghubungkan ketidakpastian dengan pencapaian tujuan",
+    "questionType": "control_design",
+    "cognitiveLevel": "analyze",
+    "difficulty": "hard",
+    "stem": "Sebuah gangguan sudah terjadi tetapi dicatat seolah-olah masih merupakan risiko masa depan. Pilih kontrol pencegahan yang relevan dengan risiko. Pengendalian mana yang paling tepat untuk mencegah kekeliruan?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pengendalian perlu memastikan petugas membuat daftar risiko tanpa sasaran sebelum keputusan akhir ditetapkan.",
+        "rationale": "Tidak tepat untuk kasus ini karena relevansi dan dampak risiko tidak dapat dinilai. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: daftar awal digunakan untuk brainstorming dan segera dipetakan ke sasaran. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Masalah yang telah terjadi dan ketidakjelasan sasaran perlu dibedakan dari risiko masa depan.",
+        "misconception": "relevansi dan dampak risiko tidak dapat dinilai",
+        "validWhen": "daftar awal digunakan untuk brainstorming dan segera dipetakan ke sasaran"
+      },
+      {
+        "id": "B",
+        "text": "Pengendalian perlu memastikan petugas menulis sasaran tidak tercapai sebagai risiko sebelum keputusan akhir ditetapkan.",
+        "rationale": "Tidak tepat untuk kasus ini karena rumusan itu hanya negasi sasaran dan tidak menjelaskan peristiwa. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: analisis sedang menyatakan dampak akhir setelah peristiwa risiko dirumuskan terpisah. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Masalah yang telah terjadi dan ketidakjelasan sasaran perlu dibedakan dari risiko masa depan.",
+        "misconception": "rumusan itu hanya negasi sasaran dan tidak menjelaskan peristiwa",
+        "validWhen": "analisis sedang menyatakan dampak akhir setelah peristiwa risiko dirumuskan terpisah"
+      },
+      {
+        "id": "C",
+        "text": "Pengendalian perlu memastikan petugas menyebut semua masalah operasional sebagai risiko sebelum keputusan akhir ditetapkan.",
+        "rationale": "Tidak tepat untuk kasus ini karena masalah yang sudah terjadi perlu ditangani dan dapat menjadi penyebab risiko lanjutan. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: masalah tersebut masih berupa ketidakpastian yang belum terjadi. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Masalah yang telah terjadi dan ketidakjelasan sasaran perlu dibedakan dari risiko masa depan.",
+        "misconception": "masalah yang sudah terjadi perlu ditangani dan dapat menjadi penyebab risiko lanjutan",
+        "validWhen": "masalah tersebut masih berupa ketidakpastian yang belum terjadi"
+      },
+      {
+        "id": "D",
+        "text": "Pengendalian perlu memastikan petugas tetapkan sasaran, rumuskan peristiwa yang mungkin terjadi, lalu jelaskan dampaknya terhadap sasaran sebelum keputusan akhir ditetapkan.",
+        "rationale": "Benar untuk kasus ini. Risiko adalah kemungkinan terjadinya peristiwa yang berdampak pada pencapaian sasaran; risiko selalu dirumuskan terhadap sasaran yang jelas. Karena itu, tindakan yang tepat adalah tetapkan sasaran, rumuskan peristiwa yang mungkin terjadi, lalu jelaskan dampaknya terhadap sasaran. Batas pentingnya: Masalah yang telah terjadi dan ketidakjelasan sasaran perlu dibedakan dari risiko masa depan.",
+        "misconception": null,
+        "validWhen": "ketika kondisi sama dengan kasus dan seluruh prasyarat pada Overview manajemen risiko terpenuhi"
+      }
+    ],
+    "correctOptionId": "D",
+    "explanation": "Jawaban paling tepat adalah D. Kasus yang diuji: Sebuah gangguan sudah terjadi tetapi dicatat seolah-olah masih merupakan risiko masa depan. Fokus pertanyaan: Pengendalian mana yang paling tepat untuk mencegah kekeliruan? Uraian topik: Risiko adalah kemungkinan terjadinya peristiwa yang berdampak pada pencapaian sasaran; risiko selalu dirumuskan terhadap sasaran yang jelas. Pada kasus ini, keputusan harus tetapkan sasaran, rumuskan peristiwa yang mungkin terjadi, lalu jelaskan dampaknya terhadap sasaran. Batas penerapan: Masalah yang telah terjadi dan ketidakjelasan sasaran perlu dibedakan dari risiko masa depan. Tiga pilihan lain bukan jawaban terbaik untuk kondisi ini. Tindakan sejenis baru dapat digunakan setelah redaksinya disesuaikan dan syarat berikut terpenuhi: menulis sasaran tidak tercapai sebagai risiko — kondisi terkait: analisis sedang menyatakan dampak akhir setelah peristiwa risiko dirumuskan terpisah; menyebut semua masalah operasional sebagai risiko — kondisi terkait: masalah tersebut masih berupa ketidakpastian yang belum terjadi; membuat daftar risiko tanpa sasaran — kondisi terkait: daftar awal digunakan untuk brainstorming dan segera dipetakan ke sasaran. Dengan demikian, pembeda utamanya bukan kata yang terdengar paling tegas, melainkan kesesuaian kondisi, kewenangan, bukti, dan urutan proses. Sumber Seri Modul Pengenalan Manajemen Risiko Kementerian Keuangan, bagian Overview manajemen risiko, berstatus non_normative dan diverifikasi 2026-08-03. Rincian sesuai huruf pilihan yang tampil: A — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena relevansi dan dampak risiko tidak dapat dinilai. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: daftar awal digunakan untuk brainstorming dan segera dipetakan ke sasaran. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Masalah yang telah terjadi dan ketidakjelasan sasaran perlu dibedakan dari risiko masa depan. B — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena rumusan itu hanya negasi sasaran dan tidak menjelaskan peristiwa. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: analisis sedang menyatakan dampak akhir setelah peristiwa risiko dirumuskan terpisah. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Masalah yang telah terjadi dan ketidakjelasan sasaran perlu dibedakan dari risiko masa depan. C — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena masalah yang sudah terjadi perlu ditangani dan dapat menjadi penyebab risiko lanjutan. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: masalah tersebut masih berupa ketidakpastian yang belum terjadi. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Masalah yang telah terjadi dan ketidakjelasan sasaran perlu dibedakan dari risiko masa depan. D — BENAR: Benar untuk kasus ini. Risiko adalah kemungkinan terjadinya peristiwa yang berdampak pada pencapaian sasaran; risiko selalu dirumuskan terhadap sasaran yang jelas. Karena itu, tindakan yang tepat adalah tetapkan sasaran, rumuskan peristiwa yang mungkin terjadi, lalu jelaskan dampaknya terhadap sasaran. Batas pentingnya: Masalah yang telah terjadi dan ketidakjelasan sasaran perlu dibedakan dari risiko masa depan.",
+    "keyTakeaway": "Ingat pembeda kondisi: tetapkan sasaran, rumuskan peristiwa yang mungkin terjadi, lalu jelaskan dampaknya terhadap sasaran; jangan terapkan alternatif sebelum syarat khususnya terpenuhi.",
+    "sourceRefs": [
+      {
+        "sourceId": "SRC-RISK-MODULES",
+        "title": "Seri Modul Pengenalan Manajemen Risiko Kementerian Keuangan",
+        "driveFileId": "1ViE8MGnR5qA9BhM1rl3PN6ye313wh08D",
+        "section": "Overview manajemen risiko",
+        "pageOrSlide": null,
+        "regulationStatus": "non_normative",
+        "lastVerified": "2026-08-03"
+      }
+    ],
+    "tags": [
+      "manajemen_risiko",
+      "konsep_risiko",
+      "control_design",
+      "analyze",
+      "easy"
+    ],
+    "review": {
+      "contentAccuracy": 25,
+      "sourceTraceability": 15,
+      "stemClarity": 9,
+      "distractorQuality": 9,
+      "singleBestAnswer": 10,
+      "competencyRelevance": 10,
+      "explanationQuality": 9,
+      "originality": 4,
+      "languageQuality": 3,
+      "difficultyFit": 2,
+      "total": 96,
+      "method": "rubrik_terotomasi_berbasis_unit_terverifikasi_v1"
+    },
+    "similarityGroup": "CONCEPT-055",
+    "knowledgeUnitId": "KU-DM-MR-055-2-6",
+    "questionFocus": "control_design",
+    "generationBatch": "2026.08.drive-categories-v2",
+    "createdAt": "2026-08-03",
+    "lastReviewedAt": "2026-08-03",
+    "runtimeId": 1024,
+    "selectedFromCandidateId": "CAND-DM-MR-0196"
+  },
+  {
+    "id": "DM-MR-0155",
+    "version": 1,
+    "status": "active",
+    "domain": "manajemen_risiko",
+    "subdomain": "downside_upside",
+    "competency": "Membedakan downside dan upside risk",
+    "indicator": "Menilai efek negatif dan peluang pada sasaran",
+    "questionType": "evidence_analysis",
+    "cognitiveLevel": "apply",
+    "difficulty": "easy",
+    "stem": "Pimpinan ingin menolak inovasi hanya karena setiap perubahan dianggap risiko negatif. Nilai kecukupan bukti dan jejak auditnya. Pilihan mana yang paling dapat dipertanggungjawabkan saat bukti diuji?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pilihan yang dapat dipertanggungjawabkan adalah rumuskan peristiwa ketidakpastian serta arah dampaknya, lalu tentukan penanganan yang sesuai dan mendokumentasikan hasilnya.",
+        "rationale": "Benar untuk kasus ini. Downside risk menghambat pencapaian sasaran, sedangkan upside risk merupakan ketidakpastian yang bila terjadi dapat meningkatkan pencapaian sasaran. Karena itu, tindakan yang tepat adalah rumuskan peristiwa ketidakpastian serta arah dampaknya, lalu tentukan penanganan yang sesuai. Batas pentingnya: Upside risk bukan sekadar sasaran yang dirumuskan positif dan downside bukan negasi sasaran.",
+        "misconception": null,
+        "validWhen": "ketika kondisi sama dengan kasus dan seluruh prasyarat pada Downside dan upside risk terpenuhi"
+      },
+      {
+        "id": "B",
+        "text": "Pilihan yang dapat dipertanggungjawabkan adalah menulis peningkatan kinerja sebagai upside risk dan mendokumentasikan hasilnya.",
+        "rationale": "Tidak tepat untuk kasus ini karena itu adalah hasil positif, bukan peristiwa tidak pasti yang memicunya. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: peristiwa peluang telah dijelaskan dan peningkatan kinerja dicatat sebagai dampaknya. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Upside risk bukan sekadar sasaran yang dirumuskan positif dan downside bukan negasi sasaran.",
+        "misconception": "itu adalah hasil positif, bukan peristiwa tidak pasti yang memicunya",
+        "validWhen": "peristiwa peluang telah dijelaskan dan peningkatan kinerja dicatat sebagai dampaknya"
+      },
+      {
+        "id": "C",
+        "text": "Pilihan yang dapat dipertanggungjawabkan adalah mengabaikan upside risk karena hanya risiko negatif yang penting dan mendokumentasikan hasilnya.",
+        "rationale": "Tidak tepat untuk kasus ini karena peluang material juga dapat dikelola untuk meningkatkan hasil. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: mandat penilaian tertentu memang dibatasi pada downside risk dan batasnya dinyatakan. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Upside risk bukan sekadar sasaran yang dirumuskan positif dan downside bukan negasi sasaran.",
+        "misconception": "peluang material juga dapat dikelola untuk meningkatkan hasil",
+        "validWhen": "mandat penilaian tertentu memang dibatasi pada downside risk dan batasnya dinyatakan"
+      },
+      {
+        "id": "D",
+        "text": "Pilihan yang dapat dipertanggungjawabkan adalah menangani upside risk dengan menghindari semua aktivitas dan mendokumentasikan hasilnya.",
+        "rationale": "Tidak tepat untuk kasus ini karena respons tersebut dapat menghilangkan peluang. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: dampak negatif sampingan lebih besar dan keputusan menghindari telah dianalisis. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Upside risk bukan sekadar sasaran yang dirumuskan positif dan downside bukan negasi sasaran.",
+        "misconception": "respons tersebut dapat menghilangkan peluang",
+        "validWhen": "dampak negatif sampingan lebih besar dan keputusan menghindari telah dianalisis"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "Jawaban paling tepat adalah A. Kasus yang diuji: Pimpinan ingin menolak inovasi hanya karena setiap perubahan dianggap risiko negatif. Fokus pertanyaan: Pilihan mana yang paling dapat dipertanggungjawabkan saat bukti diuji? Uraian topik: Downside risk menghambat pencapaian sasaran, sedangkan upside risk merupakan ketidakpastian yang bila terjadi dapat meningkatkan pencapaian sasaran. Pada kasus ini, keputusan harus rumuskan peristiwa ketidakpastian serta arah dampaknya, lalu tentukan penanganan yang sesuai. Batas penerapan: Upside risk bukan sekadar sasaran yang dirumuskan positif dan downside bukan negasi sasaran. Tiga pilihan lain bukan jawaban terbaik untuk kondisi ini. Tindakan sejenis baru dapat digunakan setelah redaksinya disesuaikan dan syarat berikut terpenuhi: menulis peningkatan kinerja sebagai upside risk — kondisi terkait: peristiwa peluang telah dijelaskan dan peningkatan kinerja dicatat sebagai dampaknya; mengabaikan upside risk karena hanya risiko negatif yang penting — kondisi terkait: mandat penilaian tertentu memang dibatasi pada downside risk dan batasnya dinyatakan; menangani upside risk dengan menghindari semua aktivitas — kondisi terkait: dampak negatif sampingan lebih besar dan keputusan menghindari telah dianalisis. Dengan demikian, pembeda utamanya bukan kata yang terdengar paling tegas, melainkan kesesuaian kondisi, kewenangan, bukti, dan urutan proses. Sumber Seri Modul Pengenalan Manajemen Risiko Kementerian Keuangan, bagian Downside dan upside risk, berstatus non_normative dan diverifikasi 2026-08-03. Rincian sesuai huruf pilihan yang tampil: A — BENAR: Benar untuk kasus ini. Downside risk menghambat pencapaian sasaran, sedangkan upside risk merupakan ketidakpastian yang bila terjadi dapat meningkatkan pencapaian sasaran. Karena itu, tindakan yang tepat adalah rumuskan peristiwa ketidakpastian serta arah dampaknya, lalu tentukan penanganan yang sesuai. Batas pentingnya: Upside risk bukan sekadar sasaran yang dirumuskan positif dan downside bukan negasi sasaran. B — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena itu adalah hasil positif, bukan peristiwa tidak pasti yang memicunya. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: peristiwa peluang telah dijelaskan dan peningkatan kinerja dicatat sebagai dampaknya. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Upside risk bukan sekadar sasaran yang dirumuskan positif dan downside bukan negasi sasaran. C — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena peluang material juga dapat dikelola untuk meningkatkan hasil. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: mandat penilaian tertentu memang dibatasi pada downside risk dan batasnya dinyatakan. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Upside risk bukan sekadar sasaran yang dirumuskan positif dan downside bukan negasi sasaran. D — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena respons tersebut dapat menghilangkan peluang. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: dampak negatif sampingan lebih besar dan keputusan menghindari telah dianalisis. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Upside risk bukan sekadar sasaran yang dirumuskan positif dan downside bukan negasi sasaran.",
+    "keyTakeaway": "Ingat pembeda kondisi: rumuskan peristiwa ketidakpastian serta arah dampaknya, lalu tentukan penanganan yang sesuai; jangan terapkan alternatif sebelum syarat khususnya terpenuhi.",
+    "sourceRefs": [
+      {
+        "sourceId": "SRC-RISK-MODULES",
+        "title": "Seri Modul Pengenalan Manajemen Risiko Kementerian Keuangan",
+        "driveFileId": "1ViE8MGnR5qA9BhM1rl3PN6ye313wh08D",
+        "section": "Downside dan upside risk",
+        "pageOrSlide": null,
+        "regulationStatus": "non_normative",
+        "lastVerified": "2026-08-03"
+      }
+    ],
+    "tags": [
+      "manajemen_risiko",
+      "downside_upside",
+      "evidence_analysis",
+      "analyze",
+      "easy"
+    ],
+    "review": {
+      "contentAccuracy": 25,
+      "sourceTraceability": 15,
+      "stemClarity": 9,
+      "distractorQuality": 9,
+      "singleBestAnswer": 10,
+      "competencyRelevance": 10,
+      "explanationQuality": 9,
+      "originality": 4,
+      "languageQuality": 3,
+      "difficultyFit": 2,
+      "total": 96,
+      "method": "rubrik_terotomasi_berbasis_unit_terverifikasi_v1"
+    },
+    "similarityGroup": "CONCEPT-056",
+    "knowledgeUnitId": "KU-DM-MR-056-3-3",
+    "questionFocus": "evidence_analysis",
+    "generationBatch": "2026.08.drive-categories-v2",
+    "createdAt": "2026-08-03",
+    "lastReviewedAt": "2026-08-03",
+    "runtimeId": 1025,
+    "selectedFromCandidateId": "CAND-DM-MR-0197"
+  },
+  {
+    "id": "DM-MR-0156",
+    "version": 1,
+    "status": "active",
+    "domain": "manajemen_risiko",
+    "subdomain": "identifikasi_risiko",
+    "competency": "Mengidentifikasi kejadian risiko",
+    "indicator": "Membedakan kejadian, penyebab, dan dampak",
+    "questionType": "implementation_planning",
+    "cognitiveLevel": "analyze",
+    "difficulty": "medium",
+    "stem": "Kejadian yang sama disalin ke lima sasaran tanpa memilih sasaran utama. Pastikan pembagian peran, keluaran, dan tenggat jelas. Rencana pelaksanaan mana yang paling tepat?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Rencana pelaksanaan perlu menetapkan petugas untuk menulis kurangnya kompetensi sebagai kejadian risiko dan mendokumentasikan hasilnya.",
+        "rationale": "Tidak tepat untuk kasus ini karena frasa tersebut lebih tepat menjadi penyebab. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: yang dinilai memang kondisi kompetensi saat ini sebagai masalah pengendalian. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Penyebab dan dampak tidak boleh menggantikan rumusan kejadian.",
+        "misconception": "frasa tersebut lebih tepat menjadi penyebab",
+        "validWhen": "yang dinilai memang kondisi kompetensi saat ini sebagai masalah pengendalian"
+      },
+      {
+        "id": "B",
+        "text": "Rencana pelaksanaan perlu menetapkan petugas untuk menulis kerugian reputasi sebagai kejadian dan mendokumentasikan hasilnya.",
+        "rationale": "Tidak tepat untuk kasus ini karena kerugian reputasi biasanya merupakan dampak. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: peristiwa yang dimaksud memang perubahan reputasi yang terukur dan penyebabnya dijelaskan. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Penyebab dan dampak tidak boleh menggantikan rumusan kejadian.",
+        "misconception": "kerugian reputasi biasanya merupakan dampak",
+        "validWhen": "peristiwa yang dimaksud memang perubahan reputasi yang terukur dan penyebabnya dijelaskan"
+      },
+      {
+        "id": "C",
+        "text": "Rencana pelaksanaan perlu menetapkan petugas untuk tulis peristiwa spesifik, gali penyebab sampai akar, dan hubungkan dampaknya dengan satu sasaran utama dan mendokumentasikan hasilnya.",
+        "rationale": "Benar untuk kasus ini. Identifikasi menyusun kejadian yang jelas, penyebab termasuk akar masalah, serta dampak pada sasaran; satu kejadian yang sama tidak digunakan berulang pada beberapa sasaran tanpa analisis. Karena itu, tindakan yang tepat adalah tulis peristiwa spesifik, gali penyebab sampai akar, dan hubungkan dampaknya dengan satu sasaran utama. Batas pentingnya: Penyebab dan dampak tidak boleh menggantikan rumusan kejadian.",
+        "misconception": null,
+        "validWhen": "ketika kondisi sama dengan kasus dan seluruh prasyarat pada Proses identifikasi risiko terpenuhi"
+      },
+      {
+        "id": "D",
+        "text": "Rencana pelaksanaan perlu menetapkan petugas untuk menyalin satu kejadian pada semua sasaran dan mendokumentasikan hasilnya.",
+        "rationale": "Tidak tepat untuk kasus ini karena duplikasi mengaburkan hubungan risiko dengan sasaran. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: kejadian memiliki dampak berbeda yang dianalisis dan risiko agregat dikelola pada tingkat yang tepat. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Penyebab dan dampak tidak boleh menggantikan rumusan kejadian.",
+        "misconception": "duplikasi mengaburkan hubungan risiko dengan sasaran",
+        "validWhen": "kejadian memiliki dampak berbeda yang dianalisis dan risiko agregat dikelola pada tingkat yang tepat"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "Jawaban paling tepat adalah C. Kasus yang diuji: Kejadian yang sama disalin ke lima sasaran tanpa memilih sasaran utama. Fokus pertanyaan: Rencana pelaksanaan mana yang paling tepat? Uraian topik: Identifikasi menyusun kejadian yang jelas, penyebab termasuk akar masalah, serta dampak pada sasaran; satu kejadian yang sama tidak digunakan berulang pada beberapa sasaran tanpa analisis. Pada kasus ini, keputusan harus tulis peristiwa spesifik, gali penyebab sampai akar, dan hubungkan dampaknya dengan satu sasaran utama. Batas penerapan: Penyebab dan dampak tidak boleh menggantikan rumusan kejadian. Tiga pilihan lain bukan jawaban terbaik untuk kondisi ini. Tindakan sejenis baru dapat digunakan setelah redaksinya disesuaikan dan syarat berikut terpenuhi: menulis kurangnya kompetensi sebagai kejadian risiko — kondisi terkait: yang dinilai memang kondisi kompetensi saat ini sebagai masalah pengendalian; menulis kerugian reputasi sebagai kejadian — kondisi terkait: peristiwa yang dimaksud memang perubahan reputasi yang terukur dan penyebabnya dijelaskan; menyalin satu kejadian pada semua sasaran — kondisi terkait: kejadian memiliki dampak berbeda yang dianalisis dan risiko agregat dikelola pada tingkat yang tepat. Dengan demikian, pembeda utamanya bukan kata yang terdengar paling tegas, melainkan kesesuaian kondisi, kewenangan, bukti, dan urutan proses. Sumber Seri Modul Pengenalan Manajemen Risiko Kementerian Keuangan, bagian Proses identifikasi risiko, berstatus non_normative dan diverifikasi 2026-08-03. Rincian sesuai huruf pilihan yang tampil: A — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena frasa tersebut lebih tepat menjadi penyebab. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: yang dinilai memang kondisi kompetensi saat ini sebagai masalah pengendalian. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Penyebab dan dampak tidak boleh menggantikan rumusan kejadian. B — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena kerugian reputasi biasanya merupakan dampak. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: peristiwa yang dimaksud memang perubahan reputasi yang terukur dan penyebabnya dijelaskan. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Penyebab dan dampak tidak boleh menggantikan rumusan kejadian. C — BENAR: Benar untuk kasus ini. Identifikasi menyusun kejadian yang jelas, penyebab termasuk akar masalah, serta dampak pada sasaran; satu kejadian yang sama tidak digunakan berulang pada beberapa sasaran tanpa analisis. Karena itu, tindakan yang tepat adalah tulis peristiwa spesifik, gali penyebab sampai akar, dan hubungkan dampaknya dengan satu sasaran utama. Batas pentingnya: Penyebab dan dampak tidak boleh menggantikan rumusan kejadian. D — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena duplikasi mengaburkan hubungan risiko dengan sasaran. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: kejadian memiliki dampak berbeda yang dianalisis dan risiko agregat dikelola pada tingkat yang tepat. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Penyebab dan dampak tidak boleh menggantikan rumusan kejadian.",
+    "keyTakeaway": "Ingat pembeda kondisi: tulis peristiwa spesifik, gali penyebab sampai akar, dan hubungkan dampaknya dengan satu sasaran utama; jangan terapkan alternatif sebelum syarat khususnya terpenuhi.",
+    "sourceRefs": [
+      {
+        "sourceId": "SRC-RISK-MODULES",
+        "title": "Seri Modul Pengenalan Manajemen Risiko Kementerian Keuangan",
+        "driveFileId": "1ViE8MGnR5qA9BhM1rl3PN6ye313wh08D",
+        "section": "Proses identifikasi risiko",
+        "pageOrSlide": null,
+        "regulationStatus": "non_normative",
+        "lastVerified": "2026-08-03"
+      }
+    ],
+    "tags": [
+      "manajemen_risiko",
+      "identifikasi_risiko",
+      "implementation_planning",
+      "apply",
+      "easy"
+    ],
+    "review": {
+      "contentAccuracy": 25,
+      "sourceTraceability": 15,
+      "stemClarity": 9,
+      "distractorQuality": 9,
+      "singleBestAnswer": 10,
+      "competencyRelevance": 10,
+      "explanationQuality": 9,
+      "originality": 4,
+      "languageQuality": 3,
+      "difficultyFit": 2,
+      "total": 96,
+      "method": "rubrik_terotomasi_berbasis_unit_terverifikasi_v1"
+    },
+    "similarityGroup": "CONCEPT-057",
+    "knowledgeUnitId": "KU-DM-MR-057-3-10",
+    "questionFocus": "implementation_planning",
+    "generationBatch": "2026.08.drive-categories-v2",
+    "createdAt": "2026-08-03",
+    "lastReviewedAt": "2026-08-03",
+    "runtimeId": 1026,
+    "selectedFromCandidateId": "CAND-DM-MR-0198"
+  },
+  {
+    "id": "DM-MR-0157",
+    "version": 1,
+    "status": "active",
+    "domain": "manajemen_risiko",
+    "subdomain": "evaluasi_risiko",
+    "competency": "Mengevaluasi prioritas risiko",
+    "indicator": "Menggunakan selera risiko dan risiko utama",
+    "questionType": "situational_judgment",
+    "cognitiveLevel": "analyze",
+    "difficulty": "medium",
+    "stem": "Risiko di bawah selera dihapus dari register agar daftar lebih singkat. Perhatikan tanggung jawab dan kewenangan pimpinan. Jika Anda memimpin proses tersebut, arahan apa yang seharusnya diberikan?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pimpinan perlu mengarahkan tim untuk bandingkan residual dengan selera, tetapkan prioritas, dan dokumentasikan alasan penanganan atau penerimaan sebelum keputusan akhir ditetapkan.",
+        "rationale": "Benar untuk kasus ini. Evaluasi membandingkan level residual dengan selera risiko untuk menentukan prioritas, risiko utama, dan kebutuhan penanganan. Karena itu, tindakan yang tepat adalah bandingkan residual dengan selera, tetapkan prioritas, dan dokumentasikan alasan penanganan atau penerimaan. Batas pentingnya: Risiko di bawah selera tidak berarti diabaikan; tetap dipantau sesuai proporsi.",
+        "misconception": null,
+        "validWhen": "ketika kondisi sama dengan kasus dan seluruh prasyarat pada Evaluasi, selera, dan prioritas risiko terpenuhi"
+      },
+      {
+        "id": "B",
+        "text": "Pimpinan perlu mengarahkan tim untuk memitigasi semua risiko dengan intensitas sama sebelum keputusan akhir ditetapkan.",
+        "rationale": "Tidak tepat untuk kasus ini karena sumber daya tidak diarahkan berdasarkan prioritas. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: seluruh risiko memiliki level dan urgensi setara setelah dievaluasi. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Risiko di bawah selera tidak berarti diabaikan; tetap dipantau sesuai proporsi.",
+        "misconception": "sumber daya tidak diarahkan berdasarkan prioritas",
+        "validWhen": "seluruh risiko memiliki level dan urgensi setara setelah dievaluasi"
+      },
+      {
+        "id": "C",
+        "text": "Pimpinan perlu mengarahkan tim untuk menghapus risiko di bawah selera dari register sebelum keputusan akhir ditetapkan.",
+        "rationale": "Tidak tepat untuk kasus ini karena penerimaan tidak menghapus kebutuhan pencatatan dan pemantauan. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: risiko tidak lagi relevan karena sasaran atau proses telah berakhir. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Risiko di bawah selera tidak berarti diabaikan; tetap dipantau sesuai proporsi.",
+        "misconception": "penerimaan tidak menghapus kebutuhan pencatatan dan pemantauan",
+        "validWhen": "risiko tidak lagi relevan karena sasaran atau proses telah berakhir"
+      },
+      {
+        "id": "D",
+        "text": "Pimpinan perlu mengarahkan tim untuk menetapkan prioritas hanya dari dampak sebelum keputusan akhir ditetapkan.",
+        "rationale": "Tidak tepat untuk kasus ini karena kemungkinan dan kriteria lain juga membentuk level serta urgensi. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: ketentuan khusus menetapkan dampak tertentu sebagai prioritas tanpa melihat level. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Risiko di bawah selera tidak berarti diabaikan; tetap dipantau sesuai proporsi.",
+        "misconception": "kemungkinan dan kriteria lain juga membentuk level serta urgensi",
+        "validWhen": "ketentuan khusus menetapkan dampak tertentu sebagai prioritas tanpa melihat level"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "Jawaban paling tepat adalah A. Kasus yang diuji: Risiko di bawah selera dihapus dari register agar daftar lebih singkat. Fokus pertanyaan: Jika Anda memimpin proses tersebut, arahan apa yang seharusnya diberikan? Uraian topik: Evaluasi membandingkan level residual dengan selera risiko untuk menentukan prioritas, risiko utama, dan kebutuhan penanganan. Pada kasus ini, keputusan harus bandingkan residual dengan selera, tetapkan prioritas, dan dokumentasikan alasan penanganan atau penerimaan. Batas penerapan: Risiko di bawah selera tidak berarti diabaikan; tetap dipantau sesuai proporsi. Tiga pilihan lain bukan jawaban terbaik untuk kondisi ini. Tindakan sejenis baru dapat digunakan setelah redaksinya disesuaikan dan syarat berikut terpenuhi: memitigasi semua risiko dengan intensitas sama — kondisi terkait: seluruh risiko memiliki level dan urgensi setara setelah dievaluasi; menghapus risiko di bawah selera dari register — kondisi terkait: risiko tidak lagi relevan karena sasaran atau proses telah berakhir; menetapkan prioritas hanya dari dampak — kondisi terkait: ketentuan khusus menetapkan dampak tertentu sebagai prioritas tanpa melihat level. Dengan demikian, pembeda utamanya bukan kata yang terdengar paling tegas, melainkan kesesuaian kondisi, kewenangan, bukti, dan urutan proses. Sumber Seri Modul Pengenalan Manajemen Risiko Kementerian Keuangan, bagian Evaluasi, selera, dan prioritas risiko, berstatus non_normative dan diverifikasi 2026-08-03. Rincian sesuai huruf pilihan yang tampil: A — BENAR: Benar untuk kasus ini. Evaluasi membandingkan level residual dengan selera risiko untuk menentukan prioritas, risiko utama, dan kebutuhan penanganan. Karena itu, tindakan yang tepat adalah bandingkan residual dengan selera, tetapkan prioritas, dan dokumentasikan alasan penanganan atau penerimaan. Batas pentingnya: Risiko di bawah selera tidak berarti diabaikan; tetap dipantau sesuai proporsi. B — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena sumber daya tidak diarahkan berdasarkan prioritas. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: seluruh risiko memiliki level dan urgensi setara setelah dievaluasi. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Risiko di bawah selera tidak berarti diabaikan; tetap dipantau sesuai proporsi. C — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena penerimaan tidak menghapus kebutuhan pencatatan dan pemantauan. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: risiko tidak lagi relevan karena sasaran atau proses telah berakhir. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Risiko di bawah selera tidak berarti diabaikan; tetap dipantau sesuai proporsi. D — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena kemungkinan dan kriteria lain juga membentuk level serta urgensi. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: ketentuan khusus menetapkan dampak tertentu sebagai prioritas tanpa melihat level. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Risiko di bawah selera tidak berarti diabaikan; tetap dipantau sesuai proporsi.",
+    "keyTakeaway": "Ingat pembeda kondisi: bandingkan residual dengan selera, tetapkan prioritas, dan dokumentasikan alasan penanganan atau penerimaan; jangan terapkan alternatif sebelum syarat khususnya terpenuhi.",
+    "sourceRefs": [
+      {
+        "sourceId": "SRC-RISK-MODULES",
+        "title": "Seri Modul Pengenalan Manajemen Risiko Kementerian Keuangan",
+        "driveFileId": "1ViE8MGnR5qA9BhM1rl3PN6ye313wh08D",
+        "section": "Evaluasi, selera, dan prioritas risiko",
+        "pageOrSlide": null,
+        "regulationStatus": "non_normative",
+        "lastVerified": "2026-08-03"
+      }
+    ],
+    "tags": [
+      "manajemen_risiko",
+      "evaluasi_risiko",
+      "situational_judgment",
+      "evaluate",
+      "easy"
+    ],
+    "review": {
+      "contentAccuracy": 25,
+      "sourceTraceability": 15,
+      "stemClarity": 9,
+      "distractorQuality": 9,
+      "singleBestAnswer": 10,
+      "competencyRelevance": 10,
+      "explanationQuality": 9,
+      "originality": 4,
+      "languageQuality": 3,
+      "difficultyFit": 2,
+      "total": 96,
+      "method": "rubrik_terotomasi_berbasis_unit_terverifikasi_v1"
+    },
+    "similarityGroup": "CONCEPT-060",
+    "knowledgeUnitId": "KU-DM-MR-060-2-4",
+    "questionFocus": "situational_judgment",
+    "generationBatch": "2026.08.drive-categories-v2",
+    "createdAt": "2026-08-03",
+    "lastReviewedAt": "2026-08-03",
+    "runtimeId": 1027,
+    "selectedFromCandidateId": "CAND-DM-MR-0200"
+  },
+  {
+    "id": "DM-MR-0158",
+    "version": 1,
+    "status": "active",
+    "domain": "manajemen_risiko",
+    "subdomain": "mitigasi_risiko",
+    "competency": "Merancang mitigasi risiko",
+    "indicator": "Menghubungkan aksi dengan penyebab, dampak, dan residual harapan",
+    "questionType": "situational_judgment",
+    "cognitiveLevel": "evaluate",
+    "difficulty": "hard",
+    "stem": "Semua risiko diberi target residual nol meskipun proses harus tetap berjalan. Tentukan urutan tindakan awal yang aman. Apa tindakan yang paling tepat?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sebagai langkah awal, memilih mitigasi paling mahal tanpa analisis biaya manfaat dan mendokumentasikan hasilnya.",
+        "rationale": "Tidak tepat untuk kasus ini karena biaya tidak menjamin efektivitas atau proporsionalitas. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: risiko sangat material dan analisis menunjukkan opsi itu paling efektif. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Aktivitas rutin yang tidak mengubah risiko bukan mitigasi yang memadai.",
+        "misconception": "biaya tidak menjamin efektivitas atau proporsionalitas",
+        "validWhen": "risiko sangat material dan analisis menunjukkan opsi itu paling efektif"
+      },
+      {
+        "id": "B",
+        "text": "Sebagai langkah awal, menulis melakukan koordinasi sebagai satu-satunya mitigasi dan mendokumentasikan hasilnya.",
+        "rationale": "Tidak tepat untuk kasus ini karena aksi terlalu umum dan tidak menunjukkan perubahan penyebab atau dampak. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: koordinasi memiliki keluaran, pihak, keputusan, dan kontrol baru yang jelas. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Aktivitas rutin yang tidak mengubah risiko bukan mitigasi yang memadai.",
+        "misconception": "aksi terlalu umum dan tidak menunjukkan perubahan penyebab atau dampak",
+        "validWhen": "koordinasi memiliki keluaran, pihak, keputusan, dan kontrol baru yang jelas"
+      },
+      {
+        "id": "C",
+        "text": "Sebagai langkah awal, menetapkan residual harapan sama dengan nol untuk semua risiko dan mendokumentasikan hasilnya.",
+        "rationale": "Tidak tepat untuk kasus ini karena sebagian risiko tidak dapat dihilangkan sepenuhnya. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: risiko tertentu benar-benar dapat dieliminasi dengan menghentikan aktivitas. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Aktivitas rutin yang tidak mengubah risiko bukan mitigasi yang memadai.",
+        "misconception": "sebagian risiko tidak dapat dihilangkan sepenuhnya",
+        "validWhen": "risiko tertentu benar-benar dapat dieliminasi dengan menghentikan aktivitas"
+      },
+      {
+        "id": "D",
+        "text": "Sebagai langkah awal, pilih respons, susun aksi spesifik dengan pemilik dan tenggat, lalu proyeksikan residual harapan dan mendokumentasikan hasilnya.",
+        "rationale": "Benar untuk kasus ini. Mitigasi menurunkan atau menjaga level risiko utama menuju risiko residual harapan dengan memilih respons dan rencana aksi yang menyasar penyebab atau dampak. Karena itu, tindakan yang tepat adalah pilih respons, susun aksi spesifik dengan pemilik dan tenggat, lalu proyeksikan residual harapan. Batas pentingnya: Aktivitas rutin yang tidak mengubah risiko bukan mitigasi yang memadai.",
+        "misconception": null,
+        "validWhen": "ketika kondisi sama dengan kasus dan seluruh prasyarat pada Proses mitigasi risiko terpenuhi"
+      }
+    ],
+    "correctOptionId": "D",
+    "explanation": "Jawaban paling tepat adalah D. Kasus yang diuji: Semua risiko diberi target residual nol meskipun proses harus tetap berjalan. Fokus pertanyaan: Apa tindakan yang paling tepat? Uraian topik: Mitigasi menurunkan atau menjaga level risiko utama menuju risiko residual harapan dengan memilih respons dan rencana aksi yang menyasar penyebab atau dampak. Pada kasus ini, keputusan harus pilih respons, susun aksi spesifik dengan pemilik dan tenggat, lalu proyeksikan residual harapan. Batas penerapan: Aktivitas rutin yang tidak mengubah risiko bukan mitigasi yang memadai. Tiga pilihan lain bukan jawaban terbaik untuk kondisi ini. Tindakan sejenis baru dapat digunakan setelah redaksinya disesuaikan dan syarat berikut terpenuhi: menulis melakukan koordinasi sebagai satu-satunya mitigasi — kondisi terkait: koordinasi memiliki keluaran, pihak, keputusan, dan kontrol baru yang jelas; memilih mitigasi paling mahal tanpa analisis biaya manfaat — kondisi terkait: risiko sangat material dan analisis menunjukkan opsi itu paling efektif; menetapkan residual harapan sama dengan nol untuk semua risiko — kondisi terkait: risiko tertentu benar-benar dapat dieliminasi dengan menghentikan aktivitas. Dengan demikian, pembeda utamanya bukan kata yang terdengar paling tegas, melainkan kesesuaian kondisi, kewenangan, bukti, dan urutan proses. Sumber Seri Modul Pengenalan Manajemen Risiko Kementerian Keuangan, bagian Proses mitigasi risiko, berstatus non_normative dan diverifikasi 2026-08-03. Rincian sesuai huruf pilihan yang tampil: A — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena biaya tidak menjamin efektivitas atau proporsionalitas. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: risiko sangat material dan analisis menunjukkan opsi itu paling efektif. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Aktivitas rutin yang tidak mengubah risiko bukan mitigasi yang memadai. B — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena aksi terlalu umum dan tidak menunjukkan perubahan penyebab atau dampak. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: koordinasi memiliki keluaran, pihak, keputusan, dan kontrol baru yang jelas. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Aktivitas rutin yang tidak mengubah risiko bukan mitigasi yang memadai. C — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena sebagian risiko tidak dapat dihilangkan sepenuhnya. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: risiko tertentu benar-benar dapat dieliminasi dengan menghentikan aktivitas. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Aktivitas rutin yang tidak mengubah risiko bukan mitigasi yang memadai. D — BENAR: Benar untuk kasus ini. Mitigasi menurunkan atau menjaga level risiko utama menuju risiko residual harapan dengan memilih respons dan rencana aksi yang menyasar penyebab atau dampak. Karena itu, tindakan yang tepat adalah pilih respons, susun aksi spesifik dengan pemilik dan tenggat, lalu proyeksikan residual harapan. Batas pentingnya: Aktivitas rutin yang tidak mengubah risiko bukan mitigasi yang memadai.",
+    "keyTakeaway": "Ingat pembeda kondisi: pilih respons, susun aksi spesifik dengan pemilik dan tenggat, lalu proyeksikan residual harapan; jangan terapkan alternatif sebelum syarat khususnya terpenuhi.",
+    "sourceRefs": [
+      {
+        "sourceId": "SRC-RISK-MODULES",
+        "title": "Seri Modul Pengenalan Manajemen Risiko Kementerian Keuangan",
+        "driveFileId": "1ViE8MGnR5qA9BhM1rl3PN6ye313wh08D",
+        "section": "Proses mitigasi risiko",
+        "pageOrSlide": null,
+        "regulationStatus": "non_normative",
+        "lastVerified": "2026-08-03"
+      }
+    ],
+    "tags": [
+      "manajemen_risiko",
+      "mitigasi_risiko",
+      "case_based_mcq",
+      "apply",
+      "easy"
+    ],
+    "review": {
+      "contentAccuracy": 25,
+      "sourceTraceability": 15,
+      "stemClarity": 9,
+      "distractorQuality": 9,
+      "singleBestAnswer": 10,
+      "competencyRelevance": 10,
+      "explanationQuality": 9,
+      "originality": 4,
+      "languageQuality": 3,
+      "difficultyFit": 2,
+      "total": 96,
+      "method": "rubrik_terotomasi_berbasis_unit_terverifikasi_v1"
+    },
+    "similarityGroup": "CONCEPT-061",
+    "knowledgeUnitId": "KU-DM-MR-061-3-1",
+    "questionFocus": "case_based_mcq",
+    "generationBatch": "2026.08.drive-categories-v2",
+    "createdAt": "2026-08-03",
+    "lastReviewedAt": "2026-08-03",
+    "runtimeId": 1028,
+    "selectedFromCandidateId": "CAND-DM-MR-0201"
+  },
+  {
+    "id": "DM-MR-0159",
+    "version": 1,
+    "status": "active",
+    "domain": "manajemen_risiko",
+    "subdomain": "incrima_kematangan",
+    "competency": "Menggunakan sistem dan menilai kematangan risiko",
+    "indicator": "Membedakan administrasi aplikasi dari kematangan penerapan",
+    "questionType": "conceptual_mcq",
+    "cognitiveLevel": "remember",
+    "difficulty": "easy",
+    "stem": "Unit memperoleh nilai tinggi hanya dari kelengkapan kolom aplikasi. Sasar akar kekeliruan sebelum memperbaiki hasil. Perbaikan apa yang harus dilakukan terlebih dahulu?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Perbaikan harus dimulai dengan menyerahkan seluruh analisis kepada operator aplikasi.",
+        "rationale": "Tidak tepat untuk kasus ini karena operator tidak menggantikan pemilik risiko dan pengambil keputusan. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: operator membantu administrasi sementara penilaian tetap disahkan pemilik risiko. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Aplikasi adalah alat; keputusan dan kualitas data tetap menjadi tanggung jawab pengelola risiko.",
+        "misconception": "operator tidak menggantikan pemilik risiko dan pengambil keputusan",
+        "validWhen": "operator membantu administrasi sementara penilaian tetap disahkan pemilik risiko"
+      },
+      {
+        "id": "B",
+        "text": "Perbaikan harus dimulai dengan menyatakan matang karena seluruh kolom terisi.",
+        "rationale": "Tidak tepat untuk kasus ini karena kelengkapan data belum membuktikan proses dipakai dalam keputusan. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: isi telah diverifikasi dan bukti menunjukkan proses tertanam serta efektif. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Aplikasi adalah alat; keputusan dan kualitas data tetap menjadi tanggung jawab pengelola risiko.",
+        "misconception": "kelengkapan data belum membuktikan proses dipakai dalam keputusan",
+        "validWhen": "isi telah diverifikasi dan bukti menunjukkan proses tertanam serta efektif"
+      },
+      {
+        "id": "C",
+        "text": "Perbaikan harus dimulai dengan jaga kualitas data dan alur persetujuan di INCRIMA, lalu nilai kematangan dari bukti penerapan serta hasil.",
+        "rationale": "Benar untuk kasus ini. INCRIMA mendukung dokumentasi dan integrasi proses, sedangkan kematangan menilai kualitas penerapan, budaya, kapabilitas, proses, dan hasil—bukan sekadar kelengkapan input. Karena itu, tindakan yang tepat adalah jaga kualitas data dan alur persetujuan di INCRIMA, lalu nilai kematangan dari bukti penerapan serta hasil. Batas pentingnya: Aplikasi adalah alat; keputusan dan kualitas data tetap menjadi tanggung jawab pengelola risiko.",
+        "misconception": null,
+        "validWhen": "ketika kondisi sama dengan kasus dan seluruh prasyarat pada INCRIMA dan tingkat kematangan terpenuhi"
+      },
+      {
+        "id": "D",
+        "text": "Perbaikan harus dimulai dengan mengubah data setelah persetujuan tanpa jejak.",
+        "rationale": "Tidak tepat untuk kasus ini karena integritas dan akuntabilitas data hilang. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: perubahan dilakukan melalui versi dan persetujuan yang tercatat. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Aplikasi adalah alat; keputusan dan kualitas data tetap menjadi tanggung jawab pengelola risiko.",
+        "misconception": "integritas dan akuntabilitas data hilang",
+        "validWhen": "perubahan dilakukan melalui versi dan persetujuan yang tercatat"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "Jawaban paling tepat adalah C. Kasus yang diuji: Unit memperoleh nilai tinggi hanya dari kelengkapan kolom aplikasi. Fokus pertanyaan: Perbaikan apa yang harus dilakukan terlebih dahulu? Uraian topik: INCRIMA mendukung dokumentasi dan integrasi proses, sedangkan kematangan menilai kualitas penerapan, budaya, kapabilitas, proses, dan hasil—bukan sekadar kelengkapan input. Pada kasus ini, keputusan harus jaga kualitas data dan alur persetujuan di INCRIMA, lalu nilai kematangan dari bukti penerapan serta hasil. Batas penerapan: Aplikasi adalah alat; keputusan dan kualitas data tetap menjadi tanggung jawab pengelola risiko. Tiga pilihan lain bukan jawaban terbaik untuk kondisi ini. Tindakan sejenis baru dapat digunakan setelah redaksinya disesuaikan dan syarat berikut terpenuhi: menyatakan matang karena seluruh kolom terisi — kondisi terkait: isi telah diverifikasi dan bukti menunjukkan proses tertanam serta efektif; menyerahkan seluruh analisis kepada operator aplikasi — kondisi terkait: operator membantu administrasi sementara penilaian tetap disahkan pemilik risiko; mengubah data setelah persetujuan tanpa jejak — kondisi terkait: perubahan dilakukan melalui versi dan persetujuan yang tercatat. Dengan demikian, pembeda utamanya bukan kata yang terdengar paling tegas, melainkan kesesuaian kondisi, kewenangan, bukti, dan urutan proses. Sumber Seri Modul Pengenalan Manajemen Risiko Kementerian Keuangan, bagian INCRIMA dan tingkat kematangan, berstatus non_normative dan diverifikasi 2026-08-03. Rincian sesuai huruf pilihan yang tampil: A — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena operator tidak menggantikan pemilik risiko dan pengambil keputusan. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: operator membantu administrasi sementara penilaian tetap disahkan pemilik risiko. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Aplikasi adalah alat; keputusan dan kualitas data tetap menjadi tanggung jawab pengelola risiko. B — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena kelengkapan data belum membuktikan proses dipakai dalam keputusan. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: isi telah diverifikasi dan bukti menunjukkan proses tertanam serta efektif. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Aplikasi adalah alat; keputusan dan kualitas data tetap menjadi tanggung jawab pengelola risiko. C — BENAR: Benar untuk kasus ini. INCRIMA mendukung dokumentasi dan integrasi proses, sedangkan kematangan menilai kualitas penerapan, budaya, kapabilitas, proses, dan hasil—bukan sekadar kelengkapan input. Karena itu, tindakan yang tepat adalah jaga kualitas data dan alur persetujuan di INCRIMA, lalu nilai kematangan dari bukti penerapan serta hasil. Batas pentingnya: Aplikasi adalah alat; keputusan dan kualitas data tetap menjadi tanggung jawab pengelola risiko. D — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena integritas dan akuntabilitas data hilang. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: perubahan dilakukan melalui versi dan persetujuan yang tercatat. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Aplikasi adalah alat; keputusan dan kualitas data tetap menjadi tanggung jawab pengelola risiko.",
+    "keyTakeaway": "Ingat pembeda kondisi: jaga kualitas data dan alur persetujuan di INCRIMA, lalu nilai kematangan dari bukti penerapan serta hasil; jangan terapkan alternatif sebelum syarat khususnya terpenuhi.",
+    "sourceRefs": [
+      {
+        "sourceId": "SRC-RISK-MODULES",
+        "title": "Seri Modul Pengenalan Manajemen Risiko Kementerian Keuangan",
+        "driveFileId": "1ViE8MGnR5qA9BhM1rl3PN6ye313wh08D",
+        "section": "INCRIMA dan tingkat kematangan",
+        "pageOrSlide": null,
+        "regulationStatus": "non_normative",
+        "lastVerified": "2026-08-03"
+      }
+    ],
+    "tags": [
+      "manajemen_risiko",
+      "incrima_kematangan",
+      "corrective_action",
+      "apply",
+      "easy"
+    ],
+    "review": {
+      "contentAccuracy": 25,
+      "sourceTraceability": 15,
+      "stemClarity": 9,
+      "distractorQuality": 9,
+      "singleBestAnswer": 10,
+      "competencyRelevance": 10,
+      "explanationQuality": 9,
+      "originality": 4,
+      "languageQuality": 3,
+      "difficultyFit": 2,
+      "total": 96,
+      "method": "rubrik_terotomasi_berbasis_unit_terverifikasi_v1"
+    },
+    "similarityGroup": "CONCEPT-064",
+    "knowledgeUnitId": "KU-DM-MR-064-1-5",
+    "questionFocus": "corrective_action",
+    "generationBatch": "2026.08.drive-categories-v2",
+    "createdAt": "2026-08-03",
+    "lastReviewedAt": "2026-08-03",
+    "runtimeId": 1029,
+    "selectedFromCandidateId": "CAND-DM-MR-0203"
+  },
+  {
+    "id": "DM-MR-0160",
+    "version": 1,
+    "status": "active",
+    "domain": "manajemen_risiko",
+    "subdomain": "konsep_risiko",
+    "competency": "Menerapkan konsep risiko pada sasaran",
+    "indicator": "Menghubungkan ketidakpastian dengan pencapaian tujuan",
+    "questionType": "decision_quality",
+    "cognitiveLevel": "apply",
+    "difficulty": "medium",
+    "stem": "Sebuah gangguan sudah terjadi tetapi dicatat seolah-olah masih merupakan risiko masa depan. Uji kesesuaian keputusan dengan ketentuan sumber. Keputusan mana yang paling sesuai dengan materi?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Keputusan yang sesuai adalah membuat daftar risiko tanpa sasaran sebelum keputusan akhir ditetapkan.",
+        "rationale": "Tidak tepat untuk kasus ini karena relevansi dan dampak risiko tidak dapat dinilai. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: daftar awal digunakan untuk brainstorming dan segera dipetakan ke sasaran. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Masalah yang telah terjadi dan ketidakjelasan sasaran perlu dibedakan dari risiko masa depan.",
+        "misconception": "relevansi dan dampak risiko tidak dapat dinilai",
+        "validWhen": "daftar awal digunakan untuk brainstorming dan segera dipetakan ke sasaran"
+      },
+      {
+        "id": "B",
+        "text": "Keputusan yang sesuai adalah menulis sasaran tidak tercapai sebagai risiko sebelum keputusan akhir ditetapkan.",
+        "rationale": "Tidak tepat untuk kasus ini karena rumusan itu hanya negasi sasaran dan tidak menjelaskan peristiwa. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: analisis sedang menyatakan dampak akhir setelah peristiwa risiko dirumuskan terpisah. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Masalah yang telah terjadi dan ketidakjelasan sasaran perlu dibedakan dari risiko masa depan.",
+        "misconception": "rumusan itu hanya negasi sasaran dan tidak menjelaskan peristiwa",
+        "validWhen": "analisis sedang menyatakan dampak akhir setelah peristiwa risiko dirumuskan terpisah"
+      },
+      {
+        "id": "C",
+        "text": "Keputusan yang sesuai adalah menyebut semua masalah operasional sebagai risiko sebelum keputusan akhir ditetapkan.",
+        "rationale": "Tidak tepat untuk kasus ini karena masalah yang sudah terjadi perlu ditangani dan dapat menjadi penyebab risiko lanjutan. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: masalah tersebut masih berupa ketidakpastian yang belum terjadi. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Masalah yang telah terjadi dan ketidakjelasan sasaran perlu dibedakan dari risiko masa depan.",
+        "misconception": "masalah yang sudah terjadi perlu ditangani dan dapat menjadi penyebab risiko lanjutan",
+        "validWhen": "masalah tersebut masih berupa ketidakpastian yang belum terjadi"
+      },
+      {
+        "id": "D",
+        "text": "Keputusan yang sesuai adalah tetapkan sasaran, rumuskan peristiwa yang mungkin terjadi, lalu jelaskan dampaknya terhadap sasaran sebelum keputusan akhir ditetapkan.",
+        "rationale": "Benar untuk kasus ini. Risiko adalah kemungkinan terjadinya peristiwa yang berdampak pada pencapaian sasaran; risiko selalu dirumuskan terhadap sasaran yang jelas. Karena itu, tindakan yang tepat adalah tetapkan sasaran, rumuskan peristiwa yang mungkin terjadi, lalu jelaskan dampaknya terhadap sasaran. Batas pentingnya: Masalah yang telah terjadi dan ketidakjelasan sasaran perlu dibedakan dari risiko masa depan.",
+        "misconception": null,
+        "validWhen": "ketika kondisi sama dengan kasus dan seluruh prasyarat pada Overview manajemen risiko terpenuhi"
+      }
+    ],
+    "correctOptionId": "D",
+    "explanation": "Jawaban paling tepat adalah D. Kasus yang diuji: Sebuah gangguan sudah terjadi tetapi dicatat seolah-olah masih merupakan risiko masa depan. Fokus pertanyaan: Keputusan mana yang paling sesuai dengan materi? Uraian topik: Risiko adalah kemungkinan terjadinya peristiwa yang berdampak pada pencapaian sasaran; risiko selalu dirumuskan terhadap sasaran yang jelas. Pada kasus ini, keputusan harus tetapkan sasaran, rumuskan peristiwa yang mungkin terjadi, lalu jelaskan dampaknya terhadap sasaran. Batas penerapan: Masalah yang telah terjadi dan ketidakjelasan sasaran perlu dibedakan dari risiko masa depan. Tiga pilihan lain bukan jawaban terbaik untuk kondisi ini. Tindakan sejenis baru dapat digunakan setelah redaksinya disesuaikan dan syarat berikut terpenuhi: menulis sasaran tidak tercapai sebagai risiko — kondisi terkait: analisis sedang menyatakan dampak akhir setelah peristiwa risiko dirumuskan terpisah; menyebut semua masalah operasional sebagai risiko — kondisi terkait: masalah tersebut masih berupa ketidakpastian yang belum terjadi; membuat daftar risiko tanpa sasaran — kondisi terkait: daftar awal digunakan untuk brainstorming dan segera dipetakan ke sasaran. Dengan demikian, pembeda utamanya bukan kata yang terdengar paling tegas, melainkan kesesuaian kondisi, kewenangan, bukti, dan urutan proses. Sumber Seri Modul Pengenalan Manajemen Risiko Kementerian Keuangan, bagian Overview manajemen risiko, berstatus non_normative dan diverifikasi 2026-08-03. Rincian sesuai huruf pilihan yang tampil: A — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena relevansi dan dampak risiko tidak dapat dinilai. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: daftar awal digunakan untuk brainstorming dan segera dipetakan ke sasaran. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Masalah yang telah terjadi dan ketidakjelasan sasaran perlu dibedakan dari risiko masa depan. B — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena rumusan itu hanya negasi sasaran dan tidak menjelaskan peristiwa. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: analisis sedang menyatakan dampak akhir setelah peristiwa risiko dirumuskan terpisah. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Masalah yang telah terjadi dan ketidakjelasan sasaran perlu dibedakan dari risiko masa depan. C — TIDAK TEPAT UNTUK KASUS INI: Tidak tepat untuk kasus ini karena masalah yang sudah terjadi perlu ditangani dan dapat menjadi penyebab risiko lanjutan. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: masalah tersebut masih berupa ketidakpastian yang belum terjadi. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Masalah yang telah terjadi dan ketidakjelasan sasaran perlu dibedakan dari risiko masa depan. D — BENAR: Benar untuk kasus ini. Risiko adalah kemungkinan terjadinya peristiwa yang berdampak pada pencapaian sasaran; risiko selalu dirumuskan terhadap sasaran yang jelas. Karena itu, tindakan yang tepat adalah tetapkan sasaran, rumuskan peristiwa yang mungkin terjadi, lalu jelaskan dampaknya terhadap sasaran. Batas pentingnya: Masalah yang telah terjadi dan ketidakjelasan sasaran perlu dibedakan dari risiko masa depan.",
+    "keyTakeaway": "Ingat pembeda kondisi: tetapkan sasaran, rumuskan peristiwa yang mungkin terjadi, lalu jelaskan dampaknya terhadap sasaran; jangan terapkan alternatif sebelum syarat khususnya terpenuhi.",
+    "sourceRefs": [
+      {
+        "sourceId": "SRC-RISK-MODULES",
+        "title": "Seri Modul Pengenalan Manajemen Risiko Kementerian Keuangan",
+        "driveFileId": "1ViE8MGnR5qA9BhM1rl3PN6ye313wh08D",
+        "section": "Overview manajemen risiko",
+        "pageOrSlide": null,
+        "regulationStatus": "non_normative",
+        "lastVerified": "2026-08-03"
+      }
+    ],
+    "tags": [
+      "manajemen_risiko",
+      "konsep_risiko",
+      "decision_quality",
+      "analyze",
+      "easy"
+    ],
+    "review": {
+      "contentAccuracy": 25,
+      "sourceTraceability": 15,
+      "stemClarity": 9,
+      "distractorQuality": 9,
+      "singleBestAnswer": 10,
+      "competencyRelevance": 10,
+      "explanationQuality": 9,
+      "originality": 4,
+      "languageQuality": 3,
+      "difficultyFit": 2,
+      "total": 96,
+      "method": "rubrik_terotomasi_berbasis_unit_terverifikasi_v1"
+    },
+    "similarityGroup": "CONCEPT-055",
+    "knowledgeUnitId": "KU-DM-MR-055-2-2",
+    "questionFocus": "decision_quality",
+    "generationBatch": "2026.08.drive-categories-v2",
+    "createdAt": "2026-08-03",
+    "lastReviewedAt": "2026-08-03",
+    "runtimeId": 1030,
+    "selectedFromCandidateId": "CAND-DM-MR-0204"
+  }
+]

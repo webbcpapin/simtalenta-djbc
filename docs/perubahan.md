@@ -1,13 +1,12 @@
-# Perubahan versi 2026.08.1000-v1
+# Perubahan versi 2026.08.drive-categories-v2
 
-- mengganti bank runtime 227 soal dengan 1.000 soal aktif baru dari 1.354 kandidat;
-- menetapkan blueprint sembilan domain, level kognitif, dan kesulitan;
-- menambah registry sumber, 135 unit pengetahuan, rubrik review, serta enam laporan audit;
-- menolak sumber superseded/personal untuk soal aktif;
-- menambah audit Jaccard, cosine TF-IDF, exact duplicate, clue panjang opsi, dan privasi;
-- memecah bank aktif menjadi 23 shard yang dimuat per sesi;
-- menambah paket acak seimbang, filter, waktu/jumlah soal, seed dan versi bank;
-- menambah riwayat 20 sesi, penghindaran soal baru dilihat, progres, resume, dan favorit;
-- menambah hasil per domain, kesulitan, dan level kognitif;
-- mempertahankan PWA, chatbot, copyright © agung3956, dan doa terbaik;
-- memisahkan chatbot menjadi chunk terpisah dan membersihkan aset build lama.
+- mengganti sembilan domain lama dengan 11 kategori persis mengikuti folder materi Drive;
+- membangun ulang 2.107 kandidat dan memilih 1.560 soal aktif, minimal 100 soal per kategori;
+- menghapus kalimat pembuka generik dari stem;
+- mewajibkan penjelasan jawaban benar serta kondisi yang membuat setiap opsi salah dapat tepat;
+- memperluas pembahasan dengan fakta kasus, fokus, aturan, batas penerapan, tindakan, dan rujukan;
+- menyeimbangkan kunci A/B/C/D tepat 390 soal per posisi;
+- menetapkan 234 soal konseptual dan 1.326 soal penerapan/analisis/evaluasi;
+- memecah bank aktif menjadi 36 shard yang dimuat sesuai kebutuhan sesi;
+- menambah metadata runtime kategori dan audit minimal 100 soal per kategori;
+- mempertahankan PWA, chatbot, copyright © agung3956, dan doa terbaik.

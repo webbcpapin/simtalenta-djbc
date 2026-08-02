@@ -14,8 +14,8 @@ export async function generateMetadata(): Promise<Metadata> {
   const origin = host ? `${protocol}://${host}` : "https://sites.openai.com";
   const title = "SIMTALENTA DJBC · Simulator Dukungan Manajemen";
   const description =
-    "Bank 1.000 soal aktif Uji Kompetensi Manajerial DJBC dalam sembilan domain, dengan pembahasan lengkap dan sumber terverifikasi.";
-  const socialImage = `${origin}/og-1000.png`;
+    "Bank 1.560 soal aktif Uji Kompetensi Manajerial DJBC dalam 11 kategori materi Drive, dengan pembahasan lengkap untuk keempat pilihan.";
+  const socialImage = `${origin}/og-1560.png`;
 
   return {
     title,

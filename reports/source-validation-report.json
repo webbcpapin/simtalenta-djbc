@@ -98,6 +98,182 @@
       "lastVerified": "2026-08-03"
     },
     {
+      "sourceId": "SRC-DISCIPLINE-GUIDE",
+      "title": "Bahan Peningkatan Kompetensi Teknis Bidang SDM—Disiplin dan Upaya Administratif",
+      "status": "non_normative",
+      "allowedForScoredQuestions": true,
+      "containsPersonalData": false,
+      "lastVerified": "2026-08-03"
+    },
+    {
+      "sourceId": "SRC-HUMAS-STRATEGY",
+      "title": "Strategi Komunikasi DJBC",
+      "status": "non_normative",
+      "allowedForScoredQuestions": true,
+      "containsPersonalData": false,
+      "lastVerified": "2026-08-03"
+    },
+    {
+      "sourceId": "SRC-HUMAS-MEDIA",
+      "title": "Analisis Media Massa dan Media Sosial DJBC",
+      "status": "non_normative",
+      "allowedForScoredQuestions": true,
+      "containsPersonalData": false,
+      "lastVerified": "2026-08-03"
+    },
+    {
+      "sourceId": "SRC-HUMAS-HANDLING",
+      "title": "Media Handling DJBC",
+      "status": "non_normative",
+      "allowedForScoredQuestions": true,
+      "containsPersonalData": false,
+      "lastVerified": "2026-08-03"
+    },
+    {
+      "sourceId": "SRC-HUMAS-PRESS",
+      "title": "Penyelenggaraan Konferensi Pers dan Penulisan Siaran Pers",
+      "status": "non_normative",
+      "allowedForScoredQuestions": true,
+      "containsPersonalData": false,
+      "lastVerified": "2026-08-03"
+    },
+    {
+      "sourceId": "SRC-HUMAS-WRITING",
+      "title": "Menulis Berita Itu Mudah",
+      "status": "non_normative",
+      "allowedForScoredQuestions": true,
+      "containsPersonalData": false,
+      "lastVerified": "2026-08-03"
+    },
+    {
+      "sourceId": "SRC-HUMAS-CRISIS",
+      "title": "Komunikasi Krisis",
+      "status": "non_normative",
+      "allowedForScoredQuestions": true,
+      "containsPersonalData": false,
+      "lastVerified": "2026-08-03"
+    },
+    {
+      "sourceId": "SRC-HUMAS-SOCIAL",
+      "title": "KEP-189/BC/2025 Pedoman Pengelolaan Media Sosial DJBC",
+      "status": "current",
+      "allowedForScoredQuestions": true,
+      "containsPersonalData": false,
+      "lastVerified": "2026-08-03"
+    },
+    {
+      "sourceId": "SRC-PP-60",
+      "title": "PP Nomor 60 Tahun 2008 tentang Sistem Pengendalian Intern Pemerintah",
+      "status": "current",
+      "allowedForScoredQuestions": true,
+      "containsPersonalData": false,
+      "lastVerified": "2026-08-03"
+    },
+    {
+      "sourceId": "SRC-PMK-109",
+      "title": "PMK Nomor 109 Tahun 2021 tentang Tata Kelola Pengawasan Intern",
+      "status": "current",
+      "allowedForScoredQuestions": true,
+      "containsPersonalData": false,
+      "lastVerified": "2026-08-03"
+    },
+    {
+      "sourceId": "SRC-UKI-TUSI",
+      "title": "Tugas dan Fungsi Unit Kepatuhan Internal DJBC",
+      "status": "non_normative",
+      "allowedForScoredQuestions": true,
+      "containsPersonalData": false,
+      "lastVerified": "2026-08-03"
+    },
+    {
+      "sourceId": "SRC-SDM-ADMIN",
+      "title": "Peningkatan Kompetensi Teknis Bidang SDM",
+      "status": "non_normative",
+      "allowedForScoredQuestions": true,
+      "containsPersonalData": false,
+      "lastVerified": "2026-08-03"
+    },
+    {
+      "sourceId": "SRC-FINANCE-BUDGET",
+      "title": "Materi P2KP Pengelolaan Anggaran DJBC",
+      "status": "non_normative",
+      "allowedForScoredQuestions": true,
+      "containsPersonalData": false,
+      "lastVerified": "2026-08-03"
+    },
+    {
+      "sourceId": "SRC-PMK62-CONSOLIDATED",
+      "title": "PMK 62 Tahun 2023 sebagaimana diubah terakhir dengan PMK 41 Tahun 2026",
+      "status": "current",
+      "allowedForScoredQuestions": true,
+      "containsPersonalData": false,
+      "lastVerified": "2026-08-03"
+    },
+    {
+      "sourceId": "SRC-PERJADIN",
+      "title": "PMK 113/2012 sebagaimana diubah dengan PMK 119 Tahun 2023 tentang Perjalanan Dinas Dalam Negeri",
+      "status": "current",
+      "allowedForScoredQuestions": true,
+      "containsPersonalData": false,
+      "lastVerified": "2026-08-03"
+    },
+    {
+      "sourceId": "SRC-LAYANAN-BRAVO",
+      "title": "Layanan Informasi Contact Center Bravo Bea Cukai",
+      "status": "non_normative",
+      "allowedForScoredQuestions": true,
+      "containsPersonalData": false,
+      "lastVerified": "2026-08-03"
+    },
+    {
+      "sourceId": "SRC-PPID",
+      "title": "PMK 110/PMK.01/2022 tentang Pedoman Layanan Informasi Publik PPID Kementerian Keuangan",
+      "status": "current",
+      "allowedForScoredQuestions": true,
+      "containsPersonalData": false,
+      "lastVerified": "2026-08-03"
+    },
+    {
+      "sourceId": "SRC-RISK-MODULES",
+      "title": "Seri Modul Pengenalan Manajemen Risiko Kementerian Keuangan",
+      "status": "non_normative",
+      "allowedForScoredQuestions": true,
+      "containsPersonalData": false,
+      "lastVerified": "2026-08-03"
+    },
+    {
+      "sourceId": "SRC-ORG-BC",
+      "title": "Semua Tentang Bea Cukai",
+      "status": "non_normative",
+      "allowedForScoredQuestions": true,
+      "containsPersonalData": false,
+      "lastVerified": "2026-08-03"
+    },
+    {
+      "sourceId": "SRC-ORG-CLUSTER",
+      "title": "KEP-214/BC/2022 tentang Klaster dan Subklaster DJBC",
+      "status": "current",
+      "allowedForScoredQuestions": true,
+      "containsPersonalData": false,
+      "lastVerified": "2026-08-03"
+    },
+    {
+      "sourceId": "SRC-SUMMARY-DM",
+      "title": "Ringkasan Dukungan Manajemen DJBC",
+      "status": "non_normative",
+      "allowedForScoredQuestions": true,
+      "containsPersonalData": false,
+      "lastVerified": "2026-08-03"
+    },
+    {
+      "sourceId": "SRC-BMN-GUIDE",
+      "title": "Bahan Siklus Pengelolaan Barang Milik Negara",
+      "status": "non_normative",
+      "allowedForScoredQuestions": true,
+      "containsPersonalData": false,
+      "lastVerified": "2026-08-03"
+    },
+    {
       "sourceId": "SRC-MT-OLD",
       "title": "Ketentuan Manajemen Talenta sebelum PMK 38 Tahun 2025",
       "status": "superseded",
@@ -123,16 +299,33 @@
     }
   ],
   "activeQuestionSourceIds": [
-    "SRC-MT-38",
-    "SRC-ND-2345",
-    "SRC-PP-11-17",
-    "SRC-SDM-2026",
-    "SRC-KMK-127",
+    "SRC-PP-94",
     "SRC-PMK-123",
+    "SRC-DISCIPLINE-GUIDE",
+    "SRC-HUMAS-STRATEGY",
+    "SRC-HUMAS-MEDIA",
+    "SRC-HUMAS-HANDLING",
+    "SRC-HUMAS-WRITING",
+    "SRC-HUMAS-CRISIS",
+    "SRC-HUMAS-SOCIAL",
+    "SRC-HUMAS-PRESS",
+    "SRC-PP-60",
     "SRC-PMK-83",
-    "SRC-COMPETENCY",
-    "SRC-KMK-105",
-    "SRC-RISK-BOOK",
-    "SRC-SOP-2026"
+    "SRC-UKI-TUSI",
+    "SRC-PMK-109",
+    "SRC-SDM-ADMIN",
+    "SRC-MT-38",
+    "SRC-SDM-2026",
+    "SRC-FINANCE-BUDGET",
+    "SRC-PMK62-CONSOLIDATED",
+    "SRC-PERJADIN",
+    "SRC-LAYANAN-BRAVO",
+    "SRC-PPID",
+    "SRC-RISK-MODULES",
+    "SRC-ORG-BC",
+    "SRC-ORG-CLUSTER",
+    "SRC-KMK-127",
+    "SRC-SUMMARY-DM",
+    "SRC-BMN-GUIDE"
   ]
 }

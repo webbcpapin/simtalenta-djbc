@@ -1,0 +1,254 @@
+[
+  {
+    "id": "CAND-DM-KE-0201",
+    "version": 1,
+    "status": "under_review",
+    "domain": "keuangan",
+    "subdomain": "pejabat_perbendaharaan",
+    "competency": "Membedakan peran PA, KPA, PPK, PPSPM, dan bendahara",
+    "indicator": "Menjaga pemisahan tugas dalam pelaksanaan anggaran",
+    "questionType": "case_based_mcq",
+    "cognitiveLevel": "apply",
+    "difficulty": "medium",
+    "stem": "PPK ingin memproses komitmen sampai pembayaran tanpa pemeriksaan pihak lain. Tentukan urutan tindakan awal yang aman. Apa tindakan yang paling tepat?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sebagai langkah awal, membiarkan PPK menguji dan membayar sendiri seluruh tagihan dan mendokumentasikan hasilnya.",
+        "rationale": "Tidak tepat untuk kasus ini karena pemisahan pengujian dan perintah membayar melemah. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: kondisi sangat sederhana telah diatur khusus dan tetap memiliki kontrol kompensasi yang sah. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Satu pihak tidak boleh mengambil alih seluruh fungsi yang sengaja dipisahkan.",
+        "misconception": "pemisahan pengujian dan perintah membayar melemah",
+        "validWhen": "kondisi sangat sederhana telah diatur khusus dan tetap memiliki kontrol kompensasi yang sah"
+      },
+      {
+        "id": "B",
+        "text": "Sebagai langkah awal, meminta PPSPM memilih penyedia dan mendokumentasikan hasilnya.",
+        "rationale": "Tidak tepat untuk kasus ini karena pemilihan dan pengelolaan kontrak bukan fungsi PPSPM. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: PPSPM hanya memeriksa dokumen pembayaran setelah proses pengadaan sah. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Satu pihak tidak boleh mengambil alih seluruh fungsi yang sengaja dipisahkan.",
+        "misconception": "pemilihan dan pengelolaan kontrak bukan fungsi PPSPM",
+        "validWhen": "PPSPM hanya memeriksa dokumen pembayaran setelah proses pengadaan sah"
+      },
+      {
+        "id": "C",
+        "text": "Sebagai langkah awal, meminta bendahara menetapkan spesifikasi kontrak dan mendokumentasikan hasilnya.",
+        "rationale": "Tidak tepat untuk kasus ini karena bendahara tidak menjadi pemilik keputusan teknis pengadaan. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: bendahara memberi data ketersediaan kas tanpa menetapkan spesifikasi. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Satu pihak tidak boleh mengambil alih seluruh fungsi yang sengaja dipisahkan.",
+        "misconception": "bendahara tidak menjadi pemilik keputusan teknis pengadaan",
+        "validWhen": "bendahara memberi data ketersediaan kas tanpa menetapkan spesifikasi"
+      },
+      {
+        "id": "D",
+        "text": "Sebagai langkah awal, petakan kewenangan setiap pejabat dan jaga pemisahan komitmen, pengujian, pembayaran, serta pengelolaan kas dan mendokumentasikan hasilnya.",
+        "rationale": "Benar untuk kasus ini. PA/KPA mengelola kewenangan anggaran, PPK membuat komitmen dan menguji hak tagih sesuai tugasnya, PPSPM menguji serta menerbitkan perintah membayar, dan bendahara mengelola uang yang menjadi tanggung jawabnya. Karena itu, tindakan yang tepat adalah petakan kewenangan setiap pejabat dan jaga pemisahan komitmen, pengujian, pembayaran, serta pengelolaan kas. Batas pentingnya: Satu pihak tidak boleh mengambil alih seluruh fungsi yang sengaja dipisahkan.",
+        "misconception": null,
+        "validWhen": "ketika kondisi sama dengan kasus dan seluruh prasyarat pada Pejabat perbendaharaan dan pelaksanaan anggaran terpenuhi"
+      }
+    ],
+    "correctOptionId": "D",
+    "explanation": "Jawaban paling tepat adalah D. Kasus yang diuji: PPK ingin memproses komitmen sampai pembayaran tanpa pemeriksaan pihak lain. Fokus pertanyaan: Apa tindakan yang paling tepat? Uraian topik: PA/KPA mengelola kewenangan anggaran, PPK membuat komitmen dan menguji hak tagih sesuai tugasnya, PPSPM menguji serta menerbitkan perintah membayar, dan bendahara mengelola uang yang menjadi tanggung jawabnya. Pada kasus ini, keputusan harus petakan kewenangan setiap pejabat dan jaga pemisahan komitmen, pengujian, pembayaran, serta pengelolaan kas. Batas penerapan: Satu pihak tidak boleh mengambil alih seluruh fungsi yang sengaja dipisahkan. Tiga pilihan lain bukan jawaban terbaik untuk kondisi ini. Tindakan sejenis baru dapat digunakan setelah redaksinya disesuaikan dan syarat berikut terpenuhi: meminta PPSPM memilih penyedia — kondisi terkait: PPSPM hanya memeriksa dokumen pembayaran setelah proses pengadaan sah; meminta bendahara menetapkan spesifikasi kontrak — kondisi terkait: bendahara memberi data ketersediaan kas tanpa menetapkan spesifikasi; membiarkan PPK menguji dan membayar sendiri seluruh tagihan — kondisi terkait: kondisi sangat sederhana telah diatur khusus dan tetap memiliki kontrol kompensasi yang sah. Dengan demikian, pembeda utamanya bukan kata yang terdengar paling tegas, melainkan kesesuaian kondisi, kewenangan, bukti, dan urutan proses. Sumber PMK 62 Tahun 2023 sebagaimana diubah terakhir dengan PMK 41 Tahun 2026, bagian Pejabat perbendaharaan dan pelaksanaan anggaran, berstatus current dan diverifikasi 2026-08-03.",
+    "keyTakeaway": "Ingat pembeda kondisi: petakan kewenangan setiap pejabat dan jaga pemisahan komitmen, pengujian, pembayaran, serta pengelolaan kas; jangan terapkan alternatif sebelum syarat khususnya terpenuhi.",
+    "sourceRefs": [
+      {
+        "sourceId": "SRC-PMK62-CONSOLIDATED",
+        "title": "PMK 62 Tahun 2023 sebagaimana diubah terakhir dengan PMK 41 Tahun 2026",
+        "driveFileId": "12TZvdrrhaPptg_Ve3q9_KM3x0wWHOcgt",
+        "section": "Pejabat perbendaharaan dan pelaksanaan anggaran",
+        "pageOrSlide": null,
+        "regulationStatus": "current",
+        "lastVerified": "2026-08-03"
+      }
+    ],
+    "tags": [
+      "keuangan",
+      "pejabat_perbendaharaan",
+      "case_based_mcq",
+      "apply",
+      "medium"
+    ],
+    "review": {
+      "contentAccuracy": 25,
+      "sourceTraceability": 15,
+      "stemClarity": 9,
+      "distractorQuality": 9,
+      "singleBestAnswer": 10,
+      "competencyRelevance": 10,
+      "explanationQuality": 9,
+      "originality": 4,
+      "languageQuality": 3,
+      "difficultyFit": 2,
+      "total": 96,
+      "method": "rubrik_terotomasi_berbasis_unit_terverifikasi_v1"
+    },
+    "similarityGroup": "CONCEPT-040",
+    "knowledgeUnitId": "KU-DM-KE-040-3-1",
+    "questionFocus": "case_based_mcq",
+    "generationBatch": "2026.08.drive-categories-v2",
+    "createdAt": "2026-08-03",
+    "lastReviewedAt": "2026-08-03"
+  },
+  {
+    "id": "CAND-DM-KE-0202",
+    "version": 1,
+    "status": "under_review",
+    "domain": "keuangan",
+    "subdomain": "komitmen_tagihan",
+    "competency": "Mengelola komitmen dan tagihan",
+    "indicator": "Membuktikan hak tagih sebelum pembayaran",
+    "questionType": "monitoring_evaluation",
+    "cognitiveLevel": "analyze",
+    "difficulty": "medium",
+    "stem": "Tagihan sah ditahan agar seluruh pembayaran dilakukan bersamaan pada akhir tahun. Nilai perubahan kondisi setelah tindak lanjut. Tindak lanjut mana yang paling tepat setelah kondisi itu ditemukan?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Tindak lanjut yang tepat adalah menunda seluruh pembayaran sampai akhir tahun dan mendokumentasikan hasilnya.",
+        "rationale": "Tidak tepat untuk kasus ini karena penundaan meningkatkan risiko denda, salah saji, dan penumpukan. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: sengketa hak tagih material belum selesai dan penundaan didokumentasikan. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Dokumen lengkap secara administratif tidak menggantikan bukti bahwa barang atau jasa diterima.",
+        "misconception": "penundaan meningkatkan risiko denda, salah saji, dan penumpukan",
+        "validWhen": "sengketa hak tagih material belum selesai dan penundaan didokumentasikan"
+      },
+      {
+        "id": "B",
+        "text": "Tindak lanjut yang tepat adalah membayar karena faktur sudah diterima dan mendokumentasikan hasilnya.",
+        "rationale": "Tidak tepat untuk kasus ini karena faktur tidak membuktikan prestasi dan kebenaran tagihan. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: prestasi telah diverifikasi dan faktur menjadi salah satu dokumen pendukung. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Dokumen lengkap secara administratif tidak menggantikan bukti bahwa barang atau jasa diterima.",
+        "misconception": "faktur tidak membuktikan prestasi dan kebenaran tagihan",
+        "validWhen": "prestasi telah diverifikasi dan faktur menjadi salah satu dokumen pendukung"
+      },
+      {
+        "id": "C",
+        "text": "Tindak lanjut yang tepat adalah cocokkan kontrak, bukti prestasi, perhitungan, akun, dan penerima sebelum meneruskan pembayaran dan mendokumentasikan hasilnya.",
+        "rationale": "Benar untuk kasus ini. Pembayaran dilakukan atas komitmen yang sah setelah prestasi pekerjaan, dokumen, jumlah, penerima, akun, dan ketersediaan anggaran diuji sesuai kewenangan. Karena itu, tindakan yang tepat adalah cocokkan kontrak, bukti prestasi, perhitungan, akun, dan penerima sebelum meneruskan pembayaran. Batas pentingnya: Dokumen lengkap secara administratif tidak menggantikan bukti bahwa barang atau jasa diterima.",
+        "misconception": null,
+        "validWhen": "ketika kondisi sama dengan kasus dan seluruh prasyarat pada Komitmen, pengujian tagihan, dan pembayaran terpenuhi"
+      },
+      {
+        "id": "D",
+        "text": "Tindak lanjut yang tepat adalah mengubah akun agar pagu terlihat tersedia dan mendokumentasikan hasilnya.",
+        "rationale": "Tidak tepat untuk kasus ini karena klasifikasi akun harus mencerminkan substansi belanja. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: hasil reviu menunjukkan akun awal keliru dan revisi dilakukan melalui mekanisme sah. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Dokumen lengkap secara administratif tidak menggantikan bukti bahwa barang atau jasa diterima.",
+        "misconception": "klasifikasi akun harus mencerminkan substansi belanja",
+        "validWhen": "hasil reviu menunjukkan akun awal keliru dan revisi dilakukan melalui mekanisme sah"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "Jawaban paling tepat adalah C. Kasus yang diuji: Tagihan sah ditahan agar seluruh pembayaran dilakukan bersamaan pada akhir tahun. Fokus pertanyaan: Tindak lanjut mana yang paling tepat setelah kondisi itu ditemukan? Uraian topik: Pembayaran dilakukan atas komitmen yang sah setelah prestasi pekerjaan, dokumen, jumlah, penerima, akun, dan ketersediaan anggaran diuji sesuai kewenangan. Pada kasus ini, keputusan harus cocokkan kontrak, bukti prestasi, perhitungan, akun, dan penerima sebelum meneruskan pembayaran. Batas penerapan: Dokumen lengkap secara administratif tidak menggantikan bukti bahwa barang atau jasa diterima. Tiga pilihan lain bukan jawaban terbaik untuk kondisi ini. Tindakan sejenis baru dapat digunakan setelah redaksinya disesuaikan dan syarat berikut terpenuhi: membayar karena faktur sudah diterima — kondisi terkait: prestasi telah diverifikasi dan faktur menjadi salah satu dokumen pendukung; menunda seluruh pembayaran sampai akhir tahun — kondisi terkait: sengketa hak tagih material belum selesai dan penundaan didokumentasikan; mengubah akun agar pagu terlihat tersedia — kondisi terkait: hasil reviu menunjukkan akun awal keliru dan revisi dilakukan melalui mekanisme sah. Dengan demikian, pembeda utamanya bukan kata yang terdengar paling tegas, melainkan kesesuaian kondisi, kewenangan, bukti, dan urutan proses. Sumber PMK 62 Tahun 2023 sebagaimana diubah terakhir dengan PMK 41 Tahun 2026, bagian Komitmen, pengujian tagihan, dan pembayaran, berstatus current dan diverifikasi 2026-08-03.",
+    "keyTakeaway": "Ingat pembeda kondisi: cocokkan kontrak, bukti prestasi, perhitungan, akun, dan penerima sebelum meneruskan pembayaran; jangan terapkan alternatif sebelum syarat khususnya terpenuhi.",
+    "sourceRefs": [
+      {
+        "sourceId": "SRC-PMK62-CONSOLIDATED",
+        "title": "PMK 62 Tahun 2023 sebagaimana diubah terakhir dengan PMK 41 Tahun 2026",
+        "driveFileId": "12TZvdrrhaPptg_Ve3q9_KM3x0wWHOcgt",
+        "section": "Komitmen, pengujian tagihan, dan pembayaran",
+        "pageOrSlide": null,
+        "regulationStatus": "current",
+        "lastVerified": "2026-08-03"
+      }
+    ],
+    "tags": [
+      "keuangan",
+      "komitmen_tagihan",
+      "monitoring_evaluation",
+      "analyze",
+      "medium"
+    ],
+    "review": {
+      "contentAccuracy": 25,
+      "sourceTraceability": 15,
+      "stemClarity": 9,
+      "distractorQuality": 9,
+      "singleBestAnswer": 10,
+      "competencyRelevance": 10,
+      "explanationQuality": 9,
+      "originality": 4,
+      "languageQuality": 3,
+      "difficultyFit": 2,
+      "total": 96,
+      "method": "rubrik_terotomasi_berbasis_unit_terverifikasi_v1"
+    },
+    "similarityGroup": "CONCEPT-041",
+    "knowledgeUnitId": "KU-DM-KE-041-3-8",
+    "questionFocus": "monitoring_evaluation",
+    "generationBatch": "2026.08.drive-categories-v2",
+    "createdAt": "2026-08-03",
+    "lastReviewedAt": "2026-08-03"
+  },
+  {
+    "id": "CAND-DM-KE-0203",
+    "version": 1,
+    "status": "under_review",
+    "domain": "keuangan",
+    "subdomain": "akuntansi_pelaporan",
+    "competency": "Menjaga kualitas akuntansi dan pelaporan",
+    "indicator": "Menghubungkan bukti transaksi, pengakuan, rekonsiliasi, dan laporan",
+    "questionType": "corrective_action",
+    "cognitiveLevel": "apply",
+    "difficulty": "medium",
+    "stem": "Rekonsiliasi menemukan selisih dan operator ingin membuat jurnal penyeimbang tanpa menelusuri sebab. Sasar akar kekeliruan sebelum memperbaiki hasil. Perbaikan apa yang harus dilakukan terlebih dahulu?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Perbaikan harus dimulai dengan memaksa angka sama dengan membuat jurnal penyeimbang.",
+        "rationale": "Tidak tepat untuk kasus ini karena selisih disembunyikan tanpa menemukan sebab. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: jurnal koreksi didukung bukti dan memang memperbaiki kesalahan yang teridentifikasi. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Rekonsiliasi bukan sekadar menyamakan angka tanpa menelusuri penyebab selisih.",
+        "misconception": "selisih disembunyikan tanpa menemukan sebab",
+        "validWhen": "jurnal koreksi didukung bukti dan memang memperbaiki kesalahan yang teridentifikasi"
+      },
+      {
+        "id": "B",
+        "text": "Perbaikan harus dimulai dengan telusuri dokumen dan periode, koreksi klasifikasi, rekonsiliasi, lalu dokumentasikan penyelesaian selisih.",
+        "rationale": "Benar untuk kasus ini. Akuntansi dan pelaporan harus mencatat transaksi secara lengkap, benar, tepat periode, terklasifikasi, didukung dokumen, dan direkonsiliasi agar laporan andal. Karena itu, tindakan yang tepat adalah telusuri dokumen dan periode, koreksi klasifikasi, rekonsiliasi, lalu dokumentasikan penyelesaian selisih. Batas pentingnya: Rekonsiliasi bukan sekadar menyamakan angka tanpa menelusuri penyebab selisih.",
+        "misconception": null,
+        "validWhen": "ketika kondisi sama dengan kasus dan seluruh prasyarat pada Akuntansi, rekonsiliasi, dan pelaporan terpenuhi"
+      },
+      {
+        "id": "C",
+        "text": "Perbaikan harus dimulai dengan mencatat saat kas dibayar tanpa melihat basis pengakuan.",
+        "rationale": "Tidak tepat untuk kasus ini karena waktu pencatatan harus mengikuti kebijakan akuntansi transaksi. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: jenis transaksi memang diakui berbasis kas menurut ketentuan. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Rekonsiliasi bukan sekadar menyamakan angka tanpa menelusuri penyebab selisih.",
+        "misconception": "waktu pencatatan harus mengikuti kebijakan akuntansi transaksi",
+        "validWhen": "jenis transaksi memang diakui berbasis kas menurut ketentuan"
+      },
+      {
+        "id": "D",
+        "text": "Perbaikan harus dimulai dengan menghapus transaksi kecil karena tidak material per transaksi.",
+        "rationale": "Tidak tepat untuk kasus ini karena akumulasi dan kelengkapan tetap harus dinilai. Kondisi terkait yang dapat membuat tindakan sejenis menjadi tepat: kebijakan materialitas sah telah diterapkan pada penyajian, bukan menghilangkan transaksi dari catatan. Redaksi opsi tetap harus disesuaikan dengan kondisi tersebut. Batas yang membedakannya: Rekonsiliasi bukan sekadar menyamakan angka tanpa menelusuri penyebab selisih.",
+        "misconception": "akumulasi dan kelengkapan tetap harus dinilai",
+        "validWhen": "kebijakan materialitas sah telah diterapkan pada penyajian, bukan menghilangkan transaksi dari catatan"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "Jawaban paling tepat adalah B. Kasus yang diuji: Rekonsiliasi menemukan selisih dan operator ingin membuat jurnal penyeimbang tanpa menelusuri sebab. Fokus pertanyaan: Perbaikan apa yang harus dilakukan terlebih dahulu? Uraian topik: Akuntansi dan pelaporan harus mencatat transaksi secara lengkap, benar, tepat periode, terklasifikasi, didukung dokumen, dan direkonsiliasi agar laporan andal. Pada kasus ini, keputusan harus telusuri dokumen dan periode, koreksi klasifikasi, rekonsiliasi, lalu dokumentasikan penyelesaian selisih. Batas penerapan: Rekonsiliasi bukan sekadar menyamakan angka tanpa menelusuri penyebab selisih. Tiga pilihan lain bukan jawaban terbaik untuk kondisi ini. Tindakan sejenis baru dapat digunakan setelah redaksinya disesuaikan dan syarat berikut terpenuhi: memaksa angka sama dengan membuat jurnal penyeimbang — kondisi terkait: jurnal koreksi didukung bukti dan memang memperbaiki kesalahan yang teridentifikasi; mencatat saat kas dibayar tanpa melihat basis pengakuan — kondisi terkait: jenis transaksi memang diakui berbasis kas menurut ketentuan; menghapus transaksi kecil karena tidak material per transaksi — kondisi terkait: kebijakan materialitas sah telah diterapkan pada penyajian, bukan menghilangkan transaksi dari catatan. Dengan demikian, pembeda utamanya bukan kata yang terdengar paling tegas, melainkan kesesuaian kondisi, kewenangan, bukti, dan urutan proses. Sumber PMK 62 Tahun 2023 sebagaimana diubah terakhir dengan PMK 41 Tahun 2026, bagian Akuntansi, rekonsiliasi, dan pelaporan, berstatus current dan diverifikasi 2026-08-03.",
+    "keyTakeaway": "Ingat pembeda kondisi: telusuri dokumen dan periode, koreksi klasifikasi, rekonsiliasi, lalu dokumentasikan penyelesaian selisih; jangan terapkan alternatif sebelum syarat khususnya terpenuhi.",
+    "sourceRefs": [
+      {
+        "sourceId": "SRC-PMK62-CONSOLIDATED",
+        "title": "PMK 62 Tahun 2023 sebagaimana diubah terakhir dengan PMK 41 Tahun 2026",
+        "driveFileId": "12TZvdrrhaPptg_Ve3q9_KM3x0wWHOcgt",
+        "section": "Akuntansi, rekonsiliasi, dan pelaporan",
+        "pageOrSlide": null,
+        "regulationStatus": "current",
+        "lastVerified": "2026-08-03"
+      }
+    ],
+    "tags": [
+      "keuangan",
+      "akuntansi_pelaporan",
+      "corrective_action",
+      "apply",
+      "medium"
+    ],
+    "review": {
+      "contentAccuracy": 25,
+      "sourceTraceability": 15,
+      "stemClarity": 9,
+      "distractorQuality": 9,
+      "singleBestAnswer": 10,
+      "competencyRelevance": 10,
+      "explanationQuality": 9,
+      "originality": 4,
+      "languageQuality": 3,
+      "difficultyFit": 2,
+      "total": 96,
+      "method": "rubrik_terotomasi_berbasis_unit_terverifikasi_v1"
+    },
+    "similarityGroup": "CONCEPT-043",
+    "knowledgeUnitId": "KU-DM-KE-043-1-5",
+    "questionFocus": "corrective_action",
+    "generationBatch": "2026.08.drive-categories-v2",
+    "createdAt": "2026-08-03",
+    "lastReviewedAt": "2026-08-03"
+  }
+]

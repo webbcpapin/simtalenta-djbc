@@ -15,6 +15,8 @@ import {
   BANK_TOPICS,
   BANK_VERSION,
   activeQuestionCount,
+  bankCategoryCount,
+  candidateQuestionCount,
   loadQuestionsByIds,
   publicSourceRegistry,
   questionIndex,
@@ -80,15 +82,17 @@ type SavedSession = {
 };
 
 const topicMeta: Record<Topic, { short: string; icon: string }> = {
-  "Manajemen Talenta": { short: "Talenta", icon: "MT" },
-  "Manajemen Karier & Bidang Penugasan": { short: "Karier", icon: "KR" },
-  "Pengelolaan & Pengembangan SDM": { short: "Pengembangan SDM", icon: "SD" },
-  "Manajemen Kinerja": { short: "Kinerja", icon: "MK" },
-  "Kepatuhan, Integritas & Disiplin": { short: "Kepatuhan", icon: "KI" },
-  "Kompetensi Manajerial & Kepemimpinan": { short: "Kepemimpinan", icon: "KP" },
-  "Organisasi, Tata Kelola & Risiko": { short: "Tata Kelola", icon: "TG" },
-  "Learning Organization & Knowledge Management": { short: "LO & KM", icon: "LO" },
-  "Statement of Purpose & Kesiapan Talenta": { short: "SoP", icon: "SP" },
+  "Disiplin Pegawai": { short: "Disiplin", icon: "DP" },
+  Kehumasan: { short: "Kehumasan", icon: "HM" },
+  "Kepatuhan Internal": { short: "Kepatuhan", icon: "KI" },
+  Kepegawaian: { short: "Kepegawaian", icon: "KG" },
+  Keuangan: { short: "Keuangan", icon: "KE" },
+  "Layanan Informasi": { short: "Layanan Informasi", icon: "LI" },
+  "Manajemen Risiko": { short: "Manajemen Risiko", icon: "MR" },
+  Organisasi: { short: "Organisasi", icon: "OR" },
+  "Pengelolaan Kinerja": { short: "Kinerja", icon: "PK" },
+  Ringkasan: { short: "Ringkasan", icon: "RG" },
+  "Rumah Tangga": { short: "Rumah Tangga", icon: "RT" },
 };
 
 const summaryTopicMeta: Record<SummaryTopic, { short: string }> = {
@@ -106,31 +110,38 @@ const summaryTopicMeta: Record<SummaryTopic, { short: string }> = {
 };
 
 const discussionTopicMap: Record<Topic, SummaryTopic[]> = {
-  "Manajemen Talenta": ["Manajemen Talenta & SDM"],
-  "Manajemen Karier & Bidang Penugasan": ["Manajemen Talenta & SDM", "Disiplin & Kepegawaian"],
-  "Pengelolaan & Pengembangan SDM": ["Manajemen Talenta & SDM", "Disiplin & Kepegawaian"],
-  "Manajemen Kinerja": ["Manajemen Kinerja"],
-  "Kepatuhan, Integritas & Disiplin": ["Kepatuhan Internal", "Disiplin & Kepegawaian"],
-  "Kompetensi Manajerial & Kepemimpinan": ["Manajemen Talenta & SDM", "Komunikasi & Penyuluhan"],
-  "Organisasi, Tata Kelola & Risiko": ["Organisasi, Sejarah & Logo", "Kepatuhan Internal"],
-  "Learning Organization & Knowledge Management": ["Manajemen Talenta & SDM", "Komunikasi & Penyuluhan"],
-  "Statement of Purpose & Kesiapan Talenta": ["Manajemen Talenta & SDM", "Komunikasi & Penyuluhan"],
+  "Disiplin Pegawai": ["Disiplin & Kepegawaian"],
+  Kehumasan: ["Komunikasi & Penyuluhan"],
+  "Kepatuhan Internal": ["Kepatuhan Internal"],
+  Kepegawaian: ["Manajemen Talenta & SDM", "Disiplin & Kepegawaian"],
+  Keuangan: ["Keuangan & Pengadaan"],
+  "Layanan Informasi": ["PPID", "Layanan Informasi"],
+  "Manajemen Risiko": ["Kepatuhan Internal"],
+  Organisasi: ["Organisasi, Sejarah & Logo"],
+  "Pengelolaan Kinerja": ["Manajemen Kinerja"],
+  Ringkasan: [
+    "Manajemen Kinerja", "Manajemen Talenta & SDM", "Disiplin & Kepegawaian",
+    "PPID", "Komunikasi & Penyuluhan", "Kepatuhan Internal",
+    "Organisasi, Sejarah & Logo", "Umum, Rumah Tangga & BMN",
+    "Keuangan & Pengadaan", "Layanan Informasi", "AI dalam Probis",
+  ],
+  "Rumah Tangga": ["Umum, Rumah Tangga & BMN"],
 };
 
 const topics = [...BANK_TOPICS];
 const summaryTopics = Object.keys(summaryTopicMeta) as SummaryTopic[];
 const summaryToBankTopic: Record<SummaryTopic, Topic> = {
-  "Manajemen Kinerja": "Manajemen Kinerja",
-  "Manajemen Talenta & SDM": "Manajemen Talenta",
-  "Disiplin & Kepegawaian": "Kepatuhan, Integritas & Disiplin",
-  PPID: "Organisasi, Tata Kelola & Risiko",
-  "Komunikasi & Penyuluhan": "Kompetensi Manajerial & Kepemimpinan",
-  "Kepatuhan Internal": "Kepatuhan, Integritas & Disiplin",
-  "Organisasi, Sejarah & Logo": "Organisasi, Tata Kelola & Risiko",
-  "Umum, Rumah Tangga & BMN": "Organisasi, Tata Kelola & Risiko",
-  "Keuangan & Pengadaan": "Organisasi, Tata Kelola & Risiko",
-  "Layanan Informasi": "Kompetensi Manajerial & Kepemimpinan",
-  "AI dalam Probis": "Learning Organization & Knowledge Management",
+  "Manajemen Kinerja": "Pengelolaan Kinerja",
+  "Manajemen Talenta & SDM": "Kepegawaian",
+  "Disiplin & Kepegawaian": "Disiplin Pegawai",
+  PPID: "Layanan Informasi",
+  "Komunikasi & Penyuluhan": "Kehumasan",
+  "Kepatuhan Internal": "Kepatuhan Internal",
+  "Organisasi, Sejarah & Logo": "Organisasi",
+  "Umum, Rumah Tangga & BMN": "Rumah Tangga",
+  "Keuangan & Pengadaan": "Keuangan",
+  "Layanan Informasi": "Layanan Informasi",
+  "AI dalam Probis": "Ringkasan",
 };
 const SPRINT_SIZE = topics.length * 3;
 const DISCUSSION_STOP_WORDS = new Set([
@@ -994,7 +1005,7 @@ export default function Home() {
           <div className="summary-hero-stat">
             <strong>{summaryCards.length}</strong>
             <span>kartu hafalan</span>
-            <small>{topics.length} rumpun materi</small>
+            <small>{topics.length} kategori materi</small>
           </div>
         </section>
 
@@ -1009,7 +1020,7 @@ export default function Home() {
                 placeholder="Contoh: 25-20-15, RKBMN, hold time..."
               />
             </label>
-            <div className="summary-filter" aria-label="Filter rumpun materi">
+            <div className="summary-filter" aria-label="Filter kategori materi">
               <button
                 className={summaryTopic === "Semua" ? "active" : ""}
                 onClick={() => setSummaryTopic("Semua")}
@@ -1118,7 +1129,7 @@ export default function Home() {
           ) : (
             <div className="summary-empty">
               <strong>Ringkasan belum ditemukan.</strong>
-              <p>Coba kata kunci lain atau pilih semua rumpun materi.</p>
+              <p>Coba kata kunci lain atau pilih semua kategori materi.</p>
             </div>
           )}
         </section>
@@ -1196,7 +1207,7 @@ export default function Home() {
             </p>
             <small>{quizConfig.label} Hasil ini bukan penetapan kelulusan resmi.</small>
             <p>
-              Prioritas penguatan: {recommendedResultTopics.map(({ topic }) => topicMeta[topic].short).join(" · ") || "tidak ada—semua domain telah terjawab benar"}.
+              Prioritas penguatan: {recommendedResultTopics.map(({ topic }) => topicMeta[topic].short).join(" · ") || "tidak ada—semua kategori telah terjawab benar"}.
             </p>
             <div className="result-actions">
               <button
@@ -1220,7 +1231,7 @@ export default function Home() {
         <section className="result-content">
           <div className="section-heading">
             <span className="eyebrow">Peta penguasaan</span>
-            <h2>Nilai per rumpun materi</h2>
+            <h2>Nilai per kategori materi</h2>
           </div>
           <div className="topic-results">
             {topicResults.map((item) => {
@@ -1361,7 +1372,8 @@ export default function Home() {
           </h1>
           <p>
             Bank {activeQuestionCount.toLocaleString("id-ID")} soal aktif terverifikasi untuk Uji Kompetensi Manajerial
-            DJBC—setiap simulasi menyusun paket acak seimbang dari domain, level kognitif, dan kesulitan.
+            DJBC—disusun mengikuti {bankCategoryCount} kategori folder Drive, lalu diacak seimbang menurut
+            kategori, level kognitif, dan kesulitan.
           </p>
           <div className="hero-actions">
             <button className="button primary large" onClick={() => startSession("sprint")}>
@@ -1374,15 +1386,15 @@ export default function Home() {
           <div className="hero-facts">
             <span><strong>120</strong> menit</span>
             <span><strong>{activeQuestionCount.toLocaleString("id-ID")}</strong> bank aktif</span>
-            <span><strong>1.354</strong> kandidat diaudit</span>
+            <span><strong>{candidateQuestionCount.toLocaleString("id-ID")}</strong> kandidat diaudit</span>
             <span><strong>{summaryCards.length}</strong> kartu hafalan</span>
-            <span><strong>{topics.length}</strong> rumpun materi</span>
+            <span><strong>{topics.length}</strong> kategori Drive</span>
             <span><strong>4×</strong> pembahasan per soal</span>
           </div>
 
           <p className="audit-status">
             <strong>Kontrol mutu aktif:</strong>{" "}
-            1.354 kandidat ditelaah dengan ambang mutu 85; tepat {activeQuestionCount.toLocaleString("id-ID")} soal
+            {candidateQuestionCount.toLocaleString("id-ID")} kandidat ditelaah dengan ambang mutu 85; tepat {activeQuestionCount.toLocaleString("id-ID")} soal
             lolos sebagai bank aktif, tanpa sumber personal atau regulasi kedaluwarsa.
           </p>
         </div>
@@ -1432,7 +1444,7 @@ export default function Home() {
           <article>
             <span>Hari 1 · Peta kemampuan</span>
             <strong>{summaryCards.length} kartu + Sprint {SPRINT_SIZE}</strong>
-            <p>Baca seluruh kartu hafalan, lalu jawab tiga soal dari setiap rumpun dengan pembahasan langsung.</p>
+            <p>Baca seluruh kartu hafalan, lalu jawab tiga soal dari setiap kategori dengan pembahasan langsung.</p>
             <button onClick={() => openSummary()}>Buka ringkasan →</button>
           </article>
           <article>
@@ -1491,14 +1503,14 @@ export default function Home() {
             </div>
             <div className="simulator-settings">
               <label>
-                <span>Domain</span>
+                <span>Kelompok sumber</span>
                 <select value={domainFilter} onChange={(event) => { setDomainFilter(event.target.value); setSubdomainFilter("Semua"); }}>
-                  <option value="Semua">Semua domain</option>
+                  <option value="Semua">Semua kelompok sumber</option>
                   {domainOptions.map(([value, label]) => <option key={value} value={value}>{label}</option>)}
                 </select>
               </label>
               <label>
-                <span>Subdomain</span>
+                <span>Subtopik</span>
                 <select value={subdomainFilter} onChange={(event) => setSubdomainFilter(event.target.value)}>
                   <option value="Semua">Semua subdomain</option>
                   {subdomainOptions.map((value) => <option key={value} value={value}>{value.replaceAll("_", " ")}</option>)}
@@ -1522,7 +1534,7 @@ export default function Home() {
             <div className="mode-icon">{SPRINT_SIZE}</div>
             <span className="mode-label">Cakupan seluruh materi</span>
             <h3>Sprint 3 Hari</h3>
-            <p>Tiga soal dari masing-masing {topics.length} rumpun, diprioritaskan dari yang belum pernah dikerjakan dan pernah salah.</p>
+            <p>Tiga soal dari masing-masing {topics.length} kategori Drive, diprioritaskan dari yang belum pernah dikerjakan dan pernah salah.</p>
             <footer><span>±45 menit · pembahasan aktif</span><b>Mulai →</b></footer>
           </button>
           <button className="mode-card" onClick={() => startSession("exam")}>
@@ -1553,9 +1565,9 @@ export default function Home() {
             <span className="mode-index">05</span>
             <div className="mode-icon">{String(topics.length).padStart(2, "0")}</div>
             <span className="mode-label">Pendalaman</span>
-            <h3>Latihan per Topik</h3>
-            <p>Pilih satu rumpun untuk hingga 25 soal unik acak dengan pembahasan langsung.</p>
-            <footer><span>hingga 25 soal per sesi</span><b>Pilih →</b></footer>
+            <h3>Latihan per Kategori</h3>
+            <p>Pilih satu kategori untuk hingga {practiceCount} soal unik acak dengan pembahasan langsung.</p>
+            <footer><span>hingga {practiceCount} soal per sesi</span><b>Pilih →</b></footer>
           </a>
           <button className="mode-card" onClick={() => startSession("favorites")} disabled={!favorites.length}>
             <span className="mode-index">06</span>
@@ -1657,7 +1669,7 @@ export default function Home() {
               <button onClick={() => setSourcesOpen(false)} aria-label="Tutup">×</button>
             </div>
             <p className="sources-intro">
-              Materi utama berasal dari folder Talenta Anda. Area yang belum
+              Materi utama berasal dari folder Dukungan Manajemen Anda. Area yang belum
               tersedia dilengkapi dari JDIH Kementerian Keuangan, BKN, dan LKPP.
               Status dan tanggal verifikasi ditampilkan agar perubahan regulasi dapat diaudit.
             </p>

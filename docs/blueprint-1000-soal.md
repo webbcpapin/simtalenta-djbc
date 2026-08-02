@@ -1,19 +1,22 @@
-# Blueprint 1.000 soal
+# Blueprint bank soal kategori Drive
 
-| Domain | Jumlah |
+Nama kategori mengikuti folder materi yang diberikan. Jumlah soal ditentukan menurut keluasan materi, banyaknya konsep, variasi keputusan, serta kebutuhan latihan komprehensif; seluruh kategori tetap memenuhi batas minimal 100 soal.
+
+| Kategori | Soal aktif |
 |---|---:|
-| Manajemen Talenta | 180 |
-| Manajemen Karier dan Bidang Penugasan | 110 |
-| Pengelolaan dan Pengembangan SDM | 130 |
-| Manajemen Kinerja | 120 |
-| Kepatuhan Internal, Integritas, dan Disiplin | 140 |
-| Kompetensi Manajerial dan Kepemimpinan | 150 |
-| Organisasi, Tata Kelola, dan Manajemen Risiko | 90 |
-| Learning Organization dan Knowledge Management | 50 |
-| Analisis Statement of Purpose dan Kesiapan Talenta | 30 |
-| **Total** | **1.000** |
+| Disiplin Pegawai | 140 |
+| Kehumasan | 120 |
+| Kepatuhan Internal | 120 |
+| Kepegawaian | 180 |
+| Keuangan | 150 |
+| Layanan Informasi | 160 |
+| Manajemen Risiko | 160 |
+| Organisasi | 110 |
+| Pengelolaan Kinerja | 180 |
+| Ringkasan | 100 |
+| Rumah Tangga | 140 |
+| **Total** | **1.560** |
 
-Distribusi level kognitif: `remember` 150, `apply` 350, `analyze` 350, `evaluate` 150. Distribusi kesulitan: `easy` 250, `medium` 500, `hard` 250. Tepat 150 soal konseptual; 850 soal lain berbentuk penerapan, analisis bukti/risiko/urutan, pertimbangan situasional, koreksi, atau evaluasi keputusan.
+Distribusi kognitif: `remember` 234, `apply` 546, `analyze` 546, dan `evaluate` 234. Distribusi kesulitan: `easy` 390, `medium` 780, dan `hard` 390. Sebanyak 234 soal bersifat konseptual dan 1.326 soal lain menguji penerapan, analisis bukti, keputusan, pengendalian, pengecualian, monitoring, koreksi, atau implementasi.
 
-Kunci kanonis seimbang A/B/C/D masing-masing 250. Pada setiap sesi, opsi diacak ulang secara deterministik dengan target posisi kunci yang kembali seimbang.
-
+Kunci kanonis seimbang A/B/C/D masing-masing 390. Dalam setiap sesi, urutan opsi diacak deterministik dan tetap ditargetkan seimbang.
