@@ -44,6 +44,7 @@ test("server-renders the SIMTALENTA landing page", async () => {
   assert.match(html, /Ringkasan Materi/);
   assert.match(html, /Latihan per Topik/);
   assert.match(html, /Manajemen Kinerja/);
+  assert.match(html, /Manajemen Talenta &amp; SDM/);
   assert.match(html, /Keuangan &amp; Pengadaan/);
   assert.match(html, /AI dalam Probis/);
   assert.doesNotMatch(html, /codex-preview|loading skeleton|react-loading-skeleton/i);
@@ -60,6 +61,7 @@ test("production source replaces all starter preview artifacts", async () => {
     summaries,
     knowledgeChat,
     packageJson,
+    competencyJson,
   ] = await Promise.all([
     readFile(new URL("../app/page.tsx", import.meta.url), "utf8"),
     readFile(new URL("../app/layout.tsx", import.meta.url), "utf8"),
@@ -70,7 +72,9 @@ test("production source replaces all starter preview artifacts", async () => {
     readFile(new URL("../app/summaries.ts", import.meta.url), "utf8"),
     readFile(new URL("../app/knowledge-chat.tsx", import.meta.url), "utf8"),
     readFile(new URL("../package.json", import.meta.url), "utf8"),
+    readFile(new URL("../app/generated-competency-questions.json", import.meta.url), "utf8"),
   ]);
+  const competencyQuestions = JSON.parse(competencyJson);
 
   assert.match(page, /Simulasi Penuh/);
   assert.match(page, /Sprint 3 Hari/);
@@ -92,11 +96,11 @@ test("production source replaces all starter preview artifacts", async () => {
   assert.match(page, /Ringkasan Hafalan/);
   assert.match(page, /setRevealed/);
   assert.match(layout, /lang="id"/);
-  assert.match(questions, /length:\s*1200/);
   assert.match(questions, /uniqueQuestionCount = seedQuestions\.length/);
+  assert.match(questions, /\.\.\.competencyQuestions/);
+  assert.match(questions, /seedQuestions\.map/);
   assert.match(questions, /notebookQuiz15/);
   assert.match(questions, /notebookQuiz30/);
-  assert.match(questions, /stem:\s*seed\.stem/);
   assert.doesNotMatch(questions, /const stemFrames/);
   assert.doesNotMatch(
     questions,
@@ -115,9 +119,32 @@ test("production source replaces all starter preview artifacts", async () => {
   assert.match(hardOptions, /PP Nomor 94 Tahun 2021/);
   assert.match(supplemental, /3 jam 45 menit/);
   assert.match(summaries, /25–20–15/);
-  assert.match(knowledgeChat, /1\.200 soal · \{summaryCards\.length\} ringkasan/);
+  assert.match(knowledgeChat, /questions\.length\.toLocaleString\("id-ID"\)/);
   assert.match(knowledgeChat, /Saya belum menemukan dasar yang cukup kuat/);
   assert.match(knowledgeChat, /Sumber jawaban/);
+  assert.equal(competencyQuestions.length, 1002);
+  assert.equal(
+    competencyQuestions.filter(({ bankId }) => bankId.startsWith("utama-")).length,
+    1000,
+  );
+  assert.equal(
+    competencyQuestions.filter(({ bankId }) => bankId.startsWith("tambahan-")).length,
+    2,
+  );
+  const exactQuestionKeys = new Set();
+  for (const question of competencyQuestions) {
+    assert.equal(question.options.length, 4);
+    assert.ok(Number.isInteger(question.answer) && question.answer >= 0 && question.answer < 4);
+    assert.ok(question.stem.trim());
+    assert.doesNotMatch(question.stem, /^Seorang peserta merangkum materi /i);
+    assert.ok(question.options.every(([option, explanation]) => option && explanation));
+    const key = JSON.stringify([
+      question.stem.toLowerCase(),
+      question.options.map(([option]) => option.toLowerCase()),
+    ]);
+    assert.ok(!exactQuestionKeys.has(key), `soal identik: ${question.bankId}`);
+    exactQuestionKeys.add(key);
+  }
   assert.doesNotMatch(packageJson, /react-loading-skeleton/);
   await assert.rejects(access(new URL("../app/_sites-preview/", import.meta.url)));
 });

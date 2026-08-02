@@ -37,6 +37,7 @@ type QuizResult = {
 
 const topicMeta: Record<Topic, { short: string; icon: string }> = {
   "Manajemen Kinerja": { short: "Kinerja", icon: "MK" },
+  "Manajemen Talenta & SDM": { short: "Talenta & SDM", icon: "MT" },
   "Disiplin & Kepegawaian": { short: "Kepegawaian", icon: "KP" },
   PPID: { short: "PPID", icon: "PI" },
   "Komunikasi & Penyuluhan": { short: "Komunikasi", icon: "KM" },
@@ -49,6 +50,7 @@ const topicMeta: Record<Topic, { short: string; icon: string }> = {
 };
 
 const topics = Object.keys(topicMeta) as Topic[];
+const SPRINT_SIZE = topics.length * 3;
 const STORAGE_KEY = "simtalenta-djbc-progress-v1";
 const LAST_RESULT_KEY = "simtalenta-djbc-last-result-v1";
 const DISCUSSION_STOP_WORDS = new Set([
@@ -108,7 +110,10 @@ function shuffle<T>(input: T[]) {
 function distinctQuestions(input: Question[]) {
   const seen = new Set<string>();
   return input.filter((question) => {
-    const key = question.stem.trim().toLowerCase();
+    const key = JSON.stringify([
+      question.stem.trim().toLowerCase(),
+      question.options.map(([option]) => option.trim().toLowerCase()),
+    ]);
     if (seen.has(key)) return false;
     seen.add(key);
     return true;
@@ -319,7 +324,7 @@ export default function Home() {
           ).slice(0, 3),
         ),
       );
-      title = "Sprint 3 Hari · 30 Soal · Seluruh Rumpun";
+      title = `Sprint 3 Hari · ${SPRINT_SIZE} Soal · Seluruh Rumpun`;
     } else if (mode === "topic" && topic) {
       pool = shuffle(distinctQuestions(
         questions.filter((question) => question.topic === topic),
@@ -1099,13 +1104,13 @@ export default function Home() {
             Berlatih seperti ujian. <em>Memahami</em> seperti ahli.
           </h1>
           <p>
-            Bank 1.200 varian soal analitik dan menjebak untuk Manajemen Talenta
+            Bank {questions.length.toLocaleString("id-ID")} soal unik analitik dan menjebak untuk Manajemen Talenta
             DJBC—setiap simulasi mengambil 100 soal acak, dengan opsi yang
             berbeda tipis pada angka, istilah, dan nomor peraturan.
           </p>
           <div className="hero-actions">
             <button className="button primary large" onClick={() => startSession("sprint")}>
-              Mulai Sprint 3 Hari · 30 soal <span>→</span>
+              Mulai Sprint 3 Hari · {SPRINT_SIZE} soal <span>→</span>
             </button>
             <button className="button text-button" onClick={() => startSession("exam")}>
               Simulasi penuh 100 soal
@@ -1113,7 +1118,7 @@ export default function Home() {
           </div>
           <div className="hero-facts">
             <span><strong>120</strong> menit</span>
-            <span><strong>1.200</strong> varian soal</span>
+            <span><strong>{questions.length.toLocaleString("id-ID")}</strong> soal unik</span>
             <span><strong>{uniqueQuestionCount}</strong> soal unik</span>
             <span><strong>{summaryCards.length}</strong> kartu hafalan</span>
             <span><strong>{topics.length}</strong> rumpun materi</span>
@@ -1131,7 +1136,7 @@ export default function Home() {
           </div>
           <div className="dashboard-stats">
             <div><small>Akurasi</small><strong>{hydrated && totalAttempts ? `${percentage(totalCorrect, totalAttempts)}%` : "—"}</strong></div>
-            <div><small>Dikuasai</small><strong>{hydrated ? mastered : "—"}<i>/1.200</i></strong></div>
+            <div><small>Dikuasai</small><strong>{hydrated ? mastered : "—"}<i>/{questions.length.toLocaleString("id-ID")}</i></strong></div>
             <div><small>Dikerjakan</small><strong>{hydrated ? Object.keys(progress).length : "—"}</strong></div>
           </div>
           <div className="dashboard-callout">
@@ -1158,7 +1163,7 @@ export default function Home() {
             <h2 id="sprint-title">Kuasai yang paling menentukan dalam 3 hari.</h2>
           </div>
           <p>
-            Gunakan pembahasan sebagai materi utama. Jangan mengejar 1.200 varian;
+            Gunakan pembahasan sebagai materi utama. Jangan mengejar seluruh bank sekaligus;
             kejar cakupan, pola jebakan, lalu ulangi kesalahan.
           </p>
         </div>
@@ -1198,10 +1203,10 @@ export default function Home() {
         <div className="mode-grid">
           <button className="mode-card featured sprint-card" onClick={() => startSession("sprint")}>
             <span className="mode-index">01</span>
-            <div className="mode-icon">30</div>
+            <div className="mode-icon">{SPRINT_SIZE}</div>
             <span className="mode-label">Cakupan seluruh materi</span>
             <h3>Sprint 3 Hari</h3>
-            <p>Tiga soal dari masing-masing 10 rumpun, diprioritaskan dari yang belum pernah dikerjakan dan pernah salah.</p>
+            <p>Tiga soal dari masing-masing {topics.length} rumpun, diprioritaskan dari yang belum pernah dikerjakan dan pernah salah.</p>
             <footer><span>±45 menit · pembahasan aktif</span><b>Mulai →</b></footer>
           </button>
           <button className="mode-card" onClick={() => startSession("exam")}>
@@ -1209,7 +1214,7 @@ export default function Home() {
             <div className="mode-icon">100</div>
             <span className="mode-label">Kondisi ujian</span>
             <h3>Simulasi Penuh</h3>
-            <p>100 soal unik ditarik acak dari bank 1.200 varian; susunan soal dan opsi berubah setiap simulasi.</p>
+            <p>100 soal unik ditarik acak dari bank {questions.length.toLocaleString("id-ID")}; susunan soal dan opsi berubah setiap simulasi.</p>
             <footer><span>120 menit · pembahasan aktif</span><b>Mulai →</b></footer>
           </button>
           <button className="mode-card" onClick={() => startSession("adaptive")}>

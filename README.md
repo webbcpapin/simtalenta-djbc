@@ -4,12 +4,12 @@ Simulator belajar Manajemen Talenta DJBC untuk bidang Dukungan Manajemen.
 
 ## Fitur
 
-- bank 1.200 varian soal pilihan ganda analitik dalam 10 rumpun materi
-- simulasi 100 soal unik acak dari bank 1.200 dengan batas waktu 120 menit
+- bank 1.205 soal pilihan ganda unik dan analitik dalam 11 rumpun materi
+- simulasi 100 soal unik acak dari seluruh bank dengan batas waktu 120 menit
 - ringkasan hafalan dengan angka kunci, kode ingatan, dan jebakan ujian
 - mode pembahasan langsung setelah setiap jawaban
 - belajar adaptif 20 soal berdasarkan progres pengguna
-- Sprint 3 Hari dengan 30 soal berimbang dari seluruh 10 rumpun
+- Sprint 3 Hari dengan 33 soal berimbang dari seluruh 11 rumpun
 - rencana belajar harian dan rekomendasi topik prioritas dari progres lokal
 - chatbot knowledge base dengan pencarian pembahasan, ringkasan, serta tautan sumber Drive dan regulasi
 - latihan per topik

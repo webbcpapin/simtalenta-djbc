@@ -258,7 +258,7 @@ export function KnowledgeChat() {
           </header>
 
           <div className="knowledge-chat-status">
-            <i /> Materi Drive terindeks · 1.200 soal · {summaryCards.length} ringkasan
+            <i /> Materi Drive terindeks · {questions.length.toLocaleString("id-ID")} soal · {summaryCards.length} ringkasan
           </div>
 
           <div className="knowledge-chat-messages" aria-live="polite">

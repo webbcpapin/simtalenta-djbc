@@ -1,9 +1,11 @@
 import { hardOptions } from "./hard-options.ts";
 import { kmk127FlashcardQuestions } from "./kmk127-flashcard-questions.ts";
 import { supplementalQuestions } from "./supplemental-questions.ts";
+import competencyQuestionData from "./generated-competency-questions.json";
 
 export type Topic =
   | "Manajemen Kinerja"
+  | "Manajemen Talenta & SDM"
   | "Disiplin & Kepegawaian"
   | "PPID"
   | "Komunikasi & Penyuluhan"
@@ -132,6 +134,18 @@ export const sources = {
   sdmAdmin: {
     label: "Peningkatan Kompetensi Teknis Bidang SDM DJBC 2026",
     url: "https://docs.google.com/presentation/d/1TsYni3hb3kRktqezfURSj92_ZT2kzkrW/edit",
+  },
+  talenta38: {
+    label: "Internalisasi PMK 38 Tahun 2025 — Manajemen Talenta",
+    url: "https://drive.google.com/file/d/1FK6RiD9YbuTIUyX3e8---PL_9UllBQHS/view",
+  },
+  pmk123: {
+    label: "PMK 123 Tahun 2023 — Disiplin PNS",
+    url: "https://drive.google.com/file/d/1uoLEaPPPnjBVz-iPtImNKk4Wd_2RZahd/view",
+  },
+  extendedBank: {
+    label: "Materi Dukungan Manajemen serta SDM dan Kepatuhan Internal",
+    url: "#materi",
   },
   sdmDevelopment: {
     label: "Manajemen Pengembangan SDM DJBC - Juni 2026",
@@ -1662,6 +1676,21 @@ const baseQuestions: Question[] = [
   },
 ];
 
+const competencyQuestions: Question[] = competencyQuestionData.map(
+  (question, index) => ({
+    id: 100_000 + index,
+    topic: question.topic as Topic,
+    difficulty: question.difficulty as Difficulty,
+    stem: question.stem,
+    options: question.options.map(
+      ([option, explanation]) => [option, explanation] as const,
+    ),
+    answer: question.answer,
+    source: question.source as keyof typeof sources,
+    reference: question.reference,
+  }),
+);
+
 const seedQuestions: Question[] = [
   ...baseQuestions.map((question) => ({
     ...question,
@@ -1673,21 +1702,12 @@ const seedQuestions: Question[] = [
   })),
   ...supplementalQuestions,
   ...kmk127FlashcardQuestions,
+  ...competencyQuestions,
 ];
 
 export const uniqueQuestionCount = seedQuestions.length;
 
-export const questions: Question[] = Array.from({ length: 1200 }, (_, index) => {
-  const seed = seedQuestions[index % seedQuestions.length];
-  const variant = Math.floor(index / seedQuestions.length);
-  return {
-    ...seed,
-    id: index + 1,
-    difficulty: "Menjebak",
-    stem: seed.stem,
-    reference:
-      variant === 0
-        ? seed.reference
-        : `${seed.reference} - varian analitik ${variant + 1}`,
-  };
-});
+export const questions: Question[] = seedQuestions.map((seed, index) => ({
+  ...seed,
+  id: index + 1,
+}));
