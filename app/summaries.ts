@@ -125,6 +125,28 @@ export const summaryCards: SummaryCard[] = [
     sourceUrl: drive.kinerja,
   },
   {
+    id: "kinerja-nkp-bobot-nko",
+    topic: "Manajemen Kinerja",
+    title: "Matriks lengkap bobot NKO dalam formula NKP",
+    memoryCode: "≥ NKO: 50:50 / 30:70 | < NKO: 10:90",
+    summary:
+      "Tentukan dahulu posisi hasil penghitungan pegawai terhadap NKO, lalu identifikasi kelompok jabatan. Dua keputusan itu menentukan bobot NKO dan hasil penghitungan pegawai.",
+    keyPoints: [
+      "Hasil penghitungan awal pegawai dibentuk dari Nilai Hasil Kerja (NHK) 75% dan Nilai Perilaku Kerja (NPK) 25%.",
+      "Jika hasil penghitungan ≥ NKO: Pimpinan UPK, pegawai satu tingkat di bawahnya, dan JF substansi memakai NKO 50% + hasil penghitungan 50%.",
+      "Jika hasil penghitungan ≥ NKO: pegawai dua tingkat atau lebih di bawah Pimpinan UPK serta JF non-substansi memakai NKO 30% + hasil penghitungan 70%.",
+      "Jika hasil penghitungan < NKO: formula yang digunakan adalah NKO 10% + hasil penghitungan 90%.",
+      "Penghitungan NKP juga memperhatikan Nilai Hukuman Disiplin, Nilai Dampak Pelanggaran Disiplin, dan Nilai Koreksi sesuai kondisi pegawai.",
+    ],
+    traps: [
+      "Tanda sama dengan masuk kondisi ≥ NKO; jangan memakai formula 10:90 ketika hasil sama dengan NKO.",
+      "Formula 50:50 tidak hanya untuk JF substansi, tetapi juga Pimpinan UPK dan pegawai satu tingkat di bawahnya.",
+      "Formula 30:70 bukan untuk kelompok pimpinan/JF substansi, sedangkan komposisi 70:30 dan 90:10 tidak digunakan pada matriks ini.",
+    ],
+    sourceLabel: "Sosialisasi KMK 127 Tahun 2026",
+    sourceUrl: drive.kinerja,
+  },
+  {
     id: "sdm-jam-kerja",
     topic: "Disiplin & Kepegawaian",
     title: "Jam kerja reguler DJBC",

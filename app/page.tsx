@@ -63,7 +63,7 @@ function discussionTokens(text: string) {
       .toLowerCase()
       .replace(/[^a-z0-9]+/g, " ")
       .split(" ")
-      .filter((token) => token.length >= 4 && !DISCUSSION_STOP_WORDS.has(token)),
+      .filter((token) => token.length >= 3 && !DISCUSSION_STOP_WORDS.has(token)),
   );
 }
 
@@ -91,7 +91,8 @@ function discussionCardsFor(question: Question): SummaryCard[] {
       return { card, score, order };
     })
     .sort((a, b) => b.score - a.score || a.order - b.order)
-    .slice(0, 2)
+    .filter(({ score }) => score >= 6)
+    .slice(0, 1)
     .map(({ card }) => card);
 }
 
@@ -585,7 +586,7 @@ export default function Home() {
                   </a>
                 </div>
                 <div className="explanation-list">
-                  {currentQuestion.options.map(([, explanation], optionIndex) => (
+                  {currentQuestion.options.map(([text, explanation], optionIndex) => (
                     <div
                       key={optionIndex}
                       className={optionIndex === currentQuestion.answer ? "right-reason" : ""}
@@ -594,6 +595,7 @@ export default function Home() {
                         {String.fromCharCode(65 + optionIndex)} ·{" "}
                         {optionIndex === currentQuestion.answer ? "Mengapa benar" : "Mengapa bukan"}
                       </strong>
+                      <b className="explained-option">{text}</b>
                       <p>{explanation}</p>
                     </div>
                   ))}
@@ -604,14 +606,32 @@ export default function Home() {
                 </p>
                 <section className="complete-discussion">
                   <header>
-                    <span>Pembahasan lengkap</span>
-                    <strong>Pahami konsep, bukan sekadar menghafal kunci</strong>
+                    <span>Pembahasan menyeluruh</span>
+                    <strong>Kondisi setiap opsi dan ketentuan yang tepat untuk soal ini</strong>
                   </header>
                   <div className="discussion-topics">
+                    <article>
+                      <div className="discussion-title">
+                        <span>Kesimpulan soal</span>
+                        <code>Kunci {String.fromCharCode(65 + currentQuestion.answer)}</code>
+                      </div>
+                      <h2>{currentQuestion.options[currentQuestion.answer][0]}</h2>
+                      <p>{currentQuestion.options[currentQuestion.answer][1]}</p>
+                      <div className="discussion-columns">
+                        <div>
+                          <strong>Cara membaca opsi</strong>
+                          <ul>
+                            <li>Identifikasi subjek, kondisi, periode, dan tanda pertidaksamaan pada soal.</li>
+                            <li>Periksa apakah angka dan jumlah bobot pada opsi konsisten dengan ketentuan.</li>
+                            <li>Gunakan uraian A–D di atas untuk mengetahui kondisi saat setiap opsi berlaku.</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </article>
                     {discussionCards.map((card, cardIndex) => (
                       <article key={card.id}>
                         <div className="discussion-title">
-                          <span>{cardIndex === 0 ? "Fokus soal" : "Konteks terkait"}</span>
+                          <span>{cardIndex === 0 ? "Materi pendalaman yang cocok" : "Konteks terkait"}</span>
                           <code>{card.memoryCode}</code>
                         </div>
                         <h2>{card.title}</h2>
@@ -1145,7 +1165,7 @@ export default function Home() {
         <div className="sprint-plan">
           <article>
             <span>Hari 1 · Peta kemampuan</span>
-            <strong>31 kartu + Sprint 30</strong>
+            <strong>{summaryCards.length} kartu + Sprint 30</strong>
             <p>Baca seluruh kartu hafalan, lalu jawab tiga soal dari setiap rumpun dengan pembahasan langsung.</p>
             <button onClick={() => openSummary()}>Buka ringkasan →</button>
           </article>

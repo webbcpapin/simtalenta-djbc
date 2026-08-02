@@ -10,17 +10,154 @@ function answerKind(answer: string) {
   return answer.split(/\s+/).length <= 6 ? "term" : "definition";
 }
 
-function distractorsFor(card: Flashcard, index: number) {
+function semanticGroup(stem: string) {
+  const text = stem.toLowerCase();
+  if (/prinsip manajemen|objektif|terukur|akuntabel|partisipatif|transparan/.test(text)) return "principles";
+  if (/komite|ketua|sekretariat|upk|unit pemilik|akop|kewenangan/.test(text)) return "governance";
+  if (/tahapan|implementasi|dokumen perencanaan|pk dan skp/.test(text)) return "cycle";
+  if (/nko|nkp|hasil kerja|hukuman disiplin|nilai koreksi|predikat|status kinerja/.test(text)) return "evaluation";
+  if (/balanced scorecard|bsc|perspektif/.test(text)) return "strategy-bsc";
+  if (/sasaran strategis/.test(text)) return "strategy-ss";
+  if (/smart-c|validitas|kendali|jumlah maksimal iku|kualitas komitmen|k3/.test(text)) return "iku-quality";
+  if (/konsolidasi|polarisasi|manual iku|nilai maksimum capaian|angka minimum capaian/.test(text)) return "iku-measurement";
+  if (/cascading|alignment|mandatory|refinement|inisiatif strategis|adendum/.test(text)) return "alignment";
+  if (/dialog kinerja|laporan kinerja|lpkr|penyimpanan dokumen/.test(text)) return "monitoring";
+  if (/iki|skp|tugas belajar|re-entry|perilaku kerja|berakhlak/.test(text)) return "employee";
+  return "general";
+}
+
+const distractorLibrary: Record<string, Flashcard[]> = {
+  principles: [
+    { stem: "Daftar pengecoh yang mengganti prinsip Akuntabel dengan Efisien.", answer: "Objektif, Terukur, Efisien, Partisipatif, dan Transparan." },
+    { stem: "Daftar pengecoh yang mengganti prinsip Partisipatif dengan Fleksibel.", answer: "Objektif, Terukur, Akuntabel, Fleksibel, dan Transparan." },
+    { stem: "Daftar pengecoh yang mengganti prinsip Transparan dengan Adaptif.", answer: "Objektif, Terukur, Akuntabel, Partisipatif, dan Adaptif." },
+    { stem: "Prinsip yang menekankan kemampuan mengukur kinerja secara kuantitatif atau kualitatif.", answer: "Terukur" },
+    { stem: "Prinsip yang menekankan pertanggungjawaban hasil kepada pejabat berwenang.", answer: "Akuntabel" },
+    { stem: "Prinsip yang menekankan keterbukaan proses dan hasil.", answer: "Transparan" },
+  ],
+  governance: [
+    { stem: "Daftar pengecoh struktur Komite yang mengganti Sekretariat Komite.", answer: "Komite Eksekutif, Komite Pelaksana, dan Komite Pengawas." },
+    { stem: "Daftar pengecoh struktur Komite yang mengganti Komite Eksekutif.", answer: "Komite Pengarah, Komite Pelaksana, dan Sekretariat Komite." },
+    { stem: "Daftar pengecoh struktur Komite yang menambah satu unsur.", answer: "Komite Eksekutif, Komite Pelaksana, Sekretariat Komite, dan Tim Penilai." },
+    { stem: "Ketua Komite Eksekutif Manajemen Kinerja.", answer: "Menteri Keuangan" },
+    { stem: "Ketua Komite Pelaksana Manajemen Kinerja.", answer: "Sekretaris Jenderal" },
+    { stem: "Unit pimpinan Pejabat Pimpinan Tinggi Pratama, termasuk Kantor Wilayah.", answer: "UPK-Two" },
+    { stem: "Unit kantor pelayanan atau UPT yang dipimpin Pejabat Administrator.", answer: "UPK-Three" },
+    { stem: "Pejabat yang menangani kinerja organisasi pada Sekretariat Komite.", answer: "Kepala Biro Perencanaan dan Keuangan" },
+  ],
+  cycle: [
+    { stem: "Empat proses implementasi manajemen kinerja.", answer: "Perencanaan, pelaksanaan, evaluasi, serta pelaporan dan pemanfaatan." },
+    { stem: "Tiga tahap kerangka kerja sistem manajemen kinerja.", answer: "Perumusan sistem, implementasi, serta pemantauan dan evaluasi sistem." },
+    { stem: "Dokumen perencanaan organisasi dan pegawai.", answer: "Perjanjian Kinerja (PK) dan Sasaran Kinerja Pegawai (SKP)." },
+    { stem: "Daftar pengecoh yang menukar urutan implementasi.", answer: "Evaluasi, perencanaan, pelaporan, lalu pelaksanaan." },
+  ],
+  evaluation: [
+    { stem: "Bobot awal hasil dan perilaku kerja pegawai.", answer: "NHK 75% + NPK 25%." },
+    { stem: "Hasil ≥ NKO untuk pimpinan, satu tingkat di bawah, dan JF substansi.", answer: "NKO 50% + hasil penghitungan 50%." },
+    { stem: "Hasil ≥ NKO untuk dua tingkat atau lebih di bawah dan JF non-substansi.", answer: "NKO 30% + hasil penghitungan 70%." },
+    { stem: "Hasil penghitungan pegawai lebih rendah daripada NKO.", answer: "NKO 10% + hasil penghitungan 90%." },
+    { stem: "Batas predikat NKO Sangat Baik.", answer: "X ≥ 110" },
+  ],
+  "strategy-bsc": [
+    { stem: "Empat perspektif BSC Kementerian Keuangan.", answer: "Stakeholder, Customer, Internal Business Process, dan Learning and Growth." },
+    { stem: "Daftar pengecoh yang mengganti perspektif Customer.", answer: "Stakeholder, Public Service, Internal Business Process, dan Learning and Growth." },
+    { stem: "Daftar pengecoh yang mengganti perspektif Learning and Growth.", answer: "Stakeholder, Customer, Internal Business Process, dan Financial." },
+    { stem: "Daftar pengecoh yang menukar dua perspektif dengan fungsi manajemen.", answer: "Stakeholder, Customer, Risk Management, dan Human Resources." },
+    { stem: "Perspektif untuk sumber daya dan kapabilitas internal.", answer: "Learning and Growth" },
+    { stem: "Perspektif untuk proses internal pemberi nilai tambah.", answer: "Internal Business Process" },
+  ],
+  "strategy-ss": [
+    { stem: "Pernyataan kondisi ideal yang ingin dicapai organisasi.", answer: "Sasaran Strategis" },
+    { stem: "Syarat pengecoh yang membuat Sasaran Strategis terlalu prosedural.", answer: "Rinci dan teknis, menggambarkan tahapan kerja, serta ditulis secara kuantitatif." },
+    { stem: "Syarat pengecoh yang membuat Sasaran Strategis normatif.", answer: "Panjang dan normatif, memuat banyak kegiatan, serta dinyatakan dengan angka target." },
+    { stem: "Syarat pengecoh yang mencampur Sasaran Strategis dengan IKU.", answer: "Spesifik dan numerik, memuat formula penghitungan, serta dinyatakan dalam satuan ukur." },
+  ],
+  "iku-quality": [
+    { stem: "Validitas yang mengukur Sasaran Strategis secara langsung.", answer: "Exact" },
+    { stem: "Validitas yang hanya mewakili sebagian pencapaian Sasaran Strategis.", answer: "Proxy" },
+    { stem: "Validitas yang umumnya mengukur proses atau input.", answer: "Activity" },
+    { stem: "Kendali yang dominan berada pada pemilik IKU.", answer: "High" },
+    { stem: "Kendali yang dominan dipengaruhi pihak selain pemilik IKU.", answer: "Low" },
+    { stem: "Batas maksimal IKU UPK-One, UPK-Two, dan UPK-Three.", answer: "25, 20, dan 15 IKU." },
+  ],
+  "iku-measurement": [
+    { stem: "Konsolidasi periode yang menjumlahkan nilai setiap periode.", answer: "Sum" },
+    { stem: "Konsolidasi periode yang mengambil nilai periode terakhir secara akumulatif.", answer: "Take Last Known Value (TLKV)" },
+    { stem: "Polarisasi saat realisasi yang lebih tinggi dinilai lebih baik.", answer: "Maximize" },
+    { stem: "Polarisasi saat realisasi yang lebih rendah dinilai lebih baik.", answer: "Minimize" },
+    { stem: "Polarisasi saat realisasi yang mendekati target dinilai lebih baik.", answer: "Stabilize" },
+  ],
+  alignment: [
+    { stem: "Penjabaran vertikal sasaran atau IKU ke unit lebih rendah.", answer: "Cascading" },
+    { stem: "Penyelarasan horizontal antarunit yang setingkat.", answer: "Alignment" },
+    { stem: "Perbaikan kualitas perumusan kinerja melalui diskusi dan analisis.", answer: "Refinement" },
+    { stem: "Perubahan sebagian informasi PK setelah ditandatangani.", answer: "Adendum Perjanjian Kinerja" },
+    { stem: "Kegiatan terobosan untuk mempersempit celah pencapaian IKU.", answer: "Inisiatif Strategis" },
+  ],
+  monitoring: [
+    { stem: "Dokumen terintegrasi mengenai kinerja dan risiko unit.", answer: "Laporan Pemantauan Kinerja dan Risiko (LPKR)" },
+    { stem: "Frekuensi minimum Dialog Kinerja dan Risiko Organisasi.", answer: "Paling sedikit setiap triwulan." },
+    { stem: "Batas penyampaian Laporan Kinerja Instansi Pemerintah tingkat Kementerian.", answer: "Maksimal 2 bulan setelah tahun anggaran berakhir." },
+    { stem: "Jangka penyimpanan dokumen manajemen kinerja organisasi.", answer: "3 tahun" },
+  ],
+  employee: [
+    { stem: "Empat aspek indikator IKI.", answer: "Kuantitas, Kualitas, Waktu, dan Biaya." },
+    { stem: "Jumlah maksimal IKI bagi Pelaksana.", answer: "6 IKI" },
+    { stem: "Batas penetapan SKP tahunan.", answer: "Paling lambat tanggal 31 Januari." },
+    { stem: "IKI wajib bagi pegawai Tugas Belajar.", answer: "Penugasan pembelajaran, hasil akademik, dan ketepatan waktu kelulusan." },
+    { stem: "Daftar pengecoh IKI Tugas Belajar yang mengganti hasil akademik.", answer: "Penugasan pembelajaran, jumlah kehadiran, dan ketepatan waktu kelulusan." },
+    { stem: "Daftar pengecoh IKI Tugas Belajar yang mengganti ketepatan kelulusan.", answer: "Penugasan pembelajaran, hasil akademik, dan jumlah kegiatan organisasi." },
+    { stem: "Penugasan kembali setelah selesai Tugas Belajar.", answer: "Re-Entry Program" },
+  ],
+  general: [
+    { stem: "Tujuan manajemen kinerja.", answer: "Mengoptimalkan sumber daya untuk meningkatkan kinerja organisasi dan pegawai." },
+    { stem: "Fokus manajemen kinerja organisasi.", answer: "Pencapaian tujuan organisasi dalam periode tertentu." },
+    { stem: "Fokus manajemen kinerja pegawai.", answer: "Tugas individu, perilaku kerja, dan disiplin pegawai." },
+    { stem: "Kerangka utama sistem kinerja organisasi.", answer: "Balanced Scorecard" },
+    { stem: "Tujuan pengecoh yang hanya berorientasi administrasi.", answer: "Menyeragamkan dokumen administratif tanpa mengaitkannya dengan pencapaian tujuan organisasi." },
+    { stem: "Tujuan pengecoh yang hanya berorientasi individu.", answer: "Mengukur perilaku pegawai tanpa memperhitungkan kinerja organisasi dan hasil kerja." },
+    { stem: "Tujuan pengecoh yang hanya berorientasi anggaran.", answer: "Mengoptimalkan penyerapan anggaran tanpa mengukur efektivitas pencapaian sasaran." },
+  ],
+};
+
+function numericDistractors(card: Flashcard): Flashcard[] {
+  const match = card.answer.match(/\d+/);
+  if (!match || Number(match[0]) === 0) return [];
+  const value = Number(match[0]);
+  const step = value >= 100 ? 10 : value >= 20 ? 5 : value >= 10 ? 2 : 1;
+  const values = [Math.max(0, value - step), value + step, value + step * 2];
+  return values.map((candidate) => ({
+    stem: `Angka pengecoh; ketentuan yang benar untuk kondisi pada soal adalah ${card.answer}.`,
+    answer: card.answer.replace(match[0], String(candidate)),
+  }));
+}
+
+function distractorsFor(card: Flashcard) {
   const kind = answerKind(card.answer);
-  const compatible = flashcards.filter(
-    (candidate) => candidate.answer !== card.answer && answerKind(candidate.answer) === kind,
+  const group = semanticGroup(card.stem);
+  const uniqueCandidates = (candidates: Flashcard[]) => candidates.filter(
+    (candidate, candidateIndex) =>
+      candidates.findIndex(({ answer }) => answer === candidate.answer) === candidateIndex,
   );
-  const pool = compatible.length >= 3
-    ? compatible
-    : flashcards.filter((candidate) => candidate.answer !== card.answer);
+  const sameGroup = uniqueCandidates([
+    ...(distractorLibrary[group] ?? []),
+    ...flashcards.filter((candidate) => semanticGroup(candidate.stem) === group),
+  ].filter((candidate) => candidate.answer !== card.answer));
+  const sameKind = sameGroup.filter((candidate) => answerKind(candidate.answer) === kind);
+  const kindFallback = uniqueCandidates(flashcards.filter(
+    (candidate) => candidate.answer !== card.answer && answerKind(candidate.answer) === kind,
+  ));
+  const numericPool = numericDistractors(card);
+  const pool = numericPool.length >= 3
+    ? numericPool
+    : sameKind.length >= 3
+    ? sameKind
+    : sameGroup.length >= 3
+      ? sameGroup
+      : kindFallback;
   const selected: Flashcard[] = [];
   for (let step = 0; selected.length < 3 && step < pool.length * 2; step += 1) {
-    const candidate = pool[(index * 11 + step * 7) % pool.length];
+    const candidate = pool[step % pool.length];
     if (!selected.some(({ answer }) => answer === candidate.answer)) selected.push(candidate);
   }
   return selected;
@@ -34,7 +171,7 @@ export const kmk127FlashcardQuestions: Question[] = flashcards.map((card, index)
   ] as const;
   const options: QuizOption[] = [
     [card.answer, `Benar. ${card.answer}`],
-    ...distractorsFor(card, index).map(
+    ...distractorsFor(card).map(
       (distractor) => [
         distractor.answer,
         `Keliru. Jawaban tersebut tepat untuk pertanyaan “${distractor.stem}”. Untuk soal ini, jawaban yang tepat adalah: ${card.answer}`,

@@ -79,7 +79,10 @@ test("production source replaces all starter preview artifacts", async () => {
   assert.match(page, /100 soal unik ditarik acak/);
   assert.match(page, /Mengapa benar/);
   assert.match(page, /Mengapa bukan/);
-  assert.match(page, /Pembahasan lengkap/);
+  assert.match(page, /Pembahasan menyeluruh/);
+  assert.match(page, /explained-option/);
+  assert.match(page, /score >= 6/);
+  assert.match(page, /\.slice\(0, 1\)/);
   assert.match(page, /Pokok yang wajib dipahami/);
   assert.match(page, /Jebakan yang perlu dihindari/);
   assert.match(page, /const isStudyMode = Boolean\(session\)/);
@@ -105,12 +108,14 @@ test("production source replaces all starter preview artifacts", async () => {
   assert.equal((kmkFlashcards.match(/\{"stem":/g) ?? []).length, 67);
   assert.match(kmkFlashcards, /SMART-C/);
   assert.match(kmkFlashcards, /Balanced Scorecard/);
+  assert.match(kmkFlashcards, /semanticGroup/);
+  assert.match(kmkFlashcards, /Jawaban tersebut tepat untuk pertanyaan/);
   assert.ok((summaries.match(/^\s+id:\s*"/gm) ?? []).length >= 25);
   assert.match(hardOptions, /hari kerja/);
   assert.match(hardOptions, /PP Nomor 94 Tahun 2021/);
   assert.match(supplemental, /3 jam 45 menit/);
   assert.match(summaries, /25–20–15/);
-  assert.match(knowledgeChat, /1\.200 soal · 31 ringkasan/);
+  assert.match(knowledgeChat, /1\.200 soal · \{summaryCards\.length\} ringkasan/);
   assert.match(knowledgeChat, /Saya belum menemukan dasar yang cukup kuat/);
   assert.match(knowledgeChat, /Sumber jawaban/);
   assert.doesNotMatch(packageJson, /react-loading-skeleton/);
