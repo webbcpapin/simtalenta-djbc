@@ -1,6 +1,7 @@
 "use client";
 
 import { lazy, Suspense, useEffect, useMemo, useState } from "react";
+import PsychologySimulator from "./psychology-simulator";
 import type { Topic as SummaryTopic } from "./questions";
 import {
   ACTIVE_SESSION_KEY,
@@ -37,7 +38,7 @@ import {
 const KnowledgeChat = lazy(() => import("./knowledge-chat"));
 const Chat = () => <Suspense fallback={null}><KnowledgeChat /></Suspense>;
 
-type View = "home" | "quiz" | "results" | "summary";
+type View = "home" | "quiz" | "results" | "summary" | "psychology";
 type Mode = "exam" | "adaptive" | "sprint" | "topic" | "favorites";
 type Session = {
   sessionId: string;
@@ -665,6 +666,8 @@ export default function Home() {
     setView("summary");
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
+
+  if (view === "psychology") return <PsychologySimulator onBack={resetToHome} />;
 
   if (view === "quiz" && session && currentQuestion) {
     const selected = answers[currentQuestion.id];
@@ -1354,6 +1357,7 @@ export default function Home() {
         </div>
         <nav>
           <a href="#mode-belajar">Mode belajar</a>
+          <button className="nav-button" onClick={() => setView("psychology")}>Tes Psikologi</button>
           <button className="nav-button" onClick={() => openSummary()}>
             Ringkasan hafalan
           </button>
@@ -1381,6 +1385,9 @@ export default function Home() {
             </button>
             <button className="button text-button" onClick={() => startSession("exam")}>
               Simulasi penuh {examCount} soal
+            </button>
+            <button className="button text-button" onClick={() => setView("psychology")}>
+              Try Out Tes Psikologi
             </button>
           </div>
           <div className="hero-facts">
